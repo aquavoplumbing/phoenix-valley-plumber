@@ -1,0 +1,151 @@
+.sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 150;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px 32px;
+  overflow-y: auto;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.brandLabel {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--navy-900);
+}
+
+.closeBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background: var(--white);
+  color: var(--navy-900);
+}
+
+.ctaPinned {
+  margin-bottom: 20px;
+}
+
+.fullBtn {
+  width: 100%;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.topLink,
+.urgentTopLink,
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 52px;
+  padding: 12px 6px;
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--navy-900);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-subtle);
+  list-style: none;
+  cursor: pointer;
+}
+
+.urgentTopLink {
+  color: var(--alert-red);
+}
+
+.accordion {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.accordion .summary {
+  border-bottom: 0;
+}
+
+.summary::after {
+  content: "+";
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--water-700);
+}
+
+.accordion[open] > .summary::after {
+  content: "−";
+}
+
+.nestedSummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 4px;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: var(--navy-900);
+  cursor: pointer;
+  list-style: none;
+}
+
+.nestedSummary::after {
+  content: "+";
+  font-size: 1rem;
+  color: var(--ink-600);
+}
+
+.nestedAccordion[open] > .nestedSummary::after {
+  content: "−";
+}
+
+.subLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 0 14px 12px;
+}
+
+.subLink,
+.subLinkStrong {
+  padding: 8px 6px;
+  font-size: 1rem;
+  color: var(--ink-600);
+  text-decoration: none;
+}
+
+.subLinkStrong {
+  font-weight: 600;
+  color: var(--water-700);
+}
+
+.subLink:hover,
+.subLinkStrong:hover {
+  color: var(--navy-900);
+}
+
+.nestedAccordion {
+  margin-top: 4px;
+  border-left: 2px solid var(--border-subtle);
+  padding-left: 10px;
+}
+
+.nestedLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 2px 0 8px 8px;
+}

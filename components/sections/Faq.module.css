@@ -1,0 +1,106 @@
+.section {
+  background-color: var(--white);
+  padding-block: var(--section-py);
+}
+
+.list {
+  max-width: 820px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  border-radius: var(--radius-card);
+  background-color: var(--sand-50);
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+  interpolate-size: allow-keywords;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 56px;
+  padding: 18px 22px;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.0625rem;
+  color: var(--navy-900);
+}
+
+.summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary:hover {
+  background-color: var(--water-100);
+}
+
+.question {
+  text-align: left;
+}
+
+.chevron {
+  flex-shrink: 0;
+  color: var(--navy-900);
+  transition: transform 250ms ease-out;
+}
+
+.item[open] .chevron {
+  transform: rotate(180deg);
+}
+
+.answer {
+  padding: 0 22px 20px;
+  color: var(--ink-900);
+  line-height: 1.65;
+  animation: faqOpen 250ms ease-out;
+}
+
+@keyframes faqOpen {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ctaRow {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.stillText {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.0625rem;
+  color: var(--navy-900);
+}
+
+.faqPhoneLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--water-700);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.faqPhoneLink:hover {
+  color: var(--navy-900);
+}
+

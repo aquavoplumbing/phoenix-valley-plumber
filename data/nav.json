@@ -1,0 +1,183 @@
+{
+  "coreServiceLinks": [
+    { "label": "Emergency Plumber", "href": "/emergency-plumber/", "badge": "Urgent" },
+    { "label": "All Plumbing Services", "href": "/services/" },
+    { "label": "Residential Plumbing", "href": "/residential-plumbing/" },
+    { "label": "Commercial Plumbing", "href": "/commercial-plumbing/" },
+    { "label": "New Construction", "href": "/new-construction-plumbing/" },
+    { "label": "Plumbing Inspection", "href": "/plumbing-inspection/" },
+    { "label": "Backflow Testing", "href": "/backflow-testing/" }
+  ],
+  "serviceHubs": [
+    {
+      "id": "water-heater",
+      "label": "Water Heaters",
+      "hubHref": "/water-heater/",
+      "hubLabel": "All Water Heater Services",
+      "description": "Tank, tankless, gas, electric and hybrid heat pump service & replacement.",
+      "items": [
+        { "label": "Water Heater Repair", "href": "/water-heater-repair/" },
+        { "label": "Water Heater Replacement", "href": "/water-heater-replacement/" },
+        { "label": "Water Heater Installation", "href": "/water-heater-installation/" },
+        { "label": "Tankless Installation", "href": "/tankless-water-heater-installation/" },
+        { "label": "Tankless Repair", "href": "/tankless-water-heater-repair/" },
+        { "label": "Maintenance & Flushing", "href": "/water-heater-maintenance/" },
+        { "label": "Gas Water Heaters", "href": "/gas-water-heater/" },
+        { "label": "Electric Water Heaters", "href": "/electric-water-heater/" },
+        { "label": "Heat Pump Water Heaters", "href": "/heat-pump-water-heater/" }
+      ]
+    },
+    {
+      "id": "drain-cleaning",
+      "label": "Drain Cleaning",
+      "hubHref": "/drain-cleaning/",
+      "hubLabel": "All Drain Cleaning Services",
+      "description": "Clogged sinks, main drains, hydro jetting and storm/French drainage.",
+      "items": [
+        { "label": "Clogged Drain Repair", "href": "/clogged-drain/" },
+        { "label": "Hydro Jetting", "href": "/hydro-jetting/" },
+        { "label": "Main Drain Cleaning", "href": "/main-drain-cleaning/" },
+        { "label": "Emergency Drain Cleaning", "href": "/emergency-drain-cleaning/" },
+        { "label": "Commercial Drain Cleaning", "href": "/commercial-drain-cleaning/" },
+        { "label": "Storm Drain Cleaning", "href": "/storm-drain-cleaning/" },
+        { "label": "French Drain Installation", "href": "/french-drain-installation/" }
+      ]
+    },
+    {
+      "id": "sewer-line",
+      "label": "Sewer Services",
+      "hubHref": "/sewer-line/",
+      "hubLabel": "All Sewer Line Services",
+      "description": "Camera diagnostics, cleaning, trenchless lining and full replacements.",
+      "items": [
+        { "label": "Sewer Line Repair", "href": "/sewer-line-repair/" },
+        { "label": "Sewer Line Replacement", "href": "/sewer-line-replacement/" },
+        { "label": "Sewer Line Cleaning", "href": "/sewer-line-cleaning/" },
+        { "label": "Sewer Camera Inspection", "href": "/sewer-camera-inspection/" },
+        { "label": "Trenchless Sewer Repair", "href": "/trenchless-sewer-repair/" },
+        { "label": "Sewer Line Installation", "href": "/sewer-line-installation/" }
+      ]
+    },
+    {
+      "id": "leak-detection-repair",
+      "label": "Leaks & Pipes",
+      "hubHref": "/leak-detection-repair/",
+      "hubLabel": "All Leak & Pipe Services",
+      "description": "Slab leak locating, water line repair, burst pipes and whole-home repiping.",
+      "items": [
+        { "label": "Leak Detection", "href": "/leak-detection/" },
+        { "label": "Slab Leak Repair", "href": "/slab-leak-repair/" },
+        { "label": "Water Line Repair", "href": "/water-line-repair/" },
+        { "label": "Water Line Replacement", "href": "/water-line-replacement/" },
+        { "label": "Burst Pipe Repair", "href": "/burst-pipe-repair/" },
+        { "label": "Pipe Repair", "href": "/pipe-repair/" },
+        { "label": "Whole-Home Repiping", "href": "/repiping/" },
+        { "label": "Trenchless Pipe Repair", "href": "/trenchless-pipe-repair/" },
+        { "label": "Frozen Pipe Repair", "href": "/frozen-pipe-repair/" },
+        { "label": "Basement Leak Repair", "href": "/basement-leak-repair/" }
+      ]
+    },
+    {
+      "id": "toilet",
+      "label": "Toilets",
+      "hubHref": "/toilet/",
+      "hubLabel": "All Toilet Services",
+      "description": "Running toilets, flange seals, augering and new replacements.",
+      "items": [
+        { "label": "Toilet Repair", "href": "/toilet-repair/" },
+        { "label": "Toilet Installation", "href": "/toilet-installation/" },
+        { "label": "Toilet Replacement", "href": "/toilet-replacement/" },
+        { "label": "Clogged Toilet Repair", "href": "/clogged-toilet-repair/" }
+      ]
+    },
+    {
+      "id": "faucets-fixtures",
+      "label": "Faucets & Fixtures",
+      "hubHref": "/faucets-fixtures/",
+      "hubLabel": "All Fixture Services",
+      "description": "Kitchen and bath faucets, shower valves and bathtub plumbing.",
+      "items": [
+        { "label": "Faucet Repair", "href": "/faucet-repair/" },
+        { "label": "Faucet Installation", "href": "/faucet-installation/" },
+        { "label": "Shower Valve Replacement", "href": "/shower-valve-replacement/" },
+        { "label": "Bathtub Repair & Replacement", "href": "/bathtub-repair-replacement/" }
+      ]
+    },
+    {
+      "id": "garbage-disposal",
+      "label": "Garbage Disposals",
+      "hubHref": "/garbage-disposal/",
+      "hubLabel": "All Disposal Services",
+      "description": "Kitchen disposal jam clearing, leak repair and new installations.",
+      "items": [
+        { "label": "Garbage Disposal Repair", "href": "/garbage-disposal-repair/" },
+        { "label": "Garbage Disposal Installation", "href": "/garbage-disposal-installation/" }
+      ]
+    },
+    {
+      "id": "water-treatment",
+      "label": "Water Treatment",
+      "hubHref": "/water-treatment/",
+      "hubLabel": "All Water Quality Services",
+      "description": "Hard-water softeners, conditioners and whole-home filtration.",
+      "items": [
+        { "label": "Water Softener Installation", "href": "/water-softener-installation/" },
+        { "label": "Water Softener Repair & Service", "href": "/water-softener-repair-service/" },
+        { "label": "Water Filtration Installation", "href": "/water-filtration-installation/" }
+      ]
+    },
+    {
+      "id": "sump-pump",
+      "label": "Sump Pumps",
+      "hubHref": "/sump-pump/",
+      "hubLabel": "All Sump Pump Services",
+      "description": "Monsoon drainage pumps, backups and sump pump replacements.",
+      "items": [
+        { "label": "Sump Pump Installation", "href": "/sump-pump-installation/" },
+        { "label": "Sump Pump Repair & Replacement", "href": "/sump-pump-repair-replacement/" }
+      ]
+    },
+    {
+      "id": "gas-line",
+      "label": "Gas Lines",
+      "hubHref": "/gas-line/",
+      "hubLabel": "All Gas Line Services",
+      "description": "Leak testing, pressure checks and new gas appliance piping.",
+      "items": [
+        { "label": "Gas Line Repair", "href": "/gas-line-repair/" },
+        { "label": "Gas Line Installation", "href": "/gas-line-installation/" }
+      ]
+    }
+  ],
+  "topCityServiceSlugs": [
+    { "slug": "emergency-plumber", "label": "Emergency Plumber" },
+    { "slug": "water-heater-repair", "label": "Water Heater Repair" },
+    { "slug": "drain-cleaning", "label": "Drain Cleaning" },
+    { "slug": "sewer-line-repair", "label": "Sewer Line Repair" },
+    { "slug": "leak-detection", "label": "Leak Detection" },
+    { "slug": "slab-leak-repair", "label": "Slab Leak Repair" },
+    { "slug": "hydro-jetting", "label": "Hydro Jetting" },
+    { "slug": "tankless-water-heater-installation", "label": "Tankless Water Heaters" }
+  ],
+  "costGuides": [
+    { "label": "Water Heater Replacement Cost", "href": "/water-heater-replacement-cost/" },
+    { "label": "Water Heater Installation Cost", "href": "/water-heater-installation-cost/" },
+    { "label": "Sewer Line Replacement Cost", "href": "/sewer-line-replacement-cost/" },
+    { "label": "Slab Leak Repair Cost", "href": "/slab-leak-repair-cost/" },
+    { "label": "Toilet Installation Cost", "href": "/toilet-installation-cost/" },
+    { "label": "Garbage Disposal Cost", "href": "/garbage-disposal-installation-cost/" },
+    { "label": "Sump Pump Replacement Cost", "href": "/sump-pump-replacement-cost/" }
+  ],
+  "companyLinks": [
+    { "label": "About Us", "href": "/about/" },
+    { "label": "Customer Reviews", "href": "/reviews/" },
+    { "label": "Plumbing FAQ", "href": "/faq/" },
+    { "label": "Blog & Maintenance Tips", "href": "/blog/" },
+    { "label": "Financing Options", "href": "/financing/" },
+    { "label": "Contact Us", "href": "/contact/" }
+  ],
+  "legalLinks": [
+    { "label": "Privacy Policy", "href": "/privacy-policy/" },
+    { "label": "Terms of Service", "href": "/terms/" }
+  ]
+}

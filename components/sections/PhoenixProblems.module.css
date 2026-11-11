@@ -1,0 +1,126 @@
+.section {
+  background-color: var(--white);
+  padding-block: var(--section-py);
+}
+
+.tabsShell {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .tabsShell {
+    grid-template-columns: 320px 1fr;
+    gap: 32px;
+  }
+}
+
+.tabList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (min-width: 900px) {
+  .tabList {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+.tabBtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  min-height: 48px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--sand-50);
+  color: var(--navy-900);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  transition: background-color 160ms ease-out, color 160ms ease-out, border-color 160ms ease-out;
+}
+
+.tabBtn:hover {
+  background-color: var(--water-100);
+  border-color: var(--water-500);
+}
+
+.tabActive {
+  background-color: var(--navy-900);
+  color: var(--white);
+  border-color: var(--navy-900);
+}
+
+.tabActive:hover {
+  background-color: var(--navy-900);
+  color: var(--white);
+}
+
+.panel {
+  padding: 28px;
+  border-radius: var(--radius-panel);
+  background-color: var(--sand-50);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-1);
+}
+
+@media (min-width: 768px) {
+  .panel {
+    padding: 36px;
+  }
+}
+
+.panelTitle {
+  font-size: 1.375rem;
+  color: var(--navy-900);
+  margin-bottom: 12px;
+}
+
+.panelBody {
+  color: var(--ink-900);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.panelLinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.relatedLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ink-600);
+}
+
+.relatedLink {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background-color: var(--white);
+  border: 1px solid var(--border-subtle);
+  color: var(--water-700);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.relatedLink:hover {
+  background-color: var(--water-100);
+  color: var(--navy-900);
+}
+

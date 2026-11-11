@@ -1,0 +1,330 @@
+.footer {
+  background-color: var(--navy-900);
+  color: rgba(255, 255, 255, 0.88);
+  padding-block: 56px 36px;
+}
+
+.callBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 28px;
+  border-radius: var(--radius-panel);
+  background-color: var(--navy-700);
+  border: 1px solid var(--border-light);
+  margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .callBanner {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.bannerTitle {
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 4px;
+}
+
+.bannerSub {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.9375rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px 24px;
+}
+
+@media (min-width: 560px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .brandCol {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 1120px) {
+  .grid {
+    grid-template-columns: 1.45fr 1fr 0.95fr 1.15fr 0.95fr;
+  }
+
+  .brandCol {
+    grid-column: auto;
+  }
+}
+
+.brandCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logoLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brandName {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--white);
+}
+
+.nap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.9375rem;
+}
+
+.legalName {
+  font-weight: 600;
+  color: var(--white);
+}
+
+.inlinePhone {
+  color: #8cd9fc;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.inlinePhone:hover {
+  color: var(--white);
+}
+
+.hoursLine {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.rocRow {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.verifyLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #8cd9fc;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.verifyLink:hover {
+  color: var(--white);
+}
+
+.colTitle {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 14px;
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footerLink,
+.footerLinkStrong {
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 0.875rem;
+  text-decoration: none;
+  line-height: 1.45;
+}
+
+.footerLinkStrong {
+  color: #8cd9fc;
+  font-weight: 600;
+}
+
+.footerLink:hover,
+.footerLinkStrong:hover {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.directorySection {
+  margin-top: 44px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.directoryHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.directoryTitle {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.directoryViewAll {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #8cd9fc;
+  text-decoration: none;
+}
+
+.directoryViewAll:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.directoryGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px 20px;
+}
+
+@media (min-width: 560px) {
+  .directoryGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .directoryGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1120px) {
+  .directoryGrid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.directoryGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.directoryHubLink {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.directoryHubLink:hover {
+  color: #8cd9fc;
+  text-decoration: underline;
+}
+
+.directoryList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.directoryItemLink {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.directoryItemLink:hover {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.cityServicesStrip {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cityServicesLabel {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.cityServicesLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+}
+
+.bottom {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.78);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.bottomLinks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottomLink {
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+}
+
+.bottomLink:hover {
+  color: var(--white);
+  text-decoration: underline;
+}

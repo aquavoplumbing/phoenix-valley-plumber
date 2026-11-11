@@ -1,0 +1,128 @@
+.section {
+  padding-block: var(--section-py);
+  background-color: var(--white);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  border-radius: var(--radius-card);
+  background-color: var(--white);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-1);
+  transition: transform 180ms ease-out, box-shadow 180ms ease-out, border-color 180ms ease-out;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-3);
+  border-color: rgba(30, 155, 215, 0.45);
+}
+
+.iconCircle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--water-100);
+  color: var(--navy-900);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 180ms ease-out, color 180ms ease-out;
+}
+
+.card:hover .iconCircle {
+  background-color: var(--water-500);
+  color: var(--white);
+}
+
+.cardTitle {
+  font-size: 1.125rem;
+}
+
+.stretchedLink {
+  color: var(--navy-900);
+  text-decoration: none;
+}
+
+.stretchedLink::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.cardDesc {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink-600);
+  flex-grow: 1;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.8125rem;
+}
+
+.learnMore {
+  font-weight: 600;
+  color: var(--water-700);
+  white-space: nowrap;
+}
+
+.microCall {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 36px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.78125rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: var(--navy-900);
+  text-decoration: none;
+  background-color: var(--sand-50);
+}
+
+.microCall:hover {
+  background-color: var(--sun-500);
+  color: var(--navy-900);
+}
+
+.bottomCta {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+}

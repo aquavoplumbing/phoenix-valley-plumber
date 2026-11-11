@@ -1,0 +1,74 @@
+{
+  "brand": "Phoenix Valley Plumber",
+  "domain": "phoenixvalleyplumber.com",
+  "licensee": {
+    "legalName": "{{LICENSEE_LEGAL_NAME}}",
+    "rocNumber": "{{ROC_NUMBER}}",
+    "bonded": false,
+    "insured": false
+  },
+  "phone": {
+    "display": "{{(602) 000-0000}}",
+    "e164": "{{+16020000000}}",
+    "spanishDisplay": "",
+    "spanishE164": ""
+  },
+  "hours": {
+    "timezone": "America/Phoenix",
+    "is24x7": false,
+    "schedule": {
+      "mon": ["07:00", "19:00"],
+      "tue": ["07:00", "19:00"],
+      "wed": ["07:00", "19:00"],
+      "thu": ["07:00", "19:00"],
+      "fri": ["07:00", "19:00"],
+      "sat": ["08:00", "17:00"],
+      "sun": null
+    },
+    "emergencyAfterHours": false
+  },
+  "claims": {
+    "sameDayService": false,
+    "freeEstimates": false,
+    "upfrontPricing": false,
+    "warranty": "",
+    "yearsInBusiness": null,
+    "seniorMilitaryDiscount": false,
+    "financing": false,
+    "liveAnswer": false,
+    "expectationNotice": false
+  },
+  "address": {
+    "public": false,
+    "street": "",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": ""
+  },
+  "serviceAreas": [
+    "Phoenix",
+    "Scottsdale",
+    "Tempe",
+    "Mesa",
+    "Chandler",
+    "Gilbert",
+    "Glendale",
+    "Peoria",
+    "Surprise",
+    "Goodyear"
+  ],
+  "extraAreas": [],
+  "social": {
+    "googleBusinessProfile": "",
+    "facebook": "",
+    "yelp": ""
+  },
+  "rating": {
+    "value": null,
+    "count": null,
+    "source": "Google"
+  },
+  "analytics": {
+    "ga4": ""
+  }
+}

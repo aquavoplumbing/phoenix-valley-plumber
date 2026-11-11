@@ -1,0 +1,125 @@
+.section {
+  background-color: var(--water-100);
+  padding-block: var(--section-py);
+  overflow-x: clip;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 36px;
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 5fr 7fr;
+    gap: 48px;
+  }
+}
+
+.visualCol {
+  width: 100%;
+}
+
+.mediaCard {
+  position: relative;
+  border-radius: var(--radius-panel);
+  overflow: hidden;
+  box-shadow: var(--shadow-2);
+  background-color: var(--navy-900);
+}
+
+.photo,
+.diagramSvg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.annotation {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  background-color: var(--white);
+  color: var(--navy-900);
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  box-shadow: var(--shadow-2);
+}
+
+.annotationDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--sun-500);
+  flex-shrink: 0;
+}
+
+.contentCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--water-700);
+}
+
+.title {
+  color: var(--navy-900);
+}
+
+.body {
+  color: var(--ink-900);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.checklist {
+  list-style: none;
+  margin: 4px 0 8px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: 500;
+  color: var(--navy-900);
+}
+
+.checkBadge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--ok-500);
+  color: var(--white);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}

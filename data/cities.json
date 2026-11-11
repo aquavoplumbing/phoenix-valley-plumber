@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Phoenix",
+    "slug": "phoenix-az",
+    "region": "Central Valley",
+    "mapX": 225,
+    "mapY": 165,
+    "labelPos": "top"
+  },
+  {
+    "name": "Scottsdale",
+    "slug": "scottsdale-az",
+    "region": "Northeast Valley",
+    "mapX": 305,
+    "mapY": 135,
+    "labelPos": "right"
+  },
+  {
+    "name": "Tempe",
+    "slug": "tempe-az",
+    "region": "East Valley",
+    "mapX": 275,
+    "mapY": 198,
+    "labelPos": "right"
+  },
+  {
+    "name": "Mesa",
+    "slug": "mesa-az",
+    "region": "East Valley",
+    "mapX": 345,
+    "mapY": 202,
+    "labelPos": "right"
+  },
+  {
+    "name": "Chandler",
+    "slug": "chandler-az",
+    "region": "Southeast Valley",
+    "mapX": 310,
+    "mapY": 252,
+    "labelPos": "bottom"
+  },
+  {
+    "name": "Gilbert",
+    "slug": "gilbert-az",
+    "region": "Southeast Valley",
+    "mapX": 365,
+    "mapY": 248,
+    "labelPos": "right"
+  },
+  {
+    "name": "Glendale",
+    "slug": "glendale-az",
+    "region": "West Valley",
+    "mapX": 175,
+    "mapY": 135,
+    "labelPos": "top"
+  },
+  {
+    "name": "Peoria",
+    "slug": "peoria-az",
+    "region": "Northwest Valley",
+    "mapX": 140,
+    "mapY": 100,
+    "labelPos": "top"
+  },
+  {
+    "name": "Surprise",
+    "slug": "surprise-az",
+    "region": "Northwest Valley",
+    "mapX": 82,
+    "mapY": 85,
+    "labelPos": "left"
+  },
+  {
+    "name": "Goodyear",
+    "slug": "goodyear-az",
+    "region": "Southwest Valley",
+    "mapX": 95,
+    "mapY": 212,
+    "labelPos": "left"
+  }
+]

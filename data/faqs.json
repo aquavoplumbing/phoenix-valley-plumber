@@ -1,0 +1,52 @@
+[
+  {
+    "id": "emergency-plumbing-phoenix",
+    "question": "Do you offer emergency plumbing in Phoenix?",
+    "answer": "Yes, call our main line for urgent plumbing issues such as burst pipes, active leaks, water heater leaks, or sewer backups. Availability outside standard hours depends on our active schedule shown at the top of the page. When you call, describe what is happening so we can advise on next steps."
+  },
+  {
+    "id": "arrival-time",
+    "question": "How fast can a plumber get to me?",
+    "answer": "Arrival timing depends on technician availability, your location in the Valley, and the severity of the issue. When you call, we will review current openings and give you a realistic arrival window before dispatching a plumber to your home."
+  },
+  {
+    "id": "arizona-license-check",
+    "question": "Are you licensed in Arizona? How can I check?",
+    "answer": "Yes. Our Arizona Registrar of Contractors (ROC) license number and legal business name are displayed in the top bar and trust section of this homepage. You can verify any Arizona contractor license directly on the official Registrar of Contractors website at roc.az.gov."
+  },
+  {
+    "id": "water-heater-lifespan-phoenix",
+    "question": "Why does my water heater fail so fast in Phoenix?",
+    "answer": "The Phoenix metro area has very hard water with dissolved minerals that settle inside water heater tanks and coat heating elements or heat exchangers. Over time, mineral scale forces the unit to work harder, causes rumbling or popping noises, and accelerates tank corrosion unless flushed or softened regularly."
+  },
+  {
+    "id": "water-heater-permit-phoenix",
+    "question": "Do I need a permit to replace a water heater in Phoenix?",
+    "answer": "The City of Phoenix generally requires a plumbing permit for water heater replacements to confirm venting, pressure relief, and safety connections meet code. Requirements can vary by municipality across the Valley, so confirm current rules with your plumber and local building department before installation."
+  },
+  {
+    "id": "slab-leak-causes",
+    "question": "What causes slab leaks in Valley homes?",
+    "answer": "Many Phoenix-area homes sit on concrete slab foundations over expansive caliche soil. Ground shifting, pipe abrasion against concrete, water chemistry, and aging copper lines can all wear through under-slab piping. Warning signs include unexplained water bill spikes, warm floor spots, or the sound of running water."
+  },
+  {
+    "id": "sewer-line-signs",
+    "question": "How do I know if I have a sewer line problem?",
+    "answer": "Common warning signs include multiple slow drains at once, gurgling toilets when a tub or washer drains, recurring clogs after snaking, or sewage odors near floor drains. A sewer camera inspection lets a plumber view the pipe interior before recommending cleaning or repair."
+  },
+  {
+    "id": "service-areas-valley",
+    "question": "What areas of the Valley do you serve?",
+    "answer": "We serve Phoenix along with surrounding Valley cities including Scottsdale, Tempe, Mesa, Chandler, Gilbert, Glendale, Peoria, Surprise, and Goodyear. If you live in a nearby neighborhood or are just outside those city limits, call us to confirm technician coverage for your ZIP code."
+  },
+  {
+    "id": "plumber-cost-phoenix",
+    "question": "How much does a plumber cost in Phoenix?",
+    "answer": "Plumbing repair and installation costs depend on the exact problem, parts required, pipe access, and whether permits or excavation are needed. Because every home layout is different, the fastest way to get an accurate estimate of what affects your price is to call and explain the issue."
+  },
+  {
+    "id": "how-to-book-service",
+    "question": "How do I book plumbing service?",
+    "answer": "Call our phone number directly using any call button on this page. Calling lets us ask a few quick questions about your plumbing problem, advise you on any immediate shut-off steps, and schedule an arrival window without back-and-forth forms."
+  }
+]

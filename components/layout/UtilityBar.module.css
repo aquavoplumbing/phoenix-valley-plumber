@@ -1,0 +1,66 @@
+.bar {
+  background-color: var(--navy-900);
+  color: var(--white);
+  font-size: 0.875rem;
+  line-height: 1.3;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.inner {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-block: 6px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.shield {
+  color: #7FD3FA;
+  flex-shrink: 0;
+}
+
+.rocText {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  color: var(--white);
+}
+
+.verifyLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #8CD9FC;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+
+.verifyLink:hover {
+  color: var(--white);
+}
+
+.right {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.88);
+  white-space: nowrap;
+}
+
+@media (min-width: 1024px) {
+  .right {
+    display: flex;
+  }
+}
+

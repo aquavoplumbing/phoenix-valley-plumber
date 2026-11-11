@@ -7,6 +7,7 @@ import { formatHoursSummary, type OpenStatus } from "@/lib/hours";
 import { ShieldIcon, StarIcon } from "@/components/icons/Icons";
 import { HeroIllustration } from "@/components/icons/HeroIllustration";
 import { CallButton } from "@/components/ui/CallButton";
+import { TiltCard } from "@/components/ui/TiltCard";
 import styles from "./Hero.module.css";
 
 function findHeroImage(): string | null {
@@ -52,10 +53,12 @@ export function Hero({
 
   return (
     <section className={styles.hero} aria-labelledby="hero-heading">
-      {/* Background water ripple and subtle desert contour pattern */}
+      {/* Background 3D atmospheric lighting, perspective grid & subtle desert contours */}
       <div className={styles.bgEffects} aria-hidden="true">
+        <div className={styles.perspectiveGrid} />
         <div className={`${styles.ripple} ${styles.rippleOne}`} />
         <div className={`${styles.ripple} ${styles.rippleTwo}`} />
+        <div className={`${styles.ripple} ${styles.rippleThree}`} />
         <svg className={styles.contourSvg} viewBox="0 0 1200 600" preserveAspectRatio="none">
           <path
             d="M0 440 Q 220 380 460 430 T 920 400 T 1200 445"
@@ -145,27 +148,36 @@ export function Hero({
         </div>
 
         <div className={styles.visualCol}>
-          <div className={styles.visualFrame}>
-            {heroImgSrc ? (
-              <Image
-                src={heroImgSrc}
-                alt="Licensed plumber servicing plumbing equipment at a Phoenix, AZ home"
-                width={1600}
-                height={1000}
-                priority
-                sizes="(max-width: 899px) 100vw, 44vw"
-                className={styles.heroImage}
-              />
-            ) : (
-              <HeroIllustration />
-            )}
+          <div className={styles.heroFloat}>
+            <TiltCard maxTilt={6} className={styles.visualTilt}>
+              <div className={styles.visualFrame}>
+                {heroImgSrc ? (
+                  <Image
+                    src={heroImgSrc}
+                    alt="3D architectural visualization of modern Phoenix home plumbing system"
+                    width={1600}
+                    height={1000}
+                    priority
+                    sizes="(max-width: 899px) 100vw, 46vw"
+                    className={styles.heroImage}
+                  />
+                ) : (
+                  <HeroIllustration />
+                )}
 
-            {initialStatus.isOpen ? (
-              <div className={styles.glassCard}>
-                <span className={styles.liveDot} aria-hidden="true" />
-                <span>Technicians available in the Valley today</span>
+                {initialStatus.isOpen ? (
+                  <div className={styles.glassCard}>
+                    <span className={styles.liveDot} aria-hidden="true" />
+                    <span>Technicians available in the Valley today</span>
+                  </div>
+                ) : null}
+
+                <div className={styles.rocFloatPill}>
+                  <ShieldIcon size={15} />
+                  <span>ROC #{site.licensee.rocNumber}</span>
+                </div>
               </div>
-            ) : null}
+            </TiltCard>
           </div>
         </div>
       </div>

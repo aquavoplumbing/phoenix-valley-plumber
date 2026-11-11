@@ -3,6 +3,7 @@ import { isPlaceholderValue, type SiteConfig } from "@/lib/config";
 import { AwardIcon, CheckIcon, ClockIcon, MapPinIcon, PhoneIcon, ShieldIcon } from "@/components/icons/Icons";
 import { ScrollReveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { TiltCard } from "@/components/ui/TiltCard";
 import styles from "./WhyChooseUs.module.css";
 
 interface BenefitTile {
@@ -102,21 +103,23 @@ export function WhyChooseUs({ site }: { site: SiteConfig }) {
         <ScrollReveal>
           <div className={`${styles.grid} ${fewTiles ? styles.gridThree : styles.gridSix}`}>
             {tiles.map((tile) => (
-              <article key={tile.key} className={styles.tile}>
-                <div className={styles.iconWrap} aria-hidden="true">
-                  {tile.icon}
-                </div>
-                <h3 className={styles.tileTitle}>
-                  {tile.title}
-                  {tile.key === "roc" && isPlaceholderValue(site.licensee.rocNumber) && isDev ? (
-                    <>
-                      {" "}
-                      <span className="todo-badge">TODO</span>
-                    </>
-                  ) : null}
-                </h3>
-                <p className={styles.tileDesc}>{tile.description}</p>
-              </article>
+              <TiltCard key={tile.key} maxTilt={6} className={styles.tileTilt}>
+                <article className={styles.tile}>
+                  <div className={styles.iconWrap} aria-hidden="true">
+                    {tile.icon}
+                  </div>
+                  <h3 className={styles.tileTitle}>
+                    {tile.title}
+                    {tile.key === "roc" && isPlaceholderValue(site.licensee.rocNumber) && isDev ? (
+                      <>
+                        {" "}
+                        <span className="todo-badge">TODO</span>
+                      </>
+                    ) : null}
+                  </h3>
+                  <p className={styles.tileDesc}>{tile.description}</p>
+                </article>
+              </TiltCard>
             ))}
           </div>
         </ScrollReveal>

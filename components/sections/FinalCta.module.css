@@ -1,9 +1,10 @@
 .section {
   position: relative;
   overflow: hidden;
-  padding-block: clamp(88px, 10vw, 136px) clamp(64px, 8vw, 96px);
-  background: radial-gradient(circle at 85% 20%, rgba(30, 155, 215, 0.45), transparent 55%),
-    linear-gradient(135deg, var(--navy-900) 0%, #10426D 65%, #0D365A 100%);
+  padding-block: clamp(92px, 10vw, 140px) clamp(68px, 8vw, 100px);
+  background: radial-gradient(circle at 82% 20%, rgba(30, 155, 215, 0.45), transparent 52%),
+    radial-gradient(circle at 18% 82%, rgba(255, 122, 26, 0.22), transparent 46%),
+    linear-gradient(145deg, #061b31 0%, var(--navy-900) 52%, #10426D 100%);
   color: var(--white);
   text-align: center;
 }
@@ -49,6 +50,7 @@
 
 .title {
   color: var(--white);
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .giantPhone {
@@ -60,9 +62,13 @@
   color: var(--white);
   text-decoration: none;
   letter-spacing: -0.02em;
+  text-shadow: 0 8px 30px rgba(30, 155, 215, 0.38);
+  transition: transform 220ms var(--ease-spring), text-shadow 220ms ease-out;
 }
 
 .giantPhone:hover {
+  transform: translateY(-2px) scale(1.02);
+  text-shadow: 0 12px 36px rgba(255, 122, 26, 0.45);
   text-decoration: underline;
   text-underline-offset: 6px;
 }

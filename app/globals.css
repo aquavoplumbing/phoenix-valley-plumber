@@ -37,11 +37,13 @@
   --radius-card: 16px;
   --radius-panel: 24px;
 
-  /* Elevation */
-  --shadow-1: 0 1px 2px rgb(11 42 74 / 0.08);
-  --shadow-2: 0 8px 24px rgb(11 42 74 / 0.10);
-  --shadow-3: 0 18px 48px rgb(11 42 74 / 0.16);
-  --shadow-sun: 0 16px 36px rgb(255 122 26 / 0.22);
+  /* Elevation & 3D Depth */
+  --shadow-1: 0 2px 6px rgb(11 42 74 / 0.06), 0 1px 2px rgb(11 42 74 / 0.08);
+  --shadow-2: 0 12px 28px -6px rgb(11 42 74 / 0.14), 0 4px 10px -2px rgb(11 42 74 / 0.06);
+  --shadow-3: 0 24px 56px -12px rgb(11 42 74 / 0.22), 0 8px 20px -6px rgb(11 42 74 / 0.10);
+  --shadow-sun: 0 22px 48px -10px rgb(255 122 26 / 0.30), 0 12px 28px -8px rgb(11 42 74 / 0.28);
+  --shadow-3d-btn: 0 10px 24px -4px rgb(255 122 26 / 0.42), inset 0 1px 0 rgb(255 255 255 / 0.45), inset 0 -2px 0 rgb(180 70 0 / 0.28);
+  --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 /* Progressive enhancement page cross-fade */
@@ -169,6 +171,8 @@ main > section:nth-of-type(n + 4) {
 
 /* Primary Call Button (.btn-call) */
 .btn-call {
+  position: relative;
+  overflow: hidden;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -178,7 +182,7 @@ main > section:nth-of-type(n + 4) {
   min-width: 48px;
   padding: 12px 26px;
   border-radius: var(--radius-pill);
-  background-color: var(--sun-500);
+  background: linear-gradient(180deg, #ff8c38 0%, var(--sun-500) 58%, var(--sun-600) 100%);
   color: var(--navy-900);
   font-family: var(--font-display);
   font-weight: 700;
@@ -187,9 +191,24 @@ main > section:nth-of-type(n + 4) {
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
   text-decoration: none;
-  border: 2px solid transparent;
-  box-shadow: var(--shadow-1);
-  transition: background-color 180ms ease-out, transform 180ms ease-out, box-shadow 180ms ease-out;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: var(--shadow-3d-btn);
+  transition: transform 220ms var(--ease-spring), box-shadow 220ms var(--ease-spring), filter 180ms ease-out;
+}
+
+.btn-call::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.36) 46%,
+    transparent 70%
+  );
+  transform: translateX(-130%);
+  transition: transform 550ms var(--ease-spring);
+  pointer-events: none;
 }
 
 @media (min-width: 768px) {
@@ -199,15 +218,20 @@ main > section:nth-of-type(n + 4) {
 }
 
 .btn-call:hover {
-  background-color: var(--sun-600);
+  filter: brightness(1.04);
   color: #071D34;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-2);
+  transform: translateY(-3px) scale(1.015);
+  box-shadow: 0 16px 32px -4px rgb(255 122 26 / 0.5), inset 0 1px 0 rgb(255 255, 255 / 0.55);
+}
+
+.btn-call:hover::after {
+  transform: translateX(130%);
 }
 
 .btn-call:active {
-  transform: translateY(0);
-  transition-duration: 100ms;
+  transform: translateY(1px) scale(0.99);
+  box-shadow: 0 4px 12px -2px rgb(255 122 26 / 0.35);
+  transition-duration: 90ms;
 }
 
 .btn-call:focus-visible {
@@ -294,6 +318,42 @@ main > section:nth-of-type(n + 4) {
   border: 0;
 }
 
+/* 3D Perspective Tilt Container */
+.tilt-3d {
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transform: perspective(1100px) rotateX(0deg) rotateY(0deg);
+  transition: transform 320ms var(--ease-spring);
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .tilt-3d:hover {
+    transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(-4px);
+    transition: transform 90ms ease-out;
+  }
+
+  .tilt-3d::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(
+      380px circle at var(--gx, 50%) var(--gy, 50%),
+      rgba(30, 155, 215, 0.14),
+      transparent 65%
+    );
+    opacity: 0;
+    transition: opacity 240ms ease-out;
+    pointer-events: none;
+    z-index: 3;
+  }
+
+  .tilt-3d:hover::before {
+    opacity: 1;
+  }
+}
+
 /* Scroll reveal helper */
 .reveal {
   opacity: 1;
@@ -303,49 +363,49 @@ main > section:nth-of-type(n + 4) {
 @media (prefers-reduced-motion: no-preference) {
   .reveal[data-reveal="pending"] {
     opacity: 0;
-    transform: translateY(16px);
+    transform: perspective(1000px) translateY(24px) rotateX(6deg);
   }
 
   .reveal[data-reveal="visible"] {
     opacity: 1;
-    transform: translateY(0);
-    transition: opacity 450ms cubic-bezier(0.22, 1, 0.36, 1),
-      transform 450ms cubic-bezier(0.22, 1, 0.36, 1);
+    transform: perspective(1000px) translateY(0) rotateX(0deg);
+    transition: opacity 550ms var(--ease-spring),
+      transform 550ms var(--ease-spring);
   }
 
   .reveal-left[data-reveal="pending"] {
     opacity: 0;
-    transform: translateX(-24px);
+    transform: perspective(1000px) translate3d(-28px, 8px, 0) rotateY(6deg);
   }
 
   .reveal-left[data-reveal="visible"] {
     opacity: 1;
-    transform: translateX(0);
-    transition: opacity 500ms cubic-bezier(0.22, 1, 0.36, 1),
-      transform 500ms cubic-bezier(0.22, 1, 0.36, 1);
+    transform: perspective(1000px) translate3d(0, 0, 0) rotateY(0deg);
+    transition: opacity 600ms var(--ease-spring),
+      transform 600ms var(--ease-spring);
   }
 
   .reveal-right[data-reveal="pending"] {
     opacity: 0;
-    transform: translateX(24px);
+    transform: perspective(1000px) translate3d(28px, 8px, 0) rotateY(-6deg);
   }
 
   .reveal-right[data-reveal="visible"] {
     opacity: 1;
-    transform: translateX(0);
-    transition: opacity 500ms cubic-bezier(0.22, 1, 0.36, 1),
-      transform 500ms cubic-bezier(0.22, 1, 0.36, 1);
+    transform: perspective(1000px) translate3d(0, 0, 0) rotateY(0deg);
+    transition: opacity 600ms var(--ease-spring),
+      transform 600ms var(--ease-spring);
   }
 
   .reveal-scale[data-reveal="pending"] {
     opacity: 0;
-    transform: scale(0.88);
+    transform: scale(0.9);
   }
 
   .reveal-scale[data-reveal="visible"] {
     opacity: 1;
     transform: scale(1);
-    transition: opacity 300ms ease-out, transform 300ms ease-out;
+    transition: opacity 380ms var(--ease-spring), transform 380ms var(--ease-spring);
   }
 }
 

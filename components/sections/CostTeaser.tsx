@@ -5,6 +5,7 @@ import { ServiceIcon } from "@/components/icons/Icons";
 import { CallButton } from "@/components/ui/CallButton";
 import { ScrollReveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { TiltCard } from "@/components/ui/TiltCard";
 import styles from "./CostTeaser.module.css";
 
 export function CostTeaser({
@@ -30,20 +31,22 @@ export function CostTeaser({
         <ScrollReveal>
           <div className={styles.grid}>
             {displayGuides.map((guide) => (
-              <article key={guide.slug} className={styles.card}>
-                <div className={styles.iconWrap} aria-hidden="true">
-                  <ServiceIcon name={guide.icon} size={22} />
-                </div>
-                <h3 className={styles.cardTitle}>
-                  <Link href={`/${guide.slug}/`} className={styles.cardLink}>
-                    {guide.name.replace(" in Phoenix", "")}
-                  </Link>
-                </h3>
-                <p className={styles.cardDesc}>{guide.description}</p>
-                <p className={styles.priceFactor}>
-                  {guide.priceRange ? guide.priceRange : "See what affects the price →"}
-                </p>
-              </article>
+              <TiltCard key={guide.slug} maxTilt={6} className={styles.cardTilt}>
+                <article className={styles.card}>
+                  <div className={styles.iconWrap} aria-hidden="true">
+                    <ServiceIcon name={guide.icon} size={22} />
+                  </div>
+                  <h3 className={styles.cardTitle}>
+                    <Link href={`/${guide.slug}/`} className={styles.cardLink}>
+                      {guide.name.replace(" in Phoenix", "")}
+                    </Link>
+                  </h3>
+                  <p className={styles.cardDesc}>{guide.description}</p>
+                  <p className={styles.priceFactor}>
+                    {guide.priceRange ? guide.priceRange : "See what affects the price →"}
+                  </p>
+                </article>
+              </TiltCard>
             ))}
           </div>
         </ScrollReveal>

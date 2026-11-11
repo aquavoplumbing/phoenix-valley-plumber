@@ -1,5 +1,6 @@
 .section {
-  background-color: var(--water-100);
+  background: radial-gradient(circle at 12% 25%, rgba(30, 155, 215, 0.14), transparent 45%),
+    var(--water-100);
   padding-block: var(--section-py);
   overflow-x: clip;
 }
@@ -13,21 +14,29 @@
 
 @media (min-width: 900px) {
   .grid {
-    grid-template-columns: 5fr 7fr;
-    gap: 48px;
+    grid-template-columns: 5.5fr 6.5fr;
+    gap: 52px;
   }
 }
 
 .visualCol {
   width: 100%;
+  perspective: 1100px;
+}
+
+.mediaTilt {
+  border-radius: var(--radius-panel);
 }
 
 .mediaCard {
   position: relative;
   border-radius: var(--radius-panel);
   overflow: hidden;
-  box-shadow: var(--shadow-2);
-  background-color: var(--navy-900);
+  padding: 6px;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(30, 155, 215, 0.32));
+  box-shadow:
+    0 28px 60px -14px rgba(11, 42, 74, 0.25),
+    0 10px 24px -6px rgba(11, 42, 74, 0.14);
 }
 
 .photo,
@@ -35,23 +44,27 @@
   width: 100%;
   height: auto;
   display: block;
+  border-radius: calc(var(--radius-panel) - 5px);
 }
 
 .annotation {
   position: absolute;
-  left: 16px;
-  bottom: 16px;
+  left: 18px;
+  bottom: 18px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 14px;
+  padding: 9px 16px;
   border-radius: var(--radius-pill);
-  background-color: var(--white);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
   color: var(--navy-900);
   font-family: var(--font-display);
   font-size: 0.8125rem;
   font-weight: 700;
-  box-shadow: var(--shadow-2);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 12px 26px rgba(11, 42, 74, 0.2);
+  transform: translateZ(30px);
 }
 
 .annotationDot {
@@ -59,6 +72,7 @@
   height: 10px;
   border-radius: 50%;
   background-color: var(--sun-500);
+  box-shadow: 0 0 0 4px rgba(255, 122, 26, 0.24);
   flex-shrink: 0;
 }
 
@@ -108,8 +122,9 @@
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: var(--ok-500);
+  background: linear-gradient(145deg, #25c281, var(--ok-500));
   color: var(--white);
+  box-shadow: 0 4px 10px rgba(31, 169, 113, 0.28);
   display: inline-flex;
   align-items: center;
   justify-content: center;

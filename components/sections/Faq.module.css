@@ -13,10 +13,19 @@
 
 .item {
   border-radius: var(--radius-card);
-  background-color: var(--sand-50);
-  border: 1px solid var(--border-subtle);
+  background: linear-gradient(155deg, #ffffff 0%, var(--sand-50) 100%);
+  border: 1px solid rgba(11, 42, 74, 0.1);
+  box-shadow: var(--shadow-1);
   overflow: hidden;
   interpolate-size: allow-keywords;
+  transition: transform 200ms var(--ease-spring), box-shadow 200ms var(--ease-spring), border-color 180ms ease-out;
+}
+
+.item:hover,
+.item[open] {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2);
+  border-color: rgba(30, 155, 215, 0.36);
 }
 
 .summary {
@@ -32,6 +41,7 @@
   font-weight: 600;
   font-size: 1.0625rem;
   color: var(--navy-900);
+  transition: background-color 160ms ease-out;
 }
 
 .summary::-webkit-details-marker {
@@ -39,7 +49,7 @@
 }
 
 .summary:hover {
-  background-color: var(--water-100);
+  background-color: rgba(230, 244, 251, 0.55);
 }
 
 .question {
@@ -48,8 +58,8 @@
 
 .chevron {
   flex-shrink: 0;
-  color: var(--navy-900);
-  transition: transform 250ms ease-out;
+  color: var(--water-700);
+  transition: transform 250ms var(--ease-spring);
 }
 
 .item[open] .chevron {
@@ -60,13 +70,13 @@
   padding: 0 22px 20px;
   color: var(--ink-900);
   line-height: 1.65;
-  animation: faqOpen 250ms ease-out;
+  animation: faqOpen 260ms var(--ease-spring);
 }
 
 @keyframes faqOpen {
   from {
     opacity: 0;
-    transform: translateY(-4px);
+    transform: translateY(-6px);
   }
   to {
     opacity: 1;
@@ -103,4 +113,3 @@
 .faqPhoneLink:hover {
   color: var(--navy-900);
 }
-

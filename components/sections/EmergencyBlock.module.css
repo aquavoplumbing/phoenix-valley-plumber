@@ -1,6 +1,7 @@
 .section {
-  background-color: var(--sand-50);
-  padding-block: clamp(44px, 6vw, 72px);
+  background: radial-gradient(circle at 80% 10%, rgba(255, 122, 26, 0.08), transparent 45%),
+    var(--sand-50);
+  padding-block: clamp(44px, 6vw, 76px);
 }
 
 .card {
@@ -8,23 +9,26 @@
   grid-template-columns: 1fr;
   gap: 28px;
   align-items: center;
-  background-color: var(--white);
+  background: linear-gradient(145deg, #ffffff 0%, #fcfdfd 100%);
   border-radius: var(--radius-panel);
-  border: 1px solid var(--border-subtle);
-  border-left: 5px solid var(--sun-500);
-  padding: 22px 16px;
-  box-shadow: var(--shadow-2);
+  border: 1px solid rgba(11, 42, 74, 0.1);
+  border-left: 6px solid var(--sun-500);
+  padding: 24px 18px;
+  box-shadow:
+    0 24px 54px -14px rgba(11, 42, 74, 0.14),
+    0 4px 14px -2px rgba(255, 122, 26, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
 }
 
 @media (min-width: 640px) {
   .card {
-    padding: 28px 24px;
+    padding: 32px 28px;
   }
 }
 
 @media (min-width: 900px) {
   .card {
-    grid-template-columns: 1.45fr 1fr;
+    grid-template-columns: 1.3fr 0.95fr;
     padding: 36px 40px;
     gap: 40px;
   }
@@ -33,8 +37,39 @@
 .left {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
   min-width: 0;
+}
+
+.kickerRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.urgentDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--sun-500);
+  box-shadow: 0 0 0 4px rgba(255, 122, 26, 0.22);
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .urgentDot {
+    animation: urgentPulse 2s ease-in-out infinite;
+  }
+}
+
+@keyframes urgentPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 3px rgba(255, 122, 26, 0.28);
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgba(255, 122, 26, 0.06);
+  }
 }
 
 .kicker {
@@ -43,11 +78,11 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--navy-900);
+  color: var(--sun-600);
 }
 
 .title {
-  font-size: clamp(1.45rem, 2.6vw, 2rem);
+  font-size: clamp(1.5rem, 2.7vw, 2.05rem);
 }
 
 .steps {
@@ -56,7 +91,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .steps li {
@@ -64,13 +99,23 @@
   align-items: flex-start;
   gap: 12px;
   color: var(--ink-900);
+  padding: 10px 14px;
+  border-radius: 12px;
+  background-color: var(--sand-50);
+  border: 1px solid rgba(11, 42, 74, 0.08);
+  transition: transform 180ms var(--ease-spring), border-color 180ms ease-out;
+}
+
+.steps li:hover {
+  transform: translateX(4px);
+  border-color: rgba(30, 155, 215, 0.35);
 }
 
 .stepNum {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background-color: var(--navy-900);
+  background: linear-gradient(145deg, var(--navy-700), var(--navy-900));
   color: var(--white);
   font-family: var(--font-display);
   font-weight: 700;
@@ -79,11 +124,25 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  margin-top: 2px;
+  box-shadow: 0 4px 10px rgba(11, 42, 74, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
-.guideLinkWrap {
-  margin-top: 4px;
+.actionsRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 6px;
+}
+
+.callBtn {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .callBtn {
+    width: auto;
+  }
 }
 
 .guideLink {
@@ -98,32 +157,47 @@
   color: var(--navy-900);
 }
 
-.right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
-  min-width: 0;
-}
-
-@media (min-width: 900px) {
-  .right {
-    align-items: flex-end;
-    text-align: right;
-  }
-}
-
-.callBtn {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .callBtn {
-    width: auto;
-  }
-}
-
 .expectation {
   font-size: 0.875rem;
   color: var(--ink-600);
+}
+
+.rightVisual {
+  width: 100%;
+}
+
+.visualTilt {
+  border-radius: var(--radius-card);
+}
+
+.visualFrame {
+  position: relative;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  padding: 5px;
+  background: linear-gradient(145deg, rgba(255, 122, 26, 0.35), rgba(30, 155, 215, 0.35));
+  box-shadow: var(--shadow-3);
+}
+
+.emergencyImage {
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius-card) - 4px);
+  object-fit: cover;
+}
+
+.valvePill {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  padding: 7px 14px;
+  border-radius: var(--radius-pill);
+  background: rgba(11, 42, 74, 0.88);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  transform: translateZ(24px);
 }

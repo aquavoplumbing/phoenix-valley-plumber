@@ -6,6 +6,7 @@ import type { SiteConfig } from "@/lib/config";
 import { CheckIcon } from "@/components/icons/Icons";
 import { CallButton } from "@/components/ui/CallButton";
 import { ScrollReveal } from "@/components/ui/Reveal";
+import { TiltCard } from "@/components/ui/TiltCard";
 import styles from "./WaterHeaterSpotlight.module.css";
 
 function findWaterHeaterImage(): string | null {
@@ -32,17 +33,18 @@ export function WaterHeaterSpotlight({ site }: { site: SiteConfig }) {
     <section className={styles.section} aria-labelledby="water-heater-heading">
       <div className={`container ${styles.grid}`}>
         <ScrollReveal variant="left" className={styles.visualCol}>
-          <div className={styles.mediaCard}>
-            {imgSrc ? (
-              <Image
-                src={imgSrc}
-                alt="Water heater serviced for hard-water scale buildup in Phoenix, AZ"
-                width={1200}
-                height={900}
-                sizes="(max-width: 899px) 100vw, 46vw"
-                className={styles.photo}
-              />
-            ) : (
+          <TiltCard maxTilt={7} className={styles.mediaTilt}>
+            <div className={styles.mediaCard}>
+              {imgSrc ? (
+                <Image
+                  src={imgSrc}
+                  alt="3D cutaway of a modern water heater and copper manifold for Phoenix homes"
+                  width={1200}
+                  height={900}
+                  sizes="(max-width: 899px) 100vw, 46vw"
+                  className={styles.photo}
+                />
+              ) : (
               <svg
                 viewBox="0 0 480 360"
                 fill="none"
@@ -72,11 +74,12 @@ export function WaterHeaterSpotlight({ site }: { site: SiteConfig }) {
               </svg>
             )}
 
-            <div className={styles.annotation}>
-              <span className={styles.annotationDot} aria-hidden="true" />
-              <span>Scale buildup from hard Valley water</span>
+              <div className={styles.annotation}>
+                <span className={styles.annotationDot} aria-hidden="true" />
+                <span>Scale buildup from hard Valley water</span>
+              </div>
             </div>
-          </div>
+          </TiltCard>
         </ScrollReveal>
 
         <ScrollReveal variant="right" className={styles.contentCol}>

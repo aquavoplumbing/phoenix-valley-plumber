@@ -69,6 +69,7 @@ export function ProblemsTabs({ items }: { items: ProblemItem[] }) {
 
       {activeItem ? (
         <div
+          key={activeItem.id}
           id={`panel-${activeItem.id}`}
           role="tabpanel"
           aria-labelledby={`tab-${activeItem.id}`}

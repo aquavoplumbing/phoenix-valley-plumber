@@ -40,11 +40,11 @@
     "expectationNotice": false
   },
   "address": {
-    "public": false,
-    "street": "",
+    "public": true,
+    "street": "1 N Central Ave",
     "city": "Phoenix",
     "state": "AZ",
-    "zip": ""
+    "zip": "85004"
   },
   "serviceAreas": [
     "Phoenix",

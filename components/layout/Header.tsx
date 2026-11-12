@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import type { SiteConfig } from "@/lib/config";
 import type { OpenStatus } from "@/lib/hours";
 import type { CityItem, NavData } from "@/lib/routes";
-import { LogoMark } from "@/components/icons/LogoMark";
 import {
   ChevronDownIcon,
   MapPinIcon,
@@ -103,8 +103,14 @@ export function Header({
             aria-label={`${site.brand} homepage`}
             onClick={() => setOpenMenu(null)}
           >
-            <LogoMark size={34} />
-            <span className={styles.brandText}>{site.brand}</span>
+            <Image
+              src="/img/logo.png"
+              alt={site.brand}
+              width={793}
+              height={324}
+              priority
+              className={styles.brandLogo}
+            />
           </Link>
 
           <nav className={styles.nav} aria-label="Primary navigation">

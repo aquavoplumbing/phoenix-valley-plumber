@@ -1,9 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
 import { isPlaceholderValue, type SiteConfig } from "@/lib/config";
 import { formatHoursSummary } from "@/lib/hours";
 import type { CityItem, NavData } from "@/lib/routes";
 import { ShieldIcon } from "@/components/icons/Icons";
-import { LogoMark } from "@/components/icons/LogoMark";
 import { CallButton } from "@/components/ui/CallButton";
 import { PhoneLink } from "@/components/ui/PhoneLink";
 import styles from "./Footer.module.css";
@@ -45,9 +45,14 @@ export function Footer({
 
         <div className={styles.grid}>
           <div className={styles.brandCol}>
-            <Link href="/" className={styles.logoLink}>
-              <LogoMark size={34} />
-              <span className={styles.brandName}>{site.brand}</span>
+            <Link href="/" className={styles.logoLink} aria-label={`${site.brand} homepage`}>
+              <Image
+                src="/img/logo.png"
+                alt={site.brand}
+                width={793}
+                height={324}
+                className={styles.footerLogo}
+              />
             </Link>
 
             <div className={styles.nap}>

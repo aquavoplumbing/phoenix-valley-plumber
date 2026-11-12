@@ -33,24 +33,35 @@
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
   text-decoration: none;
-  flex-shrink: 1;
+  flex-shrink: 0;
   min-width: 0;
 }
 
-.brandText {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: clamp(0.875rem, 3.8vw, 1rem);
-  color: var(--navy-900);
-  letter-spacing: -0.02em;
-  white-space: nowrap;
+.brandLogo {
+  display: block;
+  height: 36px;
+  width: auto;
+  max-width: 155px;
+  object-fit: contain;
+  transition: height 200ms ease-out;
 }
 
 @media (min-width: 640px) {
-  .brandText {
-    font-size: 1.0625rem;
+  .brandLogo {
+    height: 44px;
+    max-width: 210px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .brandLogo {
+    height: 50px;
+    max-width: 230px;
+  }
+
+  .scrolled .brandLogo {
+    height: 42px;
   }
 }
 

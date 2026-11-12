@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { isPlaceholderValue, type SiteConfig } from "@/lib/config";
+import type { SiteConfig } from "@/lib/config";
 import { formatHoursSummary } from "@/lib/hours";
 import type { CityItem, NavData } from "@/lib/routes";
 import { ShieldIcon } from "@/components/icons/Icons";
@@ -17,7 +17,6 @@ export function Footer({
   nav: NavData;
   cities: CityItem[];
 }) {
-  const isDev = process.env.NODE_ENV !== "production";
   const hoursSummary = formatHoursSummary(site.hours);
   const year = new Date().getFullYear();
 
@@ -47,25 +46,15 @@ export function Footer({
           <div className={styles.brandCol}>
             <Link href="/" className={styles.logoLink} aria-label={`${site.brand} homepage`}>
               <Image
-                src="/favicon.png"
-                alt=""
-                width={40}
-                height={40}
-                className={styles.footerIcon}
+                src="/img/logo-footer.png"
+                alt={site.brand}
+                width={793}
+                height={324}
+                className={styles.footerLogo}
               />
-              <span className={styles.brandName}>{site.brand}</span>
             </Link>
 
             <div className={styles.nap}>
-              <p className={styles.legalName}>
-                {site.licensee.legalName}
-                {isPlaceholderValue(site.licensee.legalName) && isDev ? (
-                  <>
-                    {" "}
-                    <span className="todo-badge">TODO</span>
-                  </>
-                ) : null}
-              </p>
 
               {site.address.public && site.address.street ? (
                 <p>

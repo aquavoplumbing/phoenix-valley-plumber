@@ -181,7 +181,16 @@ export function getSiteConfigResult(): SiteConfigResult {
     return validateSiteConfig({ strict: false });
   }
   if (!cachedResult) {
-    cachedResult = validateSiteConfig({ strict: true });
+    const strict = process.env.STRICT_CONFIG === "true";
+    cachedResult = validateSiteConfig({ strict });
+    if (!strict && !cachedResult.isValid) {
+      const details = cachedResult.missingFields
+        .map((field) => `  - ${field.path}: ${field.reason}`)
+        .join("\n");
+      console.warn(
+        `[site.json staging warning] Placeholder partner fields detected in data/site.json:\n${details}\nSet STRICT_CONFIG=true or run "npm run check" before live launch.`
+      );
+    }
   }
   return cachedResult;
 }

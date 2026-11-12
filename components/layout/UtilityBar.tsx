@@ -1,4 +1,4 @@
-import { ExternalLinkIcon, ShieldIcon } from "@/components/icons/Icons";
+import { ShieldIcon } from "@/components/icons/Icons";
 import { isPlaceholderValue, type SiteConfig } from "@/lib/config";
 import { formatHoursSummary } from "@/lib/hours";
 import styles from "./UtilityBar.module.css";
@@ -21,15 +21,6 @@ export function UtilityBar({ site }: { site: SiteConfig }) {
             <strong>ROC #{site.licensee.rocNumber}</strong>
             {missingRoc && isDev ? <span className="todo-badge">TODO: ROC</span> : null}
           </span>
-          <a
-            href="https://roc.az.gov"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.verifyLink}
-          >
-            <span>Verify license</span>
-            <ExternalLinkIcon size={13} />
-          </a>
         </div>
         <div className={styles.right}>
           <span>Serving Phoenix &amp; the Valley</span>

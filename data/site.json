@@ -3,7 +3,7 @@
   "domain": "phoenixvalleyplumber.com",
   "ownerName": "Michael Carter",
   "licensee": {
-    "legalName": "{{LICENSEE_LEGAL_NAME}}",
+    "legalName": "Phoenix Valley Plumber",
     "rocNumber": "{{ROC_NUMBER}}",
     "bonded": false,
     "insured": false

@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { isPlaceholderValue, type SiteConfig } from "@/lib/config";
-import { AwardIcon, ClockIcon, ExternalLinkIcon, ShieldIcon, StarIcon } from "@/components/icons/Icons";
+import { AwardIcon, ClockIcon, ShieldIcon, StarIcon } from "@/components/icons/Icons";
 import { ScrollReveal } from "@/components/ui/Reveal";
 import styles from "./TrustStrip.module.css";
 
@@ -20,15 +20,7 @@ export function TrustStrip({ site }: { site: SiteConfig }) {
       value: `ROC #${site.licensee.rocNumber}`,
       label: (
         <span className={styles.rocLabel}>
-          <span>Arizona licensed contractor · </span>
-          <a
-            href="https://roc.az.gov"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.rocLink}
-          >
-            Verify <ExternalLinkIcon size={12} />
-          </a>
+          <span>Arizona licensed contractor</span>
           {isPlaceholderValue(site.licensee.rocNumber) && isDev ? (
             <span className="todo-badge">TODO</span>
           ) : null}

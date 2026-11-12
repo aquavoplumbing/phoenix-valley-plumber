@@ -2,7 +2,7 @@ import Link from "next/link";
 import { isPlaceholderValue, type SiteConfig } from "@/lib/config";
 import { formatHoursSummary } from "@/lib/hours";
 import type { CityItem, NavData } from "@/lib/routes";
-import { ExternalLinkIcon, ShieldIcon } from "@/components/icons/Icons";
+import { ShieldIcon } from "@/components/icons/Icons";
 import { LogoMark } from "@/components/icons/LogoMark";
 import { CallButton } from "@/components/ui/CallButton";
 import { PhoneLink } from "@/components/ui/PhoneLink";
@@ -97,15 +97,6 @@ export function Footer({
               <p className={styles.rocRow}>
                 <ShieldIcon size={16} />
                 <span>ROC #{site.licensee.rocNumber}</span>
-                <a
-                  href="https://roc.az.gov"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.verifyLink}
-                >
-                  Verify license
-                  <ExternalLinkIcon size={13} />
-                </a>
               </p>
             </div>
           </div>

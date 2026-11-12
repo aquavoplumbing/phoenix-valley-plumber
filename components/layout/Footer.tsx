@@ -47,12 +47,13 @@ export function Footer({
           <div className={styles.brandCol}>
             <Link href="/" className={styles.logoLink} aria-label={`${site.brand} homepage`}>
               <Image
-                src="/img/logo.png"
-                alt={site.brand}
-                width={793}
-                height={324}
-                className={styles.footerLogo}
+                src="/favicon.png"
+                alt=""
+                width={40}
+                height={40}
+                className={styles.footerIcon}
               />
+              <span className={styles.brandName}>{site.brand}</span>
             </Link>
 
             <div className={styles.nap}>

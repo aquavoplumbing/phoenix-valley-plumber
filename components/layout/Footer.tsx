@@ -234,6 +234,17 @@ export function Footer({
           </div>
         </nav>
 
+        <div className={styles.disclaimerBox} role="note" aria-label="Advertising and referral disclosure">
+          <p>
+            <strong>Advertising &amp; Referral Disclosure:</strong> {site.brand} ({site.domain}) is a
+            free advertising and referral service that connects callers with independent, licensed
+            local plumbing contractors. We are not a plumbing service provider ourselves and do not
+            directly perform plumbing repairs, installations, or inspections. All work is performed
+            by independent service providers; verify licensing, insurance, and written estimates
+            directly with the dispatched contractor before authorizing work.
+          </p>
+        </div>
+
         <div className={styles.bottom}>
           <p>
             © {year} {site.brand} ({site.licensee.legalName}). All rights reserved.

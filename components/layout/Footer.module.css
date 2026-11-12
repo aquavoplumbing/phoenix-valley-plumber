@@ -300,6 +300,21 @@
   gap: 8px 18px;
 }
 
+.disclaimerBox {
+  margin-top: 28px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.disclaimerBox strong {
+  color: var(--white);
+}
+
 .bottom {
   margin-top: 32px;
   padding-top: 20px;

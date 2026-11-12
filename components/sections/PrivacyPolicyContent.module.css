@@ -1,0 +1,115 @@
+.section {
+  padding-block: clamp(48px, 7vw, 88px);
+  background-color: var(--sand-50);
+  min-height: 60vh;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  color: var(--ink-600);
+  margin-bottom: 24px;
+}
+
+.crumbLink {
+  color: var(--water-700);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.card {
+  max-width: 860px;
+  padding: clamp(24px, 4vw, 44px);
+  border-radius: var(--radius-panel);
+  background-color: var(--white);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-2);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--water-700);
+}
+
+.title {
+  color: var(--navy-900);
+}
+
+.metaBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px 24px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  background-color: var(--sand-50);
+  border: 1px solid var(--border-subtle);
+  font-size: 0.9375rem;
+  color: var(--ink-900);
+}
+
+.metaLabel {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-600);
+  margin-bottom: 2px;
+}
+
+.policyBody {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  color: var(--ink-900);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.policySection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sectionHeading {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--navy-900);
+}
+
+.list {
+  margin: 0;
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inlineLink {
+  color: var(--water-700);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+

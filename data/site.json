@@ -1,6 +1,7 @@
 {
   "brand": "Phoenix Valley Plumber",
   "domain": "phoenixvalleyplumber.com",
+  "ownerName": "Michael Carter",
   "licensee": {
     "legalName": "{{LICENSEE_LEGAL_NAME}}",
     "rocNumber": "{{ROC_NUMBER}}",

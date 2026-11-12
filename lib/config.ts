@@ -7,6 +7,7 @@ const dayHoursSchema = z.tuple([z.string(), z.string()]).nullable();
 export const siteConfigSchema = z.object({
   brand: z.string(),
   domain: z.string(),
+  ownerName: z.string().optional().default(""),
   licensee: z.object({
     legalName: z.string(),
     rocNumber: z.string(),

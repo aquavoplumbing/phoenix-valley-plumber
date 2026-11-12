@@ -924,28 +924,6 @@
     "priceRange": null
   },
   {
-    "slug": "privacy-policy",
-    "name": "Privacy Policy",
-    "shortName": "Privacy Policy",
-    "description": "Privacy policy for phoenixvalleyplumber.com.",
-    "icon": "shield",
-    "category": "legal",
-    "featured": false,
-    "order": 85,
-    "priceRange": null
-  },
-  {
-    "slug": "privacy",
-    "name": "Privacy Policy",
-    "shortName": "Privacy Policy",
-    "description": "Privacy policy for phoenixvalleyplumber.com.",
-    "icon": "shield",
-    "category": "legal",
-    "featured": false,
-    "order": 86,
-    "priceRange": null
-  },
-  {
     "slug": "terms",
     "name": "Terms of Service",
     "shortName": "Terms of Service",

@@ -4,7 +4,7 @@
   "ownerName": "Michael Carter",
   "licensee": {
     "legalName": "Phoenix Valley Plumber",
-    "rocNumber": "{{ROC_NUMBER}}",
+    "rocNumber": "000000",
     "bonded": false,
     "insured": false
   },

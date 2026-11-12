@@ -24,7 +24,7 @@ export function StickyCallBar({
 
   if (hiddenByMenu) return null;
 
-  const cleanE164 = e164.replace(/[^\d+]/g, "") || "+16020000000";
+  const cleanE164 = e164.replace(/[^\d+]/g, "") || "+16028350102";
 
   return (
     <div className={styles.bar} role="region" aria-label="Quick call bar">

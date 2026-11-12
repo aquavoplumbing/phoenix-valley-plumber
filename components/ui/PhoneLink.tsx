@@ -21,7 +21,7 @@ export function PhoneLink({
   prefix,
 }: PhoneLinkProps) {
   const isMissing = isPlaceholderValue(display) || isPlaceholderValue(e164);
-  const cleanE164 = e164.replace(/[^\d+]/g, "") || "+16020000000";
+  const cleanE164 = e164.replace(/[^\d+]/g, "") || "+16028350102";
 
   return (
     <a

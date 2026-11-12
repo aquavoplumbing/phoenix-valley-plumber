@@ -56,7 +56,7 @@ export function MobileMenu({
 
   if (!open) return null;
 
-  const cleanE164 = site.phone.e164.replace(/[^\d+]/g, "") || "+16020000000";
+  const cleanE164 = site.phone.e164.replace(/[^\d+]/g, "") || "+16028350102";
   const visibleCompanyLinks = nav.companyLinks.filter(
     (item) => item.href !== "/financing/" || site.claims.financing
   );

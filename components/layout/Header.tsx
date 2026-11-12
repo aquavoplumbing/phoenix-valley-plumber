@@ -78,7 +78,7 @@ export function Header({
     };
   }, [mobileOpen]);
 
-  const cleanE164 = site.phone.e164.replace(/[^\d+]/g, "") || "+16020000000";
+  const cleanE164 = site.phone.e164.replace(/[^\d+]/g, "") || "+16028350102";
   const activeHub =
     nav.serviceHubs.find((hub) => hub.id === activeHubId) ?? nav.serviceHubs[0];
   const activeCity = cities.find((c) => c.slug === activeCitySlug) ?? cities[0];

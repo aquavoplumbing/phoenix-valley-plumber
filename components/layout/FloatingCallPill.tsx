@@ -40,7 +40,7 @@ export function FloatingCallPill({
 
   if (dismissed || !visible) return null;
 
-  const cleanE164 = e164.replace(/[^\d+]/g, "") || "+16020000000";
+  const cleanE164 = e164.replace(/[^\d+]/g, "") || "+16028350102";
 
   const handleDismiss = () => {
     setDismissed(true);

@@ -26,18 +26,23 @@
   margin-bottom: var(--space-1);
 }
 
-.headline {
-  color: var(--white);
-  font-size: 1.25rem;
-  margin-bottom: var(--space-1);
-  line-height: 1.25;
+.headline,
+.container h3 {
+  color: #FFFFFF !important;
+  font-family: var(--font-display);
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  margin-top: 0 !important;
+  margin-bottom: var(--space-1) !important;
+  line-height: 1.25 !important;
 }
 
-.subtext {
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 0.9375rem;
-  line-height: 1.5;
-  margin: 0;
+.subtext,
+.container p.subtext {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 0.9375rem !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
 }
 
 .buttonWrap {

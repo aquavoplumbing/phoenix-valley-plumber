@@ -23,7 +23,7 @@ export function InlineCta({
     <aside className={styles.container} aria-label="Plumbing Service Assistance">
       <div className={styles.textWrap}>
         <div className={styles.badgeRow}>
-          <StatusBadge hours={site.hours} initialStatus={initialStatus} />
+          <StatusBadge hours={site.hours} initialStatus={initialStatus} variant="dark" />
         </div>
         <h3 className={styles.headline}>{headline}</h3>
         <p className={styles.subtext}>{subtext}</p>

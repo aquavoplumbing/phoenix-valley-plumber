@@ -95,7 +95,7 @@
   margin-bottom: 0.5rem;
 }
 
-.bodyContent a {
+.bodyContent a:not(:global(.btn-call)):not(:global(.btn-ghost)) {
   color: var(--water-700);
   text-decoration: underline;
   text-decoration-color: var(--water-500);
@@ -103,8 +103,18 @@
   font-weight: 500;
 }
 
-.bodyContent a:hover {
+.bodyContent a:not(:global(.btn-call)):not(:global(.btn-ghost)):hover {
   color: var(--navy-900);
+}
+
+.bodyContent :global(.btn-call) {
+  text-decoration: none !important;
+  color: var(--navy-900) !important;
+}
+
+.bodyContent :global(.btn-call:hover) {
+  text-decoration: none !important;
+  color: #071D34 !important;
 }
 
 .bodyContent blockquote {

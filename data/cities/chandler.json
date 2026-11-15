@@ -1,0 +1,186 @@
+{
+  "slug": "chandler",
+  "name": "Chandler",
+  "state": "AZ",
+  "tier": 1,
+  "status": "published",
+  "lastVerified": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "plumber chandler",
+    "secondaryKeywords": [
+      "plumber chandler az",
+      "chandler plumber",
+      "emergency plumber chandler az",
+      "licensed plumber in chandler az"
+    ],
+    "title": "Plumber Chandler AZ | Licensed Valley Plumbing | Call Now",
+    "metaDescription": "Need a licensed plumber in Chandler, AZ? Rapid repair for water heaters, drain cleaning, slab leaks, and water softeners across Ocotillo & Fulton Ranch.",
+    "h1": "Plumber in Chandler, AZ"
+  },
+  "intro": {
+    "answerFirst": "When you need a licensed plumber in Chandler, getting an experienced technician on-site promptly protects your East Valley home against unexpected water damage and high utility expenses. Phoenix Valley Plumber delivers dependable plumbing repairs and system upgrades across Chandler, from diagnosing persistent slab leaks under tile floors to resolving heavy calcium scale inside water heaters. Serving Chandler and nearby Valley communities."
+  },
+  "coverage": {
+    "zips": [
+      "85224",
+      "85225",
+      "85226",
+      "85248",
+      "85249",
+      "85286"
+    ],
+    "neighborhoods": [
+      "Ocotillo",
+      "Fulton Ranch",
+      "Sun Lakes",
+      "Downtown Chandler",
+      "Andersen Springs",
+      "Warner Ranch",
+      "Fox Crossing",
+      "Clemente Ranch",
+      "Circle G at Riggs Homestead",
+      "Arden Park",
+      "Pecos Vistas",
+      "The Provinces"
+    ],
+    "boundariesNote": "Full service coverage across North Chandler, the Price Corridor tech hub, and South Chandler down to the Hunt Highway boundary.",
+    "sourceUrl": "https://www.chandleraz.gov/residents/neighborhood-resources",
+    "retrievedOn": "2026-11-14"
+  },
+  "water": {
+    "utility": "City of Chandler Municipal Utilities",
+    "sourceUrl": "https://www.chandleraz.gov/residents/water/water-quality",
+    "reportYear": 2024,
+    "zones": [
+      {
+        "label": "Citywide Distribution Range",
+        "gpgMin": 5,
+        "gpgMax": 20,
+        "sourceNote": "Treated surface water from CAP and SRP canals blended with municipal well water across zones; citywide average is 16.5 gpg."
+      }
+    ],
+    "note": "The City of Chandler reports that water hardness averages 16.5 grains per gallon across the municipal service area, ranging from 5 to 20 gpg depending on local well blending."
+  },
+  "housing": {
+    "summary": "Chandler evolved from historic agricultural and citrus roots into a vibrant high-tech semiconductor corridor. Its housing inventory includes mid-century brick homes in Historic Downtown Chandler, extensive 1980s and 1990s suburban communities with slab plumbing, and lake-centric master developments in Ocotillo and Fulton Ranch that face specific groundwater and soil dynamics.",
+    "eras": [
+      {
+        "label": "Historic Downtown & Citrus Ranches",
+        "builtRange": "1950–1975",
+        "whatWeSee": "Galvanized steel supply piping showing heavy mineral occlusion, aging cast-iron sewer stacks beneath slabs, and deteriorating shut-off valves in older central neighborhoods.",
+        "sourceUrl": "https://www.chandleraz.gov/explore/chandler-history"
+      },
+      {
+        "label": "Tech Corridor Suburban Boom",
+        "builtRange": "1976–1995",
+        "whatWeSee": "Underslab copper pinhole leaks caused by aggressive soil chemistry, failing polybutylene water piping, and aging water heaters with heavy calcium accumulation.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/chandlercityarizona"
+      },
+      {
+        "label": "Master-Planned Lake Communities & Ocotillo",
+        "builtRange": "1996–Present",
+        "whatWeSee": "PEX manifold distributions, premature failure of pressure-reducing valves from elevated mainline pressures, and water softener loop installations for luxury homes.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/chandlercityarizona"
+      }
+    ],
+    "medianYearBuilt": {
+      "value": 1993,
+      "source": "U.S. Census Bureau ACS 5-Year Estimates",
+      "asOf": "2023"
+    }
+  },
+  "localServices": [
+    {
+      "serviceSlug": "emergency-plumber",
+      "cityAngle": "When sudden slab leaks or failed water heaters threaten Chandler homes, our emergency response technicians isolate the water supply, prevent structural flooding, and carry out precision repairs without unnecessary delays."
+    },
+    {
+      "serviceSlug": "water-heater-repair",
+      "cityAngle": "Chandler tap water carries heavy mineral hardness across municipal zones, causing rapid scale accumulation on water heater heating elements. We flush calcium deposits, test safety valves, and restore heating efficiency."
+    },
+    {
+      "serviceSlug": "tankless-water-heater-installation",
+      "cityAngle": "For Ocotillo and Fulton Ranch homes with multiple bathrooms, we size and install condensing tankless water heaters equipped with scale-reduction filters to deliver continuous hot water even under high summer peak demand."
+    },
+    {
+      "serviceSlug": "water-softener-installation",
+      "cityAngle": "With high mineral hardness levels present in certain Chandler well zones, whole-home water softeners are essential to prevent etched glass and clogged aerators. We install high-efficiency metered systems."
+    },
+    {
+      "serviceSlug": "slab-leak-repair",
+      "cityAngle": "Chandler's expansive clay soils cause soil movement that rubs copper water lines beneath concrete foundations. We locate underslab leaks with electronic acoustic gear and perform overhead PEX reroutes."
+    },
+    {
+      "serviceSlug": "leak-detection",
+      "cityAngle": "Unexplained spikes on your City of Chandler water bill or warm spots on tile floors suggest a concealed pressurized pipe leak. We deploy acoustic sensors and thermal equipment to pinpoint the exact breach."
+    },
+    {
+      "serviceSlug": "drain-cleaning",
+      "cityAngle": "From soap scum and hair in master baths to mature tree root intrusion along main sewer laterals in established Chandler neighborhoods, our motorized drain augers clear obstructions and restore normal drainage flow."
+    },
+    {
+      "serviceSlug": "sewer-line-repair",
+      "cityAngle": "Cracked, collapsed, or root-infested sewer pipes under Chandler driveways cause recurring house backups. We use sewer cameras to evaluate pipe damage and offer trenchless pipe relining and replacement."
+    }
+  ],
+  "permits": {
+    "officeName": "City of Chandler Development Services",
+    "url": "https://www.chandleraz.gov/business/development-services",
+    "verifiedNote": {
+      "text": "Rules differ by city and by the work being done. Your plumber will tell you whether a permit applies.",
+      "sourceUrl": "https://www.chandleraz.gov/business/development-services"
+    }
+  },
+  "utilities": {
+    "water": {
+      "name": "City of Chandler Municipal Utilities",
+      "url": "https://www.chandleraz.gov/residents/water"
+    },
+    "gas": {
+      "name": "Southwest Gas",
+      "url": "https://www.swgas.com",
+      "leakLine": {
+        "number": "1-877-860-6020",
+        "sourceUrl": "https://www.swgas.com/safety"
+      }
+    },
+    "electric": {
+      "name": "Salt River Project (SRP)",
+      "url": "https://www.srpnet.com"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Which neighborhoods do you serve throughout Chandler, AZ?",
+      "a": "We service all communities across Chandler, including Historic Downtown Chandler, Andersen Springs, Warner Ranch, Fox Crossing, Ocotillo, and Fulton Ranch. Our service vehicles travel Chandler Boulevard, Arizona Avenue, and the Loop 202 daily to assist residential and commercial customers."
+    },
+    {
+      "q": "How hard is the water in Chandler, and how does it affect plumbing?",
+      "a": "According to City of Chandler water quality data, municipal water carries heavy dissolved mineral content across local distribution zones, as detailed in our water block above. This elevated mineral content causes calcium scale to coat water heater elements, foul reverse osmosis membranes, and clog showerheads, making water softeners highly beneficial."
+    },
+    {
+      "q": "What causes slab leaks in Chandler homes, and how are they repaired?",
+      "a": "Slab leaks in Chandler are typically caused by chemical reactions between soil minerals and copper pipes, or mechanical friction as pipes expand against shifting concrete slabs. Rather than jackhammering finished floors, we usually recommend rerouting a new, durable PEX water line overhead through walls or ceilings."
+    },
+    {
+      "q": "Do I need a city permit for plumbing projects in Chandler?",
+      "a": "Rules differ by city and by the work being done. In Chandler, routine plumbing fixture repairs may not need permits, but major sewer lateral repairs, gas line modifications, and structural repiping require permits from Chandler Development Services. Your technician will explain specific permit requirements."
+    },
+    {
+      "q": "What should I do if I suspect a gas leak in Chandler?",
+      "a": "If you detect the smell of natural gas, evacuate all occupants and pets from the house immediately. Do not switch on or off any lights, electrical appliances, or electronics. Once you are safely outside, call 911 or contact Southwest Gas on their emergency hotline at 1-877-860-6020."
+    },
+    {
+      "q": "How can I book an urgent plumbing repair in Chandler?",
+      "a": "For pressing plumbing issues such as burst water lines, failing water heaters, or overflowing toilets, call our direct phone line. Our dispatchers will verify current technician locations in Chandler and provide an estimated arrival window based on Valley service schedules."
+    }
+  ],
+  "nearby": [
+    "gilbert",
+    "mesa",
+    "tempe",
+    "scottsdale"
+  ],
+  "claimsUsed": [],
+  "updatedAt": "2026-11-14"
+}

@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run lint:content && next build",
     "start": "next start",
     "lint": "eslint .",
+    "lint:content": "tsx scripts/lint-content.ts",
     "typecheck": "tsc --noEmit",
     "check": "tsx scripts/check-config.ts"
   },
@@ -15,19 +16,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "^16.4.6",
+    "next-mdx-remote": "^6.0.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
     "sharp": "^0.35.5",
     "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@next/bundle-analyzer": "^16.4.6",
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "eslint": "^9.39.5",
     "eslint-config-next": "^16.4.6",
+    "playwright": "^1.65.1",
     "tsx": "^4.23.15",
     "typescript": "^6.0.3"
   }

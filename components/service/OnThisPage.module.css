@@ -1,0 +1,40 @@
+.wrap {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-600);
+  margin-bottom: 10px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.link {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--navy-900);
+  text-decoration: none;
+  transition: background-color 140ms ease, color 140ms ease;
+}
+
+.link:hover {
+  background: var(--water-100);
+  color: var(--water-700);
+}
+

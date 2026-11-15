@@ -1,0 +1,121 @@
+.wrapper {
+  margin-block: var(--space-4);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-2);
+  background-color: var(--white);
+}
+
+.scrollWrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  padding: 14px 18px;
+  background: linear-gradient(135deg, var(--sand-50) 0%, #f4ede0 100%);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.th {
+  background-color: var(--navy-900);
+  color: var(--white);
+  font-family: var(--font-display);
+  font-weight: 600;
+  padding: 12px 16px;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.tr:nth-child(even) {
+  background-color: #fafbfc;
+}
+
+.tr:hover {
+  background-color: var(--water-100);
+}
+
+.td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  vertical-align: top;
+}
+
+.itemName {
+  color: var(--navy-900);
+}
+
+.priceCell {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--navy-900);
+  white-space: nowrap;
+}
+
+.includes,
+.excludes {
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  margin-top: 4px;
+}
+
+.incTag {
+  color: var(--ok-700);
+  font-weight: 600;
+}
+
+.excTag {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.footerNote {
+  padding: 12px 18px;
+  background-color: var(--sand-50);
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.8125rem;
+  color: var(--ink-600);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.disclaimer {
+  font-style: italic;
+  margin: 0;
+}
+
+.source {
+  margin: 0;
+  font-weight: 500;
+}
+
+.sourceLink {
+  color: var(--water-700);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.errorBox {
+  background-color: #fee2e2;
+  color: #991b1b;
+  padding: var(--space-3);
+  border-radius: var(--radius-card);
+  margin-block: var(--space-3);
+}

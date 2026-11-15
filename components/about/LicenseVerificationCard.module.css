@@ -1,0 +1,229 @@
+.section {
+  padding: var(--space-10) 0;
+  background: #ffffff;
+}
+
+.wrapper {
+  background: var(--sand-50);
+  border: 1px solid var(--sand-300);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  border-bottom: 1px solid var(--sand-200);
+  padding-bottom: var(--space-4);
+}
+
+.shieldWrap {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--water-100);
+  color: var(--water-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--water-700);
+}
+
+.title {
+  font-family: var(--font-sora);
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: var(--navy-900);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+}
+
+.licenseCard {
+  background: #ffffff;
+  border: 1px solid var(--sand-300);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fieldList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--navy-500);
+}
+
+.value {
+  font-size: 0.9375rem;
+  color: var(--navy-900);
+}
+
+.valueHighlight {
+  font-family: var(--font-sora);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--water-800);
+}
+
+.statusBadge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+  padding: 4px 10px;
+  border-radius: 9999px;
+}
+
+.actionWrap {
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--sand-200);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.callLicenseWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.verifyBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 20px;
+  background: var(--water-600);
+  color: #ffffff;
+  font-family: var(--font-sora);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.verifyBtn:hover {
+  background: var(--water-700);
+}
+
+.guideCard {
+  background: #ffffff;
+  border: 1px solid var(--sand-300);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+}
+
+.guideTitle {
+  font-family: var(--font-sora);
+  font-size: 1.1875rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin-bottom: var(--space-2);
+}
+
+.guideSub {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--navy-700);
+  margin-bottom: var(--space-4);
+}
+
+.stepList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.stepItem {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.stepNumber {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--navy-900);
+  color: #ffffff;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.stepHead {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--navy-900);
+  margin-bottom: 2px;
+}
+
+.stepBody {
+  font-size: 0.8125rem;
+  color: var(--navy-600);
+  line-height: 1.4;
+}
+
+.quoteLine {
+  margin-top: auto;
+  padding-top: var(--space-3);
+  border-top: 1px dashed var(--sand-300);
+  font-size: 0.8125rem;
+  font-style: italic;
+  color: var(--navy-700);
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .wrapper {
+    padding: var(--space-5) var(--space-4);
+  }
+}

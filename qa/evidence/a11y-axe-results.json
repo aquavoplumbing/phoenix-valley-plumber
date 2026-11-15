@@ -1,0 +1,511 @@
+{
+  "reports": [
+    {
+      "url": "/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/services/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/water-heater/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/drain-cleaning/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/sewer-line/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/emergency-plumber/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/water-heater-repair/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/water-heater-replacement/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/clogged-drain/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/hydro-jetting/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/sewer-line-repair/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/slab-leak-repair/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/leak-detection/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/water-softener-installation/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/locations/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/locations/scottsdale-az/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/locations/mesa-az/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/locations/chandler-az/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/blog/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/blog/how-to-shut-off-main-water-valve/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/cost-guides/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/cost-guides/water-heater-replacement-cost/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/contact/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/about/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/faq/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/privacy-policy/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/terms/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/accessibility/",
+      "viewport": "desktop",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/services/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/water-heater/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/drain-cleaning/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/sewer-line/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/emergency-plumber/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/water-heater-repair/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/water-heater-replacement/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/clogged-drain/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/hydro-jetting/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/sewer-line-repair/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/slab-leak-repair/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/leak-detection/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/water-softener-installation/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/locations/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/locations/scottsdale-az/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/locations/mesa-az/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/locations/chandler-az/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/blog/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/blog/how-to-shut-off-main-water-valve/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/cost-guides/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/cost-guides/water-heater-replacement-cost/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/contact/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/about/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/faq/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/privacy-policy/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/terms/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    },
+    {
+      "url": "/accessibility/",
+      "viewport": "mobile",
+      "criticalCount": 0,
+      "seriousCount": 0,
+      "moderateCount": 0,
+      "minorCount": 0,
+      "violations": []
+    }
+  ],
+  "totalCritical": 0,
+  "totalSerious": 0,
+  "skipLinkWorks": true
+}

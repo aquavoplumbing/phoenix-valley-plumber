@@ -1,0 +1,105 @@
+{
+  "slug": "water-treatment",
+  "type": "hub",
+  "status": "published",
+  "urgency": "low",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix water treatment services",
+    "secondaryKeywords": [
+      "water softener and filtration phoenix",
+      "hard water treatment phoenix az",
+      "reverse osmosis phoenix"
+    ],
+    "title": "Phoenix Water Treatment Services | Softeners & RO",
+    "metaDescription": "Fight Phoenix hard water at the source. Call for phoenix water treatment services including whole-home softeners, carbon filters, and RO drinking water.",
+    "h1": "Phoenix Water Treatment Services"
+  },
+  "intro": {
+    "answerFirst": "Phoenix tap water is famously hard, leaving chalky calcium scale on faucets, spotting dishes, and putting extra wear on tank and tankless water heaters. Our phoenix water treatment services help you choose and install practical whole-home water softeners, carbon filtration, and drinking-water systems tailored to your household size and garage plumbing loop. Call us to discuss your options.",
+    "support": "We keep outdoor hose bibs and irrigation bypassed so you only soften indoor water."
+  },
+  "howToChoose": [
+    {
+      "symptom": "Chalky scale on faucets, glass, and water heaters",
+      "targetSlug": "water-softener-installation",
+      "label": "Water Softener Installation",
+      "note": "Ion-exchange softening sized for your household and garage loop."
+    },
+    {
+      "symptom": "Existing softener leaking, not regenerating, or old resin",
+      "targetSlug": "water-softener-repair-service",
+      "label": "Softener Repair & Service",
+      "note": "Control head diagnostics, bypass valves, and resin checks."
+    },
+    {
+      "symptom": "Chlorine taste, odor, or wanting purified drinking water",
+      "targetSlug": "water-filtration-installation",
+      "label": "Water Filtration & RO",
+      "note": "Whole-house carbon filtration and under-sink reverse osmosis."
+    },
+    {
+      "symptom": "Protecting a new on-demand water heater from scale",
+      "targetSlug": "tankless-water-heater-installation",
+      "label": "Tankless Water Heaters",
+      "note": "Pair water treatment with tankless descaling protection."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Water Treatment Matters So Much in Phoenix",
+    "paragraphs": [
+      "Phoenix water supplies contain high dissolved calcium and magnesium, which precipitate whenever water is heated or evaporates on fixtures. Over time, scale insulates water heater elements, clogs showerheads, and wears out appliance valves throughout your home.",
+      "Installing an ion-exchange softener—often paired with carbon filtration or under-sink reverse osmosis—protects your home's plumbing infrastructure while keeping outdoor landscaping on unsoftened city water."
+    ],
+    "facts": [
+      {
+        "text": "Phoenix ranks among US metro areas with the hardest water, driving scale across residential plumbing.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What is the difference between a water softener and a water filter?",
+      "a": "A water softener removes hardness minerals (calcium and magnesium) that cause chalky scale, while carbon and reverse osmosis filters target chlorine taste, odors, sediment, and dissolved solids. Many Phoenix homes use both systems together for cleaner, better-tasting indoor household water."
+    },
+    {
+      "q": "Do salt-free conditioners remove hard-water minerals in Phoenix?",
+      "a": "No. Salt-free conditioners leave calcium and magnesium in the water and only aim to reduce how tightly scale sticks to pipes. Only traditional ion-exchange water softeners physically remove hardness minerals from your indoor plumbing, water heater, and household bathroom fixtures."
+    },
+    {
+      "q": "Can you install a softener if my garage does not have a pre-plumbed loop?",
+      "a": "Yes. When no loop exists, a licensed plumber can tie into the main supply line near your shutoff valve while keeping exterior hose bibs and yard irrigation lines bypassed on unsoftened city water so salt is not wasted outdoors unnecessarily."
+    },
+    {
+      "q": "Will softened water protect my water heater?",
+      "a": "Yes. Removing calcium and magnesium before water reaches your tank or tankless heater dramatically slows mineral sediment and scale buildup inside heating elements and heat exchangers, helping your residential water heating equipment run cleanly, quietly, and reliably for longer overall."
+    },
+    {
+      "q": "Should I add reverse osmosis for drinking water?",
+      "a": "Many Phoenix homeowners pair a whole-home softener with an under-sink reverse osmosis system at the kitchen tap for crisp-tasting drinking, ice, and cooking water without buying bottled water, hauling heavy plastic jugs, or dealing with flat-tasting tap water every week."
+    },
+    {
+      "q": "How do I know if my existing water softener has stopped working?",
+      "a": "Returning white mineral spots on dishes, dry skin after showering, soap that will not lather, or a brine tank that never uses salt are common clues that the control valve, injector, or resin bed needs service or full unit replacement."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "children": [
+      "water-softener-installation",
+      "water-softener-repair-service",
+      "water-filtration-installation"
+    ],
+    "siblings": []
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/water-softener-system.jpg",
+      "alt": "Whole-home ion-exchange water softener system with copper bypass loop in an Arizona garage",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

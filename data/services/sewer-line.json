@@ -1,0 +1,124 @@
+{
+  "slug": "sewer-line",
+  "type": "hub",
+  "status": "published",
+  "urgency": "high",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix sewer line services",
+    "secondaryKeywords": [
+      "sewer services phoenix az",
+      "residential sewer repair phoenix",
+      "sewer lateral specialists phoenix"
+    ],
+    "title": "Phoenix Sewer Line Services | Camera & Trenchless",
+    "metaDescription": "Main sewer backups, root intrusion, or cracked laterals? Call for phoenix sewer line services with camera locating and trenchless repair options.",
+    "h1": "Phoenix Sewer Line Services"
+  },
+  "intro": {
+    "answerFirst": "When your main sewer line backs up, smells outdoors, or needs snaking every few months, our phoenix sewer line services help you find the exact cause before committing to excavation. From live fiber-optic camera scopes to open-trench spot repairs and no-dig trenchless lining, we walk you through every option honestly. Call us to speak with a licensed plumber.",
+    "support": "Stop running all indoor water immediately if wastewater is backing up into tubs or floor drains."
+  },
+  "emergency": {
+    "heading": "Main sewer backing up? Take these steps right now.",
+    "gasWarning": false,
+    "steps": [
+      {
+        "title": "Pause all water and flushing",
+        "text": "Keep toilets, showers, washers, and dishwashers off so sewage does not overflow."
+      },
+      {
+        "title": "Stay clear of standing wastewater",
+        "text": "Keep children and pets away from backed-up floor drains or wet ground near yard cleanouts."
+      },
+      {
+        "title": "Call our licensed team",
+        "text": "Tell us which fixtures are affected and whether you have an exterior cleanout."
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "symptom": "Wanting to see inside the pipe before any repair",
+      "targetSlug": "sewer-camera-inspection",
+      "label": "Sewer Camera Inspection",
+      "note": "Real-time video scope and surface depth locating."
+    },
+    {
+      "symptom": "Multiple drains backing up or collapsed sewer pipe",
+      "targetSlug": "sewer-line-repair",
+      "label": "Sewer Line Repair",
+      "note": "Targeted spot repairs and open-trench lateral replacements."
+    },
+    {
+      "symptom": "Damaged lateral under driveways, pavers, or patios",
+      "targetSlug": "trenchless-sewer-repair",
+      "label": "Trenchless Sewer Repair",
+      "note": "No-dig CIPP relining and pipe bursting when camera confirms fit."
+    },
+    {
+      "symptom": "Grease or fine roots slowing an intact sewer pipe",
+      "targetSlug": "hydro-jetting",
+      "label": "Hydro Jetting",
+      "note": "High-pressure scouring for structurally sound sewer laterals."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Protecting Phoenix Yards & Hardscaping During Sewer Work",
+    "paragraphs": [
+      "Phoenix homes often feature decorative pavers, concrete driveways, and mature desert trees directly above buried sewer laterals. Roots from mesquite and palo verde trees, combined with caliche soil movement, are top drivers of cracked joints and offset seams.",
+      "Using camera locating first lets us pinpoint trouble spots accurately and see whether trenchless relining can save your hardscaping and established landscaping."
+    ],
+    "facts": [
+      {
+        "text": "Mineral deposits and soil stress contribute to aging sewer lateral wear across Phoenix neighborhoods.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Should I get a camera inspection before agreeing to sewer repair?",
+      "a": "Yes. A live camera scope confirms whether you have an isolated joint crack, root intrusion, a sagging belly, or a collapsed pipe—so you only pay for the repair method your buried sewer lateral actually needs instead of guessing blindly beforehand."
+    },
+    {
+      "q": "Is trenchless sewer repair always possible in Phoenix?",
+      "a": "No. While trenchless epoxy lining and pipe bursting work well for cracked or root-invaded pipes with good slope, collapsed pipes or deep standing-water bellies require targeted open-trench excavation repair to restore reliable gravity drainage across your residential Phoenix yard safely."
+    },
+    {
+      "q": "Who owns the sewer line from my house to the street?",
+      "a": "Phoenix-area homeowners typically own and maintain the private sewer lateral from the house foundation out to the municipal sewer main connection. A live camera scope helps show exactly where any defect or root break sits along that underground pipe run."
+    },
+    {
+      "q": "Why do sewer backups happen after monsoon storms?",
+      "a": "Heavy monsoon rain saturates desert soil, shifts ground around aging pipe joints, and encourages rapid tree root growth—all of which can expose borderline sewer cracks, wash grit into open seams, and cause sudden main-line sewer backups during wet Valley weather."
+    },
+    {
+      "q": "Can I stay home while my sewer line is repaired?",
+      "a": "Usually yes, though indoor water and drain use must be paused while the main sewer lateral is disconnected and tested. Call us and we will tell you clearly what to expect based on your home's specific residential plumbing layout and yard access."
+    },
+    {
+      "q": "What causes recurring sewer odors in my yard?",
+      "a": "Cracked underground pipes, loose exterior cleanout caps, or dry patio P-traps can release sewer gas outdoors. A live camera scope and visual cleanout inspection identify exactly where odors are escaping so we can seal the source properly, cleanly, and safely."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "children": [
+      "sewer-line-repair",
+      "trenchless-sewer-repair",
+      "sewer-camera-inspection",
+      "hydro-jetting"
+    ],
+    "siblings": []
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/sewer-line-repair.jpg",
+      "alt": "Plumber inspecting a residential sewer lateral with a sewer camera monitor in a Phoenix yard",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

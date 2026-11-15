@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /contact/thank-you/
+
+Sitemap: https://phoenixvalleyplumber.com/sitemap.xml

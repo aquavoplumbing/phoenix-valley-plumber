@@ -1,0 +1,199 @@
+.page {
+  padding-bottom: var(--space-16);
+}
+
+.hero {
+  background: linear-gradient(180deg, var(--color-sand) 0%, #FFFFFF 100%);
+  padding: var(--space-8) 0 var(--space-12);
+  border-bottom: 1px solid var(--color-sand-dark);
+}
+
+.heroInner {
+  max-width: 800px;
+}
+
+.h1 {
+  font-family: var(--font-sora);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 800;
+  color: var(--color-navy);
+  line-height: 1.2;
+  margin: var(--space-4) 0 var(--space-3);
+  letter-spacing: -0.02em;
+}
+
+.lead {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--color-slate);
+  margin-bottom: var(--space-6);
+}
+
+.heroCallWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.urgentNotice {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background-color: #FEF3C7;
+  color: #92400E;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+}
+
+.categoryNav {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid var(--color-sand-dark);
+  padding: var(--space-4) 0;
+  position: sticky;
+  top: 72px;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.categoryNavInner {
+  display: flex;
+  gap: var(--space-2);
+  overflow-x: auto;
+  padding-bottom: var(--space-1);
+  scrollbar-width: thin;
+}
+
+.categoryPill {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 6px 14px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-navy);
+  background-color: var(--color-sand);
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.categoryPill:hover,
+.categoryPill:focus-visible {
+  background-color: var(--color-water-light);
+  color: var(--color-water-dark);
+  border-color: var(--color-water);
+}
+
+.contentWrapper {
+  max-width: 900px;
+  margin: var(--space-10) auto 0;
+}
+
+.categorySection {
+  margin-bottom: var(--space-12);
+  scroll-margin-top: 140px;
+}
+
+.categoryHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--color-sand-dark);
+  padding-bottom: var(--space-3);
+  margin-bottom: var(--space-6);
+}
+
+.categoryTitle {
+  font-family: var(--font-sora);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  margin: 0;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.faqItem {
+  background-color: #FFFFFF;
+  border: 1px solid var(--color-sand-dark);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.2s ease;
+}
+
+.faqItem:hover {
+  border-color: var(--color-water);
+}
+
+.faqQuestion {
+  font-family: var(--font-sora);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  margin: 0 0 var(--space-2);
+  line-height: 1.35;
+}
+
+.faqAnswer {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--color-slate);
+  margin: 0 0 var(--space-3);
+}
+
+.sourceLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-water-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.sourceLink:hover {
+  color: var(--color-navy);
+}
+
+.midPageCta {
+  background-color: var(--color-sand);
+  border: 1px solid var(--color-sand-dark);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin: var(--space-10) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+@media (min-width: 640px) {
+  .midPageCta {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.midPageCtaTitle {
+  font-family: var(--font-sora);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  margin: 0 0 var(--space-1);
+}
+
+.midPageCtaText {
+  font-size: 0.95rem;
+  color: var(--color-slate);
+  margin: 0;
+}

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620" fill="none">
+  <rect width="800" height="620" fill="#FAF6EF" rx="16"/>
+
+  <!-- Title -->
+  <text x="400" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#0B2A4A" text-anchor="middle">Water Heater: Repair vs. Replace Decision Flowchart</text>
+  <text x="400" y="68" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#4A5A70" text-anchor="middle">A simple, objective diagnostic guide for Phoenix homeowners</text>
+
+  <!-- Node 1: Start -->
+  <rect x="270" y="95" width="260" height="52" rx="26" fill="#0B2A4A"/>
+  <text x="400" y="126" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Water Heater Problem Detected</text>
+
+  <!-- Down Arrow -->
+  <line x1="400" y1="147" x2="400" y2="180" stroke="#0B2A4A" stroke-width="2.5"/>
+  <polygon points="395,178 400,188 405,178" fill="#0B2A4A"/>
+
+  <!-- Node 2: Decision Tank Leaking -->
+  <polygon points="400,190 560,245 400,300 240,245" fill="#FFFFFF" stroke="#1E9BD7" stroke-width="2.5"/>
+  <text x="400" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#0B2A4A" text-anchor="middle">Is the tank cylinder</text>
+  <text x="400" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#0B2A4A" text-anchor="middle">leaking from the base?</text>
+
+  <!-- Branch YES (Right) -> Replace Immediately -->
+  <line x1="560" y1="245" x2="640" y2="245" stroke="#BE123C" stroke-width="2.5"/>
+  <polygon points="638,240 648,245 638,250" fill="#BE123C"/>
+  <text x="590" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#BE123C">YES</text>
+
+  <rect x="648" y="215" width="130" height="60" rx="8" fill="#FFF1F2" stroke="#BE123C" stroke-width="2"/>
+  <text x="713" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#BE123C" text-anchor="middle">REPLACE</text>
+  <text x="713" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4A5A70" text-anchor="middle">Internal tank breach</text>
+
+  <!-- Branch NO (Down) -> Check Age -->
+  <line x1="400" y1="300" x2="400" y2="340" stroke="#0B2A4A" stroke-width="2.5"/>
+  <polygon points="395,338 400,348 405,338" fill="#0B2A4A"/>
+  <text x="415" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#1FA971">NO</text>
+
+  <!-- Node 3: Decision Age -->
+  <polygon points="400,350 560,405 400,460 240,405" fill="#FFFFFF" stroke="#1E9BD7" stroke-width="2.5"/>
+  <text x="400" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#0B2A4A" text-anchor="middle">Is water heater</text>
+  <text x="400" y="418" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#0B2A4A" text-anchor="middle">10+ years old?</text>
+
+  <!-- Branch Over 10 Years (Right) -> Compare Repair Cost -->
+  <line x1="560" y1="405" x2="640" y2="405" stroke="#D97706" stroke-width="2.5"/>
+  <polygon points="638,400 648,405 638,410" fill="#D97706"/>
+  <text x="590" y="395" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#D97706">YES</text>
+
+  <rect x="648" y="375" width="130" height="60" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="713" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#B45309" text-anchor="middle">REPLACE</text>
+  <text x="713" y="418" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4A5A70" text-anchor="middle">Past Phoenix lifespan</text>
+
+  <!-- Branch Under 10 Years (Down) -> Check Repair Scope -->
+  <line x1="400" y1="460" x2="400" y2="500" stroke="#0B2A4A" stroke-width="2.5"/>
+  <polygon points="395,498 400,508 405,498" fill="#0B2A4A"/>
+  <text x="415" y="485" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#1FA971">NO</text>
+
+  <!-- Node 4: Under 10 years -> Repair / Component Replacement -->
+  <rect x="250" y="510" width="300" height="80" rx="12" fill="#F0FDF4" stroke="#1FA971" stroke-width="2.5"/>
+  <text x="400" y="538" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1FA971" text-anchor="middle">REPAIR IS RECOMMENDED</text>
+  <text x="400" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4A5A70" text-anchor="middle">Replace thermocouple, thermostat, heating element,</text>
+  <text x="400" y="578" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#4A5A70" text-anchor="middle">anode rod, or T&amp;P valve to restore performance.</text>
+</svg>

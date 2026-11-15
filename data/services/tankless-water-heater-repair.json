@@ -1,0 +1,192 @@
+{
+  "slug": "tankless-water-heater-repair",
+  "type": "service",
+  "status": "published",
+  "urgency": "medium",
+  "seo": {
+    "title": "Tankless Water Heater Repair Phoenix | Error Codes",
+    "metaDescription": "Need tankless water heater repair phoenix homeowners trust? Licensed Arizona plumbers for error-code diagnostics, sensors, and descaling flushes. Call now.",
+    "h1": "Tankless Water Heater Repair in Phoenix, AZ",
+    "primaryKeyword": "tankless water heater repair phoenix",
+    "secondaryKeywords": [
+      "tankless water heater repair phoenix az",
+      "tankless water heater repair near me",
+      "licensed plumber tankless water heater repair phoenix"
+    ]
+  },
+  "intro": {
+    "answerFirst": "Need fast tankless water heater repair in Phoenix? When an on-demand unit flashes an ignition or flow error code, cycles lukewarm, or shuts down mid-shower, hard-water scale, dirty inlet screens, or a failing flow sensor is often to blame. Our licensed Arizona plumbers troubleshoot gas and electric tankless systems, flush heat exchangers through service valves, and restore steady hot water.",
+    "support": "Call with the brand name and any error code shown on your display so we can tell you what to expect."
+  },
+  "images": {
+    "hero": {
+      "src": "/img/services/tankless-water-heater.jpg",
+      "alt": "Wall-mounted tankless water heater with neat copper piping and brass isolation valves in a Phoenix garage",
+      "width": 1376,
+      "height": 768
+    }
+  },
+  "symptoms": [
+    {
+      "icon": "bolt",
+      "title": "Flashing Error Codes",
+      "text": "The digital controller displays ignition, flame-failure, exhaust, or scale-warning fault codes."
+    },
+    {
+      "icon": "thermometer",
+      "title": "Cold-Water Sandwich Effect",
+      "text": "Hot water turns cold unexpectedly mid-shower before warming back up again."
+    },
+    {
+      "icon": "flame-off",
+      "title": "Unit Fails to Fire on Low Flow",
+      "text": "Turning on a single bathroom sink does not trigger the burner to ignite."
+    },
+    {
+      "icon": "droplet",
+      "title": "Drips Inside the Cabinet",
+      "text": "Water leaks from an internal heat exchanger gasket, relief valve, or condensate trap."
+    },
+    {
+      "icon": "gauge",
+      "title": "Reduced Hot-Water Pressure",
+      "text": "Scale buildup inside the inlet filter or heat exchanger chokes flow to faucets."
+    },
+    {
+      "icon": "volume",
+      "title": "Whistling or Fan Noise",
+      "text": "Restricted airflow, dirty burner ports, or scale hotspots cause unusual operational noise."
+    }
+  ],
+  "methods": [
+    {
+      "title": "Error-Code & Sensor Diagnostics",
+      "whenItFits": "Units locking out or cycling cold",
+      "text": "We read fault history, test flow turbines, thermistors, igniters, and flame rods, and verify gas manifold pressure under load."
+    },
+    {
+      "title": "Heat-Exchanger Descaling Flush",
+      "whenItFits": "Scale buildup from Phoenix hard water",
+      "text": "Using isolation service valves and a circulation pump, we circulate food-grade descaling solution to strip chalky calcium from narrow copper passages."
+    },
+    {
+      "title": "Inlet Filter, Gas & Venting Check",
+      "whenItFits": "Low flow or ignition-starvation faults",
+      "text": "We clean debris screens, check condensate drains, and verify combustion air and gas supply volume so the burner fires reliably."
+    },
+    {
+      "title": "Isolation Valve Kit & Softener Pairing",
+      "whenItFits": "Older installs lacking flush ports",
+      "text": "If your tankless heater was installed without service valves, we can add brass isolation ports and discuss water-softener protection."
+    }
+  ],
+  "diy": {
+    "canTry": [
+      "Write down the exact flashing error code on the front display before resetting power.",
+      "Unplug the unit briefly or toggle its breaker only once to see if a temporary power flicker caused the lockout.",
+      "Check whether the gas shutoff valve beneath the unit is open and other gas appliances work."
+    ],
+    "callWhen": [
+      "The same error code returns after a single reset.",
+      "Water is dripping from the bottom of the tankless cabinet.",
+      "Hot water cuts out whenever two fixtures run at once.",
+      "Your unit has never been descaled in Phoenix hard water."
+    ]
+  },
+  "process": [
+    {
+      "title": "Call with brand & code",
+      "text": "Share the tankless brand, indoor or outdoor placement, and any flashing error code on the screen."
+    },
+    {
+      "title": "Diagnose & test under load",
+      "text": "A licensed plumber inspects sensors, inlet screens, gas pressure, and heat-exchanger scale."
+    },
+    {
+      "title": "Repair or descale & verify",
+      "text": "We clear scale or replace faulty parts and run multiple hot taps to confirm steady temperature."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Phoenix Hard Water Demands Regular Tankless Care",
+    "paragraphs": [
+      "Unlike a storage tank, a tankless water heater forces water through tight, coiled heat-exchanger tubing at high temperatures. Because Phoenix water is very hard, calcium and magnesium precipitate rapidly inside those narrow channels—insulating the metal, triggering overheating sensors, and choking shower flow if service flushes are skipped.",
+      "Garage heat, desert dust in combustion intake screens, and undersized gas lines can also trigger ignition lockouts when household demand peaks. Pairing routine descaling flushes with a whole-home water softener keeps tankless units running smoothly, quietly, and reliably all year round across Phoenix."
+    ],
+    "facts": [
+      {
+        "text": "Phoenix hard water accelerates mineral scale accumulation inside residential water-heating heat exchangers.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Tankless repair pricing depends on whether the unit needs a routine descaling flush and sensor cleaning or proprietary manufacturer parts.",
+    "factors": [
+      {
+        "title": "Descaling service vs. component replacement",
+        "text": "Flushing scale and cleaning inlet filters differs in scope from replacing a flow sensor, igniter, or control board."
+      },
+      {
+        "title": "Presence of service isolation valves",
+        "text": "Units equipped with brass flush ports are ready to descale; missing valves must be installed first."
+      },
+      {
+        "title": "Brand and part availability",
+        "text": "Mainstream brands keep common sensors accessible, while specialty models may require specific factory parts."
+      },
+      {
+        "title": "Gas or venting corrections",
+        "text": "If recurring lockouts stem from an undersized gas line or blocked vent, correcting the root cause adds scope."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Why does my tankless water heater turn cold halfway through a shower?",
+      "a": "Sudden cold bursts often happen when mineral scale narrows the heat exchanger, a dirty flow sensor fails to register steady water movement, or a low-flow showerhead drops below the burner's minimum activation rate. Testing flow and descaling usually identifies the cause quickly."
+    },
+    {
+      "q": "How often should a tankless water heater be flushed in Phoenix?",
+      "a": "Because Phoenix water is very hard, most tankless manufacturers recommend annual descaling flushes—or even more careful monitoring if you do not have a whole-home water softener installed. Skipping flushes lets calcium bake onto the heat exchanger and void factory coverage."
+    },
+    {
+      "q": "Can a leaking tankless heat exchanger be repaired?",
+      "a": "Small leaks at external union gaskets, pressure relief valves, or condensate drain lines are straightforward to repair. However, if the internal copper or stainless heat exchanger itself has corroded through from unaddressed scale, replacing the unit is usually more practical."
+    },
+    {
+      "q": "Why is my tankless unit showing an ignition failure code?",
+      "a": "Ignition codes can stem from a dirty flame rod, clogged air intake screen, tripped gas valve, or an undersized gas line dropping pressure when your furnace or stove runs at the same time. A plumber tests gas pressure under full load."
+    },
+    {
+      "q": "Do I need a water softener if I already have a tankless water heater?",
+      "a": "While not strictly mandatory, pairing a tankless unit with a whole-home ion-exchange water softener dramatically reduces calcium scale inside the heat exchanger, keeps hot-water pressure strong, and cuts down on sensor faults across Phoenix Valley homes, garages, and casitas too."
+    },
+    {
+      "q": "What if my tankless heater was installed without flush valves?",
+      "a": "Our licensed plumbers can install a brass tankless isolation valve kit directly beneath the unit so it can be cleanly flushed and descaled now and during future annual maintenance visits without disconnecting your main household water supply lines each time."
+    }
+  ],
+  "related": {
+    "hub": "water-heater",
+    "siblings": [
+      "tankless-water-heater-installation",
+      "water-heater-repair",
+      "water-softener-installation",
+      "gas-line-repair"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "Looking to upgrade to a new on-demand unit? See",
+        "anchorText": "Tankless Water Heater Installation in Phoenix",
+        "slug": "tankless-water-heater-installation"
+      },
+      {
+        "sentence": "Protect your heat exchanger from mineral scale with",
+        "anchorText": "Water Softener Installation in Phoenix",
+        "slug": "water-softener-installation"
+      }
+    ]
+  },
+  "claimsUsed": []
+}

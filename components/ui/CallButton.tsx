@@ -1,5 +1,5 @@
 import { PhoneIcon } from "@/components/icons/Icons";
-import { isPlaceholderValue } from "@/lib/config";
+import { isPlaceholderValue } from "@/lib/is-placeholder";
 import { PhoneLink } from "./PhoneLink";
 
 export function CallButton({

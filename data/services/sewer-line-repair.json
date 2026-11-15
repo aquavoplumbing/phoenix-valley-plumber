@@ -1,0 +1,234 @@
+{
+  "slug": "sewer-line-repair",
+  "type": "service",
+  "status": "published",
+  "urgency": "high",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "sewer repair phoenix",
+    "secondaryKeywords": [
+      "sewer line repair phoenix",
+      "sewer line repair phoenix az",
+      "sewer line replacement phoenix",
+      "broken sewer pipe phoenix"
+    ],
+    "title": "Sewer Repair Phoenix, AZ | Main Line & Trenchless",
+    "metaDescription": "Multiple drains backing up or sewage odors in the yard? Call for sewer repair Phoenix homeowners trust, with camera diagnostics and trenchless options.",
+    "h1": "Sewer Repair in Phoenix, AZ"
+  },
+  "intro": {
+    "answerFirst": "When multiple drains back up at once, toilets gurgle, or sewage odors linger near your foundation, you may need sewer repair Phoenix homeowners trust to diagnose the underground line accurately. We start with a sewer camera inspection so you can see whether roots, a separated joint, or a collapsed pipe is causing the trouble—and compare open-trench repair with trenchless options. Call us today.",
+    "support": "Stop running water and flushable appliances right away if wastewater is rising into tubs or floor drains."
+  },
+  "emergency": {
+    "heading": "Sewage backing up? Protect your home first.",
+    "gasWarning": false,
+    "steps": [
+      {
+        "title": "Stop all water use indoors",
+        "text": "Do not flush toilets, run showers, or start laundry or dishwashers until the main sewer line is cleared or bypassed."
+      },
+      {
+        "title": "Keep people and pets away from sewage",
+        "text": "Wastewater carries bacteria; avoid stepping into backed-up floor drains or wet yard spots near cleanouts."
+      },
+      {
+        "title": "Locate your exterior sewer cleanout",
+        "text": "If you have a capped cleanout pipe in the yard or near the foundation, note where it sits so your plumber can access it."
+      },
+      {
+        "title": "Call our licensed plumbing team",
+        "text": "Describe which fixtures are backing up and whether you notice soggy ground or odors outside."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "title": "Several drains backing up together",
+      "text": "When toilets, showers, and tubs back up simultaneously, the obstruction sits in the shared main sewer lateral.",
+      "icon": "siren"
+    },
+    {
+      "title": "Gurgling toilets when using sinks",
+      "text": "Air displaced by a blocked main pipe bubbles up through the nearest toilet trap whenever water drains elsewhere.",
+      "icon": "volume"
+    },
+    {
+      "title": "Persistent sewage odors indoors or out",
+      "text": "Cracked pipes or separated underground joints allow sewer gas to escape into yards, patios, or crawlspaces.",
+      "icon": "drain"
+    },
+    {
+      "title": "Unexplained lush or soggy yard patches",
+      "text": "Leaking wastewater fertilizes desert soil, creating unusually green grass or damp, sunken spots above the sewer path.",
+      "icon": "root"
+    },
+    {
+      "title": "Frequent rooter calls that never last",
+      "text": "Needing to snake the main line every few months usually means roots are entering through a broken joint.",
+      "icon": "pipe"
+    },
+    {
+      "title": "Slow drainage across the whole house",
+      "text": "A sagging pipe belly or partial collapse slows every fixture even when individual traps are spotless.",
+      "icon": "gauge"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Sewer Camera Locating & Diagnosis",
+      "whenItFits": "Confirming the exact depth, distance, and cause before any digging",
+      "text": "We feed a video camera down the lateral to pinpoint cracks, offset joints, root intrusion, or bellies and mark the exact spot above ground so repairs stay targeted."
+    },
+    {
+      "title": "Targeted Spot Repair & Open-Trench Replacement",
+      "whenItFits": "Isolated breaks, crushed sections, or sagging pipe bellies needing slope correction",
+      "text": "When a pipe has collapsed or lost proper downward slope, excavating the damaged section and installing new schedule-40 PVC or ABS restores reliable gravity flow."
+    },
+    {
+      "title": "Trenchless Lining & Pipe Bursting",
+      "whenItFits": "Root-damaged or cracked lines running beneath driveways, patios, or landscaping",
+      "text": "When the host pipe path is suitable, trenchless methods rehabilitate or replace the line through small access pits without tearing up concrete hardscaping."
+    }
+  ],
+  "comparison": {
+    "title": "Traditional Open-Trench vs. Trenchless Sewer Repair",
+    "caption": "How pipe condition and yard obstacles guide the choice between digging and trenchless repair.",
+    "columns": [
+      "Open-Trench Repair",
+      "Trenchless Repair"
+    ],
+    "rows": [
+      {
+        "label": "Surface Disruption",
+        "cells": [
+          "Excavates a trench above the damaged pipe",
+          "Uses small access pits at ends of the run"
+        ]
+      },
+      {
+        "label": "Pipe Slope / Bellies",
+        "cells": [
+          "Can re-grade and fix sagging pipe bellies",
+          "Follows the existing slope of the host pipe"
+        ]
+      },
+      {
+        "label": "Collapsed Sections",
+        "cells": [
+          "Handles fully crushed or missing pipe",
+          "Requires an open path for liner or bursting head"
+        ]
+      }
+    ]
+  },
+  "process": [
+    {
+      "title": "Call and stop water use",
+      "text": "Tell us which fixtures are backing up and whether water is surfacing outside."
+    },
+    {
+      "title": "Camera & locate the fault",
+      "text": "A licensed plumber clears immediate flow if possible and inspects the lateral by camera."
+    },
+    {
+      "title": "Compare repair options",
+      "text": "We show you what the camera found, explain spot repair vs. trenchless options, and review scope before work starts."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Phoenix Sewer Lines Fail Underground",
+    "paragraphs": [
+      "Many Phoenix neighborhoods feature mature desert trees whose roots seek moisture relentlessly around buried sewer joints. Once roots slip into a clay or cast-iron seam, they expand and crack the pipe wall further, catching toilet paper and kitchen debris inside the lateral.",
+      "Shifting caliche soil and heavy monsoon moisture cycles also move underground soil layers, creating offset joints or low bellies that trap solids. Older Valley homes built with cast iron or clay laterals are especially prone to corrosion, joint separation, and root entry over decades of residential plumbing service."
+    ],
+    "facts": [
+      {
+        "text": "Arizona's hard water and mineral soils contribute to pipe wear and root-seeking moisture stress underground.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Sewer repair cost depends on pipe depth, total length needing repair, surface obstacles, and whether excavation or trenchless methods fit.",
+    "factors": [
+      {
+        "title": "Depth and soil conditions",
+        "text": "Deeper laterals or dense desert caliche soil require heavier excavation effort than shallow yard lines."
+      },
+      {
+        "title": "Spot patch vs. full lateral replacement",
+        "text": "Fixing one broken joint near the cleanout differs significantly from replacing the entire run to the city tap."
+      },
+      {
+        "title": "Driveways, patios, and landscaping",
+        "text": "Lines running under concrete slabs, pools, or block walls may favor trenchless methods or require surface restoration."
+      },
+      {
+        "title": "Permits and city tap connections",
+        "text": "Work extending into public right-of-way or tying into municipal mains involves specific city permit and inspection steps."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How do I know if I need sewer line repair instead of simple drain cleaning?",
+      "a": "If a single sink is slow, drain cleaning usually solves it. When multiple drains back up together, toilets gurgle, or you need snaking repeatedly every few months, a camera inspection often reveals cracked joints, roots, or a sagging pipe needing repair."
+    },
+    {
+      "q": "Can a sewer camera inspection show the exact spot to dig?",
+      "a": "Yes. Modern sewer cameras include a sonde transmitter that lets our plumber locate the camera head from above ground, marking both the horizontal pipe path and approximate depth before any shovel or excavator touches your yard, patio, driveway, or landscaping."
+    },
+    {
+      "q": "When is trenchless sewer repair not an option?",
+      "a": "Trenchless lining cannot fix a severely sagging pipe belly that holds standing water, and it cannot pass through a completely collapsed pipe without excavation. A camera inspection confirms whether your line qualifies for trenchless repair or needs open-trench pipe work."
+    },
+    {
+      "q": "Who is responsible for the sewer line from my house to the street?",
+      "a": "In most Phoenix-area municipalities, the homeowner owns and maintains the private sewer lateral from the house out to the connection at the city sewer main. Your plumber will explain where your responsibility ends based on the live camera inspection location."
+    },
+    {
+      "q": "Should I replace an old cast-iron or clay sewer line all at once?",
+      "a": "If the camera shows a single isolated break on an otherwise solid pipe, a targeted spot repair may be enough. When the entire run shows widespread corrosion, multiple offsets, or heavy root invasion, full replacement prevents repeat digging later on."
+    },
+    {
+      "q": "Is it safe to stay in the house during a sewer line repair?",
+      "a": "You can usually remain at home, though water and drain use must be paused while the main lateral is disconnected and tested. We explain what to expect when you call so your household can plan around the work cleanly and safely."
+    }
+  ],
+  "related": {
+    "hub": "sewer-line",
+    "siblings": [
+      "trenchless-sewer-repair",
+      "sewer-camera-inspection",
+      "drain-cleaning",
+      "hydro-jetting",
+      "emergency-plumber"
+    ],
+    "costGuide": "sewer-line-replacement-cost",
+    "inBodyLinks": [
+      {
+        "sentence": "Want to avoid digging up your driveway or patio? Check",
+        "anchorText": "Trenchless Sewer Repair in Phoenix, AZ",
+        "slug": "trenchless-sewer-repair"
+      },
+      {
+        "sentence": "See what is inside your pipe before digging with",
+        "anchorText": "Sewer Camera Inspection in Phoenix",
+        "slug": "sewer-camera-inspection"
+      }
+    ],
+    "guides": [
+      "trenchless-vs-traditional-sewer-repair"
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/sewer-line-repair.jpg",
+      "alt": "Plumbing technician evaluating an underground sewer line with a camera monitor beside an Arizona home",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

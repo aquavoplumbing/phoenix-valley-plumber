@@ -1,0 +1,27 @@
+{
+  "mission": "To provide Phoenix homeowners with honest, sourced, and technically accurate plumbing guidance tailored to desert conditions, hard water challenges, and regional slab construction.",
+  "topicSelection": {
+    "title": "How We Choose Topics",
+    "description": "Topics are selected based on real diagnostic issues, questions, and plumbing failures experienced by residential homeowners across Phoenix, Scottsdale, Mesa, Chandler, Glendale, and surrounding Valley communities. We focus on mid-funnel diagnostics, cost transparency, and emergency safety rather than generic advice."
+  },
+  "factCheckingAndSources": {
+    "title": "Fact-Checking & Primary Sourcing",
+    "description": "Every metric, water hardness figure, lifespan estimate, and code reference is strictly verified against primary documentation. Water hardness ratings are pulled directly from published annual water quality reports by municipal utilities (City of Phoenix Water Services, SRP, City of Mesa). Cost ranges reflect verified national or regional estimating guides with clear publication dates. We never cite competitor blogs or unverified aggregator directories."
+  },
+  "plumberReview": {
+    "title": "Review by Licensed Plumbing Contractors",
+    "description": "Safety-critical topics—including gas line procedures, main water valve shutoffs, high-pressure water heaters, and raw sewage contamination—require direct technical review by a licensed Arizona plumbing contractor (ROC credentialed) before publication. Every post discloses whether it received professional tradesman review."
+  },
+  "aiDisclosure": {
+    "title": "Artificial Intelligence & Editorial Production",
+    "description": "We believe in full transparency regarding how information is produced. When automated research or language models assist in outlining or initial drafting, that assistance is clearly disclosed directly on the page under 'How This Was Written'. All content is human-reviewed, edited, and fact-checked against original sources before publication."
+  },
+  "correctionsAndUpdates": {
+    "title": "Corrections, Updates & Honest Dates",
+    "description": "We do not artificially refresh dates to simulate freshness. Original publication dates remain intact. The 'Last Updated' date changes only when substantive modifications, revised cost data, or updated municipal water reports are added, accompanied by an explicit changelog entry visible to readers."
+  },
+  "reportingErrors": {
+    "title": "How to Report an Error or Clarification",
+    "description": "We welcome technical corrections, municipal code updates, and reader feedback. To maintain a secure, spam-free reading environment, our blog features zero lead-capture forms or comment sections. Readers can report potential inaccuracies or suggest clarifications directly by calling our team at (602) 835-0102 or through our verified contact page."
+  }
+}

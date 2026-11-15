@@ -1,0 +1,88 @@
+.main {
+  padding-block: var(--space-4) var(--space-8);
+  background-color: var(--white);
+}
+
+.breadcrumbsWrap {
+  margin-bottom: var(--space-3);
+}
+
+.article {
+  max-width: 780px;
+}
+
+.header {
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-4);
+  border-bottom: 2px solid var(--water-100);
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--water-700);
+  margin-bottom: var(--space-1);
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  color: var(--navy-900);
+  margin-bottom: var(--space-2);
+}
+
+.lead {
+  font-size: 1.1875rem;
+  line-height: 1.6;
+  color: var(--ink-600);
+  font-weight: 500;
+  margin: 0;
+}
+
+.sectionList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.sectionTitle {
+  font-size: 1.45rem;
+  color: var(--navy-900);
+  margin: 0;
+}
+
+.sectionText {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--ink-900);
+  margin: 0;
+}
+
+.contactBlock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: var(--space-2);
+  padding: 12px 18px;
+  background-color: var(--sand-50);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--border-subtle);
+  font-size: 0.9375rem;
+}
+
+.phoneLink {
+  font-weight: 700;
+  color: var(--navy-900);
+  text-decoration: underline;
+  text-decoration-color: var(--sun-500);
+}

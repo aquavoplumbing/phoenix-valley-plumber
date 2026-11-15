@@ -1,0 +1,85 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  background: var(--navy-900);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-card);
+  padding: var(--space-3);
+  box-shadow: var(--shadow-2);
+  color: var(--white);
+}
+
+.captionRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-2);
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.badgeActive {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 122, 26, 0.18);
+  border: 1px solid rgba(255, 122, 26, 0.4);
+  color: #FFAE73;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+}
+
+.mapSvg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* CSS-only pulsing pin */
+@keyframes pinPulse {
+  0% {
+    r: 10;
+    opacity: 0.9;
+  }
+  50% {
+    r: 19;
+    opacity: 0.3;
+  }
+  100% {
+    r: 22;
+    opacity: 0;
+  }
+}
+
+.pulseRing {
+  transform-origin: center;
+  animation: pinPulse 2.4s ease-out 3 forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pulseRing {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+.pinActive {
+  fill: var(--sun-500);
+  filter: drop-shadow(0 0 6px rgba(255, 122, 26, 0.7));
+}
+
+.cityNode {
+  font-size: 11px;
+  font-weight: 500;
+  fill: rgba(255, 255, 255, 0.85);
+  user-select: none;
+}
+
+.cityNodeActive {
+  font-weight: 700;
+  fill: #FFFFFF;
+}

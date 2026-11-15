@@ -1,0 +1,126 @@
+{
+  "slug": "gas-line",
+  "type": "hub",
+  "status": "published",
+  "urgency": "high",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix gas line services",
+    "secondaryKeywords": [
+      "gas piping phoenix az",
+      "gas leak repair and install phoenix",
+      "residential gas plumber phoenix"
+    ],
+    "title": "Phoenix Gas Line Services | Safe Gas Piping",
+    "metaDescription": "Smell gas or adding an outdoor BBQ, range, or tankless heater? Call for phoenix gas line services—safety-first leak testing and licensed piping.",
+    "h1": "Phoenix Gas Line Services"
+  },
+  "intro": {
+    "answerFirst": "Fuel-gas piping demands strict sizing, proper materials, and careful pressure testing. Our phoenix gas line services cover new appliance branch lines, outdoor kitchen and pool-heater runs, tankless gas upsizing, and pressure-tested leak repairs. If you suspect an active gas leak, evacuate immediately and call 911 and your gas utility before calling a plumber.",
+    "support": "Never attempt DIY gas pipe work—licensed testing protects your home and family."
+  },
+  "emergency": {
+    "heading": "Smell gas? Leave the building before anything else.",
+    "gasWarning": true,
+    "steps": [
+      {
+        "title": "Get everyone outside immediately",
+        "text": "Exit the home right away and move to fresh air well clear of the building."
+      },
+      {
+        "title": "Avoid sparks and switches",
+        "text": "Do not flip light switches, unplug appliances, or use phones while inside."
+      },
+      {
+        "title": "Call 911 and your gas utility",
+        "text": "Contact emergency services and Southwest Gas from outside to secure the meter."
+      },
+      {
+        "title": "Call us for licensed repair",
+        "text": "Once the meter is secured, call our plumbers for pressure testing and code-compliant line repairs."
+      }
+    ]
+  },
+  "howToChoose": [
+    {
+      "symptom": "Adding a gas range, dryer, BBQ island, fire pit, or pool heater",
+      "targetSlug": "gas-line-installation",
+      "label": "Gas Line Installation",
+      "note": "BTU sizing, indoor/outdoor piping, and pressure-tested hookups."
+    },
+    {
+      "symptom": "Red-tagged meter, failed pressure test, or suspected pipe leak",
+      "targetSlug": "gas-line-repair",
+      "label": "Gas Line Repair & Testing",
+      "note": "Manometer pressure testing, valve replacement, and leak isolation."
+    },
+    {
+      "symptom": "Upgrading to an on-demand gas water heater",
+      "targetSlug": "tankless-water-heater-installation",
+      "label": "Tankless Water Heaters",
+      "note": "Evaluate gas volume and line diameter for high-BTU burners."
+    },
+    {
+      "symptom": "Active urgent plumbing or gas emergency",
+      "targetSlug": "emergency-plumber",
+      "label": "Emergency Plumber",
+      "note": "Immediate safety guidance and urgent dispatch."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Outdoor Kitchens & Gas Sizing in Phoenix",
+    "paragraphs": [
+      "Phoenix homeowners frequently add backyard BBQ islands, fire pits, and pool heaters, which can overload older half-inch gas branches if total BTU demand is not calculated accurately from the meter.",
+      "Desert UV exposure and alkaline soil also affect exterior steel piping, making proper protective coatings, dielectric unions, and approved underground piping materials essential for long-term safety, durability, and code compliance."
+    ],
+    "facts": [
+      {
+        "text": "City of Phoenix residential permit guidelines outline permit and inspection rules for gas piping work.",
+        "sourceUrl": "https://phoenix.gov/pdd/development/permits/residential"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What should I do first if I smell rotten eggs near a gas appliance?",
+      "a": "Leave the home immediately without touching light switches, garage door openers, or phones, and call 911 and your local gas utility from outside. Call a licensed plumber only after the area is safe and the utility has secured the meter."
+    },
+    {
+      "q": "Can you extend a gas line to my backyard BBQ or fire pit?",
+      "a": "Yes. We calculate total BTU demand from your gas meter, size the underground piping for every appliance on the branch, install approved corrosion-protected piping materials with tracer wire, and pressure-test the entire line thoroughly before trench burial and final hookup."
+    },
+    {
+      "q": "Do I need a permit for new gas line installation?",
+      "a": "Rules differ by city and by the specific work being done. New gas piping extensions, appliance relocations, and meter reconnections often involve municipal permit and pressure-test inspection rules across the Phoenix Valley; your plumber will tell you clearly what applies."
+    },
+    {
+      "q": "Can a plumber restore gas after Southwest Gas locks my meter?",
+      "a": "Yes. After the gas utility locks your meter for safety, a licensed Arizona plumber can pressure-test the home's piping, locate and repair any leaking fitting or buried line, and coordinate the required pressure test so service can be restored safely."
+    },
+    {
+      "q": "Why does a tankless water heater sometimes need a larger gas pipe?",
+      "a": "Tankless water heaters draw high BTU loads instantaneously to heat water on demand. An undersized existing half-inch gas pipe can starve the burner during peak hot-water flow, trigger ignition error codes, and require pipe upsizing back toward the main trunk."
+    },
+    {
+      "q": "Do you work on both natural gas and propane lines?",
+      "a": "Yes, our licensed plumbers size, install, repair, and pressure-test both natural gas lines and residential propane piping systems, carefully matching pipe diameters, pressure regulators, sediment traps, and appliance shutoff valves to your home's specific fuel source, BTU load, and equipment."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "children": [
+      "gas-line-installation",
+      "gas-line-repair"
+    ],
+    "siblings": []
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/gas-line-service.jpg",
+      "alt": "Exterior residential gas piping with yellow shutoff valve and pressure-test gauge on a Phoenix patio wall",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

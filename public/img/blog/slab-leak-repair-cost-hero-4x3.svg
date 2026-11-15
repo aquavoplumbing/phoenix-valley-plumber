@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" width="960" height="720" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78350F"/>
+      <stop offset="1" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#bg)"/>
+  <circle cx="816" cy="180" r="211" fill="#FFFFFF" fill-opacity="0.05"/>
+  <circle cx="144" cy="612" r="269" fill="#1E9BD7" fill-opacity="0.12"/>
+  <rect x="48" y="48" width="180" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.15"/>
+  <text x="138" y="69" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#FAF6EF" text-anchor="middle" letter-spacing="1">PHOENIX VALLEY PLUMBER</text>
+  <text x="480" y="346" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="800" fill="#FFFFFF" text-anchor="middle">Slab Leak Repair Cost in Phoenix Homes</text>
+  <text x="480" y="418" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" fill="#E6F4FB" text-anchor="middle">Direct Concrete Dig vs. PEX Reroute & Diagnostic Costs</text>
+  <rect x="400" y="504" width="160" height="36" rx="18" fill="#FF7A1A"/>
+  <text x="480" y="527" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#0B2A4A" text-anchor="middle">Expert Guide</text>
+</svg>

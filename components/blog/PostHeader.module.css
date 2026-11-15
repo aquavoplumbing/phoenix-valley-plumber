@@ -1,0 +1,135 @@
+.header {
+  margin-bottom: var(--space-4);
+}
+
+.categoryRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.categoryChip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  background-color: var(--water-100);
+  color: var(--water-700);
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  transition: background-color 160ms ease;
+}
+
+.categoryChip:hover {
+  background-color: #d2ecf8;
+}
+
+.readingTime {
+  font-size: 0.875rem;
+  color: var(--ink-600);
+  font-weight: 500;
+}
+
+.title {
+  font-size: clamp(1.75rem, 4.2vw, 2.75rem);
+  line-height: 1.16;
+  color: var(--navy-900);
+  margin-bottom: var(--space-3);
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.metaRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.authorGroup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatarWrap {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--water-500);
+}
+
+.avatar {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.authorText {
+  display: flex;
+  flex-direction: column;
+}
+
+.byLabel {
+  font-size: 0.75rem;
+  color: var(--ink-600);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.authorName {
+  font-weight: 700;
+  color: var(--navy-900);
+  text-decoration: underline;
+  text-decoration-color: var(--water-500);
+  text-underline-offset: 3px;
+}
+
+.authorRole {
+  font-size: 0.8125rem;
+  color: var(--ink-600);
+}
+
+.orgName {
+  font-weight: 700;
+  color: var(--navy-900);
+  font-size: 0.9375rem;
+}
+
+.reviewerBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--sand-50);
+  border: 1px solid rgba(31, 169, 113, 0.3);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  color: var(--ok-700);
+  align-self: flex-start;
+}
+
+.reviewerCheck {
+  font-weight: bold;
+}
+
+.dateRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  color: var(--ink-600);
+}
+
+.dot {
+  font-weight: bold;
+}

@@ -10,7 +10,7 @@ export function UtilityBar({ site }: { site: SiteConfig }) {
   const hoursSummary = formatHoursSummary(site.hours);
 
   return (
-    <div className={styles.bar}>
+    <aside className={styles.bar} aria-label="Licensing and operational credentials">
       <div className={`container ${styles.inner}`}>
         <div className={styles.left}>
           <ShieldIcon size={16} className={styles.shield} />
@@ -32,7 +32,7 @@ export function UtilityBar({ site }: { site: SiteConfig }) {
           ) : null}
         </div>
       </div>
-    </div>
+    </aside>
   );
 }
 

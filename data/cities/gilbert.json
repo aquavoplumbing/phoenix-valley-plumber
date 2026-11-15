@@ -1,0 +1,186 @@
+{
+  "slug": "gilbert",
+  "name": "Gilbert",
+  "state": "AZ",
+  "tier": 1,
+  "status": "published",
+  "lastVerified": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "plumber gilbert az",
+    "secondaryKeywords": [
+      "plumber gilbert",
+      "gilbert plumber",
+      "emergency plumber gilbert",
+      "licensed plumber in gilbert az"
+    ],
+    "title": "Plumber Gilbert AZ | Licensed Valley Plumbing | Call Now",
+    "metaDescription": "Need a licensed plumber in Gilbert, AZ? Fast repairs for water heaters, softeners, slab leaks, and drain cleaning in Val Vista Lakes & Seville. Call now.",
+    "h1": "Plumber in Gilbert, AZ"
+  },
+  "intro": {
+    "answerFirst": "When you need a licensed plumber in Gilbert, AZ, fast professional response prevents costly property damage and restores household comfort. Phoenix Valley Plumber delivers prompt plumbing care for Gilbert homeowners dealing with scaled water heaters, failing pressure-reducing valves, polybutylene line leaks, and mainline drain clogs. Serving Gilbert and nearby Valley communities."
+  },
+  "coverage": {
+    "zips": [
+      "85233",
+      "85234",
+      "85295",
+      "85296",
+      "85297",
+      "85298"
+    ],
+    "neighborhoods": [
+      "Val Vista Lakes",
+      "Morrison Ranch",
+      "Power Ranch",
+      "Seville",
+      "Agritopia",
+      "Higley",
+      "Cooley Station",
+      "The Islands",
+      "Stonebridge Lakes",
+      "Coronado Ranch",
+      "Greenfield Lakes",
+      "Finley Farms"
+    ],
+    "boundariesNote": "Comprehensive service from Baseline Road south through Seville and the Hunt Highway border, encompassing both North and South Gilbert communities.",
+    "sourceUrl": "https://www.gilbertaz.gov/community/neighborhoods",
+    "retrievedOn": "2026-11-14"
+  },
+  "water": {
+    "utility": "Town of Gilbert Public Works",
+    "sourceUrl": "https://www.gilbertaz.gov/departments/public-works/water/water-quality",
+    "reportYear": 2024,
+    "zones": [
+      {
+        "label": "Town of Gilbert Distribution System",
+        "gpgMin": 8,
+        "gpgMax": 10,
+        "sourceNote": "Treated surface water from CAP and SRP canals blended with municipal well water."
+      }
+    ],
+    "note": "The Town of Gilbert recommends setting residential water softeners between 10 to 12 grains per gallon to compensate for seasonal water source changes."
+  },
+  "housing": {
+    "summary": "Gilbert transitioned from an agricultural dairy community to a thriving family suburb over the past four decades. The town's housing features master-planned developments with artificial lakes, expansive irrigation systems, and single-family subdivisions built primarily between 1990 and 2015 that experience specific water pressure and plumbing wear.",
+    "eras": [
+      {
+        "label": "Agricultural & Early Suburban Transition",
+        "builtRange": "1975–1989",
+        "whatWeSee": "Original copper distribution lines buried in shifting desert soil, failing gate shut-off valves, and deteriorating under-slab drain junctions in North Gilbert.",
+        "sourceUrl": "https://www.gilbertaz.gov/departments/development-services/planning-zoning/historic-preservation"
+      },
+      {
+        "label": "Master-Planned Boom & Val Vista Lakes Era",
+        "builtRange": "1990–2004",
+        "whatWeSee": "Polybutylene plastic water piping prone to sudden joint fracture, aging tank water heaters with heavy calcium build-up, and failing pressure-reducing valves.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/gilberttownarizona"
+      },
+      {
+        "label": "Modern South Gilbert & Seville Communities",
+        "builtRange": "2005–Present",
+        "whatWeSee": "High-demand multi-bathroom PEX manifolds, tankless water heater maintenance needs, and premature RO system membrane fouling from municipal mineral content.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/gilberttownarizona"
+      }
+    ],
+    "medianYearBuilt": {
+      "value": 1998,
+      "source": "U.S. Census Bureau ACS 5-Year Estimates",
+      "asOf": "2023"
+    }
+  },
+  "localServices": [
+    {
+      "serviceSlug": "emergency-plumber",
+      "cityAngle": "Ruptured irrigation backflow valves and sudden indoor pipe fractures can flood Gilbert homes rapidly. Our emergency response team quickly isolates mainline supplies and repairs damaged pipes across Power Ranch and Val Vista Lakes."
+    },
+    {
+      "serviceSlug": "water-heater-repair",
+      "cityAngle": "With Gilbert tap water carrying mineral hardness, calcium deposits coat water heater heating elements, causing burner lockouts and popping sounds. We flush sediment, replace bad thermocouples, and restore dependable hot water."
+    },
+    {
+      "serviceSlug": "tankless-water-heater-installation",
+      "cityAngle": "Busy Gilbert households running simultaneous showers benefit from endless hot water. We install high-capacity condensing tankless units, upgrade gas supply lines, and install service valves for easy annual descaling."
+    },
+    {
+      "serviceSlug": "water-softener-installation",
+      "cityAngle": "To safeguard expensive faucets and tile work in Gilbert master-planned homes, we install demand-initiated water softeners calibrated to the town's recommended seasonal settings to prevent scale accumulation."
+    },
+    {
+      "serviceSlug": "leak-detection",
+      "cityAngle": "Hidden leaks beneath Gilbert concrete foundations can inflate utility bills and weaken structural footings. We utilize non-destructive electronic acoustic listening gear to trace pressurized leaks accurately."
+    },
+    {
+      "serviceSlug": "slab-leak-repair",
+      "cityAngle": "Shifting clay soils beneath 1990s Gilbert foundations can rub copper pipes raw. We diagnose underslab supply line failures and perform permanent overhead PEX reroutes that bypass damaged pipes without ripping up tile flooring."
+    },
+    {
+      "serviceSlug": "drain-cleaning",
+      "cityAngle": "Heavy kitchen disposal usage and deep landscape root systems in mature subdivisions like The Islands cause stubborn sewer stoppages. We utilize professional-grade drain augers to open blocked branch lines and mainline laterals."
+    },
+    {
+      "serviceSlug": "repiping",
+      "cityAngle": "Gilbert homes built in the 1990s with defective polybutylene piping risk sudden flooding. We provide turnkey whole-home repiping using premium PEX-A pipe, eliminating recurring water leaks permanently."
+    }
+  ],
+  "permits": {
+    "officeName": "Town of Gilbert Development Services",
+    "url": "https://www.gilbertaz.gov/departments/development-services",
+    "verifiedNote": {
+      "text": "Rules differ by city and by the work being done. Your plumber will tell you whether a permit applies.",
+      "sourceUrl": "https://www.gilbertaz.gov/departments/development-services"
+    }
+  },
+  "utilities": {
+    "water": {
+      "name": "Town of Gilbert Water Division",
+      "url": "https://www.gilbertaz.gov/departments/public-works/water"
+    },
+    "gas": {
+      "name": "Southwest Gas",
+      "url": "https://www.swgas.com",
+      "leakLine": {
+        "number": "1-877-860-6020",
+        "sourceUrl": "https://www.swgas.com/safety"
+      }
+    },
+    "electric": {
+      "name": "Salt River Project (SRP)",
+      "url": "https://www.srpnet.com"
+    }
+  },
+  "faqs": [
+    {
+      "q": "What areas of Gilbert, AZ do your plumbing technicians serve?",
+      "a": "We service all Gilbert neighborhoods, from established communities around The Islands and Val Vista Lakes in North Gilbert to newer master-planned developments in Power Ranch, Morrison Ranch, and Seville in South Gilbert. Our technicians travel throughout the Santan corridor daily."
+    },
+    {
+      "q": "What should I set my water softener to in Gilbert?",
+      "a": "The Town of Gilbert Public Works Department reports that municipal tap water carries natural mineral hardness, and provides seasonal calibration guidelines as outlined in our water report section above. This recommended setting accommodates seasonal changes when groundwater blends vary."
+    },
+    {
+      "q": "Why are pressure-reducing valves important in Gilbert homes?",
+      "a": "Municipal water pressure in Gilbert frequently exceeds 80 psi to support regional expansion. High pressure strains water heater tanks, washing machine hoses, and toilet valves. A properly functioning pressure-reducing valve (PRV) maintains safe domestic water pressure below 75 psi."
+    },
+    {
+      "q": "Do I need a town permit for plumbing work in Gilbert?",
+      "a": "Rules differ by city and by the work being done. In Gilbert, major plumbing projects like sewer line replacements, gas line additions, or extensive remodeling usually require permits and inspections from Gilbert Development Services. Your technician will clarify any permit needs before work begins."
+    },
+    {
+      "q": "What should I do if I detect a natural gas smell in Gilbert?",
+      "a": "If you smell a rotten-egg scent, leave your house immediately and ensure everyone is at a safe distance outside. Do not turn electrical appliances or switches on or off, and do not use a phone inside. Call 911 or phone Southwest Gas directly at 1-877-860-6020."
+    },
+    {
+      "q": "How can I book an urgent plumbing repair in Gilbert?",
+      "a": "For time-sensitive plumbing issues like leaking water heaters, ruptured pipes, or main line sewer stoppages, call our direct phone line. Our dispatchers will evaluate technician schedules in Gilbert and coordinate a prompt arrival based on Valley service hours."
+    }
+  ],
+  "nearby": [
+    "chandler",
+    "mesa",
+    "tempe",
+    "scottsdale"
+  ],
+  "claimsUsed": [],
+  "updatedAt": "2026-11-14"
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "leak-detection-repair",
+  "type": "hub",
+  "status": "published",
+  "urgency": "medium",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix leak detection and pipe repair",
+    "secondaryKeywords": [
+      "water leak and pipe services phoenix",
+      "slab leak and repipe phoenix",
+      "pipe repair services phoenix az"
+    ],
+    "title": "Phoenix Leak Detection and Pipe Repair | Call Now",
+    "metaDescription": "Mystery water bill spike, warm floor spot, or aging copper pipes? Call for phoenix leak detection and pipe repair, slab leak fixes, and repiping.",
+    "h1": "Phoenix Leak Detection and Pipe Repair"
+  },
+  "intro": {
+    "answerFirst": "Whether you are staring at an unexplained water bill spike, feeling a warm patch on your tile floor, or dealing with repeated pinhole leaks in older copper piping, our phoenix leak detection and pipe repair services help you locate the source accurately and choose the right long-term fix. Explore our locating, slab repair, and repiping services below, or call us to talk through what you see.",
+    "support": "A quick street-meter check can help confirm whether water is escaping indoors or in your yard."
+  },
+  "howToChoose": [
+    {
+      "symptom": "High water bill or meter spinning with taps off",
+      "targetSlug": "leak-detection",
+      "label": "Leak Detection",
+      "note": "Non-invasive acoustic, thermal, and pressure isolating."
+    },
+    {
+      "symptom": "Warm tile spots, damp baseboards, or running water sound",
+      "targetSlug": "slab-leak-repair",
+      "label": "Slab Leak Repair",
+      "note": "Compare spot slab repair, overhead reroutes, and repiping."
+    },
+    {
+      "symptom": "Multiple pinhole leaks, rusty water, or low pressure",
+      "targetSlug": "repiping",
+      "label": "Whole-Home Repiping",
+      "note": "Retire aging galvanized, polybutylene, or corroded copper lines."
+    },
+    {
+      "symptom": "Active spraying pipe or sudden flooding",
+      "targetSlug": "emergency-plumber",
+      "label": "Emergency Plumber",
+      "note": "Immediate shutoff guidance and urgent pipe isolation."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Concrete Slabs & Hard Water Drive Pipe Leaks",
+    "paragraphs": [
+      "Most Phoenix homes sit on concrete slabs—many with post-tension cables—where hot and cold copper pipes run beneath the floor. Over decades, soil movement and mineral-rich Valley water can wear thin spots into underground elbows, joints, and distribution manifolds.",
+      "Pinpointing the leak before cutting concrete and weighing overhead rerouting protects both your flooring and your budget from unnecessary demolition or repeat leaks."
+    ],
+    "facts": [
+      {
+        "text": "Phoenix hard water contributes to internal corrosion and fitting wear across aging residential supply pipes.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How do I test my Phoenix water meter for a hidden leak?",
+      "a": "Turn off all indoor faucets, toilets, ice makers, pool auto-fillers, and irrigation valves, then watch the small triangle indicator in your street meter box for two minutes. Any steady movement means water is actively escaping somewhere past the street meter."
+    },
+    {
+      "q": "Can leaks under concrete be found without breaking tile?",
+      "a": "Yes. Acoustic microphones, pressure testing, and thermal cameras locate hidden leaks non-invasively before any concrete or drywall is opened, keeping repair access focused and minimal so your home's tile, hardwood, or carpet flooring stays as intact as reasonably possible overall."
+    },
+    {
+      "q": "Is rerouting a slab leak better than breaking concrete?",
+      "a": "Often yes—especially on post-tension concrete slabs or under expensive tile flooring. Rerouting caps the failed slab branch line and runs new PEX piping overhead through the attic and interior walls without jackhammering concrete or disturbing your finished household tile floors."
+    },
+    {
+      "q": "When does whole-home repiping make more sense than another spot fix?",
+      "a": "If you have already had multiple pinhole or slab leaks, notice rusty water, or have aging polybutylene or galvanized pipes, whole-home repiping stops the cycle of repeat water damage across your home and restores steady, clean household water supply pressure."
+    },
+    {
+      "q": "How do I tell if a leak is in my yard main or under the house?",
+      "a": "Close your main house shutoff valve near the front hose bib or garage and recheck the street water meter. If the dial stops spinning, the leak is inside or under the house; if it keeps moving, it is in the yard supply line."
+    },
+    {
+      "q": "Do you handle urgent burst pipes as well as hidden leaks?",
+      "a": "Yes. Call us immediately if a supply pipe has burst so our team can guide your main water shutoff, help limit water damage to floors and drywall, and dispatch a licensed Arizona plumber to isolate and repair the active break."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "children": [
+      "leak-detection",
+      "slab-leak-repair",
+      "repiping",
+      "emergency-plumber"
+    ],
+    "siblings": []
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/leak-detection-service.jpg",
+      "alt": "Plumbing specialist using acoustic and thermal leak detection equipment on a Phoenix tile floor",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

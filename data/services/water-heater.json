@@ -1,0 +1,108 @@
+{
+  "slug": "water-heater",
+  "type": "hub",
+  "status": "published",
+  "urgency": "medium",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix water heater services",
+    "secondaryKeywords": [
+      "water heater services phoenix az",
+      "tank and tankless water heaters phoenix",
+      "hot water systems phoenix"
+    ],
+    "title": "Phoenix Water Heater Services | Tank & Tankless",
+    "metaDescription": "Need help with a tank, tankless, gas, or electric unit? Call for phoenix water heater services from licensed Arizona plumbers.",
+    "h1": "Phoenix Water Heater Services"
+  },
+  "intro": {
+    "answerFirst": "Whether you have lost hot water suddenly, noticed puddles beneath a garage tank, or want to upgrade to a higher-efficiency unit, our phoenix water heater services cover every stage of tank and tankless ownership. Use the guide below to choose the exact repair, replacement, or new installation service you need—or call us directly and talk to a licensed Arizona plumber.",
+    "support": "Rules differ by city and by the work being done. Your plumber will tell you whether a permit applies."
+  },
+  "howToChoose": [
+    {
+      "symptom": "No hot water, rumbling noises, or dripping relief valve",
+      "targetSlug": "water-heater-repair",
+      "label": "Water Heater Repair",
+      "note": "Best when the tank shell is dry and a thermostat, element, or valve needs service."
+    },
+    {
+      "symptom": "Water seeping from the tank body or aging unit failing often",
+      "targetSlug": "water-heater-replacement",
+      "label": "Water Heater Replacement",
+      "note": "Best for like-for-like swaps of a leaking or worn-out storage tank."
+    },
+    {
+      "symptom": "Adding a casita, remodeling, or relocating a unit to the garage",
+      "targetSlug": "water-heater-installation",
+      "label": "Water Heater Installation",
+      "note": "Best when new water lines, venting, or fuel hookups must be built."
+    },
+    {
+      "symptom": "Wanting continuous hot water and wall-mounted space savings",
+      "targetSlug": "tankless-water-heater-installation",
+      "label": "Tankless Installation",
+      "note": "Best when gas capacity and hard-water descaling fit your home."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "How Valley Hard Water Shapes Water Heater Choices",
+    "paragraphs": [
+      "Phoenix's mineral-rich water deposits scale inside storage tanks and tankless heat exchangers faster than in soft-water cities. Selecting the right equipment—and keeping up with periodic flushing or water softening—helps protect heating efficiency and avoid surprise garage leaks.",
+      "Our licensed plumbers service gas, electric, tankless, and hybrid heat-pump models across the Valley, helping you compare repair versus replacement honestly without sales pressure."
+    ],
+    "facts": [
+      {
+        "text": "Phoenix ranks among US metro areas with very hard water, accelerating scale inside heating equipment.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How do I know whether to book water heater repair or replacement?",
+      "a": "If the steel tank shell itself is leaking water, replacement is required because internal corrosion cannot be patched. If the tank is dry and you have no hot water, a pilot issue, or a weeping valve, repair is often practical."
+    },
+    {
+      "q": "Do you service both gas and electric water heaters?",
+      "a": "Yes. Our licensed plumbers repair, replace, and install natural gas, propane, standard electric, tankless, and hybrid heat-pump water heaters across Phoenix and surrounding Valley cities, carefully checking venting, drain pans, pressure relief lines, and shutoff valves on every service visit."
+    },
+    {
+      "q": "What is the difference between water heater installation and replacement?",
+      "a": "Replacement swaps an existing water heater unit in the same spot using your existing water, drain, and fuel connections. Installation covers putting a unit in a brand-new location, adding a casita system, or converting between electric and gas where new piping, pans, and venting are needed."
+    },
+    {
+      "q": "Are tankless water heaters worth it with Phoenix hard water?",
+      "a": "Tankless systems work well in Phoenix when paired with service isolation valves for regular descaling and, ideally, a whole-home water softener to slow mineral buildup inside the narrow heat exchanger passages and keep hot-water flow steady throughout your entire home."
+    },
+    {
+      "q": "Do I need a permit for a water heater swap in Phoenix?",
+      "a": "Rules differ by city and by the specific work being done. Your licensed plumber will tell you clearly whether a permit applies to your specific replacement, relocation, or fuel conversion before any installation or swap work begins at your Phoenix home today."
+    },
+    {
+      "q": "How should I shut off a leaking water heater before calling?",
+      "a": "Close the cold-water supply valve above the tank, switch off the dedicated electrical breaker or turn the gas control dial to off if safe to reach, keep children and pets clear of hot puddles, and call us with your unit type and location."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "children": [
+      "water-heater-repair",
+      "water-heater-replacement",
+      "water-heater-installation",
+      "tankless-water-heater-installation",
+      "tankless-water-heater-repair",
+      "water-heater-maintenance"
+    ],
+    "siblings": []
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/water-heater-service.jpg",
+      "alt": "Licensed plumber inspecting a residential gas water heater and copper shutoff valves in a Phoenix garage",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

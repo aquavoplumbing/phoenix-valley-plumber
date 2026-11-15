@@ -1,0 +1,192 @@
+{
+  "slug": "faucet-repair",
+  "type": "service",
+  "status": "published",
+  "urgency": "low",
+  "seo": {
+    "title": "Faucet Repair Phoenix, AZ | Drips & Valves",
+    "metaDescription": "Dripping faucets, leaking cartridges, and worn valves fixed cleanly with faucet repair phoenix homeowners trust. Call a licensed plumber today.",
+    "h1": "Faucet Repair in Phoenix, AZ",
+    "primaryKeyword": "faucet repair phoenix",
+    "secondaryKeywords": [
+      "faucet repair phoenix az",
+      "faucet repair near me",
+      "licensed plumber faucet repair phoenix"
+    ]
+  },
+  "intro": {
+    "answerFirst": "Need reliable faucet repair in Phoenix? A steady drip, stiff handle, or leak around the spout base usually means a worn ceramic cartridge, O-ring, or mineral-clogged aerator. Our licensed Arizona plumbers diagnose kitchen, bathroom, tub, and outdoor hose-bib leaks, replace corroded angle stops, and restore smooth, drip-free water control without damaging your countertops or tile.",
+    "support": "Call directly to describe which faucet is dripping or leaking—we carry common cartridges and quarter-turn shutoff valves."
+  },
+  "images": {
+    "hero": {
+      "src": "/img/services/kitchen-bath-plumbing.jpg",
+      "alt": "Licensed plumber servicing a residential bathroom supply valve and fixture in Phoenix, AZ",
+      "width": 1376,
+      "height": 768
+    }
+  },
+  "symptoms": [
+    {
+      "icon": "droplet",
+      "title": "Steady Spout Drip",
+      "text": "Water keeps dripping from the faucet tip even when handles are turned firmly off."
+    },
+    {
+      "icon": "leak",
+      "title": "Puddles Around the Base",
+      "text": "Moisture collects under the sink deck or around the escutcheon plate whenever you run water."
+    },
+    {
+      "icon": "wrench",
+      "title": "Stiff or Squeaking Handles",
+      "text": "Mineral scale inside the valve stem makes hot or cold handles hard to turn smoothly."
+    },
+    {
+      "icon": "gauge",
+      "title": "Weak Flow From One Tap",
+      "text": "Only one kitchen or bath faucet loses pressure while nearby fixtures still run strong."
+    },
+    {
+      "icon": "thermometer",
+      "title": "Shower Temperature Swings",
+      "text": "A failing pressure-balancing shower cartridge lets water turn suddenly scalding or cold."
+    },
+    {
+      "icon": "faucet",
+      "title": "Leaking Exterior Hose Bib",
+      "text": "Outdoor spigots drip from the packing nut or vacuum breaker after watering desert plants."
+    }
+  ],
+  "methods": [
+    {
+      "title": "Cartridge, Stem & Seal Rebuild",
+      "whenItFits": "Quality faucets with intact finish and body",
+      "text": "We shut off the local supply, pull mineral-seized cartridges or rubber seats, clean the valve body, and install manufacturer-matched seals to stop drips cleanly."
+    },
+    {
+      "title": "Angle Stop & Supply Line Upgrade",
+      "whenItFits": "Seized under-sink valves or braided hose wear",
+      "text": "Older multi-turn compression stops often fail when touched; we replace them with quarter-turn ball valves and fresh braided stainless supply lines."
+    },
+    {
+      "title": "Shower Valve & Trim Service",
+      "whenItFits": "Tub/shower mixers with drips or temperature spikes",
+      "text": "We extract stuck pressure-balancing cartridges safely without twisting copper pipes inside your tiled wall and verify scald-guard calibration."
+    },
+    {
+      "title": "New Faucet Installation",
+      "whenItFits": "Corroded bodies or outdated pull-out sprayers",
+      "text": "When the brass housing is pitted or parts are discontinued, we mount your replacement kitchen, bath, or utility faucet and pressure-test every joint."
+    }
+  ],
+  "diy": {
+    "canTry": [
+      "Unscrew the faucet aerator tip by hand or with padded pliers and soak it in white vinegar to clear mineral grit.",
+      "Check whether the drip stops when you close the hot or cold shutoff valve underneath the sink.",
+      "Tighten a loose handle set-screw with a small hex key if the handle wobbles."
+    ],
+    "callWhen": [
+      "The under-sink shutoff valve is frozen, corroded, or starts dripping when turned.",
+      "Water is leaking inside the cabinet around braided hoses or sprayer connections.",
+      "A shower cartridge is seized tightly inside a tiled wall.",
+      "You want a clean faucet upgrade without risking cracked granite or porcelain."
+    ]
+  },
+  "process": [
+    {
+      "title": "Call with fixture details",
+      "text": "Tell us which sink, shower, or outdoor spigot is leaking and whether the under-sink valve shuts off."
+    },
+    {
+      "title": "Inspect cartridge & shutoffs",
+      "text": "A licensed plumber identifies the valve type, checks water pressure, and reviews repair vs. replacement."
+    },
+    {
+      "title": "Rebuild or swap & test",
+      "text": "We install fresh seals or your new fixture and check every under-sink joint for dry operation."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Hard Water Wears Out Phoenix Faucets Quickly",
+    "paragraphs": [
+      "Phoenix municipal water carries dissolved calcium and magnesium that dry into crusty white scale around aerator screens, ceramic discs, and rubber O-rings. Even a tiny grain of mineral grit trapped inside a cartridge seat can score the seal and start a persistent drip that wastes gallons every week across Valley homes.",
+      "Hot desert summers also raise cold-water inlet temperatures in exterior stucco walls and attics, accelerating rubber washer hardening on outdoor hose bibs, laundry connections, and garage utility sinks. Replacing old multi-turn shutoff stops with modern quarter-turn brass valves makes future household fixture maintenance simple and dependable."
+    ],
+    "facts": [
+      {
+        "text": "Hard water mineral deposits accelerate cartridge wear, aerator clogging, and valve stiffness in Phoenix homes.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Faucet repair pricing depends on whether a cartridge rebuild solves the leak, whether under-sink valves need updating, and fixture access.",
+    "factors": [
+      {
+        "title": "Cartridge rebuild vs. full faucet swap",
+        "text": "Replacing an accessible sink cartridge takes less labor than removing a corroded deck mount in a tight vanity."
+      },
+      {
+        "title": "Proprietary or specialty trim parts",
+        "text": "Common brand cartridges are straightforward, while older imported or discontinued shower valves require specialized parts."
+      },
+      {
+        "title": "Shutoff valve condition",
+        "text": "Seized multi-turn angle stops that will not close cleanly must be replaced before servicing the faucet."
+      },
+      {
+        "title": "Under-sink clearance and sink material",
+        "text": "Deep apron sinks, disposals, and cramped pedestal basins affect wrench access during mounting."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Should I repair my dripping faucet or replace the whole fixture?",
+      "a": "If the faucet body and finish are in good shape and replacement parts are available, rebuilding the internal cartridge, rubber seats, or O-rings usually restores drip-free performance cleanly. Heavily corroded builder-grade faucets or pitted spouts are often better replaced outright."
+    },
+    {
+      "q": "Why does my kitchen faucet drip only when the hot side is closed?",
+      "a": "A hot-only drip points to a worn hot-side stem, rubber seat, or ceramic disc inside a two-handle faucet—or a scored hot port inside a single-handle cartridge. Replacing the worn cartridge or seat assembly stops both water waste and cabinet staining."
+    },
+    {
+      "q": "Can a plumber fix a leaking outdoor hose bib without breaking stucco?",
+      "a": "In many cases yes. If the leak is at the stem packing nut, handle washer, or vacuum breaker cap, we can rebuild it from outside. If the copper stub itself is split, we discuss the cleanest exterior or garage access."
+    },
+    {
+      "q": "Why did my shower suddenly lose pressure right after water service work?",
+      "a": "Disturbing main shutoff valves or replacing a water heater often dislodges loose mineral scale from older supply pipes, which then packs tightly behind the showerhead screen or inside the mixing cartridge. Cleaning the screen and flushing the valve restores flow."
+    },
+    {
+      "q": "Should I replace old under-sink shutoff valves while repairing a faucet?",
+      "a": "Yes, if your existing multi-turn valves drip from the stem or refuse to close completely. Upgrading to modern quarter-turn brass ball valves gives you reliable emergency shutoff control under every sink without fighting corroded rubber washers in the future too."
+    },
+    {
+      "q": "Do I need to buy a replacement faucet before calling?",
+      "a": "Not necessarily. If you want us to inspect whether a simple cartridge repair will fix it first, call us before buying a new fixture. If you already purchased a kitchen or bath faucet, we are glad to install it cleanly."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "siblings": [
+      "toilet-repair",
+      "garbage-disposal-repair",
+      "water-softener-installation",
+      "leak-detection"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "Want to stop chalky mineral scale from wearing out cartridges? See",
+        "anchorText": "Water Softener Installation in Phoenix",
+        "slug": "water-softener-installation"
+      },
+      {
+        "sentence": "Hearing a toilet run or seeing water at the base? Check",
+        "anchorText": "Toilet Repair in Phoenix, AZ",
+        "slug": "toilet-repair"
+      }
+    ]
+  },
+  "claimsUsed": []
+}

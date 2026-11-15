@@ -160,13 +160,11 @@
     { "slug": "tankless-water-heater-installation", "label": "Tankless Water Heaters" }
   ],
   "costGuides": [
-    { "label": "Water Heater Replacement Cost", "href": "/water-heater-replacement-cost/" },
-    { "label": "Water Heater Installation Cost", "href": "/water-heater-installation-cost/" },
-    { "label": "Sewer Line Replacement Cost", "href": "/sewer-line-replacement-cost/" },
-    { "label": "Slab Leak Repair Cost", "href": "/slab-leak-repair-cost/" },
-    { "label": "Toilet Installation Cost", "href": "/toilet-installation-cost/" },
-    { "label": "Garbage Disposal Cost", "href": "/garbage-disposal-installation-cost/" },
-    { "label": "Sump Pump Replacement Cost", "href": "/sump-pump-replacement-cost/" }
+    { "label": "Water Heater Replacement Cost", "href": "/cost-guides/water-heater-replacement-cost/" },
+    { "label": "Water Softener Installation Cost", "href": "/cost-guides/water-softener-installation-cost/" },
+    { "label": "Sewer Line Replacement Cost", "href": "/cost-guides/sewer-line-replacement-cost/" },
+    { "label": "Slab Leak Repair Cost", "href": "/cost-guides/slab-leak-repair-cost/" },
+    { "label": "Toilet Installation Cost", "href": "/cost-guides/toilet-installation-cost/" }
   ],
   "companyLinks": [
     { "label": "About Us", "href": "/about/" },
@@ -178,6 +176,8 @@
   ],
   "legalLinks": [
     { "label": "Privacy Policy", "href": "/privacy-policy/" },
-    { "label": "Terms of Service", "href": "/terms/" }
+    { "label": "Terms of Service", "href": "/terms/" },
+    { "label": "Accessibility", "href": "/accessibility/" },
+    { "label": "HTML Sitemap", "href": "/sitemap/" }
   ]
 }

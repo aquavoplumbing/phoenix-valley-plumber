@@ -231,17 +231,6 @@
     "priceRange": null
   },
   {
-    "slug": "water-heaters",
-    "name": "Water Heater Services in Phoenix",
-    "shortName": "Water Heaters",
-    "description": "Repair, replacement and tankless descaling built for Phoenix hard water.",
-    "icon": "heater",
-    "category": "hub",
-    "featured": false,
-    "order": 22,
-    "priceRange": null
-  },
-  {
     "slug": "water-heater-installation",
     "name": "Water Heater Installation",
     "shortName": "Water Heater Installation",

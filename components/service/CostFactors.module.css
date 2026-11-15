@@ -1,0 +1,89 @@
+.intro {
+  margin-top: 10px;
+  color: var(--ink-600);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.list {
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 700px) {
+  .list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 18px;
+  border-radius: var(--radius-card);
+  background: var(--white);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-1);
+}
+
+.icon {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--water-700);
+}
+
+.title {
+  font-size: 1.0625rem;
+  color: var(--navy-900);
+  margin-bottom: 4px;
+}
+
+.text {
+  font-size: 0.9375rem;
+  color: var(--ink-600);
+  line-height: 1.55;
+}
+
+.callout {
+  margin-top: 24px;
+  padding: 22px 24px;
+  border-radius: var(--radius-card);
+  background: var(--white);
+  border: 1px solid rgba(30, 155, 215, 0.28);
+  box-shadow: var(--shadow-1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.calloutText {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--navy-900);
+  font-size: 1.0625rem;
+}
+
+.sourceNote {
+  margin-top: 4px;
+  font-size: 0.875rem;
+  color: var(--ink-600);
+}
+
+.guideRow {
+  margin-top: 14px;
+  font-size: 0.9375rem;
+}
+
+.guideLink {
+  color: var(--water-700);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+

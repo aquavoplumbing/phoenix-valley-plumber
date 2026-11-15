@@ -1,0 +1,129 @@
+.main {
+  padding-block: var(--space-4) var(--space-8);
+  background-color: var(--white);
+}
+
+.breadcrumbsWrap {
+  margin-bottom: var(--space-3);
+}
+
+.profileHeader {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  background-color: var(--sand-50);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-panel);
+  margin-bottom: var(--space-6);
+}
+
+@media (min-width: 640px) {
+  .profileHeader {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.avatarWrap {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--water-500);
+  flex-shrink: 0;
+  box-shadow: var(--shadow-2);
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--water-700);
+}
+
+.name {
+  font-size: 2rem;
+  color: var(--navy-900);
+  margin: 0;
+}
+
+.role {
+  font-size: 1rem;
+  color: var(--ink-600);
+  font-weight: 600;
+  margin: 0;
+}
+
+.bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink-900);
+  margin: 4px 0 0 0;
+}
+
+.credList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.credBadge {
+  background-color: var(--white);
+  border: 1px solid var(--border-subtle);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--navy-900);
+}
+
+.postsSection {
+  margin-top: var(--space-6);
+}
+
+.sectionHeading {
+  font-size: 1.75rem;
+  color: var(--navy-900);
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-1);
+  border-bottom: 2px solid var(--water-100);
+}
+
+.postGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+@media (min-width: 640px) {
+  .postGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .postGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.emptyNote {
+  color: var(--ink-600);
+  font-style: italic;
+}

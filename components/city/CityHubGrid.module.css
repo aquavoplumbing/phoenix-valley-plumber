@@ -1,0 +1,128 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-4);
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.cityCard {
+  background: var(--white);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-1);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.cityCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-2);
+  border-color: var(--water-500);
+}
+
+.cityHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: var(--space-2);
+}
+
+.cityName {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin: 0;
+}
+
+.cityDetail {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink-900);
+  margin: 0 0 var(--space-4) 0;
+  flex: 1;
+}
+
+.cityLink {
+  color: var(--water-700);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cityLink:hover {
+  color: var(--navy-900);
+}
+
+.tierSection {
+  margin-top: var(--space-6);
+  padding: var(--space-4);
+  background: var(--sand-50);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--border-subtle);
+}
+
+.tierHeading {
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.chipsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: var(--space-3);
+}
+
+.inertChip {
+  background: var(--white);
+  border: 1px solid var(--border-subtle);
+  color: var(--ink-600);
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 0.875rem;
+  font-weight: 500;
+  user-select: none;
+}
+
+.phoenixLinkChip {
+  background: var(--white);
+  border: 1px solid var(--water-500);
+  color: var(--water-700);
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.phoenixLinkChip:hover {
+  background: var(--water-100);
+  color: var(--navy-900);
+}
+
+.callRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px dashed var(--border-subtle);
+  font-size: 0.875rem;
+  color: var(--ink-900);
+}

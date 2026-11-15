@@ -1,0 +1,103 @@
+.strip {
+  background: var(--sand-100);
+  border-top: 1px solid var(--sand-300);
+  border-bottom: 1px solid var(--sand-300);
+  padding: var(--space-8) 0;
+  margin: var(--space-10) 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+}
+
+.item {
+  display: flex;
+  gap: var(--space-4);
+  background: #ffffff;
+  border: 1px solid var(--sand-300);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+}
+
+.gasItem {
+  background: #fffaf0;
+  border-color: #feebc8;
+}
+
+.iconWrapWater {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--water-100);
+  color: var(--water-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconWrapGas {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #feebc8;
+  color: #c05621;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: var(--font-sora);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin-bottom: 6px;
+}
+
+.titleGas {
+  font-family: var(--font-sora);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #9c4221;
+  margin-bottom: 6px;
+}
+
+.text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--navy-700);
+  margin-bottom: var(--space-3);
+}
+
+.link {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--water-700);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-top: auto;
+}
+
+.link:hover {
+  color: var(--water-800);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .item {
+    padding: var(--space-5) var(--space-4);
+  }
+}

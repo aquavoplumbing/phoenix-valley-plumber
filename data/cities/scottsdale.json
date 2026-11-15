@@ -1,0 +1,203 @@
+{
+  "slug": "scottsdale",
+  "name": "Scottsdale",
+  "state": "AZ",
+  "tier": 1,
+  "status": "published",
+  "lastVerified": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "plumber scottsdale",
+    "secondaryKeywords": [
+      "plumber scottsdale az",
+      "scottsdale plumber",
+      "emergency plumber scottsdale",
+      "plumber north scottsdale",
+      "licensed plumber in scottsdale az"
+    ],
+    "title": "Plumber Scottsdale AZ | Licensed Valley Plumber | Call Now",
+    "metaDescription": "Need a plumber in Scottsdale, AZ? Licensed service for water heaters, leak detection, drain cleaning, and water softeners across Scottsdale. Call today.",
+    "h1": "Plumber in Scottsdale, AZ"
+  },
+  "intro": {
+    "answerFirst": "When you need a licensed plumber in Scottsdale, getting an experienced technician on-site promptly protects your property and daily comfort. Phoenix Valley Plumber provides precision plumbing across South and North Scottsdale communities. From repairing scaled tankless water heaters and clearing stubborn sewer blockages to pinpointing hidden slab leaks, we deliver careful diagnostic troubleshooting. Serving Scottsdale and nearby Valley communities."
+  },
+  "coverage": {
+    "zips": [
+      "85250",
+      "85251",
+      "85254",
+      "85255",
+      "85257",
+      "85258",
+      "85259",
+      "85260",
+      "85262",
+      "85266"
+    ],
+    "neighborhoods": [
+      "Old Town Scottsdale",
+      "McCormick Ranch",
+      "Gainey Ranch",
+      "DC Ranch",
+      "McDowell Mountain Ranch",
+      "Grayhawk",
+      "Troon North",
+      "Silverleaf",
+      "South Scottsdale",
+      "Pinnacle Peak",
+      "Kierland",
+      "Desert Mountain"
+    ],
+    "boundariesNote": "Coverage spans south from McKellips Road through Old Town, Gainey Ranch, and north to Troon and Pinnacle Peak along Pima Road.",
+    "sourceUrl": "https://www.scottsdaleaz.gov/neighborhoods",
+    "retrievedOn": "2026-11-14"
+  },
+  "water": {
+    "utility": "City of Scottsdale Water",
+    "sourceUrl": "https://ww2.scottsdaleaz.gov/Assets/ScottsdaleAZ/Water/Water+Quality/hard-water-fact-sheet.pdf",
+    "reportYear": null,
+    "zones": [
+      {
+        "label": "South of Indian School Road",
+        "gpgMin": 22,
+        "gpgMax": 25,
+        "sourceNote": "Municipal well fields blended with Central Arizona Project water (370 to 430 mg/L)."
+      },
+      {
+        "label": "Indian School Road to Chaparral Road",
+        "gpgMin": 20,
+        "gpgMax": 22,
+        "sourceNote": "Blended canal surface water and treated groundwater (340 to 370 mg/L)."
+      },
+      {
+        "label": "North of Chaparral Road",
+        "gpgMin": 16,
+        "gpgMax": 18,
+        "sourceNote": "Surface water treated at the Chaparral Water Treatment Plant (275 to 300 mg/L)."
+      }
+    ],
+    "note": "The City of Scottsdale confirms that it does not soften tap water before delivery, noting that milligrams per liter (mg/L) is a more accurate scientific measure than grains per gallon."
+  },
+  "housing": {
+    "summary": "Scottsdale's housing encompasses distinct architectural eras across North and South corridors. From 1950s Mid-Century brick ranches near Old Town with underground galvanized pipes to expansive 1980s McCormick Ranch golf estates with aging copper, and sprawling modern North Scottsdale custom builds requiring high-volume water filtration and pressure regulation.",
+    "eras": [
+      {
+        "label": "South Scottsdale Mid-Century Ranches",
+        "builtRange": "1950–1969",
+        "whatWeSee": "Corroded galvanized water pipes with severe flow restrictions, aging cast-iron sewer stacks beneath slabs, and deteriorating shut-off valves requiring emergency replacement.",
+        "sourceUrl": "https://www.scottsdaleaz.gov/historic-preservation"
+      },
+      {
+        "label": "Central Scottsdale & McCormick Ranch Boom",
+        "builtRange": "1970–1989",
+        "whatWeSee": "Copper distribution lines experiencing pinhole pitting from aggressive water, defective polybutylene piping in late 1970s townhomes, and failing pressure regulators.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/scottsdalecityarizona"
+      },
+      {
+        "label": "North Scottsdale & McDowell Mountain Estates",
+        "builtRange": "1990–Present",
+        "whatWeSee": "Multi-bathroom PEX loop configurations, thermal expansion stress on circulating pumps, high municipal street pressures, and severe scale on high-end plumbing trim.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/scottsdalecityarizona"
+      }
+    ],
+    "medianYearBuilt": {
+      "value": 1984,
+      "source": "U.S. Census Bureau ACS 5-Year Estimates",
+      "asOf": "2023"
+    }
+  },
+  "localServices": [
+    {
+      "serviceSlug": "emergency-plumber",
+      "cityAngle": "Whether an unexpected supply line burst threatens travertine flooring in North Scottsdale or an older drain overflows in South Scottsdale, our on-call technicians isolate the failure quickly and prevent costly water damage."
+    },
+    {
+      "serviceSlug": "water-heater-repair",
+      "cityAngle": "With Scottsdale's heavy mineral tap water, calcium scale rapidly coats heating elements and settles on tank bottoms. We diagnose burner faults, flush heavy sediment, and replace worn anode rods to protect your water heater."
+    },
+    {
+      "serviceSlug": "tankless-water-heater-installation",
+      "cityAngle": "High-capacity Scottsdale residences often require multi-unit tankless arrays or recirculating systems. We install premium condensing gas units with integrated descaling ports designed for extreme Sonoran Desert water conditions."
+    },
+    {
+      "serviceSlug": "leak-detection",
+      "cityAngle": "Hidden pinhole leaks beneath Scottsdale post-tension concrete slabs can undermine foundations and warp custom hardwood floors. We deploy acoustic sensors and thermal imaging to pinpoint moisture without exploratory floor demolition."
+    },
+    {
+      "serviceSlug": "drain-cleaning",
+      "cityAngle": "Older ficus, mesquite, and olive trees in mature McCormick Ranch and Gainey Ranch neighborhoods routinely invade clay and cast-iron sewer pipes. We use motorized drain augers to clear blockages and restore full discharge velocity."
+    },
+    {
+      "serviceSlug": "water-softener-installation",
+      "cityAngle": "High mineral concentration across South and Central Scottsdale causes severe calcification on designer fixtures and glass shower enclosures. We configure metered ion-exchange softeners calibrated to Scottsdale's distinct zonal water profile."
+    },
+    {
+      "serviceSlug": "repiping",
+      "cityAngle": "When 1960s South Scottsdale ranches or 1980s McCormick Ranch patio homes suffer persistent pinholes in aging copper or polybutylene, whole-home PEX repiping restores reliable pressure and ensures clean domestic water delivery."
+    },
+    {
+      "serviceSlug": "sewer-camera-inspection",
+      "cityAngle": "Before undertaking landscaping or resolving repeating bathroom stoppages, our digital camera inspections provide high-resolution internal video footage of Scottsdale sewer lines, revealing root intrusion, pipe bellies, or joint offsets."
+    }
+  ],
+  "permits": {
+    "officeName": "City of Scottsdale Planning & Development Services",
+    "url": "https://www.scottsdaleaz.gov/planning-development",
+    "verifiedNote": {
+      "text": "Rules differ by city and by the work being done. Your plumber will tell you whether a permit applies.",
+      "sourceUrl": "https://www.scottsdaleaz.gov/planning-development"
+    }
+  },
+  "utilities": {
+    "water": {
+      "name": "City of Scottsdale Water Resources",
+      "url": "https://www.scottsdaleaz.gov/water"
+    },
+    "gas": {
+      "name": "Southwest Gas",
+      "url": "https://www.swgas.com",
+      "leakLine": {
+        "number": "1-877-860-6020",
+        "sourceUrl": "https://www.swgas.com/safety"
+      }
+    },
+    "electric": {
+      "name": "Arizona Public Service (APS)",
+      "url": "https://www.aps.com"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do you provide plumbing services throughout both South and North Scottsdale?",
+      "a": "Yes, our coverage extends from South Scottsdale ranches near Old Town all the way north through McCormick Ranch, DC Ranch, Grayhawk, and Pinnacle Peak. Our technicians are familiar with the contrasting plumbing systems found in older mid-century neighborhoods and modern luxury desert estates."
+    },
+    {
+      "q": "Why is tap water so hard in Scottsdale, and what does it do to appliances?",
+      "a": "Scottsdale water comes from a combination of the Central Arizona Project, Salt River Project, and deep aquifer wells, resulting in naturally hard to very hard tap water as detailed in our zonal water block above. This heavy calcium load accumulates rapidly inside tank water heaters and boiler coils, creating insulating scale that spikes energy bills."
+    },
+    {
+      "q": "What plumbing complications commonly affect McCormick Ranch and Gainey Ranch homes?",
+      "a": "Homes built in Central Scottsdale during the 1970s and 1980s frequently experience pinhole leaks in underslab copper supply lines caused by chemistry interactions with local soils. Mature landscape tree roots also infiltrate original sewer lines, leading to recurring main drain backups that require root cutting or relining."
+    },
+    {
+      "q": "Do I need a city permit for water heater installation in Scottsdale?",
+      "a": "Rules differ by city and by the specific scope of work involved. Standard equipment replacements and complex gas reroutes or commercial conversions follow specific local safety codes administered by Scottsdale Planning & Development. Your technician will outline current local permit guidelines before initiating work."
+    },
+    {
+      "q": "What safety precautions should I take if I smell gas in my Scottsdale home?",
+      "a": "If you detect a sulfur or rotten-egg odor, evacuate everyone from the property immediately without turning lights, electronics, or appliances on or off. Once at a safe distance outdoors, contact 911 or call Southwest Gas directly on their 24-hour emergency reporting line at 1-877-860-6020."
+    },
+    {
+      "q": "How can I schedule an emergency plumbing visit in Scottsdale?",
+      "a": "For urgent plumbing disruptions including ruptured water mains, active ceiling leaks, or complete sewer stoppages, call our primary phone line directly. Our dispatch team will review technician locations across Scottsdale and confirm prompt routing based on Valley service schedules."
+    }
+  ],
+  "nearby": [
+    "tempe",
+    "mesa",
+    "chandler",
+    "glendale"
+  ],
+  "claimsUsed": [],
+  "updatedAt": "2026-11-14"
+}

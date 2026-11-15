@@ -1,0 +1,183 @@
+{
+  "slug": "goodyear",
+  "name": "Goodyear",
+  "state": "AZ",
+  "tier": 2,
+  "status": "published",
+  "lastVerified": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "plumber goodyear az",
+    "secondaryKeywords": [
+      "goodyear az plumber",
+      "emergency plumber goodyear az",
+      "licensed plumber goodyear"
+    ],
+    "title": "Plumber Goodyear AZ | Licensed Valley Plumbing | Call Now",
+    "metaDescription": "Need a licensed plumber in Goodyear, AZ? Fast response for water heaters, drain cleaning, and emergency leak repairs in Estrella & Palm Valley. Call today.",
+    "h1": "Plumber in Goodyear, AZ"
+  },
+  "intro": {
+    "answerFirst": "When you need a licensed plumber in Goodyear, AZ, getting prompt diagnostic care safeguards your home against expensive structural damage. Phoenix Valley Plumber provides dependable residential plumbing services for Goodyear homeowners dealing with hard-water scale accumulation, water heater failures, and underground slab leaks. Serving Goodyear and nearby Valley communities."
+  },
+  "coverage": {
+    "zips": [
+      "85338",
+      "85395",
+      "85326"
+    ],
+    "neighborhoods": [
+      "Estrella Mountain Ranch",
+      "Palm Valley",
+      "Canyon Trails",
+      "Centerra",
+      "Sarival Village",
+      "Wildflower",
+      "PebbleCreek",
+      "Las Brisas"
+    ],
+    "boundariesNote": "Coverage extends south through Estrella Mountain Ranch into the Sierra Estrella foothills and north along the I-10 and Loop 303 corridors in Palm Valley and PebbleCreek.",
+    "sourceUrl": "https://www.goodyearaz.gov/community/neighborhood-services",
+    "retrievedOn": "2026-11-14"
+  },
+  "water": {
+    "utility": "City of Goodyear Water Resources",
+    "sourceUrl": "https://www.goodyearaz.gov/community/neighborhood-services",
+    "reportYear": 2024,
+    "zones": [
+      {
+        "label": "Northern Service Area (Palm Valley & PebbleCreek)",
+        "gpgMin": 12,
+        "gpgMax": 16,
+        "sourceNote": "Groundwater wells blended with CAP canal surface water allocations."
+      },
+      {
+        "label": "Southern Service Area (Estrella Mountain Ranch)",
+        "gpgMin": 14,
+        "gpgMax": 18,
+        "sourceNote": "Deep alluvial groundwater wells serving the foothills of the Sierra Estrella range."
+      }
+    ],
+    "note": "The City of Goodyear reports municipal tap water ranges from hard to very hard across both service zones. Ion-exchange water softeners prevent calcium deposits from clogging shower heads and deteriorating hot water storage tanks."
+  },
+  "housing": {
+    "summary": "Goodyear transformed from historic cotton farming acreage into one of the West Valley's fastest-growing residential communities. Older neighborhoods near Goodyear Farms and the historic airfield reflect post-war agricultural roots, transitioning into golf community developments like Palm Valley and PebbleCreek from the late 1980s and 1990s. The southern master-planned development of Estrella Mountain Ranch brings modern multi-level homes equipped with PEX manifold systems adapted to desert elevation changes.",
+    "eras": [
+      {
+        "label": "Historic Townsite & Goodyear Farms Area",
+        "builtRange": "1940–1984",
+        "whatWeSee": "Galvanized iron piping filled with calcified mineral choke points, aging cast-iron sewer stacks subject to bottom-channel rotting, and root penetration in clay yard lines.",
+        "sourceUrl": "https://www.goodyearaz.gov/community/neighborhood-services"
+      },
+      {
+        "label": "Palm Valley & PebbleCreek Expansion",
+        "builtRange": "1985–2002",
+        "whatWeSee": "Copper distribution lines exhibiting pinhole corrosion from aggressive soil and water interaction, early polybutylene piping in select 1990s parcels, and failing pressure regulators.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/goodyearcityarizona"
+      },
+      {
+        "label": "Estrella Mountain Ranch & Modern Master Communities",
+        "builtRange": "2003–Present",
+        "whatWeSee": "PEX piping networks dealing with severe attic heat conditions, high-pressure line spikes along hillside terrain, and premature mineral fouling in tankless water heaters.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/goodyearcityarizona"
+      }
+    ],
+    "medianYearBuilt": {
+      "value": 2004,
+      "source": "U.S. Census Bureau ACS 5-Year Estimates",
+      "asOf": "2023"
+    }
+  },
+  "localServices": [
+    {
+      "serviceSlug": "emergency-plumber",
+      "cityAngle": "Ruptured supply lines and failed water heaters can flood Goodyear homes across multi-level floor plans. When an unexpected water crisis occurs in Palm Valley or Estrella Mountain Ranch, our technicians isolate municipal supplies and repair broken piping."
+    },
+    {
+      "serviceSlug": "water-heater-repair",
+      "cityAngle": "Goodyear municipal water contains dense minerals that collect inside water heaters as rock-hard sediment, reducing heating performance and burner life. We descale calcified tanks, test safety relief valves, and restore reliable hot water output."
+    },
+    {
+      "serviceSlug": "tankless-water-heater-installation",
+      "cityAngle": "Switching to on-demand tankless water heating in Goodyear requires adequate natural gas capacity and proper mineral protection. We install energy-efficient tankless systems complete with isolation service valves for convenient seasonal maintenance flushes."
+    },
+    {
+      "serviceSlug": "drain-cleaning",
+      "cityAngle": "Grease accumulation and desert tree roots frequently cause slow drainage and sewage blockages in Goodyear homes. We clear stubborn drain obstructions using heavy-duty mechanical augers and video diagnostics to restore complete wastewater flow."
+    },
+    {
+      "serviceSlug": "slab-leak-repair",
+      "cityAngle": "Shifting desert soils near the Sierra Estrella foothills apply lateral stress to under-slab copper water pipes. We pinpoint concealed slab leaks using non-invasive electronic listening gear and execute reliable overhead PEX bypass lines."
+    },
+    {
+      "serviceSlug": "water-softener-installation",
+      "cityAngle": "Goodyear tap water carries significant dissolved rock that leaves calcified deposits on fixtures and reduces appliance life. We install custom-sized ion-exchange water softeners calibrated to your local water supply zone to safeguard plumbing infrastructure."
+    },
+    {
+      "serviceSlug": "sewer-line-repair",
+      "cityAngle": "Cracked joints, soil movement, and root intrusion along residential sewer lines lead to recurring sewage backups. We inspect pipe conditions with high-definition drain cameras and install trenchless structural epoxy liners without excavating finished landscaping."
+    },
+    {
+      "serviceSlug": "repiping",
+      "cityAngle": "Older homes in Palm Valley and early Goodyear neighborhoods experiencing recurrent copper pinhole leaks benefit from whole-home repiping. We replace deteriorated water distribution lines with durable PEX tubing to ensure long-term pressure reliability."
+    }
+  ],
+  "permits": {
+    "officeName": "City of Goodyear Development Services Department",
+    "url": "https://www.goodyearaz.gov/government/departments/development-services/building-safety",
+    "verifiedNote": {
+      "text": "Rules differ by city and by the work being done. Your plumber will tell you whether a permit applies.",
+      "sourceUrl": "https://www.goodyearaz.gov/government/departments/development-services/building-safety"
+    }
+  },
+  "utilities": {
+    "water": {
+      "name": "City of Goodyear Water Resources",
+      "url": "https://www.goodyearaz.gov/government/departments/water-services"
+    },
+    "gas": {
+      "name": "Southwest Gas",
+      "url": "https://www.swgas.com",
+      "leakLine": {
+        "number": "1-877-860-6020",
+        "sourceUrl": "https://www.swgas.com/safety"
+      }
+    },
+    "electric": {
+      "name": "Arizona Public Service (APS)",
+      "url": "https://www.aps.com"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do you provide plumbing services in Estrella Mountain Ranch and PebbleCreek?",
+      "a": "Yes, our technicians service all Goodyear neighborhoods, from southern foothills in Estrella Mountain Ranch to established golf communities in PebbleCreek and family subdivisions in Palm Valley and Canyon Trails."
+    },
+    {
+      "q": "Why does Goodyear tap water cause rapid scale buildup in water heaters?",
+      "a": "Goodyear drinking water is derived from deep regional wells and surface blends with elevated mineral concentration, as outlined in our water hardness section above. Minerals settle to the bottom of water heater tanks, causing burner noise and premature heating element failure."
+    },
+    {
+      "q": "What plumbing issues are common in Palm Valley homes built in the 1990s?",
+      "a": "Homes constructed during Goodyear's 1990s growth frequently experience pinhole corrosion in underslab copper lines and failure of pressure-reducing valves exposed to high municipal mainline pressures. Whole-home repipes and regulator replacements resolve these issues permanently."
+    },
+    {
+      "q": "Do I need a building permit for major plumbing repairs in Goodyear?",
+      "a": "Rules differ by city and by the specific work being performed. Major sewer replacements, gas line extensions, and complete repipes typically require permits from Goodyear Development Services. Your technician will evaluate the scope and guide you through the process."
+    },
+    {
+      "q": "What should I do if I smell natural gas in my Goodyear house?",
+      "a": "Evacuate everyone from the property immediately without operating light switches, openers, or household electronics. Once safely outside at a distance, call 911 or reach Southwest Gas directly on their emergency leak line at 1-877-860-6020."
+    },
+    {
+      "q": "How can I schedule a plumbing visit for my Goodyear home?",
+      "a": "Call our main phone line directly to speak with our dispatch team. We will discuss your plumbing concern, offer honest guidance, and arrange for an experienced technician to inspect your home."
+    }
+  ],
+  "nearby": [
+    "avondale",
+    "buckeye",
+    "glendale"
+  ],
+  "claimsUsed": [],
+  "updatedAt": "2026-11-14"
+}

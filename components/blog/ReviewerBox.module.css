@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius-card);
+  margin-block: var(--space-3);
+}
+
+.iconWrap {
+  color: var(--ok-500);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--ok-700);
+  letter-spacing: 0.05em;
+}
+
+.title {
+  font-size: 1rem;
+  color: var(--navy-900);
+  margin: 0;
+}
+
+.scope {
+  font-size: 0.875rem;
+  color: var(--ink-900);
+  margin: 0;
+}
+
+.dates {
+  font-size: 0.75rem;
+  color: var(--ink-600);
+}

@@ -1,0 +1,124 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-1);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-3);
+}
+
+.imageLink {
+  display: block;
+}
+
+.imageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #f1f5f9;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 300ms ease;
+}
+
+.card:hover .image {
+  transform: scale(1.03);
+}
+
+.categoryBadge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: rgba(11, 42, 74, 0.9);
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  backdrop-filter: blur(4px);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-3) var(--space-4);
+  flex: 1;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: var(--ink-600);
+  margin-bottom: var(--space-1);
+}
+
+.dot {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.1875rem;
+  line-height: 1.3;
+  margin: 0 0 var(--space-2) 0;
+  color: var(--navy-900);
+}
+
+.titleLink {
+  color: var(--navy-900);
+  text-decoration: none;
+}
+
+.titleLink:hover {
+  color: var(--water-700);
+}
+
+.excerpt {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink-600);
+  margin-bottom: var(--space-3);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.footerRow {
+  margin-top: auto;
+  padding-top: var(--space-2);
+  border-top: 1px solid rgba(11, 42, 74, 0.06);
+}
+
+.readMore {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--water-700);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.readMore:hover {
+  color: var(--navy-900);
+  gap: 8px;
+}

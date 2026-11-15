@@ -1,0 +1,200 @@
+{
+  "slug": "emergency-plumber",
+  "type": "service",
+  "status": "published",
+  "urgency": "high",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "emergency plumber phoenix",
+    "secondaryKeywords": [
+      "emergency plumber phoenix az",
+      "plumber phoenix open now",
+      "emergency plumbing phoenix",
+      "burst pipe plumber phoenix",
+      "urgent plumbing repair phoenix"
+    ],
+    "title": "Emergency Plumber Phoenix, AZ | Call Now",
+    "metaDescription": "Need an emergency plumber Phoenix homeowners can reach fast? Shut off your main valve and call us now for burst pipes, flooding, or sewage backups.",
+    "h1": "Emergency Plumber in Phoenix, AZ"
+  },
+  "intro": {
+    "answerFirst": "When water is pouring onto your floor, a sewer line is backing up, or you suspect a gas leak, call an emergency plumber Phoenix homeowners can speak with directly. Before anything else, shut off your main water valve or leave the home if you smell gas. Once everyone is safe, call our team so we can walk you through immediate damage control and dispatch a licensed Arizona plumber.",
+    "support": "Tell us what is leaking, where the shutoff valve is located, and whether power or gas is near the water."
+  },
+  "emergency": {
+    "heading": "Active leak or backup? Take these safety steps first.",
+    "gasWarning": true,
+    "steps": [
+      {
+        "title": "Shut off the main water valve",
+        "text": "Turn the house shutoff valve near the front hose bib or meter clockwise to stop water flow into the home."
+      },
+      {
+        "title": "Switch off nearby electricity",
+        "text": "If water is near outlets, a water heater, or floor appliances, turn off the matching circuit breaker from a dry area."
+      },
+      {
+        "title": "Stop running all fixtures",
+        "text": "Do not flush toilets, run dishwashers, or drain tubs during a sewer backup so wastewater does not overflow."
+      },
+      {
+        "title": "Call and describe the issue",
+        "text": "Let us know which room is affected, whether the shutoff stopped the flow, and if sewage or hot water is involved."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "title": "Burst or split supply pipe",
+      "text": "Water spraying behind drywall, under a sink, or in the yard can soak framing and flooring quickly if the main stays on.",
+      "icon": "siren"
+    },
+    {
+      "title": "Sewage backing up into tubs",
+      "text": "Dark water or foul odors rising from floor drains or showers usually signal a blocked main sewer lateral.",
+      "icon": "drain"
+    },
+    {
+      "title": "Leaking water heater tank",
+      "text": "Puddles pooling around the pan or base of a tank require shutting off cold supply and power before calling.",
+      "icon": "leak"
+    },
+    {
+      "title": "Overflowing toilet that will not stop",
+      "text": "If closing the wall angle stop behind the toilet does not halt the water, the valve itself may have failed.",
+      "icon": "toilet"
+    },
+    {
+      "title": "Sudden loss of water pressure",
+      "text": "An abrupt drop across every faucet in the house can mean a broken main line between the meter and foundation.",
+      "icon": "gauge"
+    },
+    {
+      "title": "Ceiling stains or active dripping",
+      "text": "Wet drywall below an upstairs bath or attic line points to a pressurized leak that needs prompt isolation.",
+      "icon": "droplet"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Immediate Leak Isolation & Pipe Repair",
+      "whenItFits": "Pressurized copper, PEX, or PVC pipe splits and failed shutoff valves",
+      "text": "We locate the damaged section, isolate the zone, and replace the failed pipe or valve so water service can be restored safely. Replacing corroded gate valves with quarter-turn ball valves also makes future shutoffs easier."
+    },
+    {
+      "title": "Urgent Main Drain & Sewer Clearing",
+      "whenItFits": "Multiple backed-up fixtures, floor drain overflows, or slow main lines",
+      "text": "Using mechanical augers or camera diagnostics, we clear obstructions in the main building drain and verify flow. If roots or collapsed piping appear, we explain clear next steps before any excavation."
+    },
+    {
+      "title": "Water Heater & Gas Line Safety Shutoff",
+      "whenItFits": "Active tank leaks, relief valve discharges, or suspected gas odors",
+      "text": "We inspect failed tank components, pressure-relief lines, or gas connections and test the system safely. When a tank body has ruptured, we review replacement options once the area is dry and secure."
+    }
+  ],
+  "process": [
+    {
+      "title": "Call and stabilize",
+      "text": "Speak directly with our team, share what is happening, and get practical shutoff guidance while you wait."
+    },
+    {
+      "title": "On-site diagnosis",
+      "text": "A licensed plumber inspects the failure point, checks surrounding lines, and confirms what is safe to restore."
+    },
+    {
+      "title": "Clear repair options",
+      "text": "We explain the repair scope and pricing factors before work begins, and we tell you what to expect when you call."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Plumbing Emergencies Spike in Phoenix Homes",
+    "paragraphs": [
+      "Desert heat pushes residential water heaters and attic supply lines harder during summer months, while shifting caliche soil and monsoon storms place extra stress on buried sewer and main water lines. In older Valley neighborhoods, aging galvanized or thin copper piping can also develop sudden pinhole leaks without warning.",
+      "Because many Phoenix homes sit on concrete slabs with main shutoff valves exposed to intense sun, outdoor valves can seize up over time. Knowing where your shutoff is located before a pipe fails makes a major difference during any urgent leak."
+    ],
+    "facts": [
+      {
+        "text": "Phoenix metro water hardness accelerates mineral scale and valve wear inside residential plumbing systems.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Emergency plumbing pricing depends on the failure type, parts needed, and whether work occurs during posted hours or requires after-hours dispatch.",
+    "factors": [
+      {
+        "title": "Severity and access to the leak",
+        "text": "Exposed garage or crawlspace piping takes less labor to reach than lines buried behind tile or under a concrete slab."
+      },
+      {
+        "title": "Parts and valve replacements",
+        "text": "Replacing a failed shutoff valve or supply flex line differs in material scope from rebuilding a main sewer cleanout."
+      },
+      {
+        "title": "After-hours or weekend timing",
+        "text": "Calls handled during regular daytime hours follow standard scheduling, while urgent off-hour dispatches depend on technician availability."
+      },
+      {
+        "title": "Secondary diagnostic equipment",
+        "text": "Sewer camera inspections or acoustic leak locating may be needed to pinpoint hidden underground breaks."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What counts as a plumbing emergency in Phoenix?",
+      "a": "Any active leak you cannot stop, sewage backing up into sinks or tubs, a burst supply pipe, a ruptured water heater tank, or a suspected gas leak counts as urgent. If water is damaging floors or walls, shut off your main valve and call us immediately so we can guide your next steps."
+    },
+    {
+      "q": "Where is my main water shutoff valve in a Phoenix home?",
+      "a": "Most Phoenix homes have a main shutoff valve on an exterior wall near the front hose bib, inside the garage, or inside a ground-level meter box near the street. Turn a gate wheel clockwise or rotate a lever handle ninety degrees so it sits perpendicular to the pipe."
+    },
+    {
+      "q": "What should I tell the dispatcher when I call?",
+      "a": "Share whether you have shut off the water, which rooms or fixtures are affected, whether the water is hot, cold, or sewage, and if you smell gas. Those details help us give you immediate safety instructions and prepare the right tools before arriving."
+    },
+    {
+      "q": "How do I know if a leak is under my concrete slab?",
+      "a": "Warm spots on tile or wood floors, the sound of running water when every tap is closed, or a spinning water meter dial while all fixtures are off often point to a slab leak. Turn off the main supply if water is surfacing and call for leak detection."
+    },
+    {
+      "q": "Should I use chemical drain cleaners during a backup?",
+      "a": "No. Chemical drain openers rarely clear main sewer blockages and create caustic standing water that can splash during mechanical snaking or hydro jetting. Leave the standing water alone, stop using nearby fixtures, and let a licensed plumber clear the line safely."
+    },
+    {
+      "q": "Can I handle a burst pipe repair myself until a plumber arrives?",
+      "a": "Your safest step is shutting off the main water valve, opening a low outdoor faucet to relieve pressure, and moving valuables away from wet areas. Avoid temporary clamp fixes on pressurized hot lines or hidden wall pipes without a proper inspection."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "siblings": [
+      "burst-pipe-repair",
+      "water-heater-repair",
+      "drain-cleaning",
+      "sewer-line-repair",
+      "slab-leak-repair"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "If your tank is leaking or you have lost hot water, view our",
+        "anchorText": "Water Heater Repair in Phoenix",
+        "slug": "water-heater-repair"
+      },
+      {
+        "sentence": "If multiple drains are backing up at once, learn about",
+        "anchorText": "Sewer Line Repair in Phoenix",
+        "slug": "sewer-line-repair"
+      }
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/emergency-plumber.jpg",
+      "alt": "Licensed Arizona plumber arriving at a Phoenix stucco home with tool bag for emergency plumbing service",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

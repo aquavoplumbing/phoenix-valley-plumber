@@ -1,0 +1,106 @@
+{
+  "slug": "toilet",
+  "type": "hub",
+  "status": "published",
+  "urgency": "medium",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix toilet services",
+    "secondaryKeywords": [
+      "toilet repair and installation phoenix",
+      "toilet replacement phoenix az",
+      "clogged toilet plumber phoenix"
+    ],
+    "title": "Phoenix Toilet Services | Repair & Installation",
+    "metaDescription": "Running toilet, leaking wax ring, or cracked bowl? Call for phoenix toilet services from licensed Arizona plumbers—repairs, resets, and replacements.",
+    "h1": "Phoenix Toilet Services"
+  },
+  "intro": {
+    "answerFirst": "From a toilet that runs every hour and drives up your water bill to a wobbling bowl leaking onto bathroom tile, our phoenix toilet services handle repairs, flange resets, stubborn clogs, and full replacements cleanly. Explore the options below or call us directly to talk through what your bathroom fixture is doing.",
+    "support": "If water is rising toward the rim, turn the wall shutoff valve clockwise behind the toilet first."
+  },
+  "howToChoose": [
+    {
+      "symptom": "Running tank, leaking base, or wobbling bowl",
+      "targetSlug": "toilet-repair",
+      "label": "Toilet Repair",
+      "note": "Internal tank rebuilds, wax rings, flange fixes, and augering."
+    },
+    {
+      "symptom": "New bathroom remodel or rough-in setup",
+      "targetSlug": "toilet-installation",
+      "label": "Toilet Installation",
+      "note": "Clean mounting, new supply stop, and leak-tested installation."
+    },
+    {
+      "symptom": "Cracked porcelain or dated high-gallon toilet",
+      "targetSlug": "toilet-replacement",
+      "label": "Toilet Replacement",
+      "note": "Swap out old fixtures for reliable WaterSense-rated models."
+    },
+    {
+      "symptom": "Multiple bathroom drains backing up together",
+      "targetSlug": "drain-cleaning",
+      "label": "Drain Cleaning",
+      "note": "Clear deeper branch or main-line obstructions safely."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Hard Water & Tile Renovations in Phoenix Bathrooms",
+    "paragraphs": [
+      "Phoenix's mineral-rich water wears out rubber flappers, fill valves, and rim jets faster than soft water, leading to quiet leaks and weak flushes. Tile remodels that raise floor height can also leave closet flanges too low for a standard wax ring.",
+      "Our plumbers check both the internal tank hardware and the floor flange seal so repairs stay dry and dependable."
+    ],
+    "facts": [
+      {
+        "text": "Hard water deposits accelerate wear on toilet tank seals and fill valves in Phoenix homes.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Should I repair my running toilet or replace the whole unit?",
+      "a": "If the porcelain bowl and tank are crack-free and flush well, rebuilding the internal fill valve and flapper usually solves running issues cleanly. Cracked porcelain or chronically clogging older models are better replaced with a modern high-efficiency residential bathroom toilet."
+    },
+    {
+      "q": "Why does water seep out from around the base of my toilet?",
+      "a": "Base leaks usually mean the wax ring seal has failed, often because the toilet rocks slightly or the floor flange sits below finished tile after a bathroom remodel. Pulling the bowl lets us inspect the flange and reseal it properly."
+    },
+    {
+      "q": "Can a wobbling toilet crack if I just tighten the bolts?",
+      "a": "Yes. Tightening floor bolts on an uneven flange or broken seal can crack the porcelain base quickly and cause sudden bathroom flooding. Resetting the toilet with a fresh wax seal, flange extender if needed, and proper shims is much safer."
+    },
+    {
+      "q": "Why does my toilet gurgle when the shower runs?",
+      "a": "Gurgling points to a partial blockage downstream in your branch drain or main sewer line rather than inside the toilet itself. Stop running heavy water and call a licensed plumber to clear the drain line before wastewater backs up indoors."
+    },
+    {
+      "q": "Do you haul away the old toilet during a replacement?",
+      "a": "Yes, when replacing an existing toilet we remove the old porcelain cleanly so you do not have to dispose of a heavy fixture yourself, and we test the new unit through multiple flushes for dry seals and steady tank refill."
+    },
+    {
+      "q": "Can I switch to a comfort-height elongated toilet?",
+      "a": "In most Phoenix bathrooms yes, provided door swing clearance, vanity spacing, and the rough-in distance from the finished wall fit properly. Call us to check your bathroom measurements and supply valve setup before choosing a new toilet model for installation."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "children": [
+      "toilet-repair",
+      "toilet-installation",
+      "toilet-replacement",
+      "clogged-toilet-repair"
+    ],
+    "siblings": []
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/kitchen-bath-plumbing.jpg",
+      "alt": "Plumber tightening a brass toilet supply valve on ceramic tile in a clean Phoenix bathroom",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { isPlaceholderValue } from "@/lib/config";
+import { isPlaceholderValue } from "@/lib/is-placeholder";
 
 export interface PhoneLinkProps {
   display: string;

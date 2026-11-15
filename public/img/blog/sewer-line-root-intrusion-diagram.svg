@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+  <rect width="800" height="500" fill="#FAF6EF" rx="16"/>
+
+  <!-- Title -->
+  <text x="400" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#0B2A4A" text-anchor="middle">Sewer Line Tree Root Intrusion in Phoenix Yards</text>
+  <text x="400" y="68" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#4A5A70" text-anchor="middle">How desert trees (ficus, mesquite, pine) seek moisture through vintage clay pipe collars</text>
+
+  <!-- Desert Tree on Surface -->
+  <g transform="translate(160, 90)">
+    <path d="M40 90 Q30 50 10 30 Q40 40 60 10 Q80 40 110 30 Q90 50 80 90 Z" fill="#1FA971"/>
+    <rect x="54" y="90" width="12" height="30" fill="#78350F"/>
+    <text x="60" y="5" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#0B2A4A" text-anchor="middle">Desert Tree (Ficus / Mesquite)</text>
+  </g>
+
+  <!-- Ground Line -->
+  <line x1="80" y1="210" x2="720" y2="210" stroke="#78350F" stroke-width="3"/>
+  <rect x="80" y="210" width="640" height="240" fill="#C2B29A" opacity="0.5"/>
+  <text x="700" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#574936" font-weight="700" text-anchor="end">Valley Dry Soil &amp; Caliche</text>
+
+  <!-- Tree Roots Growing Downward -->
+  <path d="M220 210 Q240 260 280 290 Q320 310 360 320" stroke="#78350F" stroke-width="4" fill="none"/>
+  <path d="M220 210 Q200 270 230 310 Q250 330 330 335" stroke="#78350F" stroke-width="2.5" fill="none"/>
+  <path d="M260 270 Q300 280 340 310" stroke="#78350F" stroke-width="2" fill="none"/>
+
+  <!-- Vitrified Clay Sewer Pipe -->
+  <g transform="translate(120, 310)">
+    <!-- Pipe Segment 1 -->
+    <rect x="0" y="0" width="220" height="60" rx="4" fill="#B45309" stroke="#78350F" stroke-width="2.5"/>
+    <!-- Collar / Bell Joint -->
+    <rect x="210" y="-8" width="24" height="76" rx="4" fill="#92400E" stroke="#78350F" stroke-width="2.5"/>
+    <!-- Pipe Segment 2 -->
+    <rect x="224" y="0" width="340" height="60" rx="4" fill="#B45309" stroke="#78350F" stroke-width="2.5"/>
+
+    <!-- Waste Flow Normal (Left) -->
+    <rect x="10" y="32" width="200" height="22" fill="#1479AE" opacity="0.6"/>
+    <text x="100" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Wastewater Flow</text>
+
+    <!-- Dense Root Mass at Joint and inside Segment 2 -->
+    <!-- Root ball inside pipe -->
+    <path d="M220 8 Q235 30 250 25 Q270 45 285 30 Q300 50 310 20 Q320 40 340 10 Q280 -5 220 8 Z" fill="#574936" stroke="#3F3323" stroke-width="1.5"/>
+    <path d="M230 15 Q260 55 290 50 Q310 55 330 45" stroke="#78350F" stroke-width="2.5" fill="none"/>
+    <path d="M240 25 Q270 40 300 35" stroke="#78350F" stroke-width="1.5" fill="none"/>
+
+    <!-- Blockage Label -->
+    <rect x="360" y="10" width="180" height="40" rx="6" fill="#FAF6EF" stroke="#BE123C" stroke-width="1.5"/>
+    <text x="450" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#BE123C" text-anchor="middle">Severe Root Blockage</text>
+    <text x="450" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#4A5A70" text-anchor="middle">Causes whole-house sewer backups</text>
+  </g>
+
+  <!-- Labels -->
+  <text x="210" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#0B2A4A" text-anchor="middle">Clay Collar Joint</text>
+  <text x="210" y="432" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#4A5A70" text-anchor="middle">Mortar crumbles, roots enter</text>
+</svg>

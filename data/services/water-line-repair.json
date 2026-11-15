@@ -1,0 +1,213 @@
+{
+  "slug": "water-line-repair",
+  "type": "service",
+  "status": "published",
+  "urgency": "high",
+  "seo": {
+    "title": "Main Water Line Repair in Phoenix, AZ | Meter-to-Home Leaks",
+    "metaDescription": "Soggy yard strip, spinning street water meter, or sudden pressure drop? Licensed Arizona plumbers for main water line repair in Phoenix, AZ. Call now.",
+    "h1": "Water Line Repair in Phoenix, AZ",
+    "primaryKeyword": "water line repair phoenix",
+    "secondaryKeywords": [
+      "water line repair phoenix az",
+      "water line repair near me",
+      "licensed plumber water line repair phoenix"
+    ]
+  },
+  "intro": {
+    "answerFirst": "Need fast water line repair in Phoenix? A wet patch in desert gravel, sudden loss of house water pressure, or a street water meter spinning even when your main house shutoff is closed points to a leaking yard supply line. Our licensed Arizona plumbers trace the underground pipe, repair broken PVC, copper, or PEX mains, and restore clean, full-pressure flow to your home.",
+    "support": "Call directly if water is pooling near your meter box or foundation—we can guide temporary shutoff steps right away."
+  },
+  "images": {
+    "hero": {
+      "src": "/img/services/leak-detection-service.jpg",
+      "alt": "Plumbing specialist tracing a residential water line leak in Phoenix, AZ",
+      "width": 1376,
+      "height": 768
+    }
+  },
+  "emergency": {
+    "heading": "Active Yard Main Leak? Do This First",
+    "steps": [
+      {
+        "title": "Close your house shutoff first",
+        "text": "Shut the main valve at the front wall or garage to check whether the meter stops spinning."
+      },
+      {
+        "title": "Shut the curb valve if needed",
+        "text": "If water continues gushing in the yard, carefully turn off the curb stop inside the street meter box."
+      },
+      {
+        "title": "Keep clear of soft soil",
+        "text": "Avoid driving over saturated gravel or pavers near the wet spot until the line is exposed."
+      },
+      {
+        "title": "Call our licensed plumbers",
+        "text": "Tell us where the wet area sits between the meter and house so we can plan repair."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "icon": "leak",
+      "title": "Soggy Strip in Desert Gravel",
+      "text": "Unexplained mud, greener weeds, or standing water appears between the street meter and front wall."
+    },
+    {
+      "icon": "gauge",
+      "title": "Sudden Drop in House Pressure",
+      "text": "Every indoor faucet runs weak or sputters with air even though neighbors have normal pressure."
+    },
+    {
+      "icon": "pipe",
+      "title": "Meter Spins With House Valve Off",
+      "text": "Closing your home's main isolation valve does not stop the street water meter indicator."
+    },
+    {
+      "icon": "droplet",
+      "title": "Spiking Monthly Water Bill",
+      "text": "Your municipal water usage jumps sharply without changes to pool filling or irrigation."
+    },
+    {
+      "icon": "root",
+      "title": "Root Pressure Near Trees",
+      "text": "Mesquite or ficus roots wrap around shallow PVC yard mains and crack glued couplings."
+    },
+    {
+      "icon": "wrench",
+      "title": "Drip at Pressure-Reducing Valve",
+      "text": "The main riser, hose bib tee, or pressure-reducing valve at your exterior wall weeps steadily."
+    }
+  ],
+  "methods": [
+    {
+      "title": "Targeted Spot Main Repair",
+      "whenItFits": "Isolated fitting crack or root-damaged joint",
+      "text": "We expose the damaged section, cut back to sound pipe, install rated couplings, and pressure-test before carefully backfilling the trench."
+    },
+    {
+      "title": "Full Meter-to-House Replacement",
+      "whenItFits": "Brittle aging PVC, galvanized, or polybutylene mains",
+      "text": "When older yard piping has failed more than once, running a continuous new copper or Type-A PEX main eliminates buried joints and repeat digs."
+    },
+    {
+      "title": "Main Shutoff & PRV Upgrade",
+      "whenItFits": "High street pressure or seized gate valves",
+      "text": "We replace corroded gate valves with quarter-turn ball valves and install or calibrate a pressure-reducing valve to protect indoor fixtures."
+    },
+    {
+      "title": "Acoustic Yard Line Tracing",
+      "whenItFits": "Long driveways or deep gravel runs",
+      "text": "When no puddle surfaces yet, acoustic listening locates the leak along the buried path so excavation stays narrow and accurate."
+    }
+  ],
+  "diy": {
+    "canTry": [
+      "Close your home's main shutoff valve near the garage or front hose bib and watch the street meter triangle for two minutes.",
+      "Check irrigation backflow preventers and pool auto-fill valves to rule out landscape leaks.",
+      "Take a photo of the wet area or meter box so you can describe its distance from the house."
+    ],
+    "callWhen": [
+      "The street meter keeps spinning after your house main valve is shut off.",
+      "Water is bubbling up near your driveway, walkway, or foundation.",
+      "Your exterior main riser or pressure-reducing valve is cracked.",
+      "You have brittle polybutylene or rusty galvanized yard piping."
+    ]
+  },
+  "process": [
+    {
+      "title": "Call & confirm meter test",
+      "text": "Tell us what happened when you closed your house main valve and where moisture appears outdoors."
+    },
+    {
+      "title": "Trace & expose the main",
+      "text": "A licensed plumber locates the pipe depth, exposes the break cleanly, and inspects pipe condition."
+    },
+    {
+      "title": "Repair or replace & test",
+      "text": "We restore the line, verify steady pressure with zero meter movement, and backfill neatly."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Desert Soil, High Pressure & Phoenix Yard Mains",
+    "paragraphs": [
+      "Many Phoenix homes rely on Schedule 40 PVC or older copper mains buried shallowly beneath decomposed granite and caliche soil. Summer ground heat, shifting soil after monsoon downpours, and desert tree roots searching for moisture place steady mechanical stress on buried glued joints and exterior wall risers.",
+      "Elevated municipal supply pressure in some Valley neighborhoods also hammers aging main lines unless a working pressure-reducing valve is installed. Addressing a yard leak early protects your desert landscaping, concrete driveway base, and monthly municipal water budget from unnecessary water waste across every season."
+    ],
+    "facts": [
+      {
+        "text": "Mineral-rich water and soil conditions contribute to pipe and valve wear across Phoenix residential plumbing.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Water line repair cost depends on pipe depth, whether a spot fix or full meter-to-house replacement is wiser, and surface obstacles.",
+    "factors": [
+      {
+        "title": "Spot repair vs. full main replacement",
+        "text": "Fixing one cracked PVC elbow takes less trenching and material than pulling a new line from the street."
+      },
+      {
+        "title": "Caliche soil and burial depth",
+        "text": "Hard desert caliche or deep utility crossings require more excavation effort than shallow sandy soil."
+      },
+      {
+        "title": "Driveways, pavers, and block walls",
+        "text": "Mains running under concrete walkways or decorative pavers require directional routing or careful surface restoration."
+      },
+      {
+        "title": "Shutoff and PRV upgrades",
+        "text": "Adding a new quarter-turn main ball valve and pressure-reducing valve at the house riser adds hardware scope."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How do I know if the leak is in my yard water line or inside my house?",
+      "a": "Shut off your home's main isolation valve where the pipe enters the garage or front exterior wall, then watch the small triangle on your street water meter. If the dial keeps spinning, the leak sits in the buried yard main between meter and house."
+    },
+    {
+      "q": "Does the City of Phoenix repair the water line from the meter to my house?",
+      "a": "No. In Phoenix and surrounding Valley cities, the water utility maintains the street main and the meter itself, while the homeowner is responsible for the private supply line running from the customer side of the meter box into the house."
+    },
+    {
+      "q": "Should I patch a PVC yard water line or replace the whole run?",
+      "a": "If the break was caused by an isolated tree root or shovel strike on newer piping, a spot repair works well. If your home has aging gray polybutylene, corroded galvanized steel, or multiple past patches, full replacement prevents repeat trenching."
+    },
+    {
+      "q": "Can a leaking main water line damage my home's foundation?",
+      "a": "Yes, if the break sits close to the exterior stem wall or runs unchecked for weeks. Saturating desert clay or caliche soil directly beside a concrete slab can cause uneven soil swelling or washout, so isolating and repairing yard leaks quickly is smart."
+    },
+    {
+      "q": "What if my yard water line runs under a concrete driveway or pavers?",
+      "a": "We locate the leak first so we do not dig blindly. Depending on the layout, we can either lift and relay pavers cleanly, bore beneath a narrow walkway, or reroute the new supply line around paved areas through exposed landscape soil."
+    },
+    {
+      "q": "Why should I check my pressure-reducing valve during a water line repair?",
+      "a": "A failed pressure-reducing valve lets high street pressure slam into household pipes, toilets, and water heaters—which can trigger both yard-main blowouts and indoor fixture leaks. Testing static water pressure at the hose bib confirms whether your PRV is working properly."
+    }
+  ],
+  "related": {
+    "hub": "leak-detection-repair",
+    "siblings": [
+      "leak-detection",
+      "slab-leak-repair",
+      "burst-pipe-repair",
+      "repiping"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "Not sure where the hidden leak sits yet? Start with",
+        "anchorText": "Leak Detection in Phoenix, AZ",
+        "slug": "leak-detection"
+      },
+      {
+        "sentence": "Experiencing repeated leaks across aging supply lines? Explore",
+        "anchorText": "Whole-Home Repiping in Phoenix",
+        "slug": "repiping"
+      }
+    ]
+  },
+  "claimsUsed": []
+}

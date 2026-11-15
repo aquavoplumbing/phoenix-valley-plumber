@@ -1,0 +1,107 @@
+{
+  "slug": "drain-and-sewer",
+  "type": "hub",
+  "status": "published",
+  "urgency": "medium",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix drain and sewer services",
+    "secondaryKeywords": [
+      "drain and sewer phoenix az",
+      "clogged drain and sewer phoenix",
+      "rooter and sewer phoenix"
+    ],
+    "title": "Phoenix Drain and Sewer Services | Call Now",
+    "metaDescription": "Backed-up sink, recurring main clog, or root-damaged sewer? Call for phoenix drain and sewer services including snaking, hydro jetting, and cameras.",
+    "h1": "Phoenix Drain and Sewer Services"
+  },
+  "intro": {
+    "answerFirst": "From a single slow kitchen sink to a main sewer line backing up into your shower, our phoenix drain and sewer services match the right tool to the real problem. Instead of guessing or pouring harsh chemicals into standing water, we use mechanical snaking, hydro jetting, and sewer camera inspections to clear blockages and verify pipe health. Call us to describe what is backing up.",
+    "support": "If multiple fixtures are backing up together, pause water use right away before calling."
+  },
+  "howToChoose": [
+    {
+      "symptom": "Slow sink, tub, or localized drain clog",
+      "targetSlug": "drain-cleaning",
+      "label": "Drain Cleaning",
+      "note": "Mechanical snaking and branch-line clearing without harsh chemicals."
+    },
+    {
+      "symptom": "Heavy kitchen grease or recurring buildup",
+      "targetSlug": "hydro-jetting",
+      "label": "Hydro Jetting",
+      "note": "High-pressure 360-degree water scouring after verifying pipe condition."
+    },
+    {
+      "symptom": "Repeated main backups or buying an older home",
+      "targetSlug": "sewer-camera-inspection",
+      "label": "Sewer Camera Inspection",
+      "note": "See roots, cracks, or bellies in real time before paying to dig."
+    },
+    {
+      "symptom": "Confirmed broken, offset, or root-damaged lateral",
+      "targetSlug": "sewer-line-repair",
+      "label": "Sewer Line Repair",
+      "note": "Compare targeted spot excavation with trenchless pipe rehabilitation."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Desert Trees, Hard Water & Phoenix Drain Lines",
+    "paragraphs": [
+      "Phoenix drain systems deal with two persistent pressures: aggressive desert tree roots seeking moisture around buried sewer joints, and hard-water minerals combining with kitchen fats and soaps to narrow older drain walls over time.",
+      "Starting with the right clearing method—and using a camera when clogs keep returning—keeps small branch issues from turning into messy main-line backups inside your bathrooms or laundry room."
+    ],
+    "facts": [
+      {
+        "text": "Hard water minerals react with soaps and grease to accelerate buildup in residential drain lines.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How do I tell a branch drain clog from a main sewer clog?",
+      "a": "If only one sink or tub drains slowly, the clog is usually in that fixture's branch trap. If flushing a toilet causes water to rise in a shower or multiple drains gurgle together, the blockage is likely in the main sewer line."
+    },
+    {
+      "q": "When should I ask for hydro jetting instead of snaking?",
+      "a": "Snaking works well for hair or solid objects, while hydro jetting is ideal for heavy kitchen grease, soap scale, and fine roots—provided a camera check first confirms the buried pipe walls are structurally sound and free of major pipe collapses."
+    },
+    {
+      "q": "Do chemical drain cleaners hurt Phoenix plumbing?",
+      "a": "Yes. Caustic chemical cleaners rarely clear deep grease or root clogs and can damage older metal traps, soften PVC pipe joints, and create dangerous splash hazards if a plumber still needs to snake or jet the drain line afterward safely."
+    },
+    {
+      "q": "Can a camera inspection locate a buried sewer break?",
+      "a": "Yes. Our sewer cameras carry a locating sonde so a licensed plumber can mark the exact underground path and approximate burial depth above your yard, patio, or driveway before any repair or targeted excavation work starts on your home property."
+    },
+    {
+      "q": "What are my options if roots keep growing into my sewer line?",
+      "a": "Temporary mechanical clearing restores flow for now, but stopping roots long-term requires repairing or sealing the damaged pipe joint—either through a targeted spot repair or trenchless pipe relining once a video camera confirms your underground pipe qualifies for epoxy lining."
+    },
+    {
+      "q": "Can you clear drains without an exterior cleanout?",
+      "a": "Yes. While an exterior cleanout is ideal for main-line service, plumbers can often access lines through a roof vent or by pulling a toilet when needed, and we can discuss adding a cleanout for easier future maintenance and inspection access."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "children": [
+      "drain-cleaning",
+      "hydro-jetting",
+      "sewer-camera-inspection",
+      "sewer-line-repair",
+      "trenchless-sewer-repair"
+    ],
+    "siblings": []
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/drain-cleaning-service.jpg",
+      "alt": "Plumber clearing an exterior residential drain cleanout beside a desert-landscaped Phoenix home",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

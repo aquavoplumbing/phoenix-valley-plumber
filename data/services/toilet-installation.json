@@ -1,0 +1,196 @@
+{
+  "slug": "toilet-installation",
+  "type": "service",
+  "status": "published",
+  "urgency": "low",
+  "seo": {
+    "title": "Toilet Installation Phoenix, AZ | Flange & Hookup",
+    "metaDescription": "Installing a new toilet in a bathroom remodel or new rough-in? Licensed Arizona plumbers for clean, leak-free toilet installation in Phoenix, AZ.",
+    "h1": "Toilet Installation in Phoenix, AZ",
+    "primaryKeyword": "toilet installation phoenix",
+    "secondaryKeywords": [
+      "toilet installation phoenix az",
+      "toilet installation near me",
+      "licensed plumber toilet installation phoenix"
+    ]
+  },
+  "intro": {
+    "answerFirst": "Need clean, leak-free toilet installation in Phoenix? Whether you are finishing a bathroom remodel, adding a fixture to a casita, or installing a comfort-height elongated toilet you already purchased, proper flange height, shimming, and supply-valve alignment matter. Our licensed Arizona plumbers set, level, seal, and flush-test your new toilet so it stays rock-solid and dry on tile floors.",
+    "support": "Call with your bathroom rough-in details or model—we handle standard, skirted, and comfort-height toilets."
+  },
+  "images": {
+    "hero": {
+      "src": "/img/services/kitchen-bath-plumbing.jpg",
+      "alt": "Plumber tightening a brass toilet supply valve on ceramic tile in a clean Phoenix bathroom",
+      "width": 1376,
+      "height": 768
+    }
+  },
+  "symptoms": [
+    {
+      "icon": "toilet",
+      "title": "Bathroom Remodel Tile Complete",
+      "text": "New porcelain tile raised your floor height and needs a properly aligned flange and wax seal."
+    },
+    {
+      "icon": "wrench",
+      "title": "New Skirted or One-Piece Model",
+      "text": "Modern skirted toilets use concealed mounting blocks that require exact floor bolt alignment."
+    },
+    {
+      "icon": "droplet",
+      "title": "Old Multi-Turn Wall Valve",
+      "text": "The existing wall shutoff stop is corroded or too close to the bowl for a clean braided hookup."
+    },
+    {
+      "icon": "house",
+      "title": "Casita or Guest Bath Addition",
+      "text": "You need a new fixture mounted and tested on a newly roughed-in residential bathroom drain."
+    },
+    {
+      "icon": "gauge",
+      "title": "Bidet Seat or Smart Toilet Prep",
+      "text": "Upgrading to an integrated bidet toilet requires matching water supply fittings and clearance."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Uneven Floor Shimming Needs",
+      "text": "Natural stone or wood-look tile variations require careful composite shimming to stop rocking."
+    }
+  ],
+  "methods": [
+    {
+      "title": "Flange Height & Rough-In Verification",
+      "whenItFits": "Tile remodels and raised bathroom floors",
+      "text": "We inspect the closet flange, install a sealed flange extender ring if tile sits above the rim, and verify 10-inch or 12-inch wall rough-in clearance."
+    },
+    {
+      "title": "Wax or Waxless Seal & Shimming",
+      "whenItFits": "Every standard and comfort-height installation",
+      "text": "We set fresh brass closet bolts, compress a thick wax or rated waxless ring evenly, and shim uneven tile so the bowl never rocks or stresses the seal."
+    },
+    {
+      "title": "Quarter-Turn Valve & Braided Line",
+      "whenItFits": "Aging wall stops or remodel trim-outs",
+      "text": "We upgrade worn wall angle stops to quarter-turn ball valves and connect a new braided stainless steel supply line without kinks."
+    },
+    {
+      "title": "Multi-Flush Leak & Level Testing",
+      "whenItFits": "Final quality check on every install",
+      "text": "We run repeated full flushes, inspect around the base and tank bolts, and verify smooth tank refill and shutoff before finishing."
+    }
+  ],
+  "diy": {
+    "canTry": [
+      "Measure from the finished back wall (not the baseboard) to the center of the floor bolts to confirm a 12-inch or 10-inch rough-in.",
+      "Check door swing clearance if switching from a round bowl to an elongated comfort-height toilet.",
+      "Confirm the new toilet box is undamaged and includes the tank, bowl, and seat before your appointment."
+    ],
+    "callWhen": [
+      "New bathroom tile left the closet flange recessed below the finished floor.",
+      "You are installing a heavy one-piece or skirted toilet with concealed brackets.",
+      "The existing wall shutoff valve drips or sits in the way of the toilet skirt.",
+      "You want professional flange inspection and leak-tested mounting."
+    ]
+  },
+  "process": [
+    {
+      "title": "Call with rough-in & model",
+      "text": "Tell us whether the toilet is already on site, if tile was just laid, and which room it goes in."
+    },
+    {
+      "title": "Inspect flange & wall stop",
+      "text": "A licensed plumber checks flange height, bolt slots, and wall shutoff operation before setting the bowl."
+    },
+    {
+      "title": "Mount, seal & flush-test",
+      "text": "We level and bolt the toilet cleanly, connect the water supply, and test multiple flushes for dry seals."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Tile Remodels, Hard Water & Phoenix Toilet Installations",
+    "paragraphs": [
+      "Across Phoenix and Scottsdale, bathroom remodels routinely replace thin vinyl or builder carpet with thick porcelain tile or travertine. That new floor height often leaves the original plastic or cast-iron closet flange recessed too low for a single standard wax ring—leading to quiet sub-tile leaks and sewer odors if an extender is skipped.",
+      "Phoenix's hard water also wears down cheap fill valves and rubber flappers quickly. Pairing a properly sealed floor installation with a reliable quarter-turn brass wall shutoff stop keeps your new residential bathroom fixture dry, stable, and trouble-free."
+    ],
+    "facts": [
+      {
+        "text": "City of Phoenix residential permit guidelines distinguish fixture swaps from moving or adding new plumbing drains.",
+        "sourceUrl": "https://phoenix.gov/pdd/development/permits/residential"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Toilet installation cost depends on flange condition, whether you supply the fixture, toilet style, and wall shutoff valve upgrades.",
+    "factors": [
+      {
+        "title": "Standard two-piece vs. skirted or smart toilet",
+        "text": "Heavy one-piece or skirted toilets with concealed mounting blocks take longer to align than standard two-piece bowls."
+      },
+      {
+        "title": "Flange extender or flange repair",
+        "text": "Recessed or cracked closet flanges uncovered during installation require repair rings or extenders before sealing."
+      },
+      {
+        "title": "Wall shutoff valve replacement",
+        "text": "Swapping a seized or corroded angle stop for a quarter-turn valve adds clean shutoff reliability."
+      },
+      {
+        "title": "Fixture supplied vs. plumber-provided",
+        "text": "Installing a homeowner-purchased toilet differs from having us supply and deliver a new unit."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How do I measure my bathroom rough-in before buying a new toilet?",
+      "a": "Measure from the finished drywall behind the toilet—not the wood or tile baseboard—straight out to the center of the floor bolts holding the existing bowl (or the center of the drain hole). Most Phoenix homes use a standard 12-inch rough-in, though some older baths use 10 inches."
+    },
+    {
+      "q": "Can I install a toilet you didn't supply if I already bought one?",
+      "a": "Yes. Many Phoenix homeowners pick out a specific comfort-height, elongated, or skirted model from a showroom or home center. Call us once it is delivered so we can inspect the flange, supply the wax seal and braided line, and install it cleanly."
+    },
+    {
+      "q": "Why do I need a flange extender after installing new bathroom tile?",
+      "a": "When tile raises the bathroom floor above the original closet flange, a standard wax ring may barely touch the horn of the toilet. Adding a sealed flange extender brings the mating surface flush with the new tile so wastewater seals tightly inside the drain."
+    },
+    {
+      "q": "Are skirted toilets harder to install than standard two-piece toilets?",
+      "a": "Skirted toilets look sleek and are easier to wipe clean, but they hide the floor bolts inside a narrow ceramic apron and require installing plastic floor brackets first. They also need enough side clearance from the wall shutoff valve so the skirt fits flush."
+    },
+    {
+      "q": "Does installing a toilet in a remodel require a city permit in Phoenix?",
+      "a": "Rules differ by city and by the work being done. Swapping or setting a fixture on an existing rough-in differs from relocating drains or adding a brand-new bathroom. Your plumber will tell you whether a permit applies to your specific project."
+    },
+    {
+      "q": "Should I caulk around the base of a newly installed toilet?",
+      "a": "Leaving a small uncaulked gap at the very back edge of the toilet base is best practice. That way, if the wax seal ever weeps years down the road, moisture escapes visibly at the back instead of staying trapped unseen beneath your tile."
+    }
+  ],
+  "related": {
+    "hub": "toilet",
+    "siblings": [
+      "toilet-replacement",
+      "toilet-repair",
+      "faucet-repair",
+      "water-softener-installation"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "Replacing an old, cracked, or constantly running toilet? See",
+        "anchorText": "Toilet Replacement in Phoenix, AZ",
+        "slug": "toilet-replacement"
+      },
+      {
+        "sentence": "Just need a flapper, fill valve, or wax ring fix? Check",
+        "anchorText": "Toilet Repair in Phoenix, AZ",
+        "slug": "toilet-repair"
+      }
+    ],
+    "guides": [
+      "why-does-my-toilet-keep-running"
+    ],
+    "costGuide": "toilet-installation-cost"
+  },
+  "claimsUsed": []
+}

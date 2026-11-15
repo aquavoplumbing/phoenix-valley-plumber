@@ -1,0 +1,183 @@
+.panel {
+  background: var(--navy-900);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  box-shadow: 0 8px 32px rgba(11, 42, 74, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.eyebrowRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.primaryTag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: var(--sun-500);
+  color: var(--navy-900);
+  padding: 4px 10px;
+  border-radius: 9999px;
+}
+
+.title {
+  font-family: var(--font-sora);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: var(--space-2);
+  line-height: 1.25;
+}
+
+.subtitle {
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--sand-200);
+  margin-bottom: var(--space-6);
+}
+
+.callWrapper {
+  margin-bottom: var(--space-8);
+}
+
+.callMicro {
+  font-size: 0.8125rem;
+  color: var(--sand-300);
+  margin-top: var(--space-2);
+}
+
+.hoursCard {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  margin-bottom: var(--space-6);
+}
+
+.hoursHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--water-300);
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: var(--space-3);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.hoursList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hoursRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.hoursRow:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.dayLabel {
+  color: var(--sand-200);
+  font-weight: 500;
+}
+
+.timeLabel {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.closedLabel {
+  color: var(--sand-400);
+  font-weight: 400;
+}
+
+.afterHoursBox {
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+.afterHoursTitle {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--sun-400);
+  margin-bottom: 4px;
+}
+
+.afterHoursText {
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: var(--sand-300);
+}
+
+.otherChannels {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+
+.otherChannelsTitle {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--sand-200);
+  margin-bottom: 8px;
+}
+
+.channelsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.channelItem {
+  font-size: 0.8125rem;
+  color: var(--sand-300);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.channelLink {
+  color: var(--water-300);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.channelLink:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .panel {
+    padding: var(--space-6) var(--space-4);
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}

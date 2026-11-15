@@ -1,0 +1,242 @@
+{
+  "slug": "water-heater-repair",
+  "type": "service",
+  "status": "published",
+  "urgency": "high",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "water heater repair phoenix",
+    "secondaryKeywords": [
+      "water heater repair phoenix az",
+      "phoenix water heater repair",
+      "hot water heater repair",
+      "no hot water phoenix",
+      "water heater leaking"
+    ],
+    "title": "Water Heater Repair Phoenix, AZ | Call Now",
+    "metaDescription": "No hot water or a leaking tank? Call for licensed water heater repair Phoenix homeowners trust for gas, electric, and tankless units.",
+    "h1": "Water Heater Repair in Phoenix, AZ"
+  },
+  "intro": {
+    "answerFirst": "If your water heater has stopped heating, is leaking around the base, or makes loud popping noises, call a licensed plumber for water heater repair Phoenix homeowners can rely on. Most breakdowns stem from failed heating elements, faulty thermostats, sediment scale buildup, worn relief valves, or pilot assembly faults. Call us, describe what you see, and we will walk through your options.",
+    "support": "A leaking tank body usually means replacement, while many electrical, gas valve, and sensor faults can be repaired."
+  },
+  "emergency": {
+    "heading": "Water heater leaking? Do this first.",
+    "gasWarning": true,
+    "steps": [
+      {
+        "title": "Shut off the cold water supply",
+        "text": "Turn the valve on the cold water pipe above the heater clockwise to stop the tank from refilling."
+      },
+      {
+        "title": "Turn off the power or gas",
+        "text": "For electric units, switch off the dedicated breaker. For gas units, turn the control dial to off if safe to reach."
+      },
+      {
+        "title": "Keep people and pets clear",
+        "text": "Escaping water can be scalding hot, and puddles near electrical panels or gas burners create hazards."
+      },
+      {
+        "title": "Call our plumbing team",
+        "text": "Tell us whether your unit is gas, electric, or tankless, where water is appearing, and what you shut off."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "title": "No hot water at any tap",
+      "text": "A tripped breaker, burned-out heating element, faulty thermostat, or extinguished pilot light can stop hot water completely.",
+      "icon": "flame-off"
+    },
+    {
+      "title": "Hot water runs out quickly",
+      "text": "Heavy sediment on the bottom of the tank or a broken dip tube often leaves showers turning lukewarm early.",
+      "icon": "gauge"
+    },
+    {
+      "title": "Rust-colored or metallic water",
+      "text": "Discolored hot water while cold water stays clear can signal internal tank corrosion or a depleted anode rod.",
+      "icon": "droplet"
+    },
+    {
+      "title": "Rumbling, popping, or banging",
+      "text": "Noise during heating cycles happens when trapped steam bubbles push through hardened mineral scale on the tank floor.",
+      "icon": "volume"
+    },
+    {
+      "title": "Water pooling around the tank",
+      "text": "Moisture around the base may come from a loose valve or T&P discharge pipe, or from a cracked inner tank.",
+      "icon": "leak"
+    },
+    {
+      "title": "Pilot light keeps going out",
+      "text": "On gas models this can involve a dirty thermocouple, gas control valve, or venting draft issue.",
+      "icon": "flame"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Gas & Electric Component Repair",
+      "whenItFits": "Thermostats, heating elements, thermocouples, gas valves, and pilot assemblies",
+      "text": "We test voltage, gas pressure, and safety switches to isolate the failed part without guessing. Replacing worn elements, thermostats, or igniters restores dependable hot water when the tank itself remains sound."
+    },
+    {
+      "title": "Valve, Piping & Anode Rod Service",
+      "whenItFits": "Weeping T&P relief valves, corroded shutoffs, or early rust odor",
+      "text": "Dripping temperature-and-pressure relief valves or corroded dielectric nipples can mimic a tank leak. We inspect thermal expansion, replace faulty valves, and check the anode rod to help protect the tank lining."
+    },
+    {
+      "title": "Tank Flushing & Tankless Descaling",
+      "whenItFits": "Rumbling tanks, slow recovery, or error codes on tankless units",
+      "text": "Mineral scale insulates heating surfaces and triggers overheating faults. Flushing sediment from standard tanks or circulating descaling solution through tankless heat exchangers restores efficiency and quiet operation."
+    }
+  ],
+  "comparison": {
+    "title": "Water Heater Repair vs. Replacement",
+    "caption": "Key factors our plumbers review with you before recommending repair or replacement.",
+    "columns": [
+      "Repair",
+      "Replace"
+    ],
+    "rows": [
+      {
+        "label": "Tank Condition",
+        "cells": [
+          "Tank shell is dry and intact",
+          "Water is leaking from the inner tank body"
+        ]
+      },
+      {
+        "label": "Fault Type",
+        "cells": [
+          "Isolated part like thermostat, element, or valve",
+          "Multiple failing components or heavy internal rust"
+        ]
+      },
+      {
+        "label": "Unit Age & Scale",
+        "cells": [
+          "Newer unit with clean maintenance history",
+          "Aging tank with severe sediment buildup"
+        ]
+      },
+      {
+        "label": "Household Demand",
+        "cells": [
+          "Current capacity still meets daily use",
+          "Household needs more capacity or higher efficiency"
+        ]
+      }
+    ]
+  },
+  "process": [
+    {
+      "title": "Call and describe symptoms",
+      "text": "Tell us if you have a gas, electric, or tankless unit and whether you see water on the floor."
+    },
+    {
+      "title": "Safety & diagnostic check",
+      "text": "A licensed plumber checks power, gas supply, valves, and tank integrity to pinpoint the cause."
+    },
+    {
+      "title": "Review options before work",
+      "text": "We explain whether repair makes sense or if replacement is safer, and tell you what to expect when you call."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Phoenix Water Heaters Struggle With Scale",
+    "paragraphs": [
+      "Phoenix water is considered very hard, meaning dissolved calcium and magnesium settle inside the tank and coat heating elements every time water is heated. Over time that mineral layer insulates the water from the burner or element, forcing the unit to run longer and hotter.",
+      "High summer demand, garage heat, and elevated incoming water pressure can also stress relief valves and tank linings. Flushing the tank regularly and pairing your home's plumbing with water treatment can help slow mineral buildup, protect heating efficiency, and prevent unexpected garage leaks over time."
+    ],
+    "facts": [
+      {
+        "text": "Phoenix consistently ranks among US metro areas with very hard water, which accelerates scale in water heaters.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Water heater repair pricing varies based on the fuel type, failed component, and accessibility of the unit.",
+    "factors": [
+      {
+        "title": "Gas vs. electric vs. tankless design",
+        "text": "Gas control valves, electric elements, and tankless flow sensors require different diagnostic steps and replacement parts."
+      },
+      {
+        "title": "Part availability and condition",
+        "text": "Standard thermostats and relief valves differ from proprietary tankless control boards or specialized burner assemblies."
+      },
+      {
+        "title": "Unit location and clearance",
+        "text": "Garage-level heaters are straightforward to service, whereas attic, closet, or tight alcove units require extra access time."
+      },
+      {
+        "title": "Secondary valve or piping upgrades",
+        "text": "Adding a thermal expansion tank or replacing a seized shutoff valve alongside the repair affects total scope."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Should I repair or replace my leaking water heater?",
+      "a": "If water is dripping from a loose fitting, drain valve, or temperature-and-pressure relief valve, a repair often solves it. However, if water is seeping from the bottom seam or outer jacket of the tank itself, the inner steel liner has corroded and the unit must be replaced."
+    },
+    {
+      "q": "Why does my water heater make a popping or rumbling sound?",
+      "a": "That sound usually comes from hardened mineral sediment settling on the bottom of the tank. As water gets trapped underneath the scale layer and boils, steam bubbles pop upward. Flushing the tank can reduce noise if the sediment has not fused solidly to the metal."
+    },
+    {
+      "q": "Can Phoenix hard water shorten a water heater's lifespan?",
+      "a": "Yes. Hard water leaves mineral deposits on heating elements, heat exchangers, and tank bottoms, which makes units work harder and can shorten service life compared with soft-water areas. Routine flushing and water softening help reduce that mineral strain over time."
+    },
+    {
+      "q": "What should I check before calling for no hot water?",
+      "a": "For electric heaters, check whether the dedicated double-pole breaker in your main panel has tripped. For gas models, look through the sight glass to see if the pilot is lit, and never relight it repeatedly if you smell gas. Call us for safe diagnostics."
+    },
+    {
+      "q": "Do you repair both tank and tankless water heaters?",
+      "a": "Yes. We diagnose and repair standard natural gas and electric tank water heaters as well as wall-mounted tankless units, including error-code troubleshooting, flow sensor replacement, igniter repairs, relief valves, and descaling flushes across Phoenix Valley homes, garages, and casitas too."
+    },
+    {
+      "q": "How long will the water heater repair take?",
+      "a": "Every unit and fault is different, so we do not quote arrival or completion times blindly online. Call us with your unit type, brand, and symptoms, and we will tell you clearly what to expect when you call our team."
+    }
+  ],
+  "related": {
+    "hub": "water-heater",
+    "siblings": [
+      "water-heater-replacement",
+      "water-heater-installation",
+      "tankless-water-heater-installation",
+      "water-softener-installation",
+      "emergency-plumber"
+    ],
+    "costGuide": "water-heater-replacement-cost",
+    "inBodyLinks": [
+      {
+        "sentence": "If your tank body is leaking or beyond repair, explore",
+        "anchorText": "Water Heater Replacement in Phoenix",
+        "slug": "water-heater-replacement"
+      },
+      {
+        "sentence": "To protect your plumbing from mineral scale, consider",
+        "anchorText": "Water Softener Installation in Phoenix",
+        "slug": "water-softener-installation"
+      }
+    ],
+    "guides": [
+      "what-is-hard-water-phoenix"
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/water-heater-service.jpg",
+      "alt": "Licensed plumber checking a residential water heater tank, copper lines, and drain pan in a Phoenix garage",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

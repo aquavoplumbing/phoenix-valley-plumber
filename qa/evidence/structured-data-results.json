@@ -1,0 +1,329 @@
+{
+  "reports": [
+    {
+      "url": "/",
+      "schemaTypes": [
+        "Plumber",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/services/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/water-heater/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/drain-cleaning/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/sewer-line/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/emergency-plumber/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/water-heater-repair/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/water-heater-replacement/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/clogged-drain/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/hydro-jetting/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/sewer-line-repair/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/slab-leak-repair/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/leak-detection/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/water-softener-installation/",
+      "schemaTypes": [
+        "Service",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/locations/",
+      "schemaTypes": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 3,
+      "errors": []
+    },
+    {
+      "url": "/locations/scottsdale-az/",
+      "schemaTypes": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 3,
+      "errors": []
+    },
+    {
+      "url": "/locations/mesa-az/",
+      "schemaTypes": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 3,
+      "errors": []
+    },
+    {
+      "url": "/locations/chandler-az/",
+      "schemaTypes": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 3,
+      "errors": []
+    },
+    {
+      "url": "/blog/",
+      "schemaTypes": [
+        "CollectionPage",
+        "BreadcrumbList",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 4,
+      "errors": []
+    },
+    {
+      "url": "/blog/how-to-shut-off-main-water-valve/",
+      "schemaTypes": [
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 2,
+      "errors": []
+    },
+    {
+      "url": "/cost-guides/",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "CollectionPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 4,
+      "errors": []
+    },
+    {
+      "url": "/cost-guides/water-heater-replacement-cost/",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 5,
+      "errors": []
+    },
+    {
+      "url": "/contact/",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ContactPage",
+        "Plumber",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 3,
+      "errors": []
+    },
+    {
+      "url": "/about/",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "AboutPage",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 3,
+      "errors": []
+    },
+    {
+      "url": "/faq/",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "FAQPage",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 4,
+      "errors": []
+    },
+    {
+      "url": "/privacy-policy/",
+      "schemaTypes": [
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 2,
+      "errors": []
+    },
+    {
+      "url": "/terms/",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 3,
+      "errors": []
+    },
+    {
+      "url": "/accessibility/",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "Organization",
+        "WebSite"
+      ],
+      "validCount": 3,
+      "errors": []
+    }
+  ],
+  "totalSchemas": 115,
+  "totalErrors": 0
+}

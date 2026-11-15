@@ -1,0 +1,211 @@
+{
+  "slug": "leak-detection",
+  "type": "service",
+  "status": "published",
+  "urgency": "medium",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "leak detection phoenix",
+    "secondaryKeywords": [
+      "water leak detection phoenix",
+      "phoenix leak detection",
+      "hidden water leak phoenix",
+      "acoustic leak detection phoenix"
+    ],
+    "title": "Leak Detection Phoenix, AZ | Find Hidden Leaks",
+    "metaDescription": "High water bill or mystery wet spot? Call for non-invasive leak detection Phoenix homeowners rely on to pinpoint hidden wall, yard, and slab leaks.",
+    "h1": "Leak Detection in Phoenix, AZ"
+  },
+  "intro": {
+    "answerFirst": "When your water bill jumps unexpectedly or you hear water running behind a wall with every tap closed, accurate leak detection Phoenix homeowners trust finds the exact source without tearing out drywall or tile blindly. Using acoustic listening gear, pressure testing, and thermal imaging, we isolate leaks under slabs, inside walls, and along main yard lines. Call us to discuss what you are noticing.",
+    "support": "You can also do a quick two-minute water meter check right now to confirm whether water is escaping on your property."
+  },
+  "emergency": {
+    "heading": "Suspect an active hidden leak? Check these first.",
+    "gasWarning": false,
+    "steps": [
+      {
+        "title": "Turn off all indoor and outdoor water",
+        "text": "Make sure sinks, toilets, irrigation timers, ice makers, and pool auto-fillers are completely off."
+      },
+      {
+        "title": "Watch the leak indicator on your meter",
+        "text": "Open the street meter box lid carefully and see if the small triangle or flow dial is still spinning."
+      },
+      {
+        "title": "Shut off the house main to isolate",
+        "text": "If the meter stops spinning when you close the house valve, the leak is inside or under the home; if it keeps spinning, it is in the yard line."
+      },
+      {
+        "title": "Call with your meter test result",
+        "text": "Let us know what you observed so we can bring the right acoustic and pressure-testing tools."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "title": "Unexplained spike in your water bill",
+      "text": "A steady jump in monthly municipal water usage without irrigation changes often signals a silent underground leak.",
+      "icon": "gauge"
+    },
+    {
+      "title": "Sound of running water with taps off",
+      "text": "A faint hissing or rushing noise in a quiet bathroom or hallway can indicate a pressurized pipe leaking behind walls or under flooring.",
+      "icon": "volume"
+    },
+    {
+      "title": "Warm spots on tile or wood floors",
+      "text": "Localized heat radiating through a concrete slab points directly toward a leaking hot-water distribution line.",
+      "icon": "thermometer"
+    },
+    {
+      "title": "Damp drywall, baseboards, or ceilings",
+      "text": "Peeling paint, swollen trim, or musty odors near showers and exterior walls indicate moisture escaping inside framing.",
+      "icon": "droplet"
+    },
+    {
+      "title": "Water meter dial keeps moving",
+      "text": "If the low-flow triangle spins while all fixtures and irrigation zones are shut down, pressurized water is escaping.",
+      "icon": "leak"
+    },
+    {
+      "title": "Wet patches in desert landscaping",
+      "text": "Muddy soil or greener weeds between the street meter and the house foundation often trace back to a main supply leak.",
+      "icon": "pipe"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Acoustic & Ultrasonic Listening",
+      "whenItFits": "Pinpointing pressurized leaks beneath concrete slabs, driveways, and behind drywall",
+      "text": "Pressurized water escaping a pinhole creates distinct sound frequencies. Sensitive ground microphones and wall sensors help us narrow the leak location to a tight target area before any opening is made."
+    },
+    {
+      "title": "Line Isolation & Pressure Testing",
+      "whenItFits": "Separating hot vs. cold lines, irrigation, pool fill lines, and yard supply mains",
+      "text": "By isolating valves and monitoring pressure gauges, we confirm which specific branch or zone is losing pressure so you do not pay to chase the wrong pipe."
+    },
+    {
+      "title": "Thermal Imaging & Moisture Mapping",
+      "whenItFits": "Hot-water slab leaks and hidden moisture inside walls or ceilings",
+      "text": "Infrared cameras detect subtle temperature differences beneath flooring and behind finishes without cutting exploratory holes across multiple rooms."
+    }
+  ],
+  "diy": {
+    "canTry": [
+      "Run the two-minute water meter check with all indoor taps, ice makers, and yard irrigation turned off.",
+      "Drop food coloring into toilet tanks to see if color leaks into the bowl from a worn flapper.",
+      "Check under kitchen and bathroom sinks, around the water heater pan, and at outdoor hose bibs."
+    ],
+    "callWhen": [
+      "Your water meter keeps moving with all household fixtures and irrigation shut off.",
+      "You feel warm spots on tile or hear water running beneath your slab.",
+      "Drywall is bubbling, sagging, or smelling musty near plumbing walls.",
+      "You cannot tell whether the leak is in the yard main or inside the house."
+    ]
+  },
+  "process": [
+    {
+      "title": "Call with your symptoms",
+      "text": "Tell us about your water bill, meter movement, or where you notice dampness or warmth."
+    },
+    {
+      "title": "Isolate and pinpoint",
+      "text": "A licensed plumber isolates zones and uses acoustic, thermal, and pressure gear to locate the leak."
+    },
+    {
+      "title": "Review repair choices",
+      "text": "Once located, we explain the exact spot and discuss direct repair, rerouting, or repiping options."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Hidden Leaks Are Tricky in Phoenix Valley Homes",
+    "paragraphs": [
+      "Most Phoenix homes are built on post-tension or conventional concrete slabs, meaning hot and cold water lines often travel beneath concrete or through exterior stucco walls. A small pinhole leak can run quietly into dry desert soil or beneath tile for weeks before any puddle surfaces indoors.",
+      "High summer water pressure, mineral-rich Valley water, and shifting desert soil can stress copper joints and underground PVC mains. Catching a hidden leak early protects both your concrete home foundation and your monthly municipal utility bill from costly, unexpected water waste over time."
+    ],
+    "facts": [
+      {
+        "text": "Phoenix hard water and mineral scale contribute to internal pipe wear and fitting stress over time.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Leak detection pricing depends on whether the leak is in an accessible wall, a long yard main, or beneath a concrete slab, plus whether repair is performed at the same visit.",
+    "factors": [
+      {
+        "title": "Slab vs. yard vs. wall location",
+        "text": "Locating a leak under a concrete foundation or deep yard main requires different acoustic and tracing steps than an exposed supply line."
+      },
+      {
+        "title": "Number of zones to isolate",
+        "text": "Homes with pool auto-fillers, casitas, or complex irrigation manifolds require extra isolation checks."
+      },
+      {
+        "title": "Tracer gas or specialized equipment",
+        "text": "Very small or quiet leaks under thick concrete may require inert tracer-gas testing beyond standard acoustic listening."
+      },
+      {
+        "title": "Repair scope after locating",
+        "text": "Locating the leak is separate from opening the surface, repairing or rerouting the pipe, and restoring pressure."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "How do I check my water meter for a hidden leak?",
+      "a": "Turn off every faucet, appliance, toilet, pool auto-fill, and irrigation valve on your property. Open the meter box near the street and watch the small low-flow triangle or dial for two minutes. If it moves at all, water is leaking somewhere past the meter."
+    },
+    {
+      "q": "Can you find a leak without breaking open my walls or floors?",
+      "a": "Yes. Non-invasive leak detection uses acoustic microphones, pressure gauges, and thermal cameras to pinpoint the leak's exact location before any drywall or concrete is opened, keeping repair access as small, clean, and targeted as possible for your home's interior finishes."
+    },
+    {
+      "q": "How do I tell if a leak is in my yard line or under my house?",
+      "a": "Shut off your home's main isolation valve near the front wall or garage, then watch the street water meter. If the meter stops moving, the leak is inside or under the house; if it keeps spinning, the leak is between the street meter and the house valve."
+    },
+    {
+      "q": "Could a running toilet cause a high water bill like a slab leak?",
+      "a": "Yes, a silently leaking toilet flapper or fill valve can waste hundreds of gallons a day. Before scheduling acoustic leak detection, test your toilets or turn off their wall angle stops briefly to see if the street meter stops spinning."
+    },
+    {
+      "q": "What happens once you locate a leak under my concrete slab?",
+      "a": "After pinpointing the leak and confirming whether it is on a hot or cold line, we walk you through your repair options—typically a targeted spot repair, an overhead pipe reroute through the attic/walls, or whole-home repiping if pipes are aging."
+    },
+    {
+      "q": "Do you check pool lines or only household plumbing?",
+      "a": "We locate leaks on domestic household water supply lines, main yard lines from the meter to the home, and sub-slab plumbing. If isolating the house and pool auto-fill points to a pool-shell or dedicated pool-equipment leak, we will let you know clearly."
+    }
+  ],
+  "related": {
+    "hub": "leak-detection-repair",
+    "siblings": [
+      "slab-leak-repair",
+      "repiping",
+      "water-line-repair",
+      "burst-pipe-repair"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "If the leak is confirmed beneath your concrete foundation, see",
+        "anchorText": "Phoenix Slab Leak Repair",
+        "slug": "slab-leak-repair"
+      },
+      {
+        "sentence": "Dealing with repeated pinhole leaks across older copper pipes? Explore",
+        "anchorText": "Repiping in Phoenix, AZ",
+        "slug": "repiping"
+      }
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/leak-detection-service.jpg",
+      "alt": "Plumber using an acoustic ground microphone and thermal camera to locate a hidden leak in a Phoenix home",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

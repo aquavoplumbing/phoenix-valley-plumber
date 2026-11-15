@@ -1,0 +1,41 @@
+.wrapper {
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-4);
+}
+
+.jobCard {
+  background: var(--white);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-1);
+}
+
+.jobMeta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8125rem;
+  color: var(--ink-600);
+  margin-bottom: var(--space-2);
+}
+
+.jobTitle {
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin: 0 0 var(--space-2) 0;
+}
+
+.jobSummary {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--ink-900);
+  margin: 0;
+}

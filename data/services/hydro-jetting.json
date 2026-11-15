@@ -1,0 +1,207 @@
+{
+  "slug": "hydro-jetting",
+  "type": "service",
+  "status": "published",
+  "urgency": "low",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "hydro jetting phoenix",
+    "secondaryKeywords": [
+      "hydro jetting services in phoenix az",
+      "hydro jetting phoenix az",
+      "high pressure drain cleaning phoenix",
+      "sewer jetting phoenix"
+    ],
+    "title": "Hydro Jetting Phoenix, AZ | Grease & Root Clearing",
+    "metaDescription": "Stubborn kitchen grease or recurring main clogs? Call for hydro jetting Phoenix homes and businesses use to scour pipes clean after camera checks.",
+    "h1": "Hydro Jetting in Phoenix, AZ"
+  },
+  "intro": {
+    "answerFirst": "When standard drain snaking only buys a few weeks before a clog returns, hydro jetting Phoenix property owners rely on uses controlled, high-pressure water streams to scour grease, soap buildup, mineral scale, and fine roots from pipe walls. Because high pressure is not right for fragile or collapsed pipes, we pair jetting with careful pipe-condition checks. Call us to see if your line is a candidate.",
+    "support": "A quick sewer camera inspection before jetting confirms your piping is structurally sound enough for high-pressure cleaning."
+  },
+  "symptoms": [
+    {
+      "title": "Kitchen sink backs up repeatedly",
+      "text": "Cooking oils and dish soap form thick, waxy layers that close back up shortly after a cable snake passes through.",
+      "icon": "drain"
+    },
+    {
+      "title": "Sluggish main sewer flow",
+      "text": "Multiple fixtures drain slowly even though no single object appears to be blocking the line.",
+      "icon": "gauge"
+    },
+    {
+      "title": "Fine tree roots inside laterals",
+      "text": "Desert trees can send hair-like root mats through pipe joints that trap paper and slow wastewater.",
+      "icon": "root"
+    },
+    {
+      "title": "Commercial grease line buildup",
+      "text": "Restaurants, cafes, and breakroom sinks accumulate heavy grease sludge that requires full-diameter scouring.",
+      "icon": "jet"
+    },
+    {
+      "title": "Mineral crust narrowing old lines",
+      "text": "Phoenix hard water leaves rough deposits inside drain lines that snag debris and slow discharge.",
+      "icon": "pipe"
+    },
+    {
+      "title": "Preparing a line for relining",
+      "text": "Trenchless pipe lining requires a thoroughly scrubbed, debris-free host pipe before an epoxy liner is installed.",
+      "icon": "wrench"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Pre-Jetting Sewer Camera Assessment",
+      "whenItFits": "Any older home, unknown pipe material, or suspected structural damage",
+      "text": "Before applying high-pressure water, we inspect the line with a camera when pipe condition is uncertain. Broken clay, severely corroded cast iron, or collapsed sections need repair rather than high-pressure jetting."
+    },
+    {
+      "title": "360-Degree High-Pressure Scouring",
+      "whenItFits": "Grease-choked kitchen lines, heavy sludge, and structurally sound main sewers",
+      "text": "Specialized backward-facing and forward-cutting nozzles propel the hose down the pipe while flushing emulsified grease, scale, and debris safely out toward the city main."
+    },
+    {
+      "title": "Preventive Commercial & Residential Jetting",
+      "whenItFits": "Properties with long horizontal pipe runs or heavy kitchen usage",
+      "text": "Scheduled hydro jetting keeps commercial kitchens and high-use residential lines clear of grease accumulation before an unexpected backup disrupts operations."
+    }
+  ],
+  "comparison": {
+    "title": "Hydro Jetting vs. Mechanical Rootering",
+    "caption": "Why high-pressure water scouring lasts longer than cabling on grease and scale buildup.",
+    "columns": [
+      "Hydro Jetting",
+      "Cable Snaking"
+    ],
+    "rows": [
+      {
+        "label": "Pipe Wall Cleaning",
+        "cells": [
+          "Washes full 360-degree interior diameter",
+          "Cuts a narrow path through soft buildup"
+        ]
+      },
+      {
+        "label": "Grease & Sludge",
+        "cells": [
+          "Flushes grease and soap residue out",
+          "Often smears or leaves residue on walls"
+        ]
+      },
+      {
+        "label": "Pipe Safety Check",
+        "cells": [
+          "Requires verifying pipe is intact first",
+          "Suitable for most quick localized clogs"
+        ]
+      }
+    ]
+  },
+  "process": [
+    {
+      "title": "Call to review clog history",
+      "text": "Tell us how often the line backs up, what fixtures are affected, and your home's approximate age."
+    },
+    {
+      "title": "Confirm pipe condition",
+      "text": "Your plumber checks cleanout access and evaluates whether a camera look is needed before jetting."
+    },
+    {
+      "title": "Scour & verify full flow",
+      "text": "We jet the line cleanly from downstream back to the cleanout and test fixtures for smooth drainage."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Hydro Jetting Fits Phoenix Kitchens & Yards",
+    "paragraphs": [
+      "Phoenix's hard water and warm climate create a tough combination inside drain lines: dissolved minerals roughen older pipe interiors, while fats and soaps cling to those rough surfaces. In neighborhoods with mature desert trees, fine root tendrils also creep into sewer joints seeking moisture.",
+      "Hydro jetting clears both grease films and small root intrusion cleanly without harsh chemicals. However, because many older central Phoenix homes still have aging clay or brittle cast-iron sewer lines, checking pipe integrity first protects your line from unnecessary stress and costly surprises down the road."
+    ],
+    "facts": [
+      {
+        "text": "Hard water deposits roughen drain interiors and combine with grease to restrict household plumbing flow.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Hydro jetting cost reflects the length and diameter of the line, blockage severity, and whether a pre-jetting camera inspection is included.",
+    "factors": [
+      {
+        "title": "Line length and pipe diameter",
+        "text": "A short kitchen branch line takes less setup and water volume than a long residential or commercial sewer lateral."
+      },
+      {
+        "title": "Camera inspection pairing",
+        "text": "Inspecting the line with a video camera beforehand or afterward adds diagnostic value and equipment time."
+      },
+      {
+        "title": "Severity of grease or root mats",
+        "text": "Dense, calcified scale or thick root intrusion requires multiple passes and specialized cutting nozzles."
+      },
+      {
+        "title": "Cleanout availability",
+        "text": "Direct ground-level cleanout access speeds setup compared to tight or buried access points."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Can hydro jetting damage older Phoenix plumbing pipes?",
+      "a": "High-pressure water is safe for sound PVC, ABS, copper, and healthy cast iron, but it can worsen cracks in collapsed clay, heavily pitted cast iron, or Orangeburg piping. That is why a camera inspection before jetting is important whenever pipe age or condition is unknown."
+    },
+    {
+      "q": "Why choose hydro jetting instead of a regular drain snake?",
+      "a": "A standard snake pokes a hole through soft grease or sludge, which often closes back up quickly. Hydro jetting sprays pressurized water in every direction to strip grease, soap buildup, and fine roots off the pipe walls for a longer-lasting clean."
+    },
+    {
+      "q": "Do I need a sewer camera inspection before hydro jetting?",
+      "a": "If your home is older or you have had repeated main-line backups, a camera check is strongly recommended first. Seeing the pipe interior ensures there are no collapsed sections, heavy offsets, or major breaks that high-pressure water could aggravate during cleaning."
+    },
+    {
+      "q": "Can hydro jetting remove tree roots from a sewer line?",
+      "a": "Hydro jetting with a specialized root-cutting nozzle can shear away fine and moderate root webs inside a sewer lateral. However, heavy woody tree roots or cracked joints will eventually regrow unless the damaged pipe section is permanently repaired or relined."
+    },
+    {
+      "q": "Should I try a pressure-washer attachment to jet my own drain?",
+      "a": "No. DIY pressure-washer hoses lack the regulated pressure control, specialized sewer nozzles, and backflow safeguards of commercial hydro-jetting rigs, and they can easily flood a Phoenix home, damage delicate sink traps, or get stuck inside tight underground residential pipe bends."
+    },
+    {
+      "q": "How do I know if my drain needs snaking or hydro jetting?",
+      "a": "Call us and describe what is backing up. A single slow bathroom sink usually only needs standard mechanical snaking, while recurring kitchen grease clogs or sluggish main lines often benefit from full-diameter hydro jetting after a quick video camera inspection."
+    }
+  ],
+  "related": {
+    "hub": "drain-and-sewer",
+    "siblings": [
+      "drain-cleaning",
+      "sewer-camera-inspection",
+      "sewer-line-repair",
+      "trenchless-sewer-repair"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "Need a visual check of your pipe condition first? Schedule a",
+        "anchorText": "Sewer Camera Inspection in Phoenix",
+        "slug": "sewer-camera-inspection"
+      },
+      {
+        "sentence": "For a one-time sink or tub clog, see",
+        "anchorText": "Drain Cleaning in Phoenix",
+        "slug": "drain-cleaning"
+      }
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/drain-cleaning-service.jpg",
+      "alt": "Plumber clearing a residential main drain line at an exterior cleanout in Phoenix, Arizona",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

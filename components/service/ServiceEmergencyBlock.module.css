@@ -1,0 +1,92 @@
+.box {
+  padding: 28px;
+  border-radius: var(--radius-card);
+  background: var(--sand-50);
+  border: 1px solid rgba(11, 42, 74, 0.12);
+  border-left: 4px solid var(--sun-500);
+}
+
+.gasBanner {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background: #7f1d1d;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.gasIcon {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.headerRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  color: var(--navy-900);
+}
+
+.steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 14px;
+}
+
+@media (min-width: 640px) {
+  .steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.step {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 14px;
+  border-radius: 12px;
+  background: var(--white);
+  border: 1px solid var(--border-subtle);
+}
+
+.num {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--navy-900);
+  color: var(--white);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.stepTitle {
+  font-size: 1rem;
+  color: var(--navy-900);
+  margin-bottom: 4px;
+}
+
+.stepText {
+  font-size: 0.9375rem;
+  color: var(--ink-600);
+  line-height: 1.5;
+}
+

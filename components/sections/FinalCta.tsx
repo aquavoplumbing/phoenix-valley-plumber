@@ -8,9 +8,15 @@ import styles from "./FinalCta.module.css";
 export function FinalCta({
   site,
   initialStatus,
+  heading = "Plumbing Problem in Phoenix? Call Now.",
+  numberLocation = "final-cta-number",
+  btnLocation = "final-cta-btn",
 }: {
   site: SiteConfig;
   initialStatus: OpenStatus;
+  heading?: string;
+  numberLocation?: string;
+  btnLocation?: string;
 }) {
   const hoursSummary = formatHoursSummary(site.hours);
 
@@ -31,13 +37,13 @@ export function FinalCta({
 
       <div className={`container ${styles.inner}`}>
         <h2 id="final-cta-heading" className={styles.title}>
-          Plumbing Problem in Phoenix? Call Now.
+          {heading}
         </h2>
 
         <PhoneLink
           display={site.phone.display}
           e164={site.phone.e164}
-          location="final-cta-number"
+          location={numberLocation}
           className={styles.giantPhone}
         />
 
@@ -45,7 +51,7 @@ export function FinalCta({
           <CallButton
             display={site.phone.display}
             e164={site.phone.e164}
-            location="final-cta-btn"
+            location={btnLocation}
             size="lg"
           />
         </div>

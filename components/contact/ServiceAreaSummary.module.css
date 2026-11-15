@@ -1,0 +1,88 @@
+.wrapper {
+  background: #ffffff;
+  border: 1px solid var(--sand-300);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+  border-bottom: 1px solid var(--sand-200);
+  padding-bottom: var(--space-3);
+}
+
+.pinIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--water-100);
+  color: var(--water-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.title {
+  font-family: var(--font-sora);
+  font-size: 1.1875rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin-bottom: 2px;
+}
+
+.subtitle {
+  font-size: 0.8125rem;
+  color: var(--navy-600);
+}
+
+.intro {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--navy-700);
+  margin-bottom: var(--space-4);
+}
+
+.cityList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-4);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cityItem {
+  display: inline-flex;
+}
+
+.cityLink {
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--navy-800);
+  background: var(--sand-100);
+  border: 1px solid var(--sand-300);
+  padding: 6px 12px;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.cityLink:hover {
+  background: var(--water-50);
+  color: var(--water-800);
+  border-color: var(--water-300);
+}
+
+.footerNote {
+  border-top: 1px solid var(--sand-200);
+  padding-top: var(--space-3);
+  font-size: 0.8125rem;
+  color: var(--navy-600);
+  line-height: 1.45;
+}

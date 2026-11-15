@@ -1,0 +1,214 @@
+{
+  "slug": "gas-line-repair",
+  "type": "service",
+  "status": "published",
+  "urgency": "high",
+  "seo": {
+    "title": "Gas Line Repair Phoenix, AZ | Testing & Leak Fixes",
+    "metaDescription": "Suspected gas leak or red-tagged meter? Licensed Arizona plumbers for safe gas line repair phoenix testing and pipe fixes. Leave first if you smell gas.",
+    "h1": "Gas Line Repair in Phoenix, AZ",
+    "primaryKeyword": "gas line repair phoenix",
+    "secondaryKeywords": [
+      "gas line repair phoenix az",
+      "gas line repair near me",
+      "licensed plumber gas line repair phoenix"
+    ]
+  },
+  "intro": {
+    "answerFirst": "Need safe, code-compliant gas line repair in Phoenix? If you smell rotten eggs or hear hissing near a gas pipe, leave the house immediately and call 911 and your gas utility from outside before calling a plumber. Once the area is safe or your meter is locked, our licensed Arizona plumbers isolate leaks, repair corroded fittings or buried lines, and complete pressure testing so service can be restored.",
+    "support": "Call directly for manometer pressure testing, Southwest Gas red-tag clearance, and appliance valve repairs."
+  },
+  "images": {
+    "hero": {
+      "src": "/img/services/gas-line-service.jpg",
+      "alt": "Exterior residential gas piping with yellow shutoff valve and pressure-test gauge in Phoenix, AZ",
+      "width": 1376,
+      "height": 768
+    }
+  },
+  "emergency": {
+    "heading": "Gas Safety First — What to Do Right Now",
+    "gasWarning": true,
+    "steps": [
+      {
+        "title": "Evacuate immediately",
+        "text": "Get everyone—including pets—out of the house and into fresh air right away if you smell gas."
+      },
+      {
+        "title": "Create zero sparks",
+        "text": "Do not flip light switches, unplug appliances, open the garage door, or use phones inside."
+      },
+      {
+        "title": "Call 911 and your utility",
+        "text": "From outside at a safe distance, call 911 and Southwest Gas (or your provider) to secure the meter."
+      },
+      {
+        "title": "Call our licensed plumbers",
+        "text": "Once the scene is safe or locked out, call us for pressure testing and permanent pipe repair."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "icon": "gas-meter",
+      "title": "Southwest Gas Lockout Tag",
+      "text": "Your gas utility shut off and locked the meter after detecting a leak or failed inspection."
+    },
+    {
+      "icon": "flame-off",
+      "title": "Appliances Failing to Ignite",
+      "text": "A water heater, range, or furnace drops out due to pressure loss or a failing shutoff valve."
+    },
+    {
+      "icon": "gauge",
+      "title": "Failed Pressure Test",
+      "text": "A home inspection or remodel pressure gauge will not hold steady during a static test."
+    },
+    {
+      "icon": "root",
+      "title": "Corroded Exterior Steel Pipe",
+      "text": "Rust, flaking paint, or pitting appears on exposed patio, pool-heater, or meter riser piping."
+    },
+    {
+      "icon": "wrench",
+      "title": "Stiff or Weeping Appliance Valve",
+      "text": "Old brass flare fittings or flex connectors behind a dryer, stove, or grill show minor seepage."
+    },
+    {
+      "icon": "siren",
+      "title": "Rotten-Egg Sulfur Odor",
+      "text": "Mercaptan odor lingers near a meter, patio BBQ island, or attic furnace—evacuate before calling."
+    }
+  ],
+  "methods": [
+    {
+      "title": "Manometer & Static Pressure Testing",
+      "whenItFits": "Locked meters or unexplained odor history",
+      "text": "We isolate the meter and test system pressure with calibrated gauges to confirm whether a leak exists and pinpoint which branch is losing pressure."
+    },
+    {
+      "title": "Valve, Union & Connector Replacement",
+      "whenItFits": "Leaking appliance stops or flex lines",
+      "text": "We replace outdated brass valves, kinked corrugated appliance connectors, and weeping threaded joints with rated shutoffs and sediment traps."
+    },
+    {
+      "title": "Buried Yard Gas Line Repair",
+      "whenItFits": "Corroded pool-heater or outdoor BBQ runs",
+      "text": "We trench and replace compromised underground piping using approved coated steel or polyethylene gas tubing with tracer wire and risers."
+    },
+    {
+      "title": "Utility Re-Test Coordination",
+      "whenItFits": "Restoring gas after a utility shutoff",
+      "text": "After repairs hold steady under test, we document pressure integrity and coordinate required municipal inspection steps so the utility can unlock your meter."
+    }
+  ],
+  "diy": {
+    "canTry": [
+      "Evacuate immediately if you smell sulfur or hear hissing—never test gas piping with a flame.",
+      "Check from outdoors whether a utility lock tag was placed on your meter by Southwest Gas.",
+      "Make a note of all gas appliances in your home (water heater, stove, furnace, dryer, pool heater)."
+    ],
+    "callWhen": [
+      "Your gas meter has been locked out or red-tagged by the utility.",
+      "A home inspector reported a gas leak at a union, valve, or flex connector.",
+      "You notice rusted exterior steel piping along a patio wall or pool pad.",
+      "An outdoor grill or fire-pit line fails to hold pressure."
+    ]
+  },
+  "process": [
+    {
+      "title": "Confirm safety & meter status",
+      "text": "Tell us if your meter is currently locked out and whether the suspected issue is indoors or outside."
+    },
+    {
+      "title": "Isolate & pressure-test",
+      "text": "A licensed plumber segments the system, locates leaking fittings or buried sections, and checks sizing."
+    },
+    {
+      "title": "Repair, test & clear",
+      "text": "We complete code-compliant repairs, verify zero pressure drop, and review the test results with you."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Desert Sun & Alkaline Soil Affect Phoenix Gas Lines",
+    "paragraphs": [
+      "Across Phoenix and the Valley, outdoor gas runs feed pool heaters, patio fire pits, and built-in BBQ islands. Intense UV exposure dries out unprotected pipe coatings and appliance flex hoses, while alkaline desert soil and lawn irrigation moisture can corrode older buried steel piping that lacks proper wrapping or dielectric isolation.",
+      "When a utility technician locks a meter for safety, restoring gas quickly requires accurate branch isolation, clean code-compliant repairs, and adherence to local municipal pressure-test inspection rules before the utility returns to unlock your residential gas meter safely for your home."
+    ],
+    "facts": [
+      {
+        "text": "City of Phoenix residential permit guidelines outline permit and pressure-test inspection rules for fuel-gas piping.",
+        "sourceUrl": "https://phoenix.gov/pdd/development/permits/residential"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Gas line repair pricing depends on whether the leak is at an accessible indoor valve or buried underground, plus municipal inspection requirements.",
+    "factors": [
+      {
+        "title": "Isolation and diagnostic testing",
+        "text": "Locating a slow leak across multiple indoor and outdoor gas branches takes systematic manometer segmentation."
+      },
+      {
+        "title": "Accessible fitting vs. yard trenching",
+        "text": "Replacing an exposed appliance valve costs far less than excavating a corroded pool-heater line through caliche soil."
+      },
+      {
+        "title": "Pipe material and run length",
+        "text": "Replacing a short threaded nipple differs from running new coated steel or PE pipe across a backyard."
+      },
+      {
+        "title": "Permits and utility clearance",
+        "text": "Municipal permit and inspector sign-offs vary by city and scope before Southwest Gas restores service."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What should I do first if I suspect a gas leak in my house?",
+      "a": "Leave the building immediately without turning lights on or off, using garage door openers, or dialing inside. Once outside at a safe distance, call 911 and your gas utility so they can shut off the meter and make the area safe first."
+    },
+    {
+      "q": "Can a plumber unlock my gas meter after Southwest Gas shuts it off?",
+      "a": "No—only the gas utility unlocks their meter. However, a licensed Arizona plumber must locate the leak, complete the repair, pass a static pressure test, and arrange any required city inspection before the utility returns to restore gas flow safely indoors."
+    },
+    {
+      "q": "Why did a home inspector flag an old gas flex connector behind my stove?",
+      "a": "Older uncoated brass connectors and shutoff valves can crack or seep when an appliance is pulled out for cleaning. Replacing them with modern coated stainless flex lines and quarter-turn rated valves keeps the connection safe, durable, and fully code-compliant indoors."
+    },
+    {
+      "q": "How do you find a hidden leak in an underground backyard gas line?",
+      "a": "We isolate the outdoor branch from the house system, apply a controlled test pressure, and use calibrated electronic gas detectors and soap-bubble checks at risers—or trace the buried line route if excavation is needed to expose a corroded underground section."
+    },
+    {
+      "q": "Does gas line repair require a city permit in Phoenix?",
+      "a": "Rules differ by city and by the specific work being done. Minor valve or appliance connector swaps differ from buried pipe replacements or meter-lockout clearances that require municipal inspection before utility reconnection. Your licensed plumber will explain clearly what applies."
+    },
+    {
+      "q": "Do you repair propane lines as well as natural gas piping?",
+      "a": "Yes. Our licensed plumbers pressure-test and repair both municipal natural gas piping and residential propane systems, matching pressure regulators, rated shutoff valves, sediment traps, and pressure-test standards to your home's specific fuel type and outdoor patio appliances safely today without shortcuts."
+    }
+  ],
+  "related": {
+    "hub": "gas-line",
+    "siblings": [
+      "gas-line-installation",
+      "tankless-water-heater-installation",
+      "emergency-plumber",
+      "water-heater-repair"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "Adding a new outdoor grill, fire pit, or gas line? See",
+        "anchorText": "Gas Line Installation in Phoenix",
+        "slug": "gas-line-installation"
+      },
+      {
+        "sentence": "Dealing with an urgent plumbing or shutoff issue? Call our",
+        "anchorText": "Emergency Plumber in Phoenix",
+        "slug": "emergency-plumber"
+      }
+    ]
+  },
+  "claimsUsed": []
+}

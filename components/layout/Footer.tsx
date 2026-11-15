@@ -20,9 +20,22 @@ export function Footer({
   const hoursSummary = formatHoursSummary(site.hours);
   const year = new Date().getFullYear();
 
-  const visibleCompanyLinks = nav.companyLinks.filter(
-    (item) => item.href !== "/financing/" || site.claims.financing
-  );
+  const visibleCompanyLinks = nav.companyLinks.filter((item) => {
+    if (
+      item.href === "/financing/" &&
+      (!site.claims.financing || !site.financing || !site.financing.lenderName || !site.financing.applyUrl)
+    ) {
+      return false;
+    }
+    if (item.href === "/reviews/" && (!site.reviews?.verified || site.reviews.verified.length < 5)) return false;
+    if (item.href === "/our-work/" && (!site.gallery?.items || site.gallery.items.length < 6)) return false;
+    return true;
+  });
+
+  const visibleCoreServices = nav.coreServiceLinks.filter((item) => {
+    if (item.href === "/commercial-plumbing/" && !site.claims.commercial) return false;
+    return true;
+  });
 
   return (
     <footer className={styles.footer}>
@@ -99,7 +112,7 @@ export function Footer({
           <div>
             <h3 className={styles.colTitle}>Plumbing Services</h3>
             <ul className={styles.linkList}>
-              {nav.coreServiceLinks.map((item) => (
+              {visibleCoreServices.map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className={styles.footerLink}>
                     {item.label}
@@ -120,7 +133,7 @@ export function Footer({
               {cities.map((city) => (
                 <li key={city.slug}>
                   <Link
-                    href={`/locations/${city.slug}/`}
+                    href={city.slug === "phoenix-az" ? "/" : `/locations/${city.slug}/`}
                     className={styles.footerLink}
                     data-track-city={city.name}
                   >
@@ -202,20 +215,17 @@ export function Footer({
           </div>
 
           <div className={styles.cityServicesStrip}>
-            <span className={styles.cityServicesLabel}>Popular Local City Services:</span>
+            <span className={styles.cityServicesLabel}>Popular Valley Plumbing Services:</span>
             <div className={styles.cityServicesLinks}>
-              {cities.slice(0, 5).flatMap((city) =>
-                nav.topCityServiceSlugs.slice(0, 2).map((srv) => (
-                  <Link
-                    key={`${city.slug}-${srv.slug}`}
-                    href={`/locations/${city.slug}/${srv.slug}/`}
-                    className={styles.directoryItemLink}
-                    data-track-city={city.name}
-                  >
-                    {city.name} {srv.label}
-                  </Link>
-                ))
-              )}
+              {nav.topCityServiceSlugs.map((srv) => (
+                <Link
+                  key={srv.slug}
+                  href={`/${srv.slug}/`}
+                  className={styles.directoryItemLink}
+                >
+                  {srv.label}
+                </Link>
+              ))}
             </div>
           </div>
         </nav>

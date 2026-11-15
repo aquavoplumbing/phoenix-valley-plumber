@@ -1,0 +1,233 @@
+[
+  {
+    "id": "what-to-do-plumbing-emergency",
+    "category": "emergencies",
+    "categoryLabel": "Plumbing Emergencies & Urgent Repairs",
+    "question": "What should I do first during a plumbing emergency in Phoenix?",
+    "answer": "Immediately shut off your home main water valve at the street meter box or exterior front riser to stop active water flow and structural damage. Open an exterior hose bib to relieve residual line pressure. Once the water is safely stopped, call our priority dispatch line to arrange rapid emergency technician response across the Valley.",
+    "fromPage": {
+      "title": "Emergency Plumber Phoenix",
+      "href": "/emergency-plumber/"
+    }
+  },
+  {
+    "id": "after-hours-plumbing-dispatch",
+    "category": "emergencies",
+    "categoryLabel": "Plumbing Emergencies & Urgent Repairs",
+    "question": "Can I get after-hours or weekend emergency plumbing in the Valley?",
+    "answer": "Urgent plumbing service outside regular business hours depends on technician availability and active dispatch capacity. If you face a severe burst line or raw sewage backup during evening or weekend hours, call our main telephone number immediately. Our dispatch team will confirm immediate Valley technician coverage and provide realistic arrival timeframes.",
+    "fromPage": {
+      "title": "Emergency Plumber Phoenix",
+      "href": "/emergency-plumber/"
+    }
+  },
+  {
+    "id": "what-qualifies-as-emergency",
+    "category": "emergencies",
+    "categoryLabel": "Plumbing Emergencies & Urgent Repairs",
+    "question": "What counts as a true plumbing emergency requiring immediate dispatch?",
+    "answer": "Plumbing situations requiring immediate emergency intervention include uncontained interior pipe bursts, sewage backing up through bathtubs or floor drains, active water heater tank ruptures, and pressurized supply leaks under concrete foundation slabs. Dripping vanity faucets, slow-draining sinks, and running toilet flappers can typically be scheduled during standard operating hours.",
+    "fromPage": {
+      "title": "Emergency Plumber Phoenix",
+      "href": "/emergency-plumber/"
+    }
+  },
+  {
+    "id": "plumber-costs-phoenix",
+    "category": "costs",
+    "categoryLabel": "Plumbing Costs & Estimates",
+    "question": "How much does a typical plumbing repair cost in Phoenix?",
+    "answer": "Standard plumbing repairs in the Phoenix area generally range between $150 and $450 for minor faucet, disposal, or toilet valve repairs, while complex jobs like water line replacement or slab leak rerouting cost more. Total pricing depends on pipe accessibility, permit fees, material grade, and equipment requirements. Call our team to review specific pricing variables.",
+    "fromPage": {
+      "title": "Plumbing Cost Guides",
+      "href": "/cost-guides/"
+    }
+  },
+  {
+    "id": "water-heater-replacement-cost",
+    "category": "costs",
+    "categoryLabel": "Plumbing Costs & Estimates",
+    "question": "How much does water heater replacement cost in the Phoenix area?",
+    "answer": "Replacing a standard 40 or 50 gallon tank water heater in the Valley typically ranges from $1,600 to $3,200 installed, including electrical or gas connections and local municipal permit fees. High-efficiency tankless water heater retrofits typically cost between $3,500 and $6,000 depending on gas supply line upgrades and dedicated direct venting configurations.",
+    "fromPage": {
+      "title": "Water Heater Replacement Cost Guide",
+      "href": "/water-heater-replacement-cost/"
+    }
+  },
+  {
+    "id": "slab-leak-repair-costs",
+    "category": "costs",
+    "categoryLabel": "Plumbing Costs & Estimates",
+    "question": "Why do slab leak repair costs vary so widely across Valley homes?",
+    "answer": "Slab leak repair expenses vary depending on whether the technician performs a direct concrete breakout spot repair ($1,500 to $3,000) or an overhead PEX line reroute through attic spaces ($2,500 to $5,500+). Rerouting avoids floor destruction, preserves structural integrity, and bypasses deteriorating copper runs buried beneath expansive caliche clay soils.",
+    "fromPage": {
+      "title": "Slab Leak Repair Cost Guide",
+      "href": "/slab-leak-repair-cost/"
+    }
+  },
+  {
+    "id": "water-heater-lifespan-phoenix",
+    "category": "water-heaters",
+    "categoryLabel": "Water Heaters & Hard Water Scale",
+    "question": "Why do water heaters fail faster in Phoenix than in other states?",
+    "answer": "Valley tap water contains extreme mineral hardness exceeding 15 to 25 grains per gallon. When water is heated, dissolved calcium carbonate precipitates out as solid limestone scale at the bottom of the tank. This sediment blanket insulates water from burners, overheats bottom steel seams, corrodes sacrificial anode rods rapidly, and causes premature tank rupture.",
+    "fromPage": {
+      "title": "Water Heater Repair",
+      "href": "/water-heater-repair/"
+    }
+  },
+  {
+    "id": "tankless-worth-it-arizona",
+    "category": "water-heaters",
+    "categoryLabel": "Water Heaters & Hard Water Scale",
+    "question": "Is tankless water heater installation worth it in Arizona?",
+    "answer": "Tankless units deliver continuous hot water, occupy zero garage floor space, and eliminate the catastrophic flooding hazard of leaking 50-gallon storage tanks. However, because our extreme mineral hardness causes severe heat exchanger scaling, tankless heaters in Phoenix require dedicated pre-filtration or water softening plus annual vinegar descaling flushes to maintain peak heating efficiency.",
+    "fromPage": {
+      "title": "Tankless Water Heater Installation",
+      "href": "/tankless-water-heater-installation/"
+    }
+  },
+  {
+    "id": "water-heater-permit-phoenix",
+    "category": "water-heaters",
+    "categoryLabel": "Water Heaters & Hard Water Scale",
+    "question": "Do I need a city permit to replace my water heater in Phoenix?",
+    "answer": "Yes. The City of Phoenix Planning and Development Department along with surrounding municipalities like Scottsdale, Mesa, and Chandler require plumbing permits for water heater installations. Inspections confirm crucial safety elements including seismic strapping, thermal expansion containment, approved temperature-pressure relief discharge piping, adequate combustion air venting, and correct gas sediment trap hookups.",
+    "fromPage": {
+      "title": "Water Heater Installation",
+      "href": "/water-heater-installation/"
+    }
+  },
+  {
+    "id": "hydro-jetting-vs-snaking",
+    "category": "drains-sewer",
+    "categoryLabel": "Drain Cleaning & Sewer Line Repairs",
+    "question": "When should I choose hydro jetting over mechanical snaking for a drain clog?",
+    "answer": "Mechanical drain snakes bore a narrow relief opening through soft clogs, but leave residual grease, mineral residue, and invasive root mats clinging to pipe walls. High-pressure hydro jetting scours 360 degrees of the inner pipe circumference with 3,500 to 4,000 PSI water streams, thoroughly flushing out debris and restoring total pipe diameter.",
+    "fromPage": {
+      "title": "Hydro Jetting Services",
+      "href": "/hydro-jetting/"
+    }
+  },
+  {
+    "id": "sewer-line-failure-signs",
+    "category": "drains-sewer",
+    "categoryLabel": "Drain Cleaning & Sewer Line Repairs",
+    "question": "What are the common warning signs of a failing sewer lateral line?",
+    "answer": "Warning signs include multiple bathroom fixtures backing up simultaneously, gurgling sounds in shower drains when toilets flush, foul sewer gas odors near exterior ground cleanouts, and abnormally lush grass patches over yard lateral runs. A high-resolution sewer camera inspection accurately diagnoses root intrusion, pipe offsets, cracks, or complete line collapses.",
+    "fromPage": {
+      "title": "Sewer Line Repair",
+      "href": "/sewer-line-repair/"
+    }
+  },
+  {
+    "id": "trenchless-sewer-repair-phoenix",
+    "category": "drains-sewer",
+    "categoryLabel": "Drain Cleaning & Sewer Line Repairs",
+    "question": "How does trenchless sewer repair work on Phoenix properties?",
+    "answer": "Trenchless epoxy cured-in-place pipe (CIPP) lining restores deteriorated sewer lines without digging open driveways, paver patios, or mature desert landscaping. Technicians insert an epoxy-saturated fabric liner through an existing cleanout access point, inflate it tight against host pipe walls, and cure it into a seamless, jointless, root-proof structural sleeve.",
+    "fromPage": {
+      "title": "Trenchless Sewer Repair",
+      "href": "/trenchless-sewer-repair/"
+    }
+  },
+  {
+    "id": "copper-slab-leak-causes",
+    "category": "leaks-pipes",
+    "categoryLabel": "Slab Leaks, Water Lines & Repiping",
+    "question": "What causes copper slab leaks under Phoenix concrete home foundations?",
+    "answer": "Many Phoenix tract homes built before the 2000s feature soft copper lines embedded directly in soil underneath monolithic concrete slabs. Shifting clay, thermal pipe expansion against abrasive rocks, poor chemical water balance, and unreamed pipe joints produce localized friction and pinhole erosion. Warning signs include localized hot floor tiles and spinning water meter dials.",
+    "fromPage": {
+      "title": "Slab Leak Repair",
+      "href": "/slab-leak-repair/"
+    }
+  },
+  {
+    "id": "electronic-leak-detection-methods",
+    "category": "leaks-pipes",
+    "categoryLabel": "Slab Leaks, Water Lines & Repiping",
+    "question": "How do plumbers locate hidden water leaks without tearing up floors?",
+    "answer": "Professional technicians utilize non-invasive diagnostic tools including acoustic ground microphones, thermal imaging cameras, and nitrogen pressure decay tests. High-frequency acoustic sensors amplify the subterranean vibration of escaping pressurized water beneath concrete slabs, pin-pointing the exact leak location to avoid unnecessary structural disruption and costly exploratory floor demolition.",
+    "fromPage": {
+      "title": "Leak Detection Services",
+      "href": "/leak-detection/"
+    }
+  },
+  {
+    "id": "when-repiping-is-necessary",
+    "category": "leaks-pipes",
+    "categoryLabel": "Slab Leaks, Water Lines & Repiping",
+    "question": "When is whole-home repiping necessary instead of spot pipe repairs?",
+    "answer": "If your home has experienced multiple recurring slab leaks within two years, has deteriorating galvanized iron pipes producing rust-colored water, or has vulnerable polybutylene piping, spot repairs become financially counterproductive. A full PEX repipe routes flexible, scale-resistant, freeze-tolerant supply lines overhead through attic cavities, providing long-term peace of mind.",
+    "fromPage": {
+      "title": "Whole-Home Repiping",
+      "href": "/repiping/"
+    }
+  },
+  {
+    "id": "water-softener-necessity-phoenix",
+    "category": "fixtures-water",
+    "categoryLabel": "Toilets, Fixtures & Water Softeners",
+    "question": "Do I really need a whole-house water softener in the Phoenix metro area?",
+    "answer": "While Phoenix municipal drinking water meets legal purity standards, extreme mineral hardness rapidly destroys plumbing equipment. Calcium scale chokes faucet aerators, clouds shower glass, and cuts water heater lifespan by half. An ion-exchange water softener protects expensive fixtures, extends appliance operating life, and dramatically reduces household plumbing maintenance expenses.",
+    "fromPage": {
+      "title": "Water Softener Installation",
+      "href": "/water-softener-installation/"
+    }
+  },
+  {
+    "id": "toilet-running-flapper-causes",
+    "category": "fixtures-water",
+    "categoryLabel": "Toilets, Fixtures & Water Softeners",
+    "question": "Why does my toilet keep running or ghost flushing intermittently?",
+    "answer": "Intermittent ghost flushing occurs when water silently leaks from the tank into the bowl through a warped or mineral-encrusted rubber flapper valve, triggering fill valves to periodically cycle on. In other cases, cracked flush valve overflow tubes or improperly adjusted float heights cause continuous water waste into sewer drains.",
+    "fromPage": {
+      "title": "Toilet Repair Services",
+      "href": "/toilet-repair/"
+    }
+  },
+  {
+    "id": "low-water-pressure-causes",
+    "category": "fixtures-water",
+    "categoryLabel": "Toilets, Fixtures & Water Softeners",
+    "question": "What causes low water pressure throughout a Valley home?",
+    "answer": "Whole-house pressure loss typically stems from a failed pressure-reducing valve (PRV), closed water meter shutoff valves, heavy mineral scale choking galvanized distribution mains, or hidden underground main supply leaks. If pressure loss affects only single fixtures, clogged faucet aerators or calcified cartridge valves are commonly responsible.",
+    "fromPage": {
+      "title": "Faucet & Fixture Repair",
+      "href": "/faucet-repair/"
+    }
+  },
+  {
+    "id": "verify-arizona-roc-license",
+    "category": "licensing-service",
+    "categoryLabel": "Licensing, Permits & Valley Service",
+    "question": "How can I verify an Arizona plumbing contractor's ROC license?",
+    "answer": "Homeowners can verify any Arizona contractor license in seconds through the Arizona Registrar of Contractors online portal at roc.az.gov. Search by ROC license number or legal business name to confirm active license status, commercial and residential classifications, bond standing, workers compensation coverage, and consumer complaint history.",
+    "fromPage": {
+      "title": "About Phoenix Valley Plumber",
+      "href": "/about/"
+    }
+  },
+  {
+    "id": "phoenix-metro-service-areas",
+    "category": "licensing-service",
+    "categoryLabel": "Licensing, Permits & Valley Service",
+    "question": "Which cities in the Phoenix metropolitan area do you cover?",
+    "answer": "Our service radius encompasses Phoenix and surrounding Valley communities including Scottsdale, Paradise Valley, Tempe, Mesa, Chandler, Gilbert, Glendale, Peoria, Sun City, Surprise, Goodyear, Avondale, and Queen Creek. Call our dispatch team to verify current technician availability and scheduling windows for your specific ZIP code.",
+    "fromPage": {
+      "title": "Valley Service Areas",
+      "href": "/locations/"
+    }
+  },
+  {
+    "id": "how-to-schedule-service-call",
+    "category": "licensing-service",
+    "categoryLabel": "Licensing, Permits & Valley Service",
+    "question": "How do I schedule plumbing service without waiting for an email response?",
+    "answer": "The fastest, most reliable way to secure service is calling our phone number directly. Speaking directly with dispatchers allows us to assess your plumbing issue, offer urgent water shutoff instructions if needed, confirm local technician availability, and schedule a confirmed arrival window without delays or lost form submissions.",
+    "fromPage": {
+      "title": "Contact Dispatch Team",
+      "href": "/contact/"
+    }
+  }
+]

@@ -82,9 +82,22 @@ export function Header({
   const activeHub =
     nav.serviceHubs.find((hub) => hub.id === activeHubId) ?? nav.serviceHubs[0];
   const activeCity = cities.find((c) => c.slug === activeCitySlug) ?? cities[0];
-  const visibleCompanyLinks = nav.companyLinks.filter(
-    (item) => item.href !== "/financing/" || site.claims.financing
-  );
+  const visibleCompanyLinks = nav.companyLinks.filter((item) => {
+    if (
+      item.href === "/financing/" &&
+      (!site.claims.financing || !site.financing || !site.financing.lenderName || !site.financing.applyUrl)
+    ) {
+      return false;
+    }
+    if (item.href === "/reviews/" && (!site.reviews?.verified || site.reviews.verified.length < 5)) return false;
+    if (item.href === "/our-work/" && (!site.gallery?.items || site.gallery.items.length < 6)) return false;
+    return true;
+  });
+
+  const visibleCoreServices = nav.coreServiceLinks.filter((item) => {
+    if (item.href === "/commercial-plumbing/" && !site.claims.commercial) return false;
+    return true;
+  });
 
   const toggleMenu = (key: Exclude<OpenMenuKey, null>) => {
     setOpenMenu((prev) => (prev === key ? null : key));
@@ -211,7 +224,7 @@ export function Header({
 
                         <div className={styles.megaFooter}>
                           <div className={styles.coreLinksRow}>
-                            {nav.coreServiceLinks
+                            {visibleCoreServices
                               .filter((item) => item.href !== "/emergency-plumber/")
                               .map((item) => (
                                 <Link
@@ -269,7 +282,7 @@ export function Header({
                           return (
                             <li key={city.slug}>
                               <Link
-                                href={`/locations/${city.slug}/`}
+                                href={city.slug === "phoenix-az" ? "/" : `/locations/${city.slug}/`}
                                 className={`${styles.megaLink} ${isActive ? styles.megaLinkActive : ""}`}
                                 data-track-city={city.name}
                                 onMouseEnter={() => setActiveCitySlug(city.slug)}
@@ -288,15 +301,14 @@ export function Header({
                     {activeCity ? (
                       <div className={styles.cityServicesBox}>
                         <p className={styles.megaHeading}>
-                          Top Services in {activeCity.name}
+                          Top Plumbing Services
                         </p>
                         <ul className={styles.cityServiceList}>
                           {nav.topCityServiceSlugs.slice(0, 6).map((srv) => (
                             <li key={srv.slug}>
                               <Link
-                                href={`/locations/${activeCity.slug}/${srv.slug}/`}
+                                href={`/${srv.slug}/`}
                                 className={styles.megaLink}
-                                data-track-city={activeCity.name}
                                 onClick={() => setOpenMenu(null)}
                               >
                                 {srv.label}
@@ -305,7 +317,7 @@ export function Header({
                           ))}
                         </ul>
                         <Link
-                          href={`/locations/${activeCity.slug}/`}
+                          href={activeCity.slug === "phoenix-az" ? "/" : `/locations/${activeCity.slug}/`}
                           className={styles.smallHubLink}
                           onClick={() => setOpenMenu(null)}
                         >

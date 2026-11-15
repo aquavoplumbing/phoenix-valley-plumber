@@ -1,0 +1,95 @@
+.container {
+  background-color: var(--sand-50);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+  margin-block: var(--space-4);
+}
+
+.header {
+  margin-bottom: var(--space-3);
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--water-700);
+}
+
+.title {
+  font-size: 1.125rem;
+  color: var(--navy-900);
+  margin: 2px 0 0 0;
+}
+
+.statusGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+@media (min-width: 640px) {
+  .statusGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.statusItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: var(--white);
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(11, 42, 74, 0.06);
+}
+
+.indicator {
+  color: var(--ok-500);
+  font-weight: 800;
+  flex-shrink: 0;
+  font-size: 1rem;
+}
+
+.indicatorNeutral {
+  color: var(--ink-600);
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.statusItem strong {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--navy-900);
+  margin-bottom: 2px;
+}
+
+.statusItem p {
+  font-size: 0.8125rem;
+  color: var(--ink-600);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.note {
+  font-size: 0.875rem;
+  color: var(--ink-900);
+  font-style: italic;
+  margin-bottom: var(--space-2);
+}
+
+.policyRow {
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.policyLink {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--water-700);
+  text-decoration: underline;
+}

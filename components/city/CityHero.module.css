@@ -1,0 +1,208 @@
+.hero {
+  position: relative;
+  min-height: min(68vh, 600px);
+  background: linear-gradient(135deg, var(--navy-900) 0%, var(--navy-700) 100%);
+  color: var(--white);
+  padding: calc(var(--section-py) * 0.8) 0;
+  overflow: hidden;
+  overflow: clip;
+  contain: paint;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+}
+
+/* Water ripple ambient circles (CSS only) */
+.rippleWrap {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .rippleWrap {
+    display: none;
+  }
+}
+
+.rippleCircle1 {
+  position: absolute;
+  top: -150px;
+  right: -100px;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  border: 1px solid rgba(30, 155, 215, 0.15);
+  animation: floatSlow 12s ease-in-out infinite alternate;
+}
+
+.rippleCircle2 {
+  position: absolute;
+  top: -80px;
+  right: -30px;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  border: 1px solid rgba(30, 155, 215, 0.22);
+  animation: floatSlow 9s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes floatSlow {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(-20px, 20px) scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rippleCircle1,
+  .rippleCircle2 {
+    animation: none;
+  }
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 7fr 5fr;
+  }
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.eyebrowChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--water-500);
+  background: rgba(30, 155, 215, 0.12);
+  border: 1px solid rgba(30, 155, 215, 0.25);
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  width: fit-content;
+  margin-bottom: var(--space-3);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.125rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--white);
+  margin: 0 0 var(--space-3) 0;
+  letter-spacing: -0.02em;
+}
+
+.introText {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.coverageInfoChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.95);
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: var(--space-4);
+  width: fit-content;
+}
+
+.ctaWrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.ctaMicrocopy {
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trustBadgesRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.trustBadgeItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.trustBadgeItem svg {
+  color: var(--water-500);
+}
+
+.contactQuietLink {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  width: fit-content;
+  transition: color 180ms ease;
+}
+
+.contactQuietLink:hover {
+  color: var(--white);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.glassCard {
+  width: 100%;
+  max-width: 440px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  border-radius: var(--radius-card);
+  padding: var(--space-3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}

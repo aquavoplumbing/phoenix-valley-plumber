@@ -1,0 +1,237 @@
+{
+  "slug": "slab-leak-repair",
+  "type": "service",
+  "status": "published",
+  "urgency": "high",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix slab leak repair",
+    "secondaryKeywords": [
+      "slab leak detection phoenix az",
+      "slab leak repair phoenix",
+      "water leak under concrete slab phoenix",
+      "hot water slab leak phoenix"
+    ],
+    "title": "Phoenix Slab Leak Repair | Spot, Reroute & Repipe",
+    "metaDescription": "Warm floors or water seeping through tile? Call for phoenix slab leak repair with pinpoint locating and honest spot-repair, reroute, or repipe options.",
+    "h1": "Phoenix Slab Leak Repair"
+  },
+  "intro": {
+    "answerFirst": "If you feel an unexplained warm spot on your tile, hear water running beneath the floor, or see moisture wicking up baseboards, call for phoenix slab leak repair before sub-slab erosion undermines your flooring or foundation. Because every slab layout is different, we pinpoint the leaking line first and walk you through targeted spot repair, overhead rerouting, or repiping options. Call us right away.",
+    "support": "Shutting off the water heater cold supply or main house valve slows damage while you wait for diagnostics."
+  },
+  "emergency": {
+    "heading": "Water surfacing from your slab? Take these steps first.",
+    "gasWarning": false,
+    "steps": [
+      {
+        "title": "Shut off the main or hot-water valve",
+        "text": "If the floor feels warm, close the cold inlet valve above your water heater; otherwise shut off the main house valve."
+      },
+      {
+        "title": "Turn off the water heater",
+        "text": "Switch off the breaker or gas control if you shut off the water heater supply so the tank does not overheat."
+      },
+      {
+        "title": "Move rugs and furniture clear",
+        "text": "Lift area rugs and move wood furniture off damp tile or laminate to prevent staining and warping."
+      },
+      {
+        "title": "Call our licensed plumbing team",
+        "text": "Tell us which room feels warm or damp and whether shutting off the hot side stopped the meter."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "title": "Warm or hot patches on flooring",
+      "text": "A hot-water copper line leaking beneath concrete warms tile, vinyl, or hardwood directly above the break.",
+      "icon": "thermometer"
+    },
+    {
+      "title": "Constant sound of running water",
+      "text": "Hearing a faint hiss or trickling sound through the slab when every faucet is closed signals pressurized water escaping.",
+      "icon": "volume"
+    },
+    {
+      "title": "Sudden jump in water or gas bills",
+      "text": "A continuous hot-water slab leak forces both your water meter and your water heater to run nonstop.",
+      "icon": "gauge"
+    },
+    {
+      "title": "Damp grout, lifted tile, or warped wood",
+      "text": "Moisture migrating upward loosens flooring adhesives, darkens grout lines, and swells baseboards.",
+      "icon": "droplet"
+    },
+    {
+      "title": "Low hot-water pressure or lukewarm taps",
+      "text": "A significant split in a hot distribution line can drop flow at distant bathrooms.",
+      "icon": "leak"
+    },
+    {
+      "title": "New foundation cracks or mildew odor",
+      "text": "Long-running leaks saturate soil beneath the slab, encouraging musty odors and uneven settling.",
+      "icon": "house"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Direct Spot Slab Repair",
+      "whenItFits": "Single isolated leak on otherwise sound piping in an accessible spot",
+      "text": "We open a focused section of concrete directly above the pinpointed leak, replace the damaged pipe segment, pressure-test the repair, and patch the concrete."
+    },
+    {
+      "title": "Overhead PEX Pipe Reroute",
+      "whenItFits": "Abandoning a failing under-slab line by routing new piping cleanly overhead",
+      "text": "Instead of jackhammering finished tile or post-tension concrete, we cap the leaking sub-slab branch at both ends and run a new PEX line through the attic and walls."
+    },
+    {
+      "title": "Whole-Home Repiping",
+      "whenItFits": "Homes experiencing repeated slab leaks or widespread pinhole corrosion",
+      "text": "When older copper under the slab has developed multiple leaks, replacing the entire distribution system overhead eliminates future under-slab pinhole surprises."
+    }
+  ],
+  "comparison": {
+    "title": "Slab Leak Repair Options Compared",
+    "caption": "Comparing spot repair, overhead rerouting, and whole-home repiping for Phoenix slab homes.",
+    "columns": [
+      "Spot Repair",
+      "Line Reroute",
+      "Full Repipe"
+    ],
+    "rows": [
+      {
+        "label": "Concrete Cutting",
+        "cells": [
+          "Opens slab at the leak point",
+          "None—abandons old slab line",
+          "None—routes all new lines overhead"
+        ]
+      },
+      {
+        "label": "Best When",
+        "cells": [
+          "Single mechanical nick or isolated spot",
+          "One aging hot/cold run under expensive flooring",
+          "Multiple slab leaks or thin corroded copper"
+        ]
+      },
+      {
+        "label": "Future Slab Risk",
+        "cells": [
+          "Remaining old slab pipe stays in place",
+          "Eliminates that specific slab branch",
+          "Removes all pressurized piping from under slab"
+        ]
+      }
+    ]
+  },
+  "process": [
+    {
+      "title": "Call and isolate the line",
+      "text": "Tell us what you are seeing and we will help you shut off the right valve to limit water loss."
+    },
+    {
+      "title": "Pinpoint location & slab type",
+      "text": "A licensed plumber locates the leak, checks whether your slab is post-tension, and evaluates pipe condition."
+    },
+    {
+      "title": "Choose the right fix",
+      "text": "We compare spot repair, reroute, and repipe clearly, and tell you what to expect when you call."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Slab Leaks Happen Across the Phoenix Valley",
+    "paragraphs": [
+      "Most Valley homes sit on concrete slabs, and for decades builders routed copper water lines directly through or beneath the concrete. Expanding and contracting caliche soil, aggressive water chemistry, and hot-water turbulence at elbow fittings can wear copper walls thin over time.",
+      "Many Phoenix homes also use post-tensioned concrete slabs containing high-tension steel cables, where cutting blindly into concrete is risky. Rerouting a leaking line overhead often protects both the structural concrete slab and finished tile while keeping future pipe access straightforward, dry, and far easier to service if needed."
+    ],
+    "facts": [
+      {
+        "text": "Phoenix's hard water and mineral content contribute to pipe corrosion and fitting wear in residential plumbing.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Slab leak repair pricing depends on whether we open the concrete for a spot fix or reroute lines overhead, as well as flooring and drywall access.",
+    "factors": [
+      {
+        "title": "Repair method chosen",
+        "text": "A single-branch reroute, a concrete spot repair, and a whole-home repipe vary widely in material and labor."
+      },
+      {
+        "title": "Post-tension vs. conventional slab",
+        "text": "Post-tension slabs require extra care and often favor overhead rerouting to avoid cutting near tension cables."
+      },
+      {
+        "title": "Path length and wall access",
+        "text": "Routing new PEX from the garage manifold to a distant master bath depends on attic clearance and wall framing."
+      },
+      {
+        "title": "Flooring and drywall restoration",
+        "text": "Plumbing repairs cover pipe work and concrete patching; matching custom tile or drywall painting is scoped separately."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Should I do a slab leak spot repair or reroute the pipe?",
+      "a": "If the home is newer and the leak was caused by an isolated defect, a spot repair can be practical. However, if your copper pipes are aging or you have expensive tile or a post-tension slab, rerouting the line overhead avoids breaking concrete and removes that pipe from the soil."
+    },
+    {
+      "q": "Can you cut into a post-tension slab in Phoenix?",
+      "a": "Cutting a post-tension slab carries serious risk if steel tension cables are nicked or damaged. For most post-tensioned Phoenix homes, plumbers strongly prefer locating the leak precisely and rerouting the affected water line overhead through the attic or interior drywall."
+    },
+    {
+      "q": "Why do hot-water lines seem to leak under slabs more often than cold lines?",
+      "a": "Hot water expands and contracts copper piping repeatedly, and higher water temperatures speed up internal chemical wear and turbulence at underground bends. That is why a warm spot on tile is one of the most common early clues of a slab leak."
+    },
+    {
+      "q": "Will homeowner insurance cover a slab leak?",
+      "a": "Policies vary widely—some cover the cost of accessing and repairing water damage while excluding the pipe repair itself. We provide clear written documentation of where the leak was located and what plumbing work was performed for your homeowner insurance records."
+    },
+    {
+      "q": "Why should I act quickly on a suspected slab leak?",
+      "a": "Leaving a pressurized leak running beneath your home wastes thousands of gallons of water, drives up monthly utility bills, warps flooring, invites mold in baseboards, and can gradually wash out soil supporting the concrete slab foundation beneath your home's walls."
+    },
+    {
+      "q": "If I already had one slab leak, will I get another?",
+      "a": "Often yes, if the original copper lines beneath the slab are the same age and exposed to the same soil and water conditions. If you have had more than one slab leak, ask us about whole-home overhead copper or PEX repiping."
+    }
+  ],
+  "related": {
+    "hub": "leak-detection-repair",
+    "siblings": [
+      "leak-detection",
+      "repiping",
+      "water-line-repair",
+      "emergency-plumber"
+    ],
+    "costGuide": "slab-leak-repair-cost",
+    "inBodyLinks": [
+      {
+        "sentence": "Not sure where the leak is yet? Start with",
+        "anchorText": "Leak Detection in Phoenix, AZ",
+        "slug": "leak-detection"
+      },
+      {
+        "sentence": "Had multiple slab leaks in older copper piping? Consider",
+        "anchorText": "Whole-Home Repiping in Phoenix, AZ",
+        "slug": "repiping"
+      }
+    ],
+    "guides": [
+      "what-is-hard-water-phoenix"
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/leak-detection-service.jpg",
+      "alt": "Technician pinpointing an under-slab water leak non-invasively on ceramic tile in Phoenix, AZ",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

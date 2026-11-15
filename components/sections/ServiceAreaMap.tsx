@@ -6,18 +6,58 @@ import type { CityItem } from "@/lib/routes";
 import { MapPinIcon } from "@/components/icons/Icons";
 import styles from "./ServiceAreas.module.css";
 
-export function ServiceAreaMap({ cities }: { cities: CityItem[] }) {
+export function ServiceAreaMap({
+  cities,
+  publishedSlugs,
+}: {
+  cities: CityItem[];
+  publishedSlugs?: string[];
+}) {
   const [hoveredSlug, setHoveredSlug] = useState<string | null>(null);
+
+  const isSlugPublished = (slug: string, name: string) => {
+    if (name.toLowerCase() === "phoenix" || slug.replace(/-az$/i, "") === "phoenix") {
+      return true; // Phoenix links to homepage
+    }
+    if (!publishedSlugs) {
+      return true; // default fallback
+    }
+    const clean = slug.replace(/-az$/i, "").toLowerCase();
+    return publishedSlugs.some((p) => p.replace(/-az$/i, "").toLowerCase() === clean);
+  };
+
+  const getCityHref = (city: CityItem) => {
+    if (city.name.toLowerCase() === "phoenix" || city.slug.replace(/-az$/i, "") === "phoenix") {
+      return "/";
+    }
+    return `/locations/${city.slug}/`;
+  };
 
   return (
     <div className={styles.mapGrid}>
       <div className={styles.chipsWrap}>
         {cities.map((city) => {
           const isActive = hoveredSlug === city.slug;
+          const isPublished = isSlugPublished(city.slug, city.name);
+          const href = getCityHref(city);
+
+          if (!isPublished) {
+            return (
+              <span
+                key={city.slug}
+                className={`${styles.cityChip} ${styles.cityChipInert ?? ""}`}
+                style={{ opacity: 0.65, cursor: "default" }}
+              >
+                <MapPinIcon size={16} />
+                <span>{city.name}, AZ</span>
+              </span>
+            );
+          }
+
           return (
             <Link
               key={city.slug}
-              href={`/locations/${city.slug}/`}
+              href={href}
               data-track-city={city.name}
               className={`${styles.cityChip} ${isActive ? styles.cityChipActive : ""}`}
               onMouseEnter={() => setHoveredSlug(city.slug)}
@@ -37,8 +77,8 @@ export function ServiceAreaMap({ cities }: { cities: CityItem[] }) {
           viewBox="0 0 460 320"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          aria-label="Map of Phoenix Valley cities we serve"
+          role="group"
+          aria-label="Interactive map of Phoenix Valley service cities"
           className={styles.mapSvg}
         >
           <rect width="460" height="320" rx="20" fill="#0B2A4A" />
@@ -71,6 +111,8 @@ export function ServiceAreaMap({ cities }: { cities: CityItem[] }) {
 
           {cities.map((city) => {
             const isActive = hoveredSlug === city.slug;
+            const isPublished = isSlugPublished(city.slug, city.name);
+            const href = getCityHref(city);
             const labelDx =
               city.labelPos === "left" ? -12 : city.labelPos === "right" ? 12 : 0;
             const labelDy =
@@ -82,43 +124,57 @@ export function ServiceAreaMap({ cities }: { cities: CityItem[] }) {
                   ? "start"
                   : "middle";
 
+            const pinElements = (
+              <>
+                <circle
+                  cx={city.mapX}
+                  cy={city.mapY}
+                  r={isActive ? 17 : 13}
+                  fill="#FF7A1A"
+                  fillOpacity={isActive ? 0.35 : 0.18}
+                  className={styles.pinPulse}
+                />
+                <circle
+                  cx={city.mapX}
+                  cy={city.mapY}
+                  r={isActive ? 8 : 6}
+                  fill={isActive ? "#FF7A1A" : "#1E9BD7"}
+                  stroke="#FFFFFF"
+                  strokeWidth="2"
+                />
+                <text
+                  x={city.mapX + labelDx}
+                  y={city.mapY + labelDy}
+                  textAnchor={textAnchor}
+                  fill={isActive ? "#FF7A1A" : "#E6F4FB"}
+                  fontSize={isActive ? "13" : "11.5"}
+                  fontWeight={isActive ? "700" : "600"}
+                  fontFamily="var(--font-display)"
+                >
+                  {city.name}
+                </text>
+              </>
+            );
+
+            if (!isPublished) {
+              return (
+                <g key={city.slug} opacity={0.6}>
+                  {pinElements}
+                </g>
+              );
+            }
+
             return (
               <g key={city.slug}>
                 <Link
-                  href={`/locations/${city.slug}/`}
+                  href={href}
                   aria-label={`${city.name}, Arizona plumbing service`}
                   onMouseEnter={() => setHoveredSlug(city.slug)}
                   onMouseLeave={() => setHoveredSlug(null)}
                   onFocus={() => setHoveredSlug(city.slug)}
                   onBlur={() => setHoveredSlug(null)}
                 >
-                  <circle
-                    cx={city.mapX}
-                    cy={city.mapY}
-                    r={isActive ? 17 : 13}
-                    fill="#FF7A1A"
-                    fillOpacity={isActive ? 0.35 : 0.18}
-                    className={styles.pinPulse}
-                  />
-                  <circle
-                    cx={city.mapX}
-                    cy={city.mapY}
-                    r={isActive ? 8 : 6}
-                    fill={isActive ? "#FF7A1A" : "#1E9BD7"}
-                    stroke="#FFFFFF"
-                    strokeWidth="2"
-                  />
-                  <text
-                    x={city.mapX + labelDx}
-                    y={city.mapY + labelDy}
-                    textAnchor={textAnchor}
-                    fill={isActive ? "#FF7A1A" : "#E6F4FB"}
-                    fontSize={isActive ? "13" : "11.5"}
-                    fontWeight={isActive ? "700" : "600"}
-                    fontFamily="var(--font-display)"
-                  >
-                    {city.name}
-                  </text>
+                  {pinElements}
                 </Link>
               </g>
             );
@@ -128,4 +184,3 @@ export function ServiceAreaMap({ cities }: { cities: CityItem[] }) {
     </div>
   );
 }
-

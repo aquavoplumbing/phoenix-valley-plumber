@@ -1,0 +1,184 @@
+{
+  "slug": "tempe",
+  "name": "Tempe",
+  "state": "AZ",
+  "tier": 1,
+  "status": "published",
+  "lastVerified": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "plumber tempe",
+    "secondaryKeywords": [
+      "plumber tempe az",
+      "tempe plumber",
+      "emergency plumber tempe",
+      "licensed plumber in tempe az"
+    ],
+    "title": "Plumber Tempe AZ | Licensed Valley Plumbing | Call Now",
+    "metaDescription": "Need a licensed plumber in Tempe, AZ? Fast response for water heaters, drain stoppages, gas lines, and slab leaks near ASU & South Tempe. Call today.",
+    "h1": "Plumber in Tempe, AZ"
+  },
+  "intro": {
+    "answerFirst": "When you need a licensed plumber in Tempe, getting an experienced technician on-site promptly resolves urgent plumbing issues and prevents costly property damage. Phoenix Valley Plumber provides responsive residential and commercial plumbing services across Tempe, addressing sewer backups near ASU, calcified water heaters in South Tempe, and underground slab leaks. Serving Tempe and nearby Valley communities."
+  },
+  "coverage": {
+    "zips": [
+      "85281",
+      "85282",
+      "85283",
+      "85284"
+    ],
+    "neighborhoods": [
+      "Downtown Tempe",
+      "Maple-Ash",
+      "Broadmor",
+      "Alameda-Campus",
+      "Corona del Sol",
+      "Warner Ranch",
+      "Shalimar",
+      "Alegre Community",
+      "Sunset",
+      "Optimist Park",
+      "University Heights",
+      "The Lakes"
+    ],
+    "boundariesNote": "Coverage extends north across Tempe Town Lake through the ASU campus and south to the Warner Road boundary with Chandler.",
+    "sourceUrl": "https://www.tempe.gov/government/community-services/neighborhood-services",
+    "retrievedOn": "2026-11-14"
+  },
+  "water": {
+    "utility": "City of Tempe Water Utilities Division",
+    "sourceUrl": "https://www.tempe.gov/ccr",
+    "reportYear": 2024,
+    "zones": [
+      {
+        "label": "Municipal Distribution System (Martinez & South Tempe Plants)",
+        "gpgMin": 8,
+        "gpgMax": 12.3,
+        "sourceNote": "Treated Salt and Verde River surface water blended with regional well water (180 to 211 mg/L)."
+      }
+    ],
+    "note": "The City of Tempe explains that dividing total hardness in milligrams per liter by 17.1 calculates the exact grains per gallon needed for home water softener calibration."
+  },
+  "housing": {
+    "summary": "Tempe's residential landscape combines historic post-war bungalows and Mid-Century ranch homes near Arizona State University with suburban subdivisions developed throughout South Tempe during the 1980s and 1990s. High-density lakeside developments add modern plumbing dynamics alongside aging urban infrastructure.",
+    "eras": [
+      {
+        "label": "University Core & North Tempe Neighborhoods",
+        "builtRange": "1950–1974",
+        "whatWeSee": "Galvanized steel supply piping showing severe flow constriction, clay sewer pipes invaded by mature landscape trees, and deteriorating under-sink brass traps.",
+        "sourceUrl": "https://www.tempe.gov/government/community-development/historic-preservation"
+      },
+      {
+        "label": "South Tempe Suburban & Kyrene Corridor",
+        "builtRange": "1975–1994",
+        "whatWeSee": "Pinhole leaks in underslab copper supply lines, failing early generation plastic polybutylene risers, and hard-water sediment accumulation in standard water heaters.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/tempecityarizona"
+      },
+      {
+        "label": "Tempe Town Lake & Urban Infill Developments",
+        "builtRange": "1995–Present",
+        "whatWeSee": "Multi-story pressure fluctuations requiring booster and PRV service, compact tankless water heater maintenance, and modern PEX plumbing manifold adjustments.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/tempecityarizona"
+      }
+    ],
+    "medianYearBuilt": {
+      "value": 1980,
+      "source": "U.S. Census Bureau ACS 5-Year Estimates",
+      "asOf": "2023"
+    }
+  },
+  "localServices": [
+    {
+      "serviceSlug": "emergency-plumber",
+      "cityAngle": "Rental properties near ASU and family homes in South Tempe often encounter sudden midnight plumbing emergencies, from fractured supply valves to overflowing upstairs toilets. Our technicians arrive equipped to stop flooding and restore service."
+    },
+    {
+      "serviceSlug": "water-heater-repair",
+      "cityAngle": "Tempe's mineral-laden tap water precipitates sediment on tank water heater elements, causing rumbling noises and reduced hot water capacity. We flush tanks, replace heating elements, and inspect thermostats to restore dependable heating."
+    },
+    {
+      "serviceSlug": "drain-cleaning",
+      "cityAngle": "High kitchen waste and grease in student housing combined with aggressive ficus and olive tree roots in older Tempe subdivisions create stubborn sewer blockages. We use heavy mechanical snakes to scour pipe walls clean."
+    },
+    {
+      "serviceSlug": "slab-leak-repair",
+      "cityAngle": "Clay-rich desert soils in Tempe exert hydraulic pressure against slab-on-grade foundations, stressing underslab copper water pipes. We deploy electronic leak detectors to trace pressurized subterranean line failures without ripping up undamaged flooring."
+    },
+    {
+      "serviceSlug": "gas-line-repair",
+      "cityAngle": "Whether connecting a new gas range in a Maple-Ash remodel or troubleshooting a pool heater line in The Lakes, our licensed plumbers repair and pressure-test residential natural gas lines to meet local building codes."
+    },
+    {
+      "serviceSlug": "water-softener-installation",
+      "cityAngle": "With Tempe tap water containing substantial mineral deposits, scale quickly dulls glass shower doors and corrodes plumbing fixtures. We install demand-metered water softeners programmed for optimal salt efficiency."
+    },
+    {
+      "serviceSlug": "sewer-camera-inspection",
+      "cityAngle": "Before finalizing a historic North Tempe home purchase or digging up landscaping, our sewer camera inspections reveal underground pipe offsets, root intrusion, and belly spots along your private sewer lateral."
+    },
+    {
+      "serviceSlug": "toilet-repair",
+      "cityAngle": "Running flappers, calcified fill valves, and recurring bowl clogs in older Tempe bathrooms waste thousands of gallons of water. We rebuild internal toilet mechanisms or replace outdated units with modern high-efficiency fixtures."
+    }
+  ],
+  "permits": {
+    "officeName": "City of Tempe Community Development - Building Safety",
+    "url": "https://www.tempe.gov/government/community-development/building-safety",
+    "verifiedNote": {
+      "text": "Rules differ by city and by the work being done. Your plumber will tell you whether a permit applies.",
+      "sourceUrl": "https://www.tempe.gov/government/community-development/building-safety"
+    }
+  },
+  "utilities": {
+    "water": {
+      "name": "City of Tempe Water Utilities",
+      "url": "https://www.tempe.gov/government/municipal-utilities/water"
+    },
+    "gas": {
+      "name": "Southwest Gas",
+      "url": "https://www.swgas.com",
+      "leakLine": {
+        "number": "1-877-860-6020",
+        "sourceUrl": "https://www.swgas.com/safety"
+      }
+    },
+    "electric": {
+      "name": "Salt River Project (SRP)",
+      "url": "https://www.srpnet.com"
+    }
+  },
+  "faqs": [
+    {
+      "q": "How rapidly can you dispatch an emergency plumber to a Tempe address?",
+      "a": "Because emergency plumbing demands immediate attention to avoid structural flooding, we treat active leaks and sewer backups as urgent calls. Calling our phone line connects you with dispatch, where we confirm technician availability across Tempe and provide a direct arrival estimate based on Valley service schedules."
+    },
+    {
+      "q": "What is the water hardness level in Tempe, and does it require a softener?",
+      "a": "According to the City of Tempe Water Quality Report, municipal tap water carries substantial dissolved mineral content, as detailed in our water quality section above. While safe to drink, this hardness level creates calcium buildup in water heaters, dishwasher jets, and fixtures, making a whole-home water softener highly beneficial."
+    },
+    {
+      "q": "What plumbing problems are typical for mid-century homes near ASU?",
+      "a": "Homes in historic neighborhoods like Maple-Ash and Broadmor frequently feature original galvanized steel supply lines that have corroded internally, causing reduced water flow and discolored water. Aging clay sewer lines in these areas are also prone to root penetration from mature landscape trees."
+    },
+    {
+      "q": "Do I need a building permit to replace a water heater in Tempe?",
+      "a": "Rules differ by city and by the work being done. In general, routine direct plumbing fixture replacements differ from extensive gas line changes or commercial installations. Your plumber will assess your specific setup and advise whether a permit through Tempe Building Safety is necessary."
+    },
+    {
+      "q": "What immediate steps should I take if I smell natural gas in Tempe?",
+      "a": "If you detect a rotten-egg gas smell, immediately evacuate all residents and pets from the home. Avoid using light switches, telephones, or electrical appliances that could generate a spark. Once at a safe distance outside, call 911 or phone Southwest Gas directly at 1-877-860-6020."
+    },
+    {
+      "q": "Do you offer plumbing services to rental properties and apartment owners in Tempe?",
+      "a": "Yes, we work with Tempe homeowners, property managers, and rental owners throughout the University and South Tempe areas. We handle tenant drain stoppages, leaking water lines, garbage disposal replacements, and whole-house repiping with clear documentation."
+    }
+  ],
+  "nearby": [
+    "mesa",
+    "scottsdale",
+    "chandler",
+    "gilbert"
+  ],
+  "claimsUsed": [],
+  "updatedAt": "2026-11-14"
+}

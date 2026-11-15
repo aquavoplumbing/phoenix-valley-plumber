@@ -1,0 +1,15 @@
+.page {
+  background: var(--sand-50);
+  min-height: 100vh;
+}
+
+.areaSection {
+  padding-bottom: var(--space-8);
+  background: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .page {
+    font-size: 0.9375rem;
+  }
+}

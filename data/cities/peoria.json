@@ -1,0 +1,190 @@
+{
+  "slug": "peoria",
+  "name": "Peoria",
+  "state": "AZ",
+  "tier": 2,
+  "status": "published",
+  "lastVerified": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "plumber peoria az",
+    "secondaryKeywords": [
+      "peoria az plumber",
+      "emergency plumber peoria az",
+      "licensed plumber peoria"
+    ],
+    "title": "Plumber Peoria AZ | Licensed Valley Plumbing | Call Now",
+    "metaDescription": "Need a licensed plumber in Peoria, AZ? Reliable water heater repair, drain cleaning, and emergency leak repairs in Vistancia & Old Town. Call today.",
+    "h1": "Plumber in Peoria, AZ"
+  },
+  "intro": {
+    "answerFirst": "When you need a licensed plumber in Peoria, AZ, rapid professional assistance prevents small leaks from turning into severe structural damage. Phoenix Valley Plumber provides comprehensive residential plumbing services for Northwest Valley homeowners facing water heater calcification, main sewer line stoppages, and desert soil pipe shifts. Serving Peoria and nearby Valley communities."
+  },
+  "coverage": {
+    "zips": [
+      "85345",
+      "85381",
+      "85382",
+      "85383"
+    ],
+    "neighborhoods": [
+      "Vistancia",
+      "Westbrook Village",
+      "Fletcher Heights",
+      "Old Town Peoria",
+      "Terramar",
+      "Pleasant Valley",
+      "Trilogy at Vistancia",
+      "Sonoran Mountain Ranch"
+    ],
+    "boundariesNote": "Coverage extends from historic Old Town Peoria along Grand Avenue north through Fletcher Heights, Westbrook Village, and the Vistancia master development near Lake Pleasant Parkway.",
+    "sourceUrl": "https://www.peoriaaz.gov/government/departments/neighborhood-and-human-services",
+    "retrievedOn": "2026-11-14"
+  },
+  "water": {
+    "utility": "City of Peoria Water Services",
+    "sourceUrl": "https://www.peoriaaz.gov/government/departments/water-services/water-quality",
+    "reportYear": 2024,
+    "zones": [
+      {
+        "label": "Greenway Water Treatment Plant Zone",
+        "gpgMin": 11,
+        "gpgMax": 15,
+        "sourceNote": "Treated Central Arizona Project canal surface water supplied to central and southern Peoria."
+      },
+      {
+        "label": "Pyramid Peak Water Treatment Plant Zone",
+        "gpgMin": 14,
+        "gpgMax": 20,
+        "sourceNote": "CAP surface water treated for northern Peoria and Vistancia subdivisions."
+      },
+      {
+        "label": "Groundwater Well Fields",
+        "gpgMin": 2,
+        "gpgMax": 8,
+        "sourceNote": "Municipal deep alluvial wells providing supplemental blending throughout seasonal peak demands."
+      }
+    ],
+    "note": "The City of Peoria reports water hardness varies depending on whether your home receives treated surface water or groundwater well blending. Modern whole-home ion-exchange softeners protect plumbing fixtures and tank heating elements from mineral encrustation."
+  },
+  "housing": {
+    "summary": "Peoria features a dramatic housing progression from mid-century citrus and agricultural properties in the south to expansive modern desert master-planned communities in the north. Older homes near Grand Avenue feature early post-war plumbing systems, while 1980s developments in Westbrook Village and Fletcher Heights balance copper and polybutylene transitions. Northern communities like Vistancia showcase modern PEX plumbing running through high-pressure desert distribution networks.",
+    "eras": [
+      {
+        "label": "Old Town & Historic Citrus Core",
+        "builtRange": "1950–1979",
+        "whatWeSee": "Galvanized steel domestic supply lines prone to interior mineral choking, cast-iron drain stacks rusting under crawlspaces or slab foundations, and clay sewer lines broken by mature pine and olive roots.",
+        "sourceUrl": "https://www.peoriaaz.gov/government/departments/community-development/planning-and-zoning/historic-preservation"
+      },
+      {
+        "label": "Westbrook Village & Fletcher Heights Suburban Boom",
+        "builtRange": "1980–1999",
+        "whatWeSee": "Type M copper distribution lines suffering from aggressive hard-water pitting, early polybutylene piping with brittle acetyl fittings, and aging mechanical PRVs unable to throttle high street pressure.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/peoriacityarizona"
+      },
+      {
+        "label": "Vistancia & North Peoria Master-Planned Communities",
+        "builtRange": "2000–Present",
+        "whatWeSee": "High-density PEX manifold systems experiencing thermal degradation near hot water loops, undersized thermal expansion tanks, and premature calcification in tankless heat exchangers.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/peoriacityarizona"
+      }
+    ],
+    "medianYearBuilt": {
+      "value": 1999,
+      "source": "U.S. Census Bureau ACS 5-Year Estimates",
+      "asOf": "2023"
+    }
+  },
+  "localServices": [
+    {
+      "serviceSlug": "emergency-plumber",
+      "cityAngle": "Northwest Valley homes frequently experience unexpected main line shut-off failures and sudden ceiling leaks during overnight pressure spikes. When clean water threatens flooring in Vistancia or Westbrook Village, our technicians isolate the breach and secure your plumbing system."
+    },
+    {
+      "serviceSlug": "water-heater-repair",
+      "cityAngle": "Water heaters in Peoria accumulate heavy calcium carbonate sediment across lower burner elements, causing rumbling sounds and diminished hot water recovery. We flush calcified tanks, test temperature-pressure relief valves, and restore heating efficiency."
+    },
+    {
+      "serviceSlug": "tankless-water-heater-installation",
+      "cityAngle": "Upgrading to continuous tankless hot water in North Peoria requires calibrated gas lines and integrated isolation valves for descaling flushes. We configure high-efficiency systems optimized for Sonoran Desert seasonal inlet temperatures."
+    },
+    {
+      "serviceSlug": "drain-cleaning",
+      "cityAngle": "Mature trees in older Peoria subdivisions send invasive feeder roots directly into clay and cast-iron sewer junctions. We run heavy-duty mechanical augers and hydro-jetting equipment to shear tree roots and clear grease-choked kitchen laterals."
+    },
+    {
+      "serviceSlug": "slab-leak-repair",
+      "cityAngle": "Expansive clay soils across Peoria shift under extreme heat cycles, abrading pressurized copper water lines buried underneath concrete foundations. We deploy acoustic detection equipment to locate under-slab leaks precisely and perform non-invasive reroutes."
+    },
+    {
+      "serviceSlug": "water-softener-installation",
+      "cityAngle": "Tap water across Peoria utility zones carries dissolved mineral rock that coats shower doors and degrades faucet cartridges. We install metered ion-exchange softeners configured to your specific municipal zone to eliminate mineral scaling."
+    },
+    {
+      "serviceSlug": "sewer-line-repair",
+      "cityAngle": "Shifting ground and deteriorating pipe joints along older Peoria properties can cause recurring sewage backups into bathtubs and floor drains. We perform fiber optic video camera diagnostics and execute seamless trenchless epoxy relining."
+    },
+    {
+      "serviceSlug": "repiping",
+      "cityAngle": "When 1980s homes in Westbrook Village experience repetitive pinhole leaks in corroded copper or deteriorating polybutylene pipes, whole-home repiping with commercial-grade PEX provides consistent water pressure and permanent leak protection."
+    }
+  ],
+  "permits": {
+    "officeName": "City of Peoria Development and Engineering Department",
+    "url": "https://www.peoriaaz.gov/government/departments/development-and-engineering/building-safety",
+    "verifiedNote": {
+      "text": "Rules differ by city and by the work being done. Your plumber will tell you whether a permit applies.",
+      "sourceUrl": "https://www.peoriaaz.gov/government/departments/development-and-engineering/building-safety"
+    }
+  },
+  "utilities": {
+    "water": {
+      "name": "City of Peoria Water Services",
+      "url": "https://www.peoriaaz.gov/government/departments/water-services"
+    },
+    "gas": {
+      "name": "Southwest Gas",
+      "url": "https://www.swgas.com",
+      "leakLine": {
+        "number": "1-877-860-6020",
+        "sourceUrl": "https://www.swgas.com/safety"
+      }
+    },
+    "electric": {
+      "name": "Arizona Public Service (APS)",
+      "url": "https://www.aps.com"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do you provide plumbing services in Vistancia and North Peoria?",
+      "a": "Yes, our technicians service all Peoria residential areas, from southern communities near Old Town along Grand Avenue up to northern master developments including Vistancia, Trilogy, and Sonoran Mountain Ranch along the Lake Pleasant Parkway."
+    },
+    {
+      "q": "How does tap water mineral content affect Peoria water heaters?",
+      "a": "Municipal tap water in Peoria contains substantial dissolved minerals, as detailed in our water hardness summary above. Without regular tank flushes, calcium precipitates along heating elements, leading to noisy boiling sounds and premature tank ruptures."
+    },
+    {
+      "q": "What plumbing complications are common in Westbrook Village homes?",
+      "a": "Many homes constructed during the 1980s suburban expansion feature aging copper pipes susceptible to pinhole corrosion and early polybutylene lines with fragile fittings. Upgrading these vulnerable lines to modern PEX prevents unexpected catastrophic indoor water damage."
+    },
+    {
+      "q": "Do I need a city permit for plumbing replacements in Peoria?",
+      "a": "Rules differ by city and by the specific work being performed. Major gas line installations, whole-home repipes, and structural alterations typically require municipal building permits from Peoria Development and Engineering. Your technician will advise you during the initial inspection."
+    },
+    {
+      "q": "What steps should I take if I detect a gas leak in Peoria?",
+      "a": "If you smell a sulfurous rotten-egg odor, evacuate all residents and pets outside immediately without touching electrical switches or using indoor phones. Once safely outdoors, call 911 or contact Southwest Gas on their emergency leak line at 1-877-860-6020."
+    },
+    {
+      "q": "How can I schedule a plumbing repair with a technician in Peoria?",
+      "a": "Call our main phone line directly to speak with our dispatch staff. We will evaluate your plumbing situation, provide honest guidance, and schedule an experienced technician according to our Northwest Valley dispatch routes."
+    }
+  ],
+  "nearby": [
+    "glendale",
+    "surprise",
+    "scottsdale"
+  ],
+  "claimsUsed": [],
+  "updatedAt": "2026-11-14"
+}

@@ -5,9 +5,9 @@ import { PrivacyPolicyContent } from "@/components/sections/PrivacyPolicyContent
 export const metadata: Metadata = {
   title: "Privacy Policy | Phoenix Valley Plumber",
   description:
-    "Privacy Policy for Phoenix Valley Plumber (phoenixvalleyplumber.com), effective November 12, 2026.",
+    "Privacy Policy for Phoenix Valley Plumber (phoenixvalleyplumber.com), outlining data collection, call routing, and homeowner privacy protections.",
   alternates: { canonical: "/privacy-policy/" },
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
 export default function PrivacyPolicyPage() {

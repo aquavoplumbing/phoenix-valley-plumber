@@ -1,0 +1,81 @@
+.card {
+  position: sticky;
+  top: 96px;
+  padding: 24px;
+  border-radius: var(--radius-card);
+  background: var(--white);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-2);
+}
+
+.heading {
+  font-size: 1.2rem;
+  color: var(--navy-900);
+  margin-bottom: 12px;
+}
+
+.statusRow {
+  margin-bottom: 14px;
+}
+
+.ctaBtn {
+  width: 100%;
+  justify-content: center;
+}
+
+.rocRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--sand-50);
+  font-size: 0.875rem;
+  color: var(--navy-900);
+  font-weight: 600;
+}
+
+.rocVerify {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--water-700);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8125rem;
+}
+
+.rocVerify:hover {
+  text-decoration: underline;
+}
+
+.bullets {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--ink-600);
+}
+
+.bullet {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.bulletIcon {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--ok-700);
+}
+
+@media (max-width: 899px) {
+  .card {
+    display: none;
+  }
+}
+

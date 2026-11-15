@@ -1,0 +1,212 @@
+{
+  "slug": "gas-water-heater",
+  "type": "service",
+  "status": "published",
+  "urgency": "high",
+  "updatedAt": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "gas water heater service phoenix",
+    "secondaryKeywords": [
+      "gas water heater repair phoenix az",
+      "gas water heater installation phoenix",
+      "gas water heater replacement phoenix",
+      "phoenix gas water heater plumber"
+    ],
+    "title": "Gas Water Heater Service Phoenix, AZ | Repair & Install",
+    "metaDescription": "Pilot light out, burner failing, or no hot water? Call for professional gas water heater service Phoenix homeowners trust for safe repair & replacement.",
+    "h1": "Gas Water Heater Service in Phoenix, AZ"
+  },
+  "intro": {
+    "answerFirst": "A malfunctioning gas water heater disrupts daily showers and family dishwashing while presenting potential safety concerns around natural gas lines, pilot assemblies, and flue combustion venting. Gas water heater service Phoenix homeowners depend on requires licensed, experienced plumbers to diagnose faulty thermocouples, electronic gas control valves, thermal switches, and burner orifices. We provide prompt repair, maintenance, and energy-efficient gas replacements.",
+    "support": "If you smell the rotten-egg odor of natural gas near your water heater, evacuate the area immediately and do not operate electrical switches."
+  },
+  "emergency": {
+    "heading": "Smell natural gas or see soot around burner? Act safely now.",
+    "gasWarning": true,
+    "steps": [
+      {
+        "title": "Evacuate the immediate area immediately",
+        "text": "If you detect the sulfur odor of natural gas, step away from the garage or utility closet. Do not use matches, lighters, or light switches."
+      },
+      {
+        "title": "Shut off the gas supply if safe to reach",
+        "text": "If accessible without danger, turn the gas isolation valve on the black iron pipe counterclockwise so the handle is perpendicular to the pipe."
+      },
+      {
+        "title": "Shut off the cold water inlet valve",
+        "text": "If the water heater is actively leaking water onto finished drywall or garage flooring, turn the cold water shutoff valve clockwise."
+      },
+      {
+        "title": "Call our licensed gas plumbing dispatch",
+        "text": "Call our team from a safe outdoor distance. For severe uncontrolled gas leaks, contact Southwest Gas or 911 immediately."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "title": "Pilot light won't light or stay lit",
+      "text": "A weak or extinguishing pilot light usually indicates a coated thermocouple, tripped thermal cutoff fuse, or dirty pilot orifice.",
+      "icon": "flame"
+    },
+    {
+      "title": "Lukewarm water or running out fast",
+      "text": "A broken cold water dip tube dumping incoming water directly at the top of the tank, or heavy bottom sediment insulation, restricts heat transfer.",
+      "icon": "heater"
+    },
+    {
+      "title": "Yellow burner flame or soot buildup",
+      "text": "Gas burners should burn a crisp blue; a lazy yellow flame signals improper fuel-to-air combustion and dangerous carbon monoxide risks.",
+      "icon": "siren"
+    },
+    {
+      "title": "Popping or rumbling noises in tank",
+      "text": "Trapped water boiling underneath a thick layer of mineral sediment in the bottom of the tank creates distinct rattling or knocking sounds.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Water dripping from bottom burner tray",
+      "text": "Internal steel tank condensation or an active pinhole corrosion leak pooling water around the main burner orifice needs immediate service.",
+      "icon": "droplet"
+    },
+    {
+      "title": "Status light on gas control valve flashing codes",
+      "text": "Modern electronic gas valves feature diagnostic LED blink codes indicating thermopile voltage loss or high tank temperature lockouts.",
+      "icon": "gauge"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Gas Valve, Thermocouple & Burner Diagnostics",
+      "whenItFits": "The standard diagnostic procedure when pilot lights refuse to light or burner cycles shut down prematurely.",
+      "text": "We test millivolt electrical output on thermopiles, inspect flame sensors, clean burner trays, and verify proper electronic gas control valve function."
+    },
+    {
+      "title": "Combustion Venting & Draft Verification",
+      "whenItFits": "Crucial during every service to protect your home against hazardous carbon monoxide accumulation.",
+      "text": "We inspect metal B-vent flue pipes, verify draft clearance to prevent backdrafting fumes, and inspect garage combustion safety clearances."
+    },
+    {
+      "title": "Complete Gas Water Heater Replacement",
+      "whenItFits": "Recommended when the steel tank leaks, repairs exceed half the replacement cost, or the unit is over 10 to 12 years old.",
+      "text": "When tanks corrode or exceed lifespan, we install high-efficiency natural gas or propane water heaters with new shutoffs and flex lines."
+    }
+  ],
+  "diy": {
+    "canTry": [
+      "Check the manufacturer lighting instructions printed clearly on the front panel of the heater.",
+      "Confirm that the gas shutoff valve handle is turned parallel to the gas line in the open position.",
+      "Check your electric circuit breaker if you have an electronic power-vent gas water heater."
+    ],
+    "callWhen": [
+      "You smell the distinctive odor of natural gas near the unit.",
+      "The status light on the electronic gas valve flashes an error or fault code.",
+      "Water is leaking from the bottom seam or drain valve of the tank.",
+      "You see black soot deposits accumulating around the burner chamber or draft hood."
+    ]
+  },
+  "process": [
+    {
+      "title": "Call with model & symptoms",
+      "text": "Tell us the brand, age, tank size, and whether the pilot light refuses to light."
+    },
+    {
+      "title": "Inspect burner, gas line & flue",
+      "text": "A licensed plumber tests gas pressure, thermocouple millivolts, and inspects the tank for leaks."
+    },
+    {
+      "title": "Repair or replace safely",
+      "text": "We replace failed components or install a brand-new gas heater that meets all current municipal codes."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Valley Garage Heat & Hard Water Affect Gas Water Heaters",
+    "paragraphs": [
+      "In the Phoenix metropolitan area, the vast majority of gas water heaters are installed in unconditioned garages. During long Arizona summers, garage ambient temperatures regularly climb above 120 degrees Fahrenheit. This intense ambient heat places thermal strain on electronic gas control valves, plastic drain valves, and thermal cutoff safety switches located near the bottom combustion chamber.",
+      "At the same time, Phoenix's notoriously hard tap water precipitates dense calcium scale at the base of the tank. Because gas burners fire directly against the steel tank floor, this calcified sediment acts as an insulator, forcing the burner to run much longer to heat water. Over time, the trapped heat overheats the steel bottom, causing metal fatigue, premature leaks, and loud popping noises."
+    ],
+    "facts": [
+      {
+        "text": "High garage ambient temperatures and hard water scale combine to accelerate gas water heater wear in Phoenix.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Gas water heater service costs depend on whether the issue is a thermocouple/burner repair or a full tank replacement, plus venting code upgrades.",
+    "factors": [
+      {
+        "title": "Component repair vs. full replacement",
+        "text": "Replacing a thermocouple or pilot assembly costs far less than installing a complete new 40 or 50-gallon gas heater."
+      },
+      {
+        "title": "Natural gas vs. liquid propane",
+        "text": "Standard natural gas units are most common in the Valley; rural propane heaters require special burner orifice conversion kits."
+      },
+      {
+        "title": "Atmospheric vs. power-vent models",
+        "text": "Atmospheric draft units vent naturally through the roof; power-vent models require electric blower fans and PVC exhaust piping."
+      },
+      {
+        "title": "Code upgrades for garage safety",
+        "text": "Garage installations may require an 18-inch safety stand, thermal expansion tank, and a new metal seismic or protective bollard."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Why does my gas water heater make a popping sound like boiling rocks?",
+      "a": "That popping sound is caused by water trapped underneath a thick layer of hard mineral sediment at the bottom of the tank. As the gas burner heats the bottom floor, the trapped water reaches boiling point and bursts through the sediment layer like popcorn. Flushing the tank regularly removes this buildup."
+    },
+    {
+      "q": "How long do gas water heaters typically last in Phoenix, AZ?",
+      "a": "Due to Phoenix's exceptionally hard municipal water and high garage temperatures, the average lifespan of a standard atmospheric gas water heater is roughly 8 to 12 years. Regular annual maintenance, anode rod replacement, and water softeners help extend this operating lifespan."
+    },
+    {
+      "q": "Why does my pilot light keep going out during summer or windy days?",
+      "a": "A pilot light that repeatedly extinguishes is often caused by a dirty thermocouple, a clogged pilot tube, or downdrafts in the roof flue pipe during monsoon storms. Modern sealed combustion chambers can also suffer from dirty flame arrestor screens that starve the burner of necessary combustion air."
+    },
+    {
+      "q": "Do gas water heaters in Phoenix garages need an 18-inch stand?",
+      "a": "Under International Residential Code (IRC) and local Phoenix municipal plumbing codes, water heaters in garages with potential mechanical damage or flammable vapors must have ignition sources elevated 18 inches above the floor, unless the unit is certified as Flammable Vapor Ignition Resistant (FVIR)."
+    },
+    {
+      "q": "Is it safe to relight the water heater pilot light myself?",
+      "a": "Yes, if you follow the exact step-by-step instructions printed on your water heater panel and do not smell any gas odor. However, if the pilot refuses to stay lit after holding down the button for a minute, or if you smell gas, stop immediately and call a licensed plumber."
+    },
+    {
+      "q": "Does City of Phoenix require a permit for water heater replacement?",
+      "a": "Rules differ by city and by the work being done. When performed by a licensed contractor, standard replacements often follow specific local city guidelines. Your licensed plumbing contractor will clarify all applicable city inspection and permit requirements for your home."
+    }
+  ],
+  "related": {
+    "hub": "water-heater",
+    "siblings": [
+      "water-heater-repair",
+      "water-heater-replacement",
+      "water-heater-installation",
+      "electric-water-heater",
+      "tankless-water-heater-installation"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "If your gas water heater tank has cracked or is leaking from the bottom, see",
+        "anchorText": "Water Heater Replacement in Phoenix, AZ",
+        "slug": "water-heater-replacement"
+      },
+      {
+        "sentence": "Looking for endless hot water and compact wall space? Explore",
+        "anchorText": "Tankless Water Heater Installation in Phoenix",
+        "slug": "tankless-water-heater-installation"
+      }
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/water-heater-service.jpg",
+      "alt": "Natural gas residential water heater with flue venting and sediment trap in an Arizona garage",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

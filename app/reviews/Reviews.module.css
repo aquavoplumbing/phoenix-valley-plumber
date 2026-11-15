@@ -1,0 +1,107 @@
+.page {
+  padding-bottom: var(--space-16);
+}
+
+.hero {
+  background: linear-gradient(180deg, var(--color-sand) 0%, #FFFFFF 100%);
+  padding: var(--space-8) 0 var(--space-12);
+  border-bottom: 1px solid var(--color-sand-dark);
+}
+
+.heroInner {
+  max-width: 800px;
+}
+
+.h1 {
+  font-family: var(--font-sora);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 800;
+  color: var(--color-navy);
+  line-height: 1.2;
+  margin: var(--space-4) 0 var(--space-3);
+  letter-spacing: -0.02em;
+}
+
+.lead {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--color-slate);
+  margin-bottom: var(--space-6);
+}
+
+.reviewGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  margin-top: var(--space-10);
+}
+
+@media (min-width: 768px) {
+  .reviewGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.reviewCard {
+  background-color: #FFFFFF;
+  border: 1px solid var(--color-sand-dark);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-3);
+}
+
+.reviewerName {
+  font-family: var(--font-sora);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  margin: 0;
+}
+
+.reviewerMeta {
+  font-size: 0.875rem;
+  color: var(--color-slate-light);
+  margin: 2px 0 0;
+}
+
+.ratingStars {
+  color: #D97706;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+}
+
+.reviewBody {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--color-slate);
+  margin: 0 0 var(--space-4);
+  flex-grow: 1;
+}
+
+.reviewFooter {
+  border-top: 1px solid var(--color-sand);
+  padding-top: var(--space-3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8125rem;
+  color: var(--color-slate-light);
+}
+
+.verifiedBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #065F46;
+  font-weight: 600;
+}

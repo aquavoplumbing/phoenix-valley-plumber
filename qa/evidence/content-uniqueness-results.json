@@ -1,0 +1,17 @@
+{
+  "totalSamplePages": 28,
+  "maxSimilarity": 21.4,
+  "maxPair": {
+    "pageA": "/blog/",
+    "pageB": "/cost-guides/",
+    "similarity": 0.21373056994818654
+  },
+  "highOverlapPairs": [
+    {
+      "pageA": "/blog/",
+      "pageB": "/cost-guides/",
+      "similarity": 21.4
+    }
+  ],
+  "passedThreshold": false
+}

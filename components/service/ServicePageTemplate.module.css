@@ -1,0 +1,77 @@
+.bandWhite {
+  padding: clamp(44px, 6vw, 72px) 0;
+  background: var(--white);
+}
+
+.bandSand {
+  padding: clamp(44px, 6vw, 72px) 0;
+  background: var(--sand-50);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.stack {
+  display: grid;
+  gap: clamp(32px, 4.5vw, 48px);
+}
+
+.stackSm {
+  display: grid;
+  gap: 28px;
+}
+
+.quickLinks {
+  display: grid;
+  gap: 14px;
+}
+
+@media (min-width: 700px) {
+  .quickLinks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.quickLinkCard {
+  display: grid;
+  gap: 4px;
+  padding: 16px 20px;
+  border-radius: var(--radius-card);
+  background: var(--sand-50);
+  border: 1px solid var(--border-subtle);
+  text-decoration: none;
+  transition: transform 180ms var(--ease-spring), box-shadow 180ms ease;
+}
+
+.quickLinkCard:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-2);
+}
+
+.quickLinkSentence {
+  font-size: 0.875rem;
+  color: var(--ink-600);
+}
+
+.quickLinkAnchor {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--water-700);
+}
+
+.devTodoBanner {
+  background: #fef3c7;
+  color: #78350f;
+  padding: 12px 18px;
+  border-bottom: 1px solid #f59e0b;
+  font-size: 0.875rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quickLinkCard {
+    transition: none;
+  }
+  .quickLinkCard:hover {
+    transform: none;
+  }
+}

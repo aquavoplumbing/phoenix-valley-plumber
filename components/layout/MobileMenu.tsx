@@ -57,9 +57,22 @@ export function MobileMenu({
   if (!open) return null;
 
   const cleanE164 = site.phone.e164.replace(/[^\d+]/g, "") || "+16028350102";
-  const visibleCompanyLinks = nav.companyLinks.filter(
-    (item) => item.href !== "/financing/" || site.claims.financing
-  );
+  const visibleCompanyLinks = nav.companyLinks.filter((item) => {
+    if (
+      item.href === "/financing/" &&
+      (!site.claims.financing || !site.financing || !site.financing.lenderName || !site.financing.applyUrl)
+    ) {
+      return false;
+    }
+    if (item.href === "/reviews/" && (!site.reviews?.verified || site.reviews.verified.length < 5)) return false;
+    if (item.href === "/our-work/" && (!site.gallery?.items || site.gallery.items.length < 6)) return false;
+    return true;
+  });
+
+  const visibleCoreServices = nav.coreServiceLinks.filter((item) => {
+    if (item.href === "/commercial-plumbing/" && !site.claims.commercial) return false;
+    return true;
+  });
 
   return (
     <div
@@ -109,7 +122,7 @@ export function MobileMenu({
         <details className={styles.accordion}>
           <summary className={styles.summary}>Plumbing Services</summary>
           <div className={styles.subLinks}>
-            {nav.coreServiceLinks
+            {visibleCoreServices
               .filter((item) => item.href !== "/emergency-plumber/")
               .map((item) => (
                 <Link
@@ -158,7 +171,7 @@ export function MobileMenu({
             {cities.map((city) => (
               <Link
                 key={city.slug}
-                href={`/locations/${city.slug}/`}
+                href={city.slug === "phoenix-az" ? "/" : `/locations/${city.slug}/`}
                 className={styles.subLink}
                 data-track-city={city.name}
                 onClick={onClose}

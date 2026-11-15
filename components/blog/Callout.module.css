@@ -1,0 +1,72 @@
+.callout {
+  border-radius: var(--radius-card);
+  padding: var(--space-3) var(--space-4);
+  margin-block: var(--space-3);
+  border-left: 4px solid transparent;
+}
+
+.header {
+  margin-bottom: var(--space-1);
+}
+
+.typeLabel {
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink-900);
+}
+
+.content p + p {
+  margin-top: var(--space-2);
+}
+
+/* Tip */
+.tip {
+  background-color: var(--water-100);
+  border-left-color: var(--water-500);
+}
+
+.tip .typeLabel {
+  color: var(--water-700);
+}
+
+/* Note */
+.note {
+  background-color: var(--sand-50);
+  border-left-color: var(--navy-700);
+}
+
+.note .typeLabel {
+  color: var(--navy-900);
+}
+
+/* Warning */
+.warning {
+  background-color: #fffbeb;
+  border-left-color: #d97706;
+}
+
+.warning .typeLabel {
+  color: #b45309;
+}
+
+/* Safety (High contrast, navy border, clear red/orange accent) */
+.safety {
+  background-color: #fff1f2;
+  border: 2px solid var(--navy-900);
+  border-left: 8px solid #be123c;
+  box-shadow: 0 4px 12px rgba(190, 18, 60, 0.15);
+}
+
+.safety .typeLabel {
+  color: #be123c;
+  font-size: 0.875rem;
+  font-weight: 800;
+}

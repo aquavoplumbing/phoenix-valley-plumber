@@ -1,0 +1,128 @@
+.container {
+  background: var(--white);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-1);
+}
+
+.headerRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin: 0;
+}
+
+.metaInfo {
+  font-size: 0.8125rem;
+  color: var(--ink-600);
+}
+
+.zonesList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.zoneItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.zoneHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.9375rem;
+}
+
+.zoneLabel {
+  font-weight: 600;
+  color: var(--navy-900);
+}
+
+.zoneGpg {
+  font-weight: 700;
+  color: var(--navy-900);
+  font-feature-settings: "tnum";
+}
+
+.barTrack {
+  position: relative;
+  width: 100%;
+  height: 18px;
+  background: var(--water-100);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--water-500), var(--water-700));
+  border-radius: var(--radius-pill);
+  transform-origin: left center;
+  transition: transform 700ms var(--ease-spring);
+}
+
+.scaleAxis {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 0.6875rem;
+  color: var(--ink-600);
+  padding: 0 4px;
+}
+
+.zoneNote {
+  font-size: 0.8125rem;
+  color: var(--ink-600);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.caveat {
+  font-size: 0.8125rem;
+  color: var(--ink-600);
+  font-style: italic;
+  margin: var(--space-3) 0 var(--space-2) 0;
+}
+
+.impactText {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--ink-900);
+  margin: var(--space-3) 0 0 0;
+  padding-top: var(--space-3);
+  border-top: 1px dashed var(--border-subtle);
+}
+
+.impactText a {
+  color: var(--water-700);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.impactText a:hover {
+  color: var(--navy-900);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .barFill {
+    transition: none;
+  }
+}

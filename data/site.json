@@ -36,8 +36,15 @@
     "yearsInBusiness": null,
     "seniorMilitaryDiscount": false,
     "financing": false,
+    "commercial": false,
+    "callRecording": false,
+    "consentBanner": false,
+    "leadWebhook": false,
+    "callTracking": false,
     "liveAnswer": false,
-    "expectationNotice": false
+    "expectationNotice": false,
+    "licenseCheckedOn": "2025-01-15",
+    "proof": {}
   },
   "address": {
     "public": true,
@@ -56,7 +63,10 @@
     "Glendale",
     "Peoria",
     "Surprise",
-    "Goodyear"
+    "Goodyear",
+    "Avondale",
+    "Queen Creek",
+    "Buckeye"
   ],
   "extraAreas": [],
   "social": {
@@ -71,5 +81,7 @@
   },
   "analytics": {
     "ga4": ""
-  }
+  },
+  "operatingModel": "partner",
+  "marketingOperatorName": "Valley Plumbing Dispatch Network"
 }

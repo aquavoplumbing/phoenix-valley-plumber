@@ -1,0 +1,104 @@
+{
+  "slug": "garbage-disposal",
+  "type": "hub",
+  "status": "published",
+  "urgency": "low",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix garbage disposal services",
+    "secondaryKeywords": [
+      "garbage disposal repair and install phoenix",
+      "kitchen disposal plumber phoenix az",
+      "leaking disposal phoenix"
+    ],
+    "title": "Phoenix Garbage Disposal Services | Call Now",
+    "metaDescription": "Jammed, humming, or leaking under the kitchen sink? Call for phoenix garbage disposal services—safe jam clearing, seals, and quiet new installs.",
+    "h1": "Phoenix Garbage Disposal Services"
+  },
+  "intro": {
+    "answerFirst": "Whether your kitchen disposal is humming without spinning, leaking onto the cabinet floor, or ready for a quieter high-torque upgrade, our phoenix garbage disposal services keep your kitchen sink clean and dry. Never reach inside a disposal—cut power first, review the options below, and call us to talk through your sink setup.",
+    "support": "If your kitchen sink stays backed up after clearing the disposal, the clog may sit further down the branch drain."
+  },
+  "howToChoose": [
+    {
+      "symptom": "Jammed flywheel, humming motor, or leaking housing",
+      "targetSlug": "garbage-disposal-repair",
+      "label": "Disposal Repair & Install",
+      "note": "Safe jam clearing, seal fixes, and full replacement units."
+    },
+    {
+      "symptom": "Upgrading to a new 3/4-HP or 1-HP disposal unit",
+      "targetSlug": "garbage-disposal-installation",
+      "label": "Disposal Installation",
+      "note": "Clean mounting, P-trap alignment, and dishwasher tie-in."
+    },
+    {
+      "symptom": "Kitchen sink backs up even when disposal runs",
+      "targetSlug": "drain-cleaning",
+      "label": "Drain Cleaning",
+      "note": "Clear grease or food buildup deeper in the kitchen branch."
+    },
+    {
+      "symptom": "Recurring heavy kitchen grease buildup",
+      "targetSlug": "hydro-jetting",
+      "label": "Hydro Jetting",
+      "note": "Scour stubborn grease film from horizontal kitchen lines."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Keeping Phoenix Kitchen Drains Flowing Smoothly",
+    "paragraphs": [
+      "Phoenix's hard water and warm kitchen drains make it easy for cooking oils and soap residue to cling to horizontal pipes past the disposal P-trap. Grinding stringy peels or pouring grease down the sink accelerates stubborn clogs and unpleasant sink odors.",
+      "Running cold water while grinding small scraps—and pairing your sink with proper trap alignment—prevents most under-sink leaks and kitchen drain backups."
+    ],
+    "facts": [
+      {
+        "text": "Hard water minerals combine with kitchen soaps and fats to form buildup in household drain lines.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Should I repair or replace a leaking garbage disposal?",
+      "a": "Leaks at the top sink flange or side drain elbow can often be resealed cleanly by replacing a worn gasket or tightening hardware. Leaks dripping from the bottom motor housing mean internal seals have failed and the disposal needs full replacement before it damages your cabinet."
+    },
+    {
+      "q": "Why does my disposal hum but not spin?",
+      "a": "A humming sound means power reaches the motor, but something is physically jamming the flywheel blades, such as a fruit pit, bone, or small utensil. Turn the wall switch off immediately so the motor does not overheat, and avoid reaching inside the grind chamber."
+    },
+    {
+      "q": "What size disposal works best for most Phoenix kitchens?",
+      "a": "A 3/4-HP or 1-HP unit with stainless steel grind components runs quieter, resists corrosion in hard water, and handles everyday food scraps much more reliably than small 1/3-HP builder-grade models that tend to jam, rattle, and wear out too quickly."
+    },
+    {
+      "q": "Why does my kitchen sink back up when the disposal runs?",
+      "a": "A disposal pushes pulverized food and water rapidly into the drain, exposing a partial grease or food clog sitting in the P-trap or horizontal kitchen branch line downstream. If clearing the trap does not restore flow, the branch line itself needs professional snaking."
+    },
+    {
+      "q": "Can a new disposal connect to my dishwasher drain hose?",
+      "a": "Yes. Every standard residential disposal includes a side dishwasher inlet port. During installation, a plumber knocks out the factory plug, clamps the drain hose securely, and checks for a proper high-loop routing to help prevent sink water from backing into your dishwasher."
+    },
+    {
+      "q": "Is it safe to use drain chemicals in a garbage disposal?",
+      "a": "No. Harsh chemical drain openers can corrode internal disposal seals and metal grind chambers, rarely clear solid mechanical jams or kitchen grease clogs, and create dangerous caustic splash hazards under your sink if a plumber later opens the drain trap."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "children": [
+      "garbage-disposal-repair",
+      "garbage-disposal-installation"
+    ],
+    "siblings": []
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/kitchen-bath-plumbing.jpg",
+      "alt": "Licensed plumber servicing residential kitchen and bathroom fixture plumbing connections in Phoenix",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

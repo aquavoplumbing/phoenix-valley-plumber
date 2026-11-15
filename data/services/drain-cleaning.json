@@ -1,0 +1,243 @@
+{
+  "slug": "drain-cleaning",
+  "type": "service",
+  "status": "published",
+  "urgency": "medium",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "drain cleaning phoenix",
+    "secondaryKeywords": [
+      "drain cleaning phoenix az",
+      "drain cleaning services in phoenix az",
+      "clogged drain phoenix",
+      "slow drain plumber phoenix"
+    ],
+    "title": "Drain Cleaning Phoenix, AZ | Clear Clogs Fast | Call",
+    "metaDescription": "Slow sink, backed-up shower, or gurgling main line? Call for professional drain cleaning Phoenix homeowners trust without harsh chemicals.",
+    "h1": "Drain Cleaning in Phoenix, AZ"
+  },
+  "intro": {
+    "answerFirst": "When a kitchen sink backs up, a shower fills around your ankles, or multiple drains gurgle at once, professional drain cleaning Phoenix homeowners call clears the blockage safely without damaging your pipes. Store-bought chemical openers rarely reach deep clogs and can corrode older traps. Call us to clear branch drains or main lines cleanly.",
+    "support": "If several fixtures back up simultaneously, the blockage may sit in your main sewer line rather than a single sink trap."
+  },
+  "emergency": {
+    "heading": "Drain overflowing right now? Stop water flow first.",
+    "gasWarning": false,
+    "steps": [
+      {
+        "title": "Turn off running taps and appliances",
+        "text": "Pause dishwashers, washing machines, and nearby faucets so more water does not enter the backed-up line."
+      },
+      {
+        "title": "Avoid pouring chemical cleaners",
+        "text": "Caustic liquids sit in standing water and create splash hazards for anyone opening the trap or snaking the line."
+      },
+      {
+        "title": "Check if other fixtures drain",
+        "text": "Notice whether flushing a toilet causes a tub to gurgle—this tells us if the clog is in a branch or main line."
+      },
+      {
+        "title": "Call our Phoenix team",
+        "text": "Tell us which drains are backed up and whether you have an accessible exterior cleanout."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "title": "Standing water in sinks or tubs",
+      "text": "Soap scum, hair, and grease gradually narrow pipe walls until water barely trickles through the trap.",
+      "icon": "drain"
+    },
+    {
+      "title": "Gurgling sounds when draining",
+      "text": "Bubbling in a shower or toilet when another fixture runs points to trapped air behind a partial blockage.",
+      "icon": "volume"
+    },
+    {
+      "title": "Foul odors from kitchen or bath",
+      "text": "Decaying food waste and organic film trapped inside branch lines release persistent sewer-like smells.",
+      "icon": "droplet"
+    },
+    {
+      "title": "Recurring clogs in the same drain",
+      "text": "A clog that returns weeks after plunging usually means only a tiny hole was poked through a larger buildup.",
+      "icon": "pipe"
+    },
+    {
+      "title": "Multiple fixtures backing up together",
+      "text": "When a shower fills up after flushing a toilet, the obstruction is likely deeper in the main building drain.",
+      "icon": "siren"
+    },
+    {
+      "title": "Slow laundry standpipe overflow",
+      "text": "High-volume washing machine discharges quickly expose partially restricted kitchen and utility branch lines.",
+      "icon": "gauge"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Mechanical Drain Snaking (Augering)",
+      "whenItFits": "Hair, soap, small objects, and localized sink, tub, or toilet branch clogs",
+      "text": "We feed a properly sized cable auger through the trap arm or cleanout to break up and retrieve localized obstructions without scratching porcelain or damaging fragile under-sink piping."
+    },
+    {
+      "title": "High-Pressure Hydro Jetting",
+      "whenItFits": "Heavy kitchen grease, sludge, scale, and recurring main-line buildup",
+      "text": "When snaking only punches a temporary path through soft grease or mineral crust, pressurized water jets scour the full inner diameter of the pipe clean."
+    },
+    {
+      "title": "Camera Verification for Repeat Clogs",
+      "whenItFits": "Drains that keep backing up after clearing or suspected root intrusion",
+      "text": "If a main drain clogs repeatedly, a fiber-optic camera look reveals whether tree roots, pipe bellies, or broken joints are behind the pattern."
+    }
+  ],
+  "comparison": {
+    "title": "Drain Snaking vs. Hydro Jetting",
+    "caption": "Choosing the right clearing method based on clog material and pipe condition.",
+    "columns": [
+      "Drain Snaking",
+      "Hydro Jetting"
+    ],
+    "rows": [
+      {
+        "label": "Best For",
+        "cells": [
+          "Hair, paper, and solid single-point clogs",
+          "Heavy grease, soap sludge, scale, and fine roots"
+        ]
+      },
+      {
+        "label": "Cleaning Action",
+        "cells": [
+          "Breaks through or hooks the blockage",
+          "Scours 360 degrees of the pipe wall"
+        ]
+      },
+      {
+        "label": "Pipe Condition Check",
+        "cells": [
+          "Safe for most standard residential traps",
+          "Requires verifying pipe integrity first"
+        ]
+      }
+    ]
+  },
+  "diy": {
+    "canTry": [
+      "Use a cup plunger on a single slow sink or tub after sealing the overflow opening with a damp cloth.",
+      "Pull out and rinse removable pop-up sink stoppers or tub hair catchers.",
+      "Press the reset button on a jammed garbage disposal only after power is off and never reach inside."
+    ],
+    "callWhen": [
+      "More than one fixture backs up or gurgles at the same time.",
+      "Water returns immediately after plunging or clogs keep coming back.",
+      "Sewage odors or dark water appear in a shower or floor drain.",
+      "You have already poured chemical cleaner into standing water."
+    ]
+  },
+  "process": [
+    {
+      "title": "Call and describe the clog",
+      "text": "Tell us which fixtures are slow or backed up and whether water is affecting more than one room."
+    },
+    {
+      "title": "Access & clear the line",
+      "text": "Your plumber locates the cleanout or trap, selects the right cable or jetting nozzle, and restores flow."
+    },
+    {
+      "title": "Test flow & prevent repeats",
+      "text": "We run fixtures to verify smooth drainage and let you know if a camera check is smart for recurring issues."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "What Causes Stubborn Drains in Phoenix Homes",
+    "paragraphs": [
+      "Desert landscaping trees—including mesquite, palo verde, and ficus—send aggressive roots searching for moisture around underground yard drains and sewer laterals. Even a hairline joint gap can invite dense root webs that catch paper and grease, slowing drains across the entire house.",
+      "Inside the kitchen, Phoenix's hard water reacts with soaps and cooking fats to form stubborn, chalky deposits along older cast-iron or galvanized branch lines. Routine mechanical clearing keeps household drains open before a full wastewater backup reaches your tile flooring, baseboards, bathroom vanities, or kitchen sink cabinets indoors and damages finishes."
+    ],
+    "facts": [
+      {
+        "text": "Hard water minerals combine with soaps and grease to accelerate buildup inside residential drain piping.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Drain cleaning pricing depends on where the blockage sits, whether an exterior cleanout exists, and which clearing equipment is needed.",
+    "factors": [
+      {
+        "title": "Branch line vs. main sewer line",
+        "text": "Clearing a single bathroom sink trap differs in equipment and time from cabling a full-length main sewer lateral."
+      },
+      {
+        "title": "Cleanout access",
+        "text": "Accessible exterior ground cleanouts allow direct cabling, whereas missing cleanouts may require pulling a toilet or roof-vent access."
+      },
+      {
+        "title": "Snaking vs. hydro jetting",
+        "text": "Heavy grease or root buildup requiring high-pressure jetting involves specialized equipment beyond a standard auger."
+      },
+      {
+        "title": "Camera inspection needs",
+        "text": "Adding a video inspection to diagnose repeated blockages adds diagnostic scope."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Why do multiple drains in my Phoenix house clog at once?",
+      "a": "When flushing a toilet makes your shower gurgle or fill with water, the blockage is usually in the main sewer line rather than an individual sink trap. Continuing to run water will push wastewater to the lowest drain, so pause water use and call a plumber."
+    },
+    {
+      "q": "Are liquid chemical drain openers safe for my pipes?",
+      "a": "Most plumbers advise against harsh chemical drain openers. They generate heat that can soften PVC traps, corrode older metal pipes, and rarely clear solid grease or root blockages—leaving caustic standing water behind if a plumber still needs to snake the line."
+    },
+    {
+      "q": "When is hydro jetting better than standard drain snaking?",
+      "a": "Snaking works well for hair clogs or solid obstructions, but it often pokes a narrow tunnel through thick kitchen grease. Hydro jetting blasts pressurized water along the entire pipe interior to wash away grease, soap scale, and organic residue cleanly."
+    },
+    {
+      "q": "What if my drain clogs again shortly after being snaked?",
+      "a": "A fast-returning clog usually signals an underlying issue such as tree roots entering a joint, a sagging pipe belly holding debris, or heavy grease buildup. A sewer camera inspection lets you see exactly what is happening inside the buried pipe."
+    },
+    {
+      "q": "Do I need an exterior cleanout for drain cleaning?",
+      "a": "An exterior cleanout makes main-line clearing cleaner and easier, though plumbers can also access lines through a roof vent or by removing a toilet if no cleanout exists. We can also discuss installing a cleanout if your home lacks one."
+    },
+    {
+      "q": "Can flushing 'flushable' wipes clog Phoenix sewer lines?",
+      "a": "Yes. Unlike toilet paper, wipes do not break down quickly in water and frequently snag on rough cast-iron edges, pipe joints, or small roots. Keeping wipes, grease, and coffee grounds out of drains prevents many common household plumbing backups and clogs."
+    }
+  ],
+  "related": {
+    "hub": "drain-and-sewer",
+    "siblings": [
+      "hydro-jetting",
+      "sewer-line-repair",
+      "sewer-camera-inspection",
+      "toilet-repair",
+      "garbage-disposal-repair"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "Dealing with thick kitchen grease or recurring buildup? Learn about",
+        "anchorText": "Hydro Jetting in Phoenix",
+        "slug": "hydro-jetting"
+      },
+      {
+        "sentence": "If repeated clogs point to a damaged underground pipe, see",
+        "anchorText": "Sewer Line Repair in Phoenix",
+        "slug": "sewer-line-repair"
+      }
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/drain-cleaning-service.jpg",
+      "alt": "Licensed plumber operating a commercial drain snake at a Phoenix residential exterior cleanout",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

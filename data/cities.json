@@ -78,5 +78,29 @@
     "mapX": 95,
     "mapY": 212,
     "labelPos": "left"
+  },
+  {
+    "name": "Avondale",
+    "slug": "avondale-az",
+    "region": "West Valley",
+    "mapX": 130,
+    "mapY": 200,
+    "labelPos": "bottom"
+  },
+  {
+    "name": "Buckeye",
+    "slug": "buckeye-az",
+    "region": "Far West Valley",
+    "mapX": 45,
+    "mapY": 235,
+    "labelPos": "bottom"
+  },
+  {
+    "name": "Queen Creek",
+    "slug": "queen-creek-az",
+    "region": "Southeast Valley",
+    "mapX": 385,
+    "mapY": 285,
+    "labelPos": "right"
   }
 ]

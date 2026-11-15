@@ -1,0 +1,42 @@
+[
+  {
+    "test": "Single Form Restriction",
+    "passed": true,
+    "details": "Form elements present strictly on: /contact/"
+  },
+  {
+    "test": "Form Element Present on /contact/",
+    "passed": true,
+    "details": "Form located on /contact/"
+  },
+  {
+    "test": "Client Validation on Empty Required Fields",
+    "passed": true,
+    "details": "HTML5/Aria validation prevented empty submission."
+  },
+  {
+    "test": "Invalid Phone Rejection",
+    "passed": true,
+    "details": "Invalid phone was rejected. URL remained: http://localhost:4010/contact/. Message: Blocked by HTML5 validation"
+  },
+  {
+    "test": "Honeypot Trap Silent Acceptance",
+    "passed": true,
+    "details": "Honeypot returned HTTP 200 with success=true (silent discard)"
+  },
+  {
+    "test": "Speed Trap (< 3s Submission)",
+    "passed": true,
+    "details": "Speed trap returned HTTP 400: \"Submission completed too fast. Please verify and try again.\""
+  },
+  {
+    "test": "Valid Lead Acceptance",
+    "passed": true,
+    "details": "Valid lead returned HTTP 200 with message: \"Thank you. Your message has been received.\""
+  },
+  {
+    "test": "Rate Limiter (5 requests / hour threshold)",
+    "passed": true,
+    "details": "Rate limiter triggered HTTP 429 on attempt 6."
+  }
+]

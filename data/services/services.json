@@ -1,0 +1,116 @@
+{
+  "slug": "services",
+  "type": "hub",
+  "status": "published",
+  "urgency": "low",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "phoenix plumbing services",
+    "secondaryKeywords": [
+      "plumbing services phoenix az",
+      "residential plumber phoenix",
+      "valley plumbing services"
+    ],
+    "title": "Phoenix Plumbing Services | Licensed Contractor",
+    "metaDescription": "Browse phoenix plumbing services from a licensed Arizona contractor—emergency repairs, water heaters, drains, sewer lines, leak detection, and more.",
+    "h1": "All Phoenix Plumbing Services"
+  },
+  "intro": {
+    "answerFirst": "From urgent burst pipes and backed-up main drains to water heaters, slab leaks, and fixture upgrades, our phoenix plumbing services cover residential and commercial properties across the Valley. Select a category below to explore specific symptoms and repair options, or call us directly to speak with a licensed Arizona plumber about what is happening in your home.",
+    "support": "Every call connects you directly—no lead forms, no call-center runaround."
+  },
+  "howToChoose": [
+    {
+      "symptom": "Active flooding, burst pipe, or sudden sewage backup",
+      "targetSlug": "emergency-plumber",
+      "label": "Emergency Plumber",
+      "note": "Start here when water is actively damaging floors or fixtures are overflowing."
+    },
+    {
+      "symptom": "No hot water, rumbling tank, or leaking water heater",
+      "targetSlug": "water-heater",
+      "label": "Water Heater Services",
+      "note": "Explore tank repair, replacement, installation, and tankless options."
+    },
+    {
+      "symptom": "Slow sinks, gurgling tubs, or main sewer backups",
+      "targetSlug": "drain-and-sewer",
+      "label": "Drain & Sewer Services",
+      "note": "Compare snaking, hydro jetting, camera scopes, and trenchless repair."
+    },
+    {
+      "symptom": "High water bill, warm floor spots, or aging copper pipes",
+      "targetSlug": "leak-detection-repair",
+      "label": "Leaks & Repiping",
+      "note": "Pinpoint hidden slab leaks, yard mains, and whole-home repiping."
+    },
+    {
+      "symptom": "Chalky hard-water scale on faucets and showerheads",
+      "targetSlug": "water-treatment",
+      "label": "Water Treatment",
+      "note": "Whole-home water softeners and filtration sized for Valley water."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Plumbing Built for Phoenix Homes & Desert Conditions",
+    "paragraphs": [
+      "Valley plumbing systems face a distinct mix of challenges: very hard municipal water that scales up heaters and valves, concrete slab foundations that hide supply leaks, and desert tree roots plus monsoon shifts that stress underground sewer laterals.",
+      "Our licensed plumbers work across Phoenix, Scottsdale, Tempe, Mesa, Chandler, Gilbert, Glendale, Peoria, Surprise, and Goodyear every day, bringing local experience to every call."
+    ],
+    "facts": [
+      {
+        "text": "Phoenix metro water hardness accelerates mineral buildup inside residential water heaters, fixtures, and pipes.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Which Phoenix Valley cities do your plumbers serve?",
+      "a": "We serve Phoenix, Scottsdale, Tempe, Mesa, Chandler, Gilbert, Glendale, Peoria, Surprise, Goodyear, and surrounding Valley neighborhoods. Call to confirm technician coverage for your specific cross streets and let us know what plumbing issue you are facing in your home today."
+    },
+    {
+      "q": "Are you a licensed Arizona plumbing contractor?",
+      "a": "Yes. Our work is operated under an active Arizona Registrar of Contractors (ROC) license, which is displayed in our utility bar and linked directly to roc.az.gov for verification so you can check our standing anytime before scheduling residential plumbing service."
+    },
+    {
+      "q": "Do I need to fill out a form to schedule service?",
+      "a": "No. We are a call-first plumbing service because live phone conversations let us give immediate shutoff advice, ask the right diagnostic questions, and tell you what to expect right away without waiting on slow web forms or delayed email replies."
+    },
+    {
+      "q": "Can you help with both emergency repairs and planned upgrades?",
+      "a": "Yes. Whether you have an urgent burst pipe, a leaking water heater, a slow main drain, or a planned water softener or gas line installation, we handle both urgent and scheduled residential plumbing work across the entire Phoenix Valley metro."
+    },
+    {
+      "q": "How do you price plumbing jobs without guessing online?",
+      "a": "Every home layout, pipe material, and access point is different. We explain the specific factors that drive cost on each service page and review clear repair or replacement options with you by phone and on site before any work begins."
+    },
+    {
+      "q": "What should I do while waiting for a plumber during an active leak?",
+      "a": "Shut off your home's main water valve or the individual fixture angle stop, turn off power or gas near standing water if it is safe to reach, and call us so we can walk you through immediate damage-control steps right away."
+    }
+  ],
+  "related": {
+    "children": [
+      "emergency-plumber",
+      "water-heater",
+      "drain-and-sewer",
+      "sewer-line",
+      "leak-detection-repair",
+      "toilet",
+      "water-treatment",
+      "gas-line",
+      "garbage-disposal"
+    ],
+    "siblings": []
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/emergency-plumber.jpg",
+      "alt": "Licensed Arizona plumber arriving at a Phoenix Valley residence for residential plumbing service",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

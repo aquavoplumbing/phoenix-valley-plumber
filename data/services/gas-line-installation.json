@@ -1,0 +1,198 @@
+{
+  "slug": "gas-line-installation",
+  "type": "service",
+  "status": "published",
+  "urgency": "high",
+  "updatedAt": "2026-11-12",
+  "seo": {
+    "primaryKeyword": "gas line installation phoenix",
+    "secondaryKeywords": [
+      "phoenix gas line repair",
+      "outdoor kitchen gas line phoenix",
+      "gas pipe installation phoenix az",
+      "gas leak testing phoenix"
+    ],
+    "title": "Gas Line Installation Phoenix, AZ | Safe Hookups",
+    "metaDescription": "Need gas line installation Phoenix homeowners trust for ranges, grills, dryers, or tankless heaters? Licensed gas piping & pressure testing. Call now.",
+    "h1": "Gas Line Installation in Phoenix, AZ"
+  },
+  "intro": {
+    "answerFirst": "Adding a gas range, outdoor BBQ island, pool heater, patio fire pit, or tankless water heater requires properly sized, pressure-tested gas line installation Phoenix homeowners can trust for long-term safety. Natural gas and propane piping must be calculated for BTU load, routed with approved materials, and leak-tested before any appliance is lit. Call us to discuss your gas piping project or suspected leak.",
+    "support": "Never attempt DIY gas pipe modifications—even a tiny thread leak can create a dangerous buildup."
+  },
+  "emergency": {
+    "heading": "Suspect a gas leak? Follow safety steps before anything else.",
+    "gasWarning": true,
+    "steps": [
+      {
+        "title": "Evacuate everyone immediately",
+        "text": "Get all family members and pets out of the house and into fresh air away from the building."
+      },
+      {
+        "title": "Do not touch switches or flames",
+        "text": "Do not flip light switches, unplug appliances, light matches, or use your phone until you are safely outside."
+      },
+      {
+        "title": "Call 911 and your gas utility",
+        "text": "Contact Southwest Gas or emergency services from outside so they can shut off and secure the meter safely."
+      },
+      {
+        "title": "Call us for licensed line repair",
+        "text": "Once the utility has secured the meter, call our licensed plumbers for pressure testing and code-compliant repairs."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "title": "Converting electric range or dryer to gas",
+      "text": "Extending a new branch line with an accessible appliance shutoff valve and sediment trap lets you run gas appliances safely.",
+      "icon": "flame"
+    },
+    {
+      "title": "Building an outdoor kitchen or BBQ",
+      "text": "Underground patio runs for built-in grills and side burners require corrosion-protected piping and proper trench depth.",
+      "icon": "gas-meter"
+    },
+    {
+      "title": "Upgrading to a tankless water heater",
+      "text": "High-demand tankless burners often need a larger-diameter gas feed from the meter to prevent pressure starvation.",
+      "icon": "heater"
+    },
+    {
+      "title": "Adding a pool heater or fire pit",
+      "text": "Backyard pool heaters and fire features draw heavy BTU loads that must be balanced with existing indoor appliances.",
+      "icon": "thermometer"
+    },
+    {
+      "title": "Rotten-egg odor near gas appliances",
+      "text": "Sulfur odorant around a water heater, stove, or meter requires immediate evacuation and utility inspection.",
+      "icon": "siren"
+    },
+    {
+      "title": "Red-tagged meter or failed pressure test",
+      "text": "If the gas utility locked your meter after detecting a drop in pressure, licensed testing locates and repairs the leak.",
+      "icon": "gauge"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Load Calculation & New Gas Branch Piping",
+      "whenItFits": "Indoor ranges, dryers, fireplaces, and tankless water heater upgrades",
+      "text": "We calculate total BTU demand across existing and new appliances, size black iron or approved CSST piping accurately, and install accessible shutoff valves and sediment traps."
+    },
+    {
+      "title": "Underground Yard & Patio Gas Lines",
+      "whenItFits": "Outdoor kitchens, built-in BBQs, fire pits, and pool heaters",
+      "text": "Exterior underground runs use approved coated steel or yellow polyethylene piping with tracer wire and risers, buried to proper depth and pressure-tested before backfilling."
+    },
+    {
+      "title": "Pressure Testing & Leak Isolation",
+      "whenItFits": "Restoring service after a utility shutoff or verifying older gas systems",
+      "text": "Using calibrated manometers and soap-solution joint checks, we isolate leaking valves, unions, or buried sections so the system holds pressure safely before gas is restored."
+    }
+  ],
+  "process": [
+    {
+      "title": "Call with your appliance list",
+      "text": "Tell us what appliance you are adding, where your gas meter sits, and whether the run is indoors or outdoors."
+    },
+    {
+      "title": "BTU sizing & route inspection",
+      "text": "A licensed plumber checks existing meter capacity, pipe sizes, and local inspection requirements."
+    },
+    {
+      "title": "Install, pressure-test & verify",
+      "text": "We run the piping cleanly, perform a thorough pressure test, and review shutoff locations with you."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Outdoor Living & Gas Capacity in Phoenix Homes",
+    "paragraphs": [
+      "Year-round patio weather makes outdoor kitchens, built-in grills, fire pits, and pool heaters especially popular across Phoenix and the Valley. However, tying a high-BTU pool heater or outdoor grill onto an undersized existing branch line can starve your furnace or water heater when multiple appliances run together.",
+      "Desert sun and alkaline soil also degrade unprotected exterior steel piping over time. Using proper UV protection, dielectric unions, and approved underground materials keeps outdoor gas lines reliable, safe, leak-free, and ready for municipal pressure inspection across every season in the Phoenix Valley."
+    ],
+    "facts": [
+      {
+        "text": "City of Phoenix residential permit guidelines cover new gas piping installations and municipal inspection steps.",
+        "sourceUrl": "https://phoenix.gov/pdd/development/permits/residential"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Gas line installation cost depends on pipe length, BTU sizing, trenching requirements, and local inspection steps.",
+    "factors": [
+      {
+        "title": "Run length and pipe diameter",
+        "text": "Longer runs or high-BTU appliances like pool heaters require larger-diameter piping and heavier fittings."
+      },
+      {
+        "title": "Indoor framing vs. yard trenching",
+        "text": "Digging through hard Phoenix caliche soil for an outdoor BBQ line involves different labor than an exposed garage drop."
+      },
+      {
+        "title": "Manifold and regulator upgrades",
+        "text": "Adding multiple outdoor appliances may require upgrading the manifold or coordinating a meter upgrade with your gas utility."
+      },
+      {
+        "title": "Permits and pressure-test inspections",
+        "text": "Municipal gas permits and pressure-test sign-offs vary by city and project scope; your plumber will explain what applies."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What should I do first if I smell gas in my Phoenix home?",
+      "a": "Leave the house immediately with everyone inside, do not flip any light switches or use your phone indoors, and call 911 and your gas utility from outside. Never try to locate a gas leak with a lighter or repair pressurized gas piping yourself."
+    },
+    {
+      "q": "Can you run a gas line from my house to an outdoor kitchen or fire pit?",
+      "a": "Yes. We evaluate your gas meter's total capacity, size the underground line for your grill, side burner, or fire feature BTU load, bury approved corrosion-protected piping with tracer wire, and thoroughly pressure-test the entire run cleanly before starting trench backfill."
+    },
+    {
+      "q": "Why do I need a larger gas line for a tankless water heater?",
+      "a": "A tankless water heater fires at a much higher BTU rate than a standard 40-gallon tank so it can heat water instantaneously. If your existing half-inch gas line is too small, the unit can starve for gas and shut down with error codes."
+    },
+    {
+      "q": "Does gas line installation require a permit in Phoenix?",
+      "a": "Rules differ by city and by the specific work being done. New gas piping extensions, appliance relocations, and meter reconnections often involve municipal permit and pressure-test inspection requirements. Your plumber will tell you whether a permit applies to your job."
+    },
+    {
+      "q": "Can a plumber repair a gas leak if Southwest Gas locked my meter?",
+      "a": "Yes. Once the utility shuts off the meter for safety, a licensed Arizona plumber can pressure-test your home's gas system, locate and repair the leaking fitting or buried section, and coordinate testing so the utility can safely restore gas service."
+    },
+    {
+      "q": "Do you install natural gas and propane piping?",
+      "a": "Yes, our licensed plumbers install and test residential fuel-gas piping for natural gas homes as well as properties using propane tanks, ensuring regulators, pipe diameters, sediment traps, and appliance shutoff valves match the specific fuel type and BTU demand load."
+    }
+  ],
+  "related": {
+    "hub": "gas-line",
+    "siblings": [
+      "tankless-water-heater-installation",
+      "water-heater-installation",
+      "emergency-plumber",
+      "leak-detection"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "Upgrading to an on-demand water heater? See",
+        "anchorText": "Tankless Water Heater Installation in Phoenix",
+        "slug": "tankless-water-heater-installation"
+      },
+      {
+        "sentence": "Installing a new gas tank unit? Check",
+        "anchorText": "Water Heater Installation in Phoenix",
+        "slug": "water-heater-installation"
+      }
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/gas-line-service.jpg",
+      "alt": "Pressure-tested exterior black-iron gas line and shutoff valve for a Phoenix outdoor kitchen",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

@@ -56,6 +56,7 @@ export interface ReviewItem {
   text: string;
   sourceUrl?: string;
   source?: string;
+  tags?: string[];
 }
 
 export interface NavLinkItem {

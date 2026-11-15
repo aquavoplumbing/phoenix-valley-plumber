@@ -1,0 +1,254 @@
+[
+  {
+    "url": "/",
+    "domNodeCount": 1152,
+    "imageCount": 6,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 30,
+    "totalHtmlBytes": 266646
+  },
+  {
+    "url": "/services/",
+    "domNodeCount": 914,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 27,
+    "totalHtmlBytes": 180387
+  },
+  {
+    "url": "/water-heater/",
+    "domNodeCount": 868,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 27,
+    "totalHtmlBytes": 174245
+  },
+  {
+    "url": "/drain-cleaning/",
+    "domNodeCount": 1035,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 207705
+  },
+  {
+    "url": "/sewer-line/",
+    "domNodeCount": 875,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 27,
+    "totalHtmlBytes": 173262
+  },
+  {
+    "url": "/emergency-plumber/",
+    "domNodeCount": 988,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 200590
+  },
+  {
+    "url": "/water-heater-repair/",
+    "domNodeCount": 1014,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 206791
+  },
+  {
+    "url": "/water-heater-replacement/",
+    "domNodeCount": 1009,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 205946
+  },
+  {
+    "url": "/clogged-drain/",
+    "domNodeCount": 1005,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 205541
+  },
+  {
+    "url": "/hydro-jetting/",
+    "domNodeCount": 971,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 196938
+  },
+  {
+    "url": "/sewer-line-repair/",
+    "domNodeCount": 1012,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 204830
+  },
+  {
+    "url": "/slab-leak-repair/",
+    "domNodeCount": 1001,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 203345
+  },
+  {
+    "url": "/leak-detection/",
+    "domNodeCount": 1003,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 203567
+  },
+  {
+    "url": "/water-softener-installation/",
+    "domNodeCount": 964,
+    "imageCount": 4,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 28,
+    "totalHtmlBytes": 197871
+  },
+  {
+    "url": "/locations/",
+    "domNodeCount": 796,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 26,
+    "totalHtmlBytes": 152179
+  },
+  {
+    "url": "/locations/scottsdale-az/",
+    "domNodeCount": 1130,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 29,
+    "totalHtmlBytes": 242511
+  },
+  {
+    "url": "/locations/mesa-az/",
+    "domNodeCount": 1122,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 29,
+    "totalHtmlBytes": 240412
+  },
+  {
+    "url": "/locations/chandler-az/",
+    "domNodeCount": 1104,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 29,
+    "totalHtmlBytes": 237440
+  },
+  {
+    "url": "/blog/",
+    "domNodeCount": 597,
+    "imageCount": 10,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 26,
+    "totalHtmlBytes": 130367
+  },
+  {
+    "url": "/blog/how-to-shut-off-main-water-valve/",
+    "domNodeCount": 459,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 22,
+    "totalHtmlBytes": 93525
+  },
+  {
+    "url": "/cost-guides/",
+    "domNodeCount": 619,
+    "imageCount": 7,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 26,
+    "totalHtmlBytes": 137049
+  },
+  {
+    "url": "/cost-guides/water-heater-replacement-cost/",
+    "domNodeCount": 926,
+    "imageCount": 10,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 30,
+    "totalHtmlBytes": 210910
+  },
+  {
+    "url": "/contact/",
+    "domNodeCount": 765,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 25,
+    "totalHtmlBytes": 147055
+  },
+  {
+    "url": "/about/",
+    "domNodeCount": 705,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 25,
+    "totalHtmlBytes": 146709
+  },
+  {
+    "url": "/faq/",
+    "domNodeCount": 676,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 27,
+    "totalHtmlBytes": 171348
+  },
+  {
+    "url": "/privacy-policy/",
+    "domNodeCount": 482,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 23,
+    "totalHtmlBytes": 99239
+  },
+  {
+    "url": "/terms/",
+    "domNodeCount": 461,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 23,
+    "totalHtmlBytes": 96817
+  },
+  {
+    "url": "/accessibility/",
+    "domNodeCount": 462,
+    "imageCount": 2,
+    "allImagesHaveAlt": true,
+    "allImagesHaveDimensions": true,
+    "scriptCount": 23,
+    "totalHtmlBytes": 94401
+  }
+]

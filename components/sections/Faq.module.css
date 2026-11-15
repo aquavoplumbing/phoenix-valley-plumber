@@ -87,6 +87,8 @@
 .ctaRow {
   margin-top: 32px;
   text-align: center;
+  position: relative;
+  background-color: var(--white);
 }
 
 .stillText {
@@ -99,6 +101,7 @@
   font-weight: 600;
   font-size: 1.0625rem;
   color: var(--navy-900);
+  background-color: var(--white);
 }
 
 .faqPhoneLink {

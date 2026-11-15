@@ -1,0 +1,650 @@
+[
+  {
+    "path": "/",
+    "type": "home",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/services/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/blog/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/cost-guides/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/contact/",
+    "type": "contact",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/contact/thank-you/",
+    "type": "contact",
+    "status": "published",
+    "indexable": false
+  },
+  {
+    "path": "/about/",
+    "type": "about",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/emergency-plumber/",
+    "type": "emergency",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/editorial-policy/",
+    "type": "about",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/faq/",
+    "type": "faq",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/privacy-policy/",
+    "type": "legal",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/privacy/",
+    "type": "legal",
+    "status": "published",
+    "indexable": false
+  },
+  {
+    "path": "/terms/",
+    "type": "legal",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/accessibility/",
+    "type": "legal",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sitemap/",
+    "type": "utility",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/reviews/",
+    "type": "gated",
+    "status": "gated",
+    "indexable": false
+  },
+  {
+    "path": "/our-work/",
+    "type": "gated",
+    "status": "gated",
+    "indexable": false
+  },
+  {
+    "path": "/financing/",
+    "type": "gated",
+    "status": "gated",
+    "indexable": false
+  },
+  {
+    "path": "/commercial-plumbing/",
+    "type": "service",
+    "status": "gated",
+    "indexable": false
+  },
+  {
+    "path": "/backflow-testing/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/basement-leak-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/bathtub-repair-replacement/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/burst-pipe-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/clogged-drain/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/clogged-toilet-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/commercial-drain-cleaning/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/cost-guides/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/drain-and-sewer/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/drain-cleaning/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/electric-water-heater/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/emergency-drain-cleaning/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/emergency-plumber/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/faucet-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/faucet-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/faucets-fixtures/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/french-drain-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/frozen-pipe-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/garbage-disposal-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/garbage-disposal-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/garbage-disposal/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/gas-line-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/gas-line-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/gas-line/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/gas-water-heater/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/heat-pump-water-heater/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/hydro-jetting/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/leak-detection-repair/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/leak-detection/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/main-drain-cleaning/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/new-construction-plumbing/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/pipe-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/plumbing-inspection/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/repiping/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/residential-plumbing/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sewer-camera-inspection/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sewer-line-cleaning/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sewer-line-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sewer-line-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sewer-line-replacement/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sewer-line/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/shower-valve-replacement/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/slab-leak-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/storm-drain-cleaning/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sump-pump-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sump-pump-repair-replacement/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sump-pump-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/sump-pump/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/tankless-water-heater-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/tankless-water-heater-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/toilet-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/toilet-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/toilet-replacement/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/toilet/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/trenchless-pipe-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/trenchless-sewer-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-filtration-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-heater-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-heater-maintenance/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-heater-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-heater-replacement/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-heater/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-line-repair/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-line-replacement/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-softener-installation/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-softener-repair-service/",
+    "type": "service",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/water-treatment/",
+    "type": "hub",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/avondale-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/buckeye-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/chandler-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/gilbert-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/glendale-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/goodyear-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/mesa-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/peoria-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/queen-creek-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/scottsdale-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/surprise-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/locations/tempe-az/",
+    "type": "city",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/blog/trenchless-vs-traditional-sewer-repair/",
+    "type": "blog",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/blog/why-does-my-toilet-keep-running/",
+    "type": "blog",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/blog/what-is-hard-water-phoenix/",
+    "type": "blog",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/cost-guides/toilet-installation-cost/",
+    "type": "cost-guide",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/cost-guides/slab-leak-repair-cost/",
+    "type": "cost-guide",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/cost-guides/sewer-line-replacement-cost/",
+    "type": "cost-guide",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/cost-guides/water-softener-installation-cost/",
+    "type": "cost-guide",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/cost-guides/water-heater-replacement-cost/",
+    "type": "cost-guide",
+    "status": "published",
+    "indexable": true
+  },
+  {
+    "path": "/blog/category/costs/",
+    "type": "blog",
+    "status": "published",
+    "indexable": true
+  }
+]

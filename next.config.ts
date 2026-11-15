@@ -5,13 +5,32 @@ const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === "true",
 });
 
+const isDev = process.env.NODE_ENV !== "production";
+
+const scriptSrc = [
+  "'self'",
+  "'unsafe-inline'",
+  ...(isDev ? ["'unsafe-eval'"] : []),
+  "https://www.googletagmanager.com",
+  "https://www.google-analytics.com",
+].join(" ");
+
+const connectSrc = [
+  "'self'",
+  ...(isDev ? ["ws:", "wss:"] : []),
+  "https://www.google-analytics.com",
+  "https://*.google-analytics.com",
+  "https://*.analytics.google.com",
+  "https://www.googletagmanager.com",
+].join(" ");
+
 const cspDirectives = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com",
+  `script-src ${scriptSrc}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com",
   "font-src 'self'",
-  "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com",
+  `connect-src ${connectSrc}`,
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",
@@ -19,6 +38,7 @@ const cspDirectives = [
 ].join("; ");
 
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
   trailingSlash: true,
   images: {
     formats: ["image/avif", "image/webp"],
@@ -39,31 +59,48 @@ const nextConfig: NextConfig = {
     ];
   },
   async headers() {
+    const isPreview =
+      process.env.VERCEL_ENV === "preview" ||
+      process.env.STAGING === "true";
+
+    const commonHeaders = [
+      {
+        key: "Content-Security-Policy",
+        value: cspDirectives,
+      },
+      {
+        key: "X-Content-Type-Options",
+        value: "nosniff",
+      },
+      {
+        key: "Referrer-Policy",
+        value: "strict-origin-when-cross-origin",
+      },
+      {
+        key: "X-Frame-Options",
+        value: "DENY",
+      },
+      {
+        key: "Permissions-Policy",
+        value: "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+      },
+      {
+        key: "Strict-Transport-Security",
+        value: "max-age=63072000; includeSubDomains; preload",
+      },
+    ];
+
+    if (isPreview) {
+      commonHeaders.push({
+        key: "X-Robots-Tag",
+        value: "noindex, nofollow",
+      });
+    }
+
     return [
       {
         source: "/:path*",
-        headers: [
-          {
-            key: "Content-Security-Policy",
-            value: cspDirectives,
-          },
-          {
-            key: "X-Content-Type-Options",
-            value: "nosniff",
-          },
-          {
-            key: "Referrer-Policy",
-            value: "strict-origin-when-cross-origin",
-          },
-          {
-            key: "X-Frame-Options",
-            value: "DENY",
-          },
-          {
-            key: "X-Robots-Tag",
-            value: "noindex, nofollow",
-          },
-        ],
+        headers: commonHeaders,
       },
       {
         source: "/img/:path*",

@@ -1,0 +1,185 @@
+{
+  "slug": "surprise",
+  "name": "Surprise",
+  "state": "AZ",
+  "tier": 2,
+  "status": "published",
+  "lastVerified": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "plumber surprise az",
+    "secondaryKeywords": [
+      "surprise az plumber",
+      "emergency plumber surprise az",
+      "licensed plumber surprise"
+    ],
+    "title": "Plumber Surprise AZ | Licensed Valley Plumbing | Call Now",
+    "metaDescription": "Need a licensed plumber in Surprise, AZ? Prompt service for water heaters, drain cleaning, and emergency leak repairs in Sun City Grand & Marley Park.",
+    "h1": "Plumber in Surprise, AZ"
+  },
+  "intro": {
+    "answerFirst": "When you need a licensed plumber in Surprise, AZ, prompt professional repair is vital for protecting desert homes from catastrophic water damage. Phoenix Valley Plumber provides comprehensive residential plumbing services for Surprise homeowners facing water heater mineral calcification, main sewer line root blockages, and high water pressure stress. Serving Surprise and nearby Valley communities."
+  },
+  "coverage": {
+    "zips": [
+      "85374",
+      "85378",
+      "85379",
+      "85387",
+      "85388"
+    ],
+    "neighborhoods": [
+      "Sun City Grand",
+      "Marley Park",
+      "Sierra Montana",
+      "Surprise Farms",
+      "Rancho Gabriela",
+      "Mountain Vista Ranch",
+      "Bell West Ranch",
+      "Kingswood Parke"
+    ],
+    "boundariesNote": "Coverage extends throughout Northwest Valley neighborhoods from Sun City Grand and Marley Park west to Surprise Farms, Sierra Montana, and the White Tank foothills.",
+    "sourceUrl": "https://surpriseaz.gov/160/Neighborhood-Services",
+    "retrievedOn": "2026-11-14"
+  },
+  "water": {
+    "utility": "City of Surprise Water Resource Management",
+    "sourceUrl": "https://surpriseaz.gov/1653/Drinking-Water-Quality-Reports",
+    "reportYear": 2024,
+    "zones": [
+      {
+        "label": "Municipal Groundwater Production Wells",
+        "gpgMin": 10,
+        "gpgMax": 16,
+        "sourceNote": "Deep regional alluvial groundwater pumped from the West Salt River Valley aquifer system."
+      },
+      {
+        "label": "Northern & Foothill Blend Zone",
+        "gpgMin": 12,
+        "gpgMax": 18,
+        "sourceNote": "High-mineral groundwater blended with seasonal surface water allocations near the White Tank Mountains."
+      }
+    ],
+    "note": "The City of Surprise reports drinking water is sourced from deep groundwater aquifers and classified as hard to very hard. Installing a properly metered ion-exchange water softener eliminates mineral spotting and extends the lifespan of residential water heating systems."
+  },
+  "housing": {
+    "summary": "Surprise underwent one of Arizona's most rapid suburban transitions, evolving from a small agricultural town into a thriving residential hub anchored by large-scale active adult communities and family master-planned developments. Earlier homes from the original townsite transition into the 1990s retirement enclave of Sun City Grand, while post-2000 builds like Marley Park and Surprise Farms introduce high-density modern PEX networks operating under rigorous desert heat conditions.",
+    "eras": [
+      {
+        "label": "Original Surprise Agricultural Townsite",
+        "builtRange": "1960–1984",
+        "whatWeSee": "Corroded galvanized water pipes with restricted interior flow, deteriorating cast-iron sewer stacks beneath concrete foundations, and roots infiltrating clay sewer connections.",
+        "sourceUrl": "https://surpriseaz.gov/160/Neighborhood-Services"
+      },
+      {
+        "label": "Sun City Grand & Early Suburban Expansion",
+        "builtRange": "1985–2000",
+        "whatWeSee": "Rigid copper plumbing susceptible to hard-water pitting, failing polybutylene supply lines in early 1990s dwellings, and worn pressure-reducing valves causing excess fixture stress.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/surprisecityarizona"
+      },
+      {
+        "label": "Marley Park & Modern Master-Planned Subdivisions",
+        "builtRange": "2001–Present",
+        "whatWeSee": "PEX distribution networks suffering thermal fatigue near attic runs, undersized expansion tanks on high-efficiency tankless units, and calcified fixture cartridges.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/surprisecityarizona"
+      }
+    ],
+    "medianYearBuilt": {
+      "value": 2003,
+      "source": "U.S. Census Bureau ACS 5-Year Estimates",
+      "asOf": "2023"
+    }
+  },
+  "localServices": [
+    {
+      "serviceSlug": "emergency-plumber",
+      "cityAngle": "Sudden pressure regulator failures and ruptured laundry hoses in Surprise subdivisions can flood living spaces within minutes. When indoor water emergencies strike in Sun City Grand or Marley Park, our technicians isolate incoming water and secure damaged piping."
+    },
+    {
+      "serviceSlug": "water-heater-repair",
+      "cityAngle": "Heavy calcium buildup in Surprise tap water causes electric heating elements to overheat and gas burner chambers to rumble loudly. We descale calcified water heater tanks, replace compromised safety valves, and restore proper recovery times."
+    },
+    {
+      "serviceSlug": "tankless-water-heater-installation",
+      "cityAngle": "Tankless water heaters in Northwest Valley communities require proper mineral pre-treatment and dedicated gas supply lines. We install high-efficiency tankless units equipped with service bypass valves to allow straightforward annual maintenance flushes."
+    },
+    {
+      "serviceSlug": "drain-cleaning",
+      "cityAngle": "Cooking grease accumulation and invasive desert landscaping roots frequently cause slow drains and sewage backups in Surprise homes. We clear stubborn lateral blockages with professional rotary drain machines to reestablish sanitary flow."
+    },
+    {
+      "serviceSlug": "slab-leak-repair",
+      "cityAngle": "Shifting desert soils near the White Tank Mountains create foundation tension that abrades under-slab copper lines. We locate subterranean hot and cold water leaks using sensitive acoustic listening devices and execute overhead copper-to-PEX reroutes."
+    },
+    {
+      "serviceSlug": "water-softener-installation",
+      "cityAngle": "Surprise tap water carries dense dissolved rock that creates cloudy residue on glassware and deteriorates plumbing fixtures. We install high-efficiency water softeners configured to municipal water conditions to protect your home's pipe infrastructure."
+    },
+    {
+      "serviceSlug": "sewer-line-repair",
+      "cityAngle": "Ground movement and cracked pipe joints along sewer laterals cause persistent backups across older Surprise properties. We evaluate pipe integrity with high-resolution drain cameras and provide trenchless pipe lining or cleanout installations."
+    },
+    {
+      "serviceSlug": "repiping",
+      "cityAngle": "Homes in early Surprise developments experiencing recurring copper pinhole leaks or problematic polybutylene piping benefit from whole-home repiping. We replace degraded water distribution systems with commercial-grade PEX tubing for lasting durability."
+    }
+  ],
+  "permits": {
+    "officeName": "City of Surprise Community Development Department",
+    "url": "https://surpriseaz.gov/194/Building-Safety",
+    "verifiedNote": {
+      "text": "Rules differ by city and by the work being done. Your plumber will tell you whether a permit applies.",
+      "sourceUrl": "https://surpriseaz.gov/194/Building-Safety"
+    }
+  },
+  "utilities": {
+    "water": {
+      "name": "City of Surprise Water Resource Management",
+      "url": "https://surpriseaz.gov/1652/Water-Services"
+    },
+    "gas": {
+      "name": "Southwest Gas",
+      "url": "https://www.swgas.com",
+      "leakLine": {
+        "number": "1-877-860-6020",
+        "sourceUrl": "https://www.swgas.com/safety"
+      }
+    },
+    "electric": {
+      "name": "Arizona Public Service (APS)",
+      "url": "https://www.aps.com"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do you provide plumbing services in Sun City Grand and Marley Park?",
+      "a": "Yes, our technicians provide complete plumbing repairs across all Surprise communities, including active adult developments in Sun City Grand, family neighborhoods in Marley Park, and western subdivisions like Surprise Farms and Sierra Montana."
+    },
+    {
+      "q": "How does mineral-heavy water affect plumbing fixtures in Surprise?",
+      "a": "Tap water supplied from regional groundwater wells contains dense minerals, as shown in our water hardness summary above. Without regular softening or flushing, calcium scale coats faucet cartridges, restricts aerators, and shortens water heater operational lifespans."
+    },
+    {
+      "q": "What plumbing problems are most common in early Surprise subdivisions?",
+      "a": "Homes built during the 1990s often encounter pinhole leaks in aging copper lines, failing pressure-reducing valves that allow excessive municipal pressure to stress fixtures, and early polybutylene piping requiring whole-home PEX replacement."
+    },
+    {
+      "q": "Are municipal permits required for water heater installations in Surprise?",
+      "a": "Rules differ by city and by the specific work being performed. Major plumbing modifications, new gas line runs, and complete repipes typically require building permits from Surprise Community Development. Your technician will outline any permit guidelines for your project."
+    },
+    {
+      "q": "What should I do if I suspect a natural gas leak in Surprise?",
+      "a": "If you smell natural gas, evacuate your home immediately without operating electrical switches or using indoor electronics. Once safely outside, call 911 or contact Southwest Gas directly on their emergency leak line at 1-877-860-6020."
+    },
+    {
+      "q": "How can I schedule plumbing service for my Surprise residence?",
+      "a": "Call our main phone line directly to speak with our dispatch team. We will review your plumbing symptoms, explain available repair options, and schedule a licensed technician to visit your home."
+    }
+  ],
+  "nearby": [
+    "peoria",
+    "glendale",
+    "goodyear"
+  ],
+  "claimsUsed": [],
+  "updatedAt": "2026-11-14"
+}

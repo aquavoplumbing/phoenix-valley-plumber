@@ -1,0 +1,19 @@
+.container {
+  display: inline-block;
+  background-color: var(--water-100);
+  border-radius: 6px;
+  padding: 4px 10px;
+  margin-block: 4px;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.term {
+  font-weight: 700;
+  color: var(--navy-900);
+  margin-right: 6px;
+}
+
+.meaning {
+  color: var(--ink-900);
+}

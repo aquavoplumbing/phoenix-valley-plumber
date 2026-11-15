@@ -1,0 +1,199 @@
+{
+  "slug": "mesa",
+  "name": "Mesa",
+  "state": "AZ",
+  "tier": 1,
+  "status": "published",
+  "lastVerified": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "plumber mesa",
+    "secondaryKeywords": [
+      "plumber mesa az",
+      "mesa plumber",
+      "emergency plumber mesa",
+      "licensed plumber in mesa az"
+    ],
+    "title": "Plumber Mesa AZ | Licensed Valley Plumbing | Call Now",
+    "metaDescription": "Need a licensed plumber in Mesa, AZ? Fast response for water heaters, drain cleaning, slab leaks, and emergency repairs across Mesa. Call today.",
+    "h1": "Plumber in Mesa, AZ"
+  },
+  "intro": {
+    "answerFirst": "When you need a licensed plumber in Mesa, getting an experienced technician on-site promptly prevents catastrophic water damage. Phoenix Valley Plumber delivers full-scope residential and commercial service for Mesa homeowners facing failing water heaters, stubborn mainline sewer stoppages, slab leaks, and hard-water buildup. Serving Mesa and nearby Valley communities."
+  },
+  "coverage": {
+    "zips": [
+      "85201",
+      "85202",
+      "85203",
+      "85204",
+      "85205",
+      "85206",
+      "85207",
+      "85208",
+      "85209",
+      "85210",
+      "85212",
+      "85213",
+      "85215"
+    ],
+    "neighborhoods": [
+      "Eastmark",
+      "Dobson Ranch",
+      "Red Mountain Ranch",
+      "Alta Mesa",
+      "Las Sendas",
+      "Superstition Springs",
+      "Mesa Grande",
+      "Augusta Ranch",
+      "Citrus Manor",
+      "Lehi",
+      "Sunland Village",
+      "Mesa Groves"
+    ],
+    "boundariesNote": "Full coverage across East Mesa, Central Mesa, and West Mesa borders along the Loop 202 and US 60 corridors.",
+    "sourceUrl": "https://www.mesaaz.gov/residents/neighborhood-outreach",
+    "retrievedOn": "2026-11-14"
+  },
+  "water": {
+    "utility": "City of Mesa Water Resources",
+    "sourceUrl": "https://www.mesaaz.gov/files/content/public/v/14/utilities/water-wastewater/water-quality/english-water-quality-report-2025.pdf",
+    "reportYear": 2025,
+    "zones": [
+      {
+        "label": "City Zone (Val Vista Plant)",
+        "gpgMin": 12,
+        "gpgMax": 15,
+        "sourceNote": "SRP surface water blended with deep well groundwater."
+      },
+      {
+        "label": "Eastern & Southern Zones (Brown Rd & Signal Butte Plants)",
+        "gpgMin": 16,
+        "gpgMax": 22,
+        "sourceNote": "Central Arizona Project Colorado River supply blended with regional well fields."
+      }
+    ],
+    "note": "The City of Mesa recommends programming water softeners to approximately 16 grains per gallon initially, adjusting upward if your residence receives higher well blend ratios."
+  },
+  "housing": {
+    "summary": "Mesa's housing stock reflects rapid eastward suburban growth over several decades. Older neighborhoods near downtown and the original citrus corridors date to mid-century agricultural settlements, while vast master-planned subdivisions in Dobson Ranch, Red Mountain, and Eastmark showcase varying eras of pipe materials, water pressure demands, and desert soil interaction.",
+    "eras": [
+      {
+        "label": "Post-War Agricultural & Downtown Ranches",
+        "builtRange": "1950–1970",
+        "whatWeSee": "Galvanized iron water supply lines choked with internal mineral scale, brittle clay or Orangeburg sewer lines invaded by mature citrus roots, and ungrounded early piping.",
+        "sourceUrl": "https://www.mesaaz.gov/business/historic-preservation"
+      },
+      {
+        "label": "Suburban Expansion & Dobson Ranch Boom",
+        "builtRange": "1971–1995",
+        "whatWeSee": "Copper distribution lines suffering from aggressive hard-water pitting, failing polybutylene supply lines in early 1990s builds, and deteriorating cast-iron drain stacks under concrete slabs.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/mesacityarizona"
+      },
+      {
+        "label": "Eastmark & Modern Master-Planned Communities",
+        "builtRange": "1996–Present",
+        "whatWeSee": "PEX distribution networks experiencing high thermal stress, high-demand multi-bathroom manifold systems, and pressure-reducing valve failures due to intense Valley mainline water pressure.",
+        "sourceUrl": "https://www.census.gov/quickfacts/fact/table/mesacityarizona"
+      }
+    ],
+    "medianYearBuilt": {
+      "value": 1987,
+      "source": "U.S. Census Bureau ACS 5-Year Estimates",
+      "asOf": "2023"
+    }
+  },
+  "localServices": [
+    {
+      "serviceSlug": "emergency-plumber",
+      "cityAngle": "East Mesa and Dobson Ranch homes often face rapid nighttime water pipe ruptures due to shifting ground and high municipal main pressures. When an unexpected leak threatens your flooring, our technicians isolate the breach and restore safe domestic water flow."
+    },
+    {
+      "serviceSlug": "water-heater-repair",
+      "cityAngle": "Water heaters in Mesa accumulate heavy calcium scale and sediment from desert water sources. We flush calcified tanks, replace burned-out lower heating elements, and test temperature-pressure relief valves to extend your system's working life."
+    },
+    {
+      "serviceSlug": "tankless-water-heater-installation",
+      "cityAngle": "Mesa families moving to continuous hot water need properly sized gas lines and pre-filtration. We install high-efficiency tankless units suited to warm desert inlet temperatures and configure annual descaling isolation valves."
+    },
+    {
+      "serviceSlug": "drain-cleaning",
+      "cityAngle": "Historic citrus trees in downtown Mesa and mature ficus canopies throughout older subdivisions frequently compromise clay sewer Laterals. We clear root balls, clear grease blockages, and restore full drain pipe capacity."
+    },
+    {
+      "serviceSlug": "slab-leak-repair",
+      "cityAngle": "Homes constructed on expansive clay soils across the East Valley experience ground shifting that stresses underslab copper pipes. We locate pressurized under-slab leaks using acoustic listening gear and execute non-destructive reroutes."
+    },
+    {
+      "serviceSlug": "water-softener-installation",
+      "cityAngle": "Mesa tap water carries significant dissolved rock and minerals across local distribution zones. We install high-efficiency ion-exchange water softeners calibrated to your specific Mesa utility profile to eliminate spotty glassware and protect expensive plumbing fixtures."
+    },
+    {
+      "serviceSlug": "sewer-line-repair",
+      "cityAngle": "Deteriorated sewer lines under Mesa driveways and mature landscaping can cause repeating yard backups. We diagnose collapses using high-definition fiber optic cameras and provide trenchless pipe lining or open trench replacement."
+    },
+    {
+      "serviceSlug": "repiping",
+      "cityAngle": "When 1970s and 1980s Dobson Ranch homes suffer multiple pinhole leaks in corroded copper or deteriorating polybutylene, whole-home repiping with durable PEX tubing delivers reliable water pressure and permanent leak protection."
+    }
+  ],
+  "permits": {
+    "officeName": "City of Mesa Development Services",
+    "url": "https://www.mesaaz.gov/business/development-services",
+    "verifiedNote": {
+      "text": "Rules differ by city and by the work being done. Your plumber will tell you whether a permit applies.",
+      "sourceUrl": "https://www.mesaaz.gov/business/development-services"
+    }
+  },
+  "utilities": {
+    "water": {
+      "name": "City of Mesa Water Resources",
+      "url": "https://www.mesaaz.gov/residents/water-resources"
+    },
+    "gas": {
+      "name": "Southwest Gas",
+      "url": "https://www.swgas.com",
+      "leakLine": {
+        "number": "1-877-860-6020",
+        "sourceUrl": "https://www.swgas.com/safety"
+      }
+    },
+    "electric": {
+      "name": "Salt River Project (SRP)",
+      "url": "https://www.srpnet.com"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do you serve all neighborhoods in Mesa, AZ?",
+      "a": "Yes, we provide plumbing service across all Mesa communities, from West Mesa and Dobson Ranch to Superstition Springs, Red Mountain, and Eastmark. Whether you live in an established home near downtown or a newer master-planned subdivision along the Loop 202, our technicians can assist with water heaters, drain stoppages, and pipe repairs."
+    },
+    {
+      "q": "How hard is the tap water in Mesa, and will it damage my water heater?",
+      "a": "According to the City of Mesa Water Quality Report, municipal tap water is classified as hard to very hard, as detailed in our water hardness section above. This high mineral content precipitates inside water heaters as calcium scale, reducing heating efficiency and causing premature tank failure without regular maintenance."
+    },
+    {
+      "q": "What plumbing issues are most common in older Mesa homes?",
+      "a": "Mesa homes built between 1950 and 1980 frequently experience mineral-occluded galvanized water pipes, underslab copper pinhole leaks caused by aggressive soil conditions, and sewer line blockages from mature citrus and eucalyptus root systems. Upgrading failing sections with modern PEX or relining compromised sewer lines resolves these recurring problems."
+    },
+    {
+      "q": "Do I need a city permit for plumbing replacements in Mesa?",
+      "a": "Rules differ by city and by the specific work being performed. Major structural alterations, gas line additions, and certain whole-home repiping projects typically involve municipal building permits from Mesa Development Services. Your plumbing technician will evaluate your specific installation and advise whether a permit is required."
+    },
+    {
+      "q": "What should I do if I suspect a gas leak in my Mesa house?",
+      "a": "If you smell the distinctive rotten-egg odor of natural gas, evacuate all occupants and pets from the structure immediately. Do not flip light switches, start vehicles, or use cell phones indoors. Once safely away, dial 911 or call Southwest Gas directly on their emergency line at 1-877-860-6020."
+    },
+    {
+      "q": "How quickly can a plumber reach my Mesa property for an urgent issue?",
+      "a": "We prioritize urgent plumbing situations such as active water line breaks, failed water heaters, and overflowing sewer mains. Calling our dispatch line allows us to assess technician availability across the East Valley and provide an honest estimated arrival timeframe based on current road conditions and Valley service schedules."
+    }
+  ],
+  "nearby": [
+    "tempe",
+    "scottsdale",
+    "chandler",
+    "gilbert"
+  ],
+  "claimsUsed": [],
+  "updatedAt": "2026-11-14"
+}

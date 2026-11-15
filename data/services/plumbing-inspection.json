@@ -1,0 +1,212 @@
+{
+  "slug": "plumbing-inspection",
+  "type": "service",
+  "status": "published",
+  "urgency": "low",
+  "updatedAt": "2026-11-14",
+  "seo": {
+    "primaryKeyword": "plumbing inspection phoenix",
+    "secondaryKeywords": [
+      "whole home plumbing inspection phoenix az",
+      "home buyer plumbing inspection phoenix",
+      "sewer camera inspection phoenix",
+      "plumbing checkup phoenix az"
+    ],
+    "title": "Plumbing Inspection Phoenix, AZ | Whole-Home Camera Check",
+    "metaDescription": "Buying a home or preventing sudden plumbing surprises? Call for plumbing inspection Phoenix homeowners trust for sewer cameras and full safety checks.",
+    "h1": "Plumbing Inspection in Phoenix, AZ"
+  },
+  "intro": {
+    "answerFirst": "Whether purchasing a vintage home in Central Phoenix, preparing for a major remodel, or ensuring your existing plumbing survives another blistering summer, a comprehensive plumbing inspection Phoenix homeowners trust provides total clarity on your home's hidden pipes. Our licensed master plumbers inspect incoming water pressure, test water heaters, check shutoff valves, and run high-definition video cameras down main sewer lines.",
+    "support": "Standard real estate home inspections only check basic surface fixtures. A dedicated plumbing inspection uncovers hidden sewer collapses, slab leaks, and polybutylene."
+  },
+  "emergency": {
+    "heading": "In real estate escrow or noticing subtle plumbing warning signs? Call today.",
+    "gasWarning": false,
+    "steps": [
+      {
+        "title": "Note home age and previous plumbing repairs",
+        "text": "Identify original construction year, pipe materials (copper, polybutylene, galvanized, or PEX), and previous fixture upgrades."
+      },
+      {
+        "title": "Locate water meter and exterior cleanouts",
+        "text": "Confirm that your street water meter box and front-yard sewer cleanout caps are accessible for testing equipment."
+      },
+      {
+        "title": "Gather any existing inspection reports",
+        "text": "If in real estate escrow, note specific concerns raised on the general home inspection report regarding water heaters or drains."
+      },
+      {
+        "title": "Call our licensed plumbing diagnostic team",
+        "text": "Schedule a convenient whole-home inspection appointment with our experienced Phoenix residential specialists."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "title": "Buying or selling a residential home in the Valley",
+      "text": "Performing due diligence during real estate inspection periods to identify hidden sewer collapses or underground slab leaks.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Home built between 1970 and 1995 with unknown pipes",
+      "text": "Properties potentially plumbed with failure-prone blue-gray polybutylene pipe or deteriorating cast-iron sewer laterals.",
+      "icon": "pipe"
+    },
+    {
+      "title": "Unexplained gradual increases in municipal water bills",
+      "text": "Subtle, non-audible water consumption increases that point to hidden pinhole leaks under concrete foundation slabs.",
+      "icon": "gauge"
+    },
+    {
+      "title": "Multiple drains running sluggishly or gurgling",
+      "text": "Early warning signs that underground sewer mains are suffering from invasive desert tree root intrusion or belly sags.",
+      "icon": "drain"
+    },
+    {
+      "title": "Water heater nearing or exceeding 10 years of age",
+      "text": "Assessing tank sediment accumulation, sacrificial anode rod wear, and temperature-and-pressure relief valve safety.",
+      "icon": "heater"
+    },
+    {
+      "title": "Corroded angle stop shutoff valves under sinks",
+      "text": "Seized or crusty oval turn valves that threaten to snap off or fail to shut off water during a plumbing emergency.",
+      "icon": "wrench"
+    }
+  ],
+  "methods": [
+    {
+      "title": "High-Definition Sewer Camera Lateral Scope",
+      "whenItFits": "The most critical component of a thorough plumbing inspection, visually verifying underground sewer health out to the street main.",
+      "text": "We feed a self-leveling color optical camera with radio sonde through cleanouts, recording video footage of pipe walls, joints, and slope."
+    },
+    {
+      "title": "Water Pressure & Static Leak Decay Testing",
+      "whenItFits": "Essential for testing incoming municipal water pressure and proving whether hidden pinhole pipe leaks exist.",
+      "text": "We attach calibrated test gauges to measure static street PSI, check pressure-reducing valve operation, and monitor low-flow meter dials."
+    },
+    {
+      "title": "Comprehensive 50-Point Visual Fixture & Tank Audit",
+      "whenItFits": "Complete hands-on inspection of every visible plumbing fixture, shutoff valve, water heater, and drain in the home.",
+      "text": "We test water heater anode rods and relief valves, inspect supply lines under sinks, test toilet flappers, and verify emergency shutoffs."
+    }
+  ],
+  "diy": {
+    "canTry": [
+      "Check your water meter low-flow dial yourself by closing all household faucets and observing if the red test triangle rotates.",
+      "Inspect the flexible supply lines beneath kitchen sinks and toilets, checking for signs of corrosion or plastic nut cracks.",
+      "Operate the main water shutoff valve gently by hand to verify that it turns smoothly and shuts off household water completely."
+    ],
+    "callWhen": [
+      "You are in a 10-day inspection period on a prospective home purchase in the Phoenix Valley.",
+      "Your home has experienced more than one pinhole copper leak or sewer backup in the past year.",
+      "You want an unbiased, expert assessment of your water heater, water softener, and main water lines.",
+      "You suspect unpermitted or substandard DIY plumbing work performed by previous property owners."
+    ]
+  },
+  "process": [
+    {
+      "title": "Schedule inspection appointment",
+      "text": "Choose a convenient inspection time, providing home age, square footage, and specific areas of concern."
+    },
+    {
+      "title": "Thorough on-site multi-point check",
+      "text": "A licensed plumber tests pressure, scopes sewer lines with cameras, inspects water heaters, and tests all fixtures."
+    },
+    {
+      "title": "Detailed digital report & video review",
+      "text": "We review our findings with you on-site, providing video recordings, photo documentation, and prioritized repair estimates."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Desert Soil & Aggressive Water Demand Specialized Phoenix Inspections",
+    "paragraphs": [
+      "Plumbing inspections in the Phoenix Valley require specialized regional expertise. General home inspectors typically turn on faucets and flush toilets, but standard inspections fail to assess the harsh underground realities of the Sonoran Desert. Beneath our homes lie expansive clay and caliche soils that shift during monsoons, causing unseen breaks in buried cast-iron or clay sewer laterals.",
+      "Furthermore, Phoenix's intense mineral hardness causes severe internal calcification inside water heaters and behind shower mixing valves long before leaks become visible on finished drywall. Our certified master plumbers know exactly where Phoenix homes fail—from corroded polybutylene supply lines in 1980s subdivisions to failing orangeburg and clay laterals in historic Central Phoenix—giving you actionable peace of mind."
+    ],
+    "facts": [
+      {
+        "text": "Hidden sewer lateral collapses and calcified under-slab leaks represent the most common undetected plumbing defects in Phoenix homes.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Plumbing inspection pricing depends on home square footage, number of plumbing fixtures, and whether sewer camera scoping is included.",
+    "factors": [
+      {
+        "title": "Sewer camera inspection inclusion",
+        "text": "Adding high-definition sewer lateral video scoping and recording provides essential underground documentation for home buyers."
+      },
+      {
+        "title": "Home square footage and bathroom count",
+        "text": "Auditing a large custom 5-bedroom home with multiple water heaters and outdoor kitchens involves more testing time than a condo."
+      },
+      {
+        "title": "Escrow real estate timeline needs",
+        "text": "We accommodate tight 10-day inspection objection windows with priority scheduling and prompt digital report delivery."
+      },
+      {
+        "title": "Repair credit deduction value",
+        "text": "A detailed plumbing inspection report provides valuable documentation for negotiating seller repair credits during home purchases."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What is included in a whole-home plumbing inspection in Phoenix?",
+      "a": "A thorough plumbing inspection includes testing municipal water pressure, testing the pressure-reducing valve (PRV), inspecting the water heater and expansion tank, checking all under-sink shutoff valves and supply lines, testing toilets and faucets, and performing a full sewer camera lateral inspection."
+    },
+    {
+      "q": "Why should I get a plumbing inspection if I already had a home inspection?",
+      "a": "General home inspectors only test visible fixture operation; they do not possess specialized optical cameras to inspect underground sewer pipes, nor do they perform static pressure decay tests. A dedicated plumbing inspection uncovers hidden sewer collapses, tree roots, and concealed under-slab leaks."
+    },
+    {
+      "q": "How long does a whole-home plumbing inspection take?",
+      "a": "Most residential plumbing inspections take between 60 to 90 minutes to complete. Our licensed plumber thoroughly examines every fixture, runs video camera scopes through exterior cleanouts, tests water pressures, and reviews all video footage and prioritized repair recommendations with you in person."
+    },
+    {
+      "q": "What is polybutylene pipe, and why is it dangerous in Phoenix homes?",
+      "a": "Polybutylene is a flexible gray plastic pipe widely installed in Phoenix homes between 1978 and 1995. Chlorine disinfectants in municipal water cause the plastic to flake and become brittle from the inside out, leading to catastrophic sudden pipe splits that flood homes without warning."
+    },
+    {
+      "q": "Do I receive a copy of the sewer camera video footage?",
+      "a": "Yes, absolutely. Following the inspection, we provide you with a full digital video recording of the entire sewer camera scope, along with timestamped photos and an official written technician evaluation that can be submitted to sellers or kept for your home records."
+    },
+    {
+      "q": "How much water pressure should my Phoenix home have?",
+      "a": "Residential water pressure should ideally sit between 50 and 65 PSI. If street pressure exceeds 80 PSI, it violates uniform plumbing code and will damage water heater tanks, cause dripping faucets, and blow out toilet fill valves. A pressure-reducing valve is required."
+    }
+  ],
+  "related": {
+    "hub": "services",
+    "siblings": [
+      "sewer-camera-inspection",
+      "leak-detection",
+      "residential-plumbing",
+      "water-heater-repair",
+      "repiping"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "To visually inspect your underground sewer lateral out to the street main, schedule a",
+        "anchorText": "Sewer Camera Inspection in Phoenix",
+        "slug": "sewer-camera-inspection"
+      },
+      {
+        "sentence": "Suspect a hidden water leak under your concrete slab? Learn about",
+        "anchorText": "Leak Detection in Phoenix, AZ",
+        "slug": "leak-detection"
+      }
+    ]
+  },
+  "claimsUsed": [],
+  "images": {
+    "hero": {
+      "src": "/img/services/plumbing-inspection.jpg",
+      "alt": "Licensed plumber conducting a comprehensive plumbing inspection with a water pressure test gauge",
+      "width": 1376,
+      "height": 768
+    }
+  }
+}

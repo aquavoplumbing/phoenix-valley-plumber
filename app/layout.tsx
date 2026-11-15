@@ -76,8 +76,15 @@ export function generateMetadata(): Metadata {
       google: "Tu0xx_tqGjVtQBdsPo7jw85CRIR3Mgypl2AUQleWLn4",
     },
     robots: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
@@ -96,19 +103,16 @@ export default function RootLayout({
 
   return (
     <html lang="en-US" className={`${sora.variable} ${inter.variable}`}>
-      <head>
-        <script
-          async
+      <head />
+      <body>
+        <Script
+          id="gtm"
+          strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtm.js?id=GTM-M8V457FF"
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html:
-              "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());",
-          }}
-        />
-      </head>
-      <body>
+        <Script id="gtm-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());`}
+        </Script>
         <a href="#main-content" className="skip-link">
           Skip to main content
         </a>

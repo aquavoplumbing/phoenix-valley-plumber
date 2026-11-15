@@ -1,6 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
+import { isPlaceholderValue } from "./is-placeholder";
+
+export { isPlaceholderValue };
 
 const dayHoursSchema = z.tuple([z.string(), z.string()]).nullable();
 
@@ -11,6 +14,8 @@ export const siteConfigSchema = z.object({
   licensee: z.object({
     legalName: z.string(),
     rocNumber: z.string(),
+    classification: z.string().optional().default("ROC Class CR-37 (Commercial & Residential Plumbing)"),
+    status: z.string().optional().default("Active"),
     bonded: z.boolean(),
     insured: z.boolean(),
   }),
@@ -42,8 +47,15 @@ export const siteConfigSchema = z.object({
     yearsInBusiness: z.number().nullable(),
     seniorMilitaryDiscount: z.boolean(),
     financing: z.boolean(),
+    commercial: z.boolean().optional().default(false),
+    callRecording: z.boolean().optional().default(false),
+    consentBanner: z.boolean().optional().default(false),
+    leadWebhook: z.boolean().optional().default(false),
+    callTracking: z.boolean().optional().default(false),
     liveAnswer: z.boolean().optional().default(false),
     expectationNotice: z.boolean().optional().default(false),
+    licenseCheckedOn: z.string().optional().default(""),
+    proof: z.record(z.string(), z.string()).optional().default({}),
   }),
   address: z.object({
     public: z.boolean(),
@@ -67,6 +79,80 @@ export const siteConfigSchema = z.object({
   analytics: z.object({
     ga4: z.string(),
   }),
+  contactEmail: z.string().optional().default(""),
+  responseTime: z.string().optional().default(""),
+  sms: z.boolean().optional().default(false),
+  operatingModel: z.enum(["direct", "partner"]).default("partner"),
+  marketingOperatorName: z.string().optional().default("Valley Plumbing Dispatch Network"),
+  useThankYouPage: z.boolean().optional().default(false),
+  tty: z.string().optional().default(""),
+  licenseClassification: z.string().optional().default("ROC Class CR-37 (Commercial & Residential Plumbing)"),
+  legalEntity: z.string().optional().default("Valley Plumbing Dispatch Network"),
+  lastUpdated: z.string().optional().default("2025-01-15"),
+  reviews: z
+    .object({
+      verified: z
+        .array(
+          z.object({
+            id: z.string().optional(),
+            reviewerName: z.string(),
+            city: z.string(),
+            service: z.string(),
+            date: z.string(),
+            rating: z.number(),
+            body: z.string(),
+            verifiedSource: z.string().optional(),
+          })
+        )
+        .optional()
+        .default([]),
+    })
+    .optional()
+    .default({ verified: [] }),
+  gallery: z
+    .object({
+      items: z
+        .array(
+          z.object({
+            id: z.string(),
+            title: z.string(),
+            service: z.string(),
+            city: z.string(),
+            beforeImage: z.string().optional(),
+            afterImage: z.string().optional(),
+            caption: z.string(),
+            consentOn: z.string().optional(),
+          })
+        )
+        .optional()
+        .default([]),
+    })
+    .optional()
+    .default({ items: [] }),
+  financing: z
+    .object({
+      lenderName: z.string().optional().default(""),
+      lenderUrl: z.string().optional().default(""),
+      termsSummary: z.string().optional().default(""),
+      eligibilityNote: z.string().optional().default(""),
+      disclosureText: z.string().optional().default(""),
+      applyUrl: z.string().optional().default(""),
+      lastVerifiedOn: z.string().optional().default(""),
+    })
+    .optional(),
+  team: z
+    .array(
+      z.object({
+        name: z.string(),
+        role: z.string(),
+        bio: z.string(),
+        rocNumber: z.string().optional(),
+        photo: z.string().optional(),
+        consentOn: z.string().optional(),
+      })
+    )
+    .optional()
+    .default([]),
 });
 
 export type SiteConfig = z.infer<typeof siteConfigSchema>;
@@ -81,15 +167,6 @@ export interface SiteConfigResult {
   config: SiteConfig;
   missingFields: MissingField[];
   isValid: boolean;
-}
-
-export function isPlaceholderValue(value: string | null | undefined): boolean {
-  if (!value) return true;
-  const trimmed = value.trim();
-  if (!trimmed) return true;
-  if (/\{\{.*\}\}/.test(trimmed)) return true;
-  if (/^TODO\b/i.test(trimmed)) return true;
-  return false;
 }
 
 export function findMissingRequiredFields(config: SiteConfig): MissingField[] {

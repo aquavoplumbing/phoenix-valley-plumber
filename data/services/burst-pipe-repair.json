@@ -1,0 +1,213 @@
+{
+  "slug": "burst-pipe-repair",
+  "type": "service",
+  "status": "published",
+  "urgency": "high",
+  "seo": {
+    "title": "Burst Pipe Repair Phoenix, AZ | Urgent Shutoff",
+    "metaDescription": "Pipe burst under a sink, in a wall, or on an exterior riser? Call licensed Arizona plumbers for urgent burst pipe repair in Phoenix, AZ.",
+    "h1": "Burst Pipe Repair in Phoenix, AZ",
+    "primaryKeyword": "burst pipe repair phoenix",
+    "secondaryKeywords": [
+      "burst pipe repair phoenix az",
+      "burst pipe repair near me",
+      "licensed plumber burst pipe repair phoenix"
+    ]
+  },
+  "intro": {
+    "answerFirst": "Need urgent burst pipe repair in Phoenix? Shut off your home's main water valve immediately, turn off power at the breaker if water is near outlets or your electric water heater, and open a low faucet to drain pressure. Call us right away for live shutoff guidance and licensed Arizona plumbers who isolate the break, replace the failed pipe section, and check nearby lines for weakness.",
+    "support": "Call directly—we talk you through main shutoff steps while preparing dispatch."
+  },
+  "images": {
+    "hero": {
+      "src": "/img/services/emergency-plumber.jpg",
+      "alt": "Licensed Arizona plumber arriving at a Phoenix home for urgent burst pipe repair",
+      "width": 1376,
+      "height": 768
+    }
+  },
+  "emergency": {
+    "heading": "Pipe Burst Right Now? Do This First",
+    "steps": [
+      {
+        "title": "Close the main water valve",
+        "text": "Turn your main shutoff valve clockwise (or turn a ball-valve handle perpendicular to the pipe) at the front wall or garage."
+      },
+      {
+        "title": "Protect electrical safety",
+        "text": "If water is spraying near wall outlets, baseboard heaters, or a breaker panel, switch off power to that zone safely."
+      },
+      {
+        "title": "Relieve line pressure",
+        "text": "Open a downstairs cold faucet or outdoor hose bib to drain remaining water out of the burst pipe."
+      },
+      {
+        "title": "Call our licensed plumbers",
+        "text": "Tell us where the break is located so we can guide cleanup and dispatch a plumber."
+      }
+    ]
+  },
+  "symptoms": [
+    {
+      "icon": "siren",
+      "title": "Spraying Water Inside Walls",
+      "text": "Hissing behind drywall, bubbling paint, or water pouring from a ceiling fixture or cabinet."
+    },
+    {
+      "icon": "leak",
+      "title": "Split Exterior Copper Riser",
+      "text": "Uninsulated hose bibs, backflow preventers, or garage loops split after a desert cold snap."
+    },
+    {
+      "icon": "pipe",
+      "title": "Blown Compression or PEX Fitting",
+      "text": "An under-sink braided hose or older plastic fitting pops loose under high water pressure."
+    },
+    {
+      "icon": "gauge",
+      "title": "Sudden Total Pressure Loss",
+      "text": "Faucets drop to a trickle while you hear rushing water in a crawlspace, garage, or attic."
+    },
+    {
+      "icon": "thermometer",
+      "title": "Overheated Attic Plastic Line",
+      "text": "Legacy CPVC or polybutylene pipe turns brittle in triple-digit Phoenix summers and cracks."
+    },
+    {
+      "icon": "wrench",
+      "title": "Seized Valve Snapped Off",
+      "text": "Trying to force a corroded multi-turn shutoff valve breaks the stem and sprays water."
+    }
+  ],
+  "methods": [
+    {
+      "title": "Emergency Pipe Isolation & Section Repair",
+      "whenItFits": "Localized splits, pinhole blowouts, or blown fittings",
+      "text": "We shut down the affected branch, cut out the split copper, PEX, or PVC section cleanly, and join new rated piping with pressure-tested fittings."
+    },
+    {
+      "title": "Exterior Backflow & Hose-Bib Replacement",
+      "whenItFits": "Freeze-damaged outdoor risers or irrigation tees",
+      "text": "Winter overnight dips in Phoenix suburbs can split exposed irrigation backflow assemblies and hose bibs; we rebuild and insulate them cleanly."
+    },
+    {
+      "title": "PRV & Quarter-Turn Valve Upgrade",
+      "whenItFits": "High water pressure behind repeated blowouts",
+      "text": "We test static household pressure and replace failing pressure-reducing valves or brittle angle stops so another fitting does not blow next."
+    },
+    {
+      "title": "Wall/Attic Reroute Assessment",
+      "whenItFits": "Brittle legacy piping showing widespread cracks",
+      "text": "If the break reveals brittle polybutylene or heavily corroded copper, we inspect adjacent runs and explain targeted reroute or repipe options."
+    }
+  ],
+  "diy": {
+    "canTry": [
+      "Shut off the main house water valve immediately—or the curb stop in the street meter box if the house valve is stuck.",
+      "Move rugs, electronics, and furniture out of the wet path and place towels or buckets under active drips.",
+      "Take a quick phone photo of the burst area after water is off so you can describe access clearly."
+    ],
+    "callWhen": [
+      "Water is actively leaking inside drywall, ceilings, or under cabinets.",
+      "Your main shutoff valve is frozen and refuses to close.",
+      "A pipe split on an exterior backflow preventer or water heater line.",
+      "You suspect high pressure or brittle old pipes caused the break."
+    ]
+  },
+  "process": [
+    {
+      "title": "Call for immediate shutoff help",
+      "text": "We confirm your water is off safely and ask where the break sits so we bring the right fittings."
+    },
+    {
+      "title": "Expose & inspect the break",
+      "text": "A licensed plumber isolates the damaged pipe, checks nearby joints, and tests static line pressure."
+    },
+    {
+      "title": "Repair, test & check dry",
+      "text": "We install the new pipe section, slowly restore water pressure, and verify zero weeping at joints."
+    }
+  ],
+  "phoenixAngle": {
+    "heading": "Why Pipes Burst in Phoenix Desert Heat & Winter Cold Snaps",
+    "paragraphs": [
+      "Phoenix homeowners are often surprised that pipes still burst in the desert. Two local extremes drive most failures: triple-digit summer attic heat that bakes and embrittles older plastic supply lines, and brief winter overnight freezes in outlying Valley areas that split uninsulated exterior copper risers, hose bibs, and lawn backflow preventers.",
+      "High municipal water pressure and hard-water mineral corrosion at copper elbows also weaken pipe walls quietly until a sudden pressure surge forces a split. Testing your static household water pressure and checking your pressure-reducing valve after any repair helps protect the rest of your home."
+    ],
+    "facts": [
+      {
+        "text": "Hard water minerals and corrosion accelerate pipe wall wear and valve failures across Phoenix plumbing systems.",
+        "sourceUrl": "https://www.penguinair.com/blog/how-phoenix-hard-water-impacts-your-plumbing-system"
+      }
+    ]
+  },
+  "costFactors": {
+    "intro": "Burst pipe repair pricing depends on whether the break is exposed or inside drywall, pipe material, and whether valve or PRV upgrades are needed.",
+    "factors": [
+      {
+        "title": "Exposed garage vs. enclosed wall access",
+        "text": "Repairing an accessible garage or yard riser takes less labor than opening drywall or stucco carefully."
+      },
+      {
+        "title": "Pipe material and diameter",
+        "text": "Copper brazing, PEX-A expansion fittings, and PVC pressure couplings each require different parts and tools."
+      },
+      {
+        "title": "Condition of surrounding pipe",
+        "text": "Brittle older piping may need a longer section replaced back to sound material rather than a short patch."
+      },
+      {
+        "title": "Main valve or PRV replacement",
+        "text": "If a seized main shutoff or failed pressure-reducing valve caused or complicated the burst, replacing it adds scope."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Where is my main water shutoff valve in a Phoenix house?",
+      "a": "In most Phoenix homes, the main shutoff valve sits on the front exterior wall near the hose bib, or inside the garage where the water line enters from the front yard. Look for a brass gate wheel or quarter-turn lever handle."
+    },
+    {
+      "q": "What if my house main shutoff valve is stuck and won't turn?",
+      "a": "Do not force a corroded brass handle so hard that it snaps off. Instead, open the concrete meter box near the street curb and use a meter key or adjustable wrench to turn the utility curb stop valve a quarter turn until water stops."
+    },
+    {
+      "q": "Can a plumber repair a burst pipe without tearing out half my wall?",
+      "a": "Yes. Once we pinpoint where the leak originates, we make a clean, focused drywall opening just large enough to cut back to sound pipe, install rated couplings, and pressure-test the new section before you arrange drywall patching and interior paint."
+    },
+    {
+      "q": "Why did an outdoor irrigation backflow pipe burst in Phoenix?",
+      "a": "Even a couple of hours near freezing overnight can ice over uninsulated copper backflow loops and vacuum breakers sitting exposed above desert gravel. Rebuilding the damaged copper assembly and adding thick foam pipe insulation prevents repeat winter splits outdoors reliably."
+    },
+    {
+      "q": "Will homeowner insurance cover water damage from a burst pipe?",
+      "a": "Many policies cover sudden, accidental pipe bursts and resulting water damage, though coverage details vary by carrier and deductible. We provide clear written documentation of the broken pipe location and completed repair for your homeowner insurance claim records and adjuster."
+    },
+    {
+      "q": "Should I check my other pipes after one pipe bursts?",
+      "a": "Yes, especially if your home has gray polybutylene piping, aging CPVC in a hot attic, or high incoming water pressure. Testing static household pressure and inspecting visible joints during the repair visit helps catch other weak spots before they leak."
+    }
+  ],
+  "related": {
+    "hub": "leak-detection-repair",
+    "siblings": [
+      "emergency-plumber",
+      "water-line-repair",
+      "slab-leak-repair",
+      "repiping"
+    ],
+    "inBodyLinks": [
+      {
+        "sentence": "Need immediate emergency dispatch for flooding or shutoff? Call our",
+        "anchorText": "Emergency Plumber in Phoenix",
+        "slug": "emergency-plumber"
+      },
+      {
+        "sentence": "If brittle old pipes are splitting repeatedly, consider",
+        "anchorText": "Whole-Home Repiping in Phoenix",
+        "slug": "repiping"
+      }
+    ]
+  },
+  "claimsUsed": []
+}

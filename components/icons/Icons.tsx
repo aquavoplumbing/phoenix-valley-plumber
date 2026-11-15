@@ -1,5 +1,6 @@
 import type { SVGProps } from "react";
 import type { ServiceIconName } from "@/lib/routes";
+import type { IconName } from "@/lib/service-schema";
 
 export interface IconProps extends SVGProps<SVGSVGElement> {
   size?: number;
@@ -283,9 +284,115 @@ export function AwardIcon(props: IconProps) {
   );
 }
 
-const SERVICE_ICONS: Record<ServiceIconName, (props: IconProps) => React.JSX.Element> = {
+export function FlameOffIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="M8.7 10.7A5.5 5.5 0 0 0 5 15a7 7 0 0 0 11.9 4.9" />
+      <path d="M18.9 13.5A7 7 0 0 0 16 9.5C13 7 12 3 12 3c-.3.9-.8 1.9-1.4 2.8" />
+      <path d="m2 2 20 20" />
+    </BaseIcon>
+  );
+}
+
+export function GaugeIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="m12 14 4-4" />
+      <path d="M3.34 19a10 10 0 1 1 17.32 0" />
+    </BaseIcon>
+  );
+}
+
+export function VolumeIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+      <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+      <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+    </BaseIcon>
+  );
+}
+
+export function LeakIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="M4 7h16" />
+      <path d="M4 11h16" />
+      <path d="M12 11v2" />
+      <path d="M12 16s-2.5 2.7-2.5 4.2a2.5 2.5 0 0 0 5 0C14.5 18.7 12 16 12 16Z" />
+    </BaseIcon>
+  );
+}
+
+export function RootIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="M12 3v8" />
+      <path d="M12 11c-2 2-5 3-7 6" />
+      <path d="M12 11c2 2 5 3 7 6" />
+      <path d="M12 11v4c0 2-1.5 4-3 6" />
+      <path d="M12 15c1.5 1.5 2.5 3.5 3 6" />
+      <path d="M7 7h10" />
+    </BaseIcon>
+  );
+}
+
+export function FaucetIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="M10 4h4" />
+      <path d="M12 4v4" />
+      <path d="M5 12h10a3 3 0 0 1 3 3v2h-4v-2a1 1 0 0 0-1-1H5v-2Z" />
+      <path d="M16 20c0-1 .5-1.5 1-2 .5.5 1 1 1 2a1 1 0 0 1-2 0Z" />
+    </BaseIcon>
+  );
+}
+
+export function ThermometerIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z" />
+      <circle cx="12" cy="17" r="1" />
+    </BaseIcon>
+  );
+}
+
+export function HouseIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="M3 10.5 12 3l9 7.5" />
+      <path d="M5 9.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5" />
+      <path d="M9 21v-6h6v6" />
+    </BaseIcon>
+  );
+}
+
+export function GasMeterIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <rect x="5" y="6" width="14" height="14" rx="2" />
+      <path d="M8 6V3" />
+      <path d="M16 6V3" />
+      <rect x="8" y="9" width="8" height="4" rx="1" />
+      <circle cx="12" cy="16.5" r="1" />
+    </BaseIcon>
+  );
+}
+
+export function AlertCircleIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <circle cx="12" cy="12" r="10" />
+      <line x1="12" y1="8" x2="12" y2="12" />
+      <line x1="12" y1="16" x2="12.01" y2="16" />
+    </BaseIcon>
+  );
+}
+
+const SERVICE_ICONS: Record<IconName, (props: IconProps) => React.JSX.Element> = {
   siren: SirenIcon,
   flame: FlameIcon,
+  "flame-off": FlameOffIcon,
   heater: HeaterIcon,
   bolt: BoltIcon,
   drain: DrainIcon,
@@ -297,12 +404,23 @@ const SERVICE_ICONS: Record<ServiceIconName, (props: IconProps) => React.JSX.Ele
   toilet: ToiletIcon,
   filter: FilterIcon,
   shield: ShieldIcon,
+  "shield-check": ShieldIcon,
+  gauge: GaugeIcon,
+  volume: VolumeIcon,
+  leak: LeakIcon,
+  root: RootIcon,
+  faucet: FaucetIcon,
+  clock: ClockIcon,
+  tool: WrenchIcon,
+  thermometer: ThermometerIcon,
+  house: HouseIcon,
+  "gas-meter": GasMeterIcon,
 };
 
 export function ServiceIcon({
   name,
   ...props
-}: IconProps & { name: ServiceIconName }) {
+}: IconProps & { name: ServiceIconName | IconName }) {
   const Component = SERVICE_ICONS[name] ?? WrenchIcon;
   return <Component {...props} />;
 }

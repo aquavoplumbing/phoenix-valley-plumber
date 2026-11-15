@@ -8,18 +8,24 @@ import styles from "./Faq.module.css";
 export function Faq({
   site,
   faqs,
+  title = "Phoenix Plumbing FAQ",
+  subtitle = "Clear answers about scheduling, licensing, hard water, permits, and urgent repairs.",
+  callLocation = "faq",
 }: {
   site: SiteConfig;
   faqs: FaqItem[];
+  title?: string;
+  subtitle?: string;
+  callLocation?: string;
 }) {
   return (
-    <section className={styles.section} aria-labelledby="faq-heading">
+    <section id="faq" className={styles.section} aria-labelledby="faq-heading">
       <div className="container">
         <SectionHeading
           id="faq-heading"
           eyebrow="Common Questions"
-          title="Phoenix Plumbing FAQ"
-          subtitle="Clear answers about scheduling, licensing, hard water, permits, and urgent repairs."
+          title={title}
+          subtitle={subtitle}
         />
 
         <div className={styles.list}>
@@ -42,7 +48,7 @@ export function Faq({
             <PhoneLink
               display={site.phone.display}
               e164={site.phone.e164}
-              location="faq"
+              location={callLocation}
               className={styles.faqPhoneLink}
             >
               <PhoneIcon size={16} />

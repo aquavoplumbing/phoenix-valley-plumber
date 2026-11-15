@@ -59,7 +59,7 @@ export function EmergencyBlock({ site }: { site: SiteConfig }) {
                   size="lg"
                   className={styles.callBtn}
                 />
-                <Link href="/how-to-find-main-shutoff-valve/" className={styles.guideLink}>
+                <Link href="/blog/how-to-shut-off-main-water-valve/" className={styles.guideLink}>
                   How to find your main shut-off valve →
                 </Link>
               </div>

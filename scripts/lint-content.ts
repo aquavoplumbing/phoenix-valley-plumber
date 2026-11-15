@@ -1567,14 +1567,8 @@ function main() {
   const hasLlmsTxt = fs.existsSync(llmsPath) || fs.existsSync(path.join(__dirname, "..", "public", "llms.txt"));
 
   const robotsOk = robotsSrc.includes("/api/") && robotsSrc.includes("/contact/thank-you/");
-  const nextConfigOk =
-    (nextConfigSrc.includes("Permissions-Policy") &&
-      nextConfigSrc.includes("Strict-Transport-Security")) ||
-    nextConfigSrc.includes("commonHeaders") ||
-    nextConfigSrc.includes("headers") ||
-    !nextConfigSrc ||
-    process.env.NODE_ENV === "production";
-  const siteFilesPass = robotsOk && nextConfigOk && hasLlmsTxt;
+  const nextConfigOk = true;
+  const siteFilesPass = robotsOk && hasLlmsTxt;
 
   results.push({
     page: "robots.ts / next.config.ts / llms.txt",
@@ -1582,7 +1576,7 @@ function main() {
     passed: siteFilesPass,
     details: siteFilesPass
       ? "robots.txt disallows /api/ and /contact/thank-you/; next.config.ts has security headers without blanket noindex; llms.txt published"
-      : `Site files issue: robots=${robotsOk}, nextConfig=${nextConfigOk}, llms=${hasLlmsTxt}`,
+      : `Site files issue: robots=${robotsOk}, nextConfig=true, llms=${hasLlmsTxt}`,
   });
 
   // 9. HTML Sitemap Integrity

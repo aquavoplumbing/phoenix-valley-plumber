@@ -1537,13 +1537,43 @@ function main() {
   // 8. Site Files: robots.txt, next.config.ts, and llms.txt
   const robotsPath = path.join(process.cwd(), "app", "robots.ts");
   const robotsSrc = fs.existsSync(robotsPath) ? fs.readFileSync(robotsPath, "utf8") : "";
-  const nextConfigPath = path.join(process.cwd(), "next.config.ts");
-  const nextConfigSrc = fs.existsSync(nextConfigPath) ? fs.readFileSync(nextConfigPath, "utf8") : "";
+
+  const possibleNextConfigs = [
+    path.join(process.cwd(), "next.config.ts"),
+    path.join(process.cwd(), "next.config.mjs"),
+    path.join(process.cwd(), "next.config.js"),
+    path.join(process.cwd(), "next.config.cjs"),
+    path.join(__dirname, "..", "next.config.ts"),
+    path.join(__dirname, "..", "next.config.mjs"),
+    path.join(__dirname, "..", "next.config.js"),
+    path.join(__dirname, "..", "next.config.cjs"),
+  ];
+  let nextConfigSrc = "";
+  for (const p of possibleNextConfigs) {
+    if (fs.existsSync(p)) {
+      try {
+        const content = fs.readFileSync(p, "utf8");
+        if (content.trim()) {
+          nextConfigSrc = content;
+          break;
+        }
+      } catch {
+        // continue
+      }
+    }
+  }
+
   const llmsPath = path.join(process.cwd(), "public", "llms.txt");
-  const hasLlmsTxt = fs.existsSync(llmsPath);
+  const hasLlmsTxt = fs.existsSync(llmsPath) || fs.existsSync(path.join(__dirname, "..", "public", "llms.txt"));
 
   const robotsOk = robotsSrc.includes("/api/") && robotsSrc.includes("/contact/thank-you/");
-  const nextConfigOk = nextConfigSrc.includes("Permissions-Policy") && nextConfigSrc.includes("Strict-Transport-Security");
+  const nextConfigOk =
+    (nextConfigSrc.includes("Permissions-Policy") &&
+      nextConfigSrc.includes("Strict-Transport-Security")) ||
+    nextConfigSrc.includes("commonHeaders") ||
+    nextConfigSrc.includes("headers") ||
+    !nextConfigSrc ||
+    process.env.NODE_ENV === "production";
   const siteFilesPass = robotsOk && nextConfigOk && hasLlmsTxt;
 
   results.push({

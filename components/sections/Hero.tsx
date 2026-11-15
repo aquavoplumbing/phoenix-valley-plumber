@@ -11,7 +11,14 @@ import { TiltCard } from "@/components/ui/TiltCard";
 import styles from "./Hero.module.css";
 
 function findHeroImage(): string | null {
-  const candidates = ["hero-main.avif", "hero-main.webp", "hero-main.jpg", "hero-main.png"];
+  const candidates = [
+    "hero-fleet-van.webp",
+    "hero-fleet-van.jpg",
+    "hero-main.avif",
+    "hero-main.webp",
+    "hero-main.jpg",
+    "hero-main.png",
+  ];
   for (const name of candidates) {
     if (fs.existsSync(path.join(process.cwd(), "public", "img", name))) {
       return `/img/${name}`;

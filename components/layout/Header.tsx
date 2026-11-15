@@ -37,6 +37,40 @@ export function Header({
   const [mobileOpen, setMobileOpen] = useState(false);
   const headerRef = useRef<HTMLElement>(null);
   const menuBtnRef = useRef<HTMLButtonElement>(null);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = (key: Exclude<OpenMenuKey, null>) => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    setOpenMenu(key);
+  };
+
+  const handleMouseLeave = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    timeoutRef.current = setTimeout(() => {
+      setOpenMenu(null);
+    }, 180);
+  };
+
+  const closeAllMenus = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    setOpenMenu(null);
+  };
+
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   useEffect(() => {
     const onScroll = () => {
@@ -50,12 +84,12 @@ export function Header({
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
-        setOpenMenu(null);
+        closeAllMenus();
       }
     };
     const onPointerDown = (e: MouseEvent) => {
       if (headerRef.current && !headerRef.current.contains(e.target as Node)) {
-        setOpenMenu(null);
+        closeAllMenus();
       }
     };
     document.addEventListener("keydown", onKeyDown);
@@ -100,6 +134,10 @@ export function Header({
   });
 
   const toggleMenu = (key: Exclude<OpenMenuKey, null>) => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
     setOpenMenu((prev) => (prev === key ? null : key));
   };
 
@@ -114,7 +152,7 @@ export function Header({
             href="/"
             className={styles.brand}
             aria-label={`${site.brand} homepage`}
-            onClick={() => setOpenMenu(null)}
+            onClick={closeAllMenus}
           >
             <Image
               src="/img/logo.png"
@@ -130,13 +168,17 @@ export function Header({
             <Link
               href="/emergency-plumber/"
               className={styles.emergencyLink}
-              onClick={() => setOpenMenu(null)}
+              onClick={closeAllMenus}
             >
               <SirenIcon size={15} />
               <span>Emergency</span>
             </Link>
 
-            <div className={styles.megaWrapper}>
+            <div
+              className={styles.megaWrapper}
+              onMouseEnter={() => handleMouseEnter("services")}
+              onMouseLeave={handleMouseLeave}
+            >
               <button
                 type="button"
                 className={`${styles.navButton} ${openMenu === "services" ? styles.navButtonActive : ""}`}
@@ -160,7 +202,7 @@ export function Header({
                       <Link
                         href="/emergency-plumber/"
                         className={styles.megaUrgentCard}
-                        onClick={() => setOpenMenu(null)}
+                        onClick={closeAllMenus}
                       >
                         <SirenIcon size={18} />
                         <div>
@@ -202,7 +244,7 @@ export function Header({
                           <Link
                             href={activeHub.hubHref}
                             className={styles.panelHubLink}
-                            onClick={() => setOpenMenu(null)}
+                            onClick={closeAllMenus}
                           >
                             {activeHub.hubLabel} →
                           </Link>
@@ -214,7 +256,7 @@ export function Header({
                               <Link
                                 href={item.href}
                                 className={styles.megaLink}
-                                onClick={() => setOpenMenu(null)}
+                                onClick={closeAllMenus}
                               >
                                 {item.label}
                               </Link>
@@ -231,7 +273,7 @@ export function Header({
                                   key={item.href}
                                   href={item.href}
                                   className={styles.corePillLink}
-                                  onClick={() => setOpenMenu(null)}
+                                  onClick={closeAllMenus}
                                 >
                                   {item.label}
                                 </Link>
@@ -245,7 +287,11 @@ export function Header({
               ) : null}
             </div>
 
-            <div className={styles.megaWrapper}>
+            <div
+              className={styles.megaWrapper}
+              onMouseEnter={() => handleMouseEnter("areas")}
+              onMouseLeave={handleMouseLeave}
+            >
               <button
                 type="button"
                 className={`${styles.navButton} ${openMenu === "areas" ? styles.navButtonActive : ""}`}
@@ -271,7 +317,7 @@ export function Header({
                         <Link
                           href="/locations/"
                           className={styles.smallHubLink}
-                          onClick={() => setOpenMenu(null)}
+                          onClick={closeAllMenus}
                         >
                           All locations →
                         </Link>
@@ -287,7 +333,7 @@ export function Header({
                                 data-track-city={city.name}
                                 onMouseEnter={() => setActiveCitySlug(city.slug)}
                                 onFocus={() => setActiveCitySlug(city.slug)}
-                                onClick={() => setOpenMenu(null)}
+                                onClick={closeAllMenus}
                               >
                                 <MapPinIcon size={14} />
                                 <span>{city.name}, AZ</span>
@@ -309,7 +355,7 @@ export function Header({
                               <Link
                                 href={`/${srv.slug}/`}
                                 className={styles.megaLink}
-                                onClick={() => setOpenMenu(null)}
+                                onClick={closeAllMenus}
                               >
                                 {srv.label}
                               </Link>
@@ -319,7 +365,7 @@ export function Header({
                         <Link
                           href={activeCity.slug === "phoenix-az" ? "/" : `/locations/${activeCity.slug}/`}
                           className={styles.smallHubLink}
-                          onClick={() => setOpenMenu(null)}
+                          onClick={closeAllMenus}
                         >
                           View {activeCity.name} service page →
                         </Link>
@@ -330,7 +376,11 @@ export function Header({
               ) : null}
             </div>
 
-            <div className={styles.dropdownWrapper}>
+            <div
+              className={styles.dropdownWrapper}
+              onMouseEnter={() => handleMouseEnter("costs")}
+              onMouseLeave={handleMouseLeave}
+            >
               <button
                 type="button"
                 className={`${styles.navButton} ${openMenu === "costs" ? styles.navButtonActive : ""}`}
@@ -354,7 +404,7 @@ export function Header({
                     <Link
                       href="/cost-guides/"
                       className={styles.smallHubLink}
-                      onClick={() => setOpenMenu(null)}
+                      onClick={closeAllMenus}
                     >
                       Cost Guides Hub →
                     </Link>
@@ -365,7 +415,7 @@ export function Header({
                         <Link
                           href={item.href}
                           className={styles.megaLink}
-                          onClick={() => setOpenMenu(null)}
+                          onClick={closeAllMenus}
                         >
                           {item.label}
                         </Link>
@@ -376,7 +426,7 @@ export function Header({
                         <Link
                           href="/financing/"
                           className={styles.megaLink}
-                          onClick={() => setOpenMenu(null)}
+                          onClick={closeAllMenus}
                         >
                           Financing Options
                         </Link>
@@ -387,7 +437,11 @@ export function Header({
               ) : null}
             </div>
 
-            <div className={styles.dropdownWrapper}>
+            <div
+              className={styles.dropdownWrapper}
+              onMouseEnter={() => handleMouseEnter("company")}
+              onMouseLeave={handleMouseLeave}
+            >
               <button
                 type="button"
                 className={`${styles.navButton} ${openMenu === "company" ? styles.navButtonActive : ""}`}
@@ -414,7 +468,7 @@ export function Header({
                           href={item.href}
                           className={styles.megaLink}
                           data-track-contact={item.href === "/contact/" ? "header-dropdown" : undefined}
-                          onClick={() => setOpenMenu(null)}
+                          onClick={closeAllMenus}
                         >
                           {item.label}
                         </Link>
@@ -429,7 +483,7 @@ export function Header({
               href="/contact/"
               className={styles.navLink}
               data-track-contact="header"
-              onClick={() => setOpenMenu(null)}
+              onClick={closeAllMenus}
             >
               Contact
             </Link>

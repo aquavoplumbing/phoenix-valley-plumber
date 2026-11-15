@@ -132,8 +132,17 @@
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-3);
-  overflow: hidden;
+  overflow: visible;
   z-index: 100;
+}
+
+.megaMenu::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  right: 0;
+  height: 16px;
 }
 
 .megaSplit {
@@ -354,6 +363,15 @@
   z-index: 100;
 }
 
+.areasMenu::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  right: 0;
+  height: 16px;
+}
+
 .areasSplit {
   display: grid;
   grid-template-columns: 1.25fr 1fr;
@@ -406,6 +424,15 @@
   box-shadow: var(--shadow-3);
   padding: 16px;
   z-index: 100;
+}
+
+.simpleDropdown::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  right: 0;
+  height: 16px;
 }
 
 .dropdownHeaderRow {

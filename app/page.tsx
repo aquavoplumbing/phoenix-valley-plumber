@@ -41,8 +41,8 @@ export function generateMetadata(): Metadata {
       canonical: "/",
     },
     robots: {
-      index: false,
-      follow: false,
+      index: true,
+      follow: true,
     },
     openGraph: {
       title,

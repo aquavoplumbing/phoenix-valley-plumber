@@ -154,7 +154,7 @@ export function Hero({
                 {heroImgSrc ? (
                   <Image
                     src={heroImgSrc}
-                    alt="3D architectural visualization of modern Phoenix home plumbing system"
+                    alt="Phoenix Valley Plumber licensed technicians and branded service vehicle in Phoenix, Arizona"
                     width={1600}
                     height={1000}
                     priority

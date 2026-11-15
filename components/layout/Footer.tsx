@@ -88,6 +88,19 @@ export function Footer({
                 />
               </p>
 
+              {site.contactEmail ? (
+                <p>
+                  Email:{" "}
+                  <a
+                    href={`mailto:${site.contactEmail}`}
+                    className={styles.inlinePhone}
+                    data-track-email="footer"
+                  >
+                    {site.contactEmail}
+                  </a>
+                </p>
+              ) : null}
+
               {site.phone.spanishDisplay && site.phone.spanishE164 ? (
                 <p>
                   En Español:{" "}

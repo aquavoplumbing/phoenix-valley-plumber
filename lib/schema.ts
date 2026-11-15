@@ -20,6 +20,7 @@ export function buildOrganizationSchema(site: SiteConfig, siteUrl: string) {
       width: 512,
       height: 512,
     },
+    ...(site.contactEmail ? { email: site.contactEmail } : {}),
     ...(sameAs.length > 0 ? { sameAs } : {}),
   };
 }
@@ -84,6 +85,7 @@ export function buildPlumberSchema(params: {
     legalName: site.licensee.legalName,
     url: `${siteUrl}/`,
     telephone: site.phone.e164,
+    ...(site.contactEmail ? { email: site.contactEmail } : {}),
     image: `${siteUrl}/og-image.jpg`,
     areaServed: cities.map((city) => ({
       "@type": "City",

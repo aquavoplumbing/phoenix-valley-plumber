@@ -53,6 +53,18 @@ export function ContactVerificationCard({ site, initialStatus }: ContactVerifica
               <Link href="/contact/" className={styles.contactBtn}>
                 Go to Contact Form →
               </Link>
+              {site.contactEmail ? (
+                <p style={{ marginTop: "12px", fontSize: "0.875rem", color: "#4A5A70" }}>
+                  Or email directly:{" "}
+                  <a
+                    href={`mailto:${site.contactEmail}`}
+                    style={{ color: "#1E9BD7", textDecoration: "underline", wordBreak: "break-all" }}
+                    data-track-email="about-contact-card"
+                  >
+                    {site.contactEmail}
+                  </a>
+                </p>
+              ) : null}
             </div>
 
             <div className={styles.rocCheckLink}>

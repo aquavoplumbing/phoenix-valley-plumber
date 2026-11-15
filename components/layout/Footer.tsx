@@ -200,6 +200,26 @@ export function Footer({
           </div>
         </div>
 
+        {/* Google Maps Service Area Embed */}
+        <div className={styles.mapSection}>
+          <div className={styles.mapHeader}>
+            <h3 className={styles.mapTitle}>Phoenix &amp; Valley Service Area</h3>
+            <span className={styles.mapSub}>Central Valley Dispatch · Coverage Across Maricopa County</span>
+          </div>
+          <div className={styles.mapFrameWrapper}>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425348.16396026436!2d-112.45445083782347!3d33.60446040098893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12ed50a179cb%3A0x8c69c7f8354a1bac!2sPhoenix%2C%20AZ%2C%20USA!5e0!3m2!1sen!2s!4v1794745624428!5m2!1sen!2s"
+              width="100%"
+              height="280"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+              title="Phoenix Valley Service Area Map"
+            />
+          </div>
+        </div>
+
         <nav className={styles.directorySection} aria-label="Complete plumbing service directory">
           <div className={styles.directoryHeader}>
             <h3 className={styles.directoryTitle}>Complete Plumbing Service Directory</h3>

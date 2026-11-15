@@ -5,40 +5,41 @@ const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === "true",
 });
 
-const isDev = process.env.NODE_ENV !== "production";
+function getCspDirectives(isDev: boolean): string {
+  const scriptSrc = [
+    "'self'",
+    "'unsafe-inline'",
+    ...(isDev ? ["'unsafe-eval'"] : []),
+    "https://www.googletagmanager.com",
+    "https://www.google-analytics.com",
+  ].join(" ");
 
-const scriptSrc = [
-  "'self'",
-  "'unsafe-inline'",
-  ...(isDev ? ["'unsafe-eval'"] : []),
-  "https://www.googletagmanager.com",
-  "https://www.google-analytics.com",
-].join(" ");
+  const connectSrc = [
+    "'self'",
+    ...(isDev ? ["ws:", "wss:"] : []),
+    "https://www.google-analytics.com",
+    "https://*.google-analytics.com",
+    "https://*.analytics.google.com",
+    "https://www.googletagmanager.com",
+    "https://*.tile.openstreetmap.org",
+    "https://tile.openstreetmap.org",
+    "https://*.openstreetmap.org",
+  ].join(" ");
 
-const connectSrc = [
-  "'self'",
-  ...(isDev ? ["ws:", "wss:"] : []),
-  "https://www.google-analytics.com",
-  "https://*.google-analytics.com",
-  "https://*.analytics.google.com",
-  "https://www.googletagmanager.com",
-  "https://*.tile.openstreetmap.org",
-  "https://tile.openstreetmap.org",
-  "https://*.openstreetmap.org",
-].join(" ");
-
-const cspDirectives = [
-  "default-src 'self'",
-  `script-src ${scriptSrc}`,
-  "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com https://*.tile.openstreetmap.org https://tile.openstreetmap.org https://*.openstreetmap.org",
-  "font-src 'self'",
-  `connect-src ${connectSrc}`,
-  "object-src 'none'",
-  "base-uri 'self'",
-  "form-action 'self'",
-  "frame-ancestors 'none'",
-].join("; ");
+  return [
+    "default-src 'self'",
+    `script-src ${scriptSrc}`,
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com https://*.tile.openstreetmap.org https://tile.openstreetmap.org https://*.openstreetmap.org",
+    "font-src 'self'",
+    `connect-src ${connectSrc}`,
+    "object-src 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+    "frame-src 'self' https://www.google.com https://*.google.com https://maps.google.com",
+    "frame-ancestors 'none'",
+  ].join("; ");
+}
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
@@ -62,6 +63,7 @@ const nextConfig: NextConfig = {
     ];
   },
   async headers() {
+    const isDev = process.env.NODE_ENV !== "production";
     const isPreview =
       process.env.VERCEL_ENV === "preview" ||
       process.env.STAGING === "true";
@@ -69,7 +71,7 @@ const nextConfig: NextConfig = {
     const commonHeaders = [
       {
         key: "Content-Security-Policy",
-        value: cspDirectives,
+        value: getCspDirectives(isDev),
       },
       {
         key: "X-Content-Type-Options",

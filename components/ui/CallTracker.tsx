@@ -4,6 +4,20 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { trackGa4Event } from "@/lib/analytics";
 
+// Suppress React 19 false-positive warning for JSON-LD / metadata scripts in dev mode
+if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
+  const originalError = console.error;
+  console.error = (...args: unknown[]) => {
+    if (
+      typeof args[0] === "string" &&
+      args[0].includes("Encountered a script tag while rendering React component")
+    ) {
+      return;
+    }
+    originalError.apply(console, args);
+  };
+}
+
 export function CallTracker() {
   const pathname = usePathname();
 

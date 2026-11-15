@@ -58,11 +58,20 @@ export function ContactHeroPanel({ site, initialStatus }: ContactHeroPanelProps)
         <ul className={styles.hoursList}>
           {days.map(({ day, key }) => {
             const range = schedule[key];
-            const formatted = range ? `${range[0]} – ${range[1]}` : "Closed";
+            const isSunday = key === "sun";
+            const formatted = isSunday && !range ? "Emergency Calls Only" : range ? `${range[0]} – ${range[1]}` : "Closed";
             return (
               <li key={day} className={styles.hoursRow}>
                 <span className={styles.dayLabel}>{day}</span>
-                <span className={`${styles.timeLabel} ${!range ? styles.closedLabel : ""}`}>
+                <span
+                  className={`${styles.timeLabel} ${
+                    isSunday && !range
+                      ? styles.emergencyLabel
+                      : !range
+                      ? styles.closedLabel
+                      : ""
+                  }`}
+                >
                   {formatted}
                 </span>
               </li>
@@ -72,9 +81,9 @@ export function ContactHeroPanel({ site, initialStatus }: ContactHeroPanelProps)
 
         {!site.hours.is24x7 ? (
           <div className={styles.afterHoursBox}>
-            <p className={styles.afterHoursTitle}>After-Hours Guidance:</p>
+            <p className={styles.afterHoursTitle}>Sunday &amp; After-Hours Guidance:</p>
             <p className={styles.afterHoursText}>
-              Outside of dispatch hours, please leave a message using the inquiry form. If you smell natural gas, evacuate immediately and call 911 or Southwest Gas at 877-860-6020.
+              On Sundays, our dispatch team accepts emergency calls only for active flooding, burst pipes, and sewer backups. Outside of dispatch hours, please leave a message using the inquiry form. If you smell natural gas, evacuate immediately and call 911 or Southwest Gas at 877-860-6020.
             </p>
           </div>
         ) : null}

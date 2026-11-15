@@ -111,6 +111,11 @@
   font-weight: 400;
 }
 
+.emergencyLabel {
+  color: var(--sun-400);
+  font-weight: 700;
+}
+
 .afterHoursBox {
   margin-top: var(--space-4);
   padding-top: var(--space-3);

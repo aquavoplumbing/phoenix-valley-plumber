@@ -115,6 +115,15 @@ export function computeOpenStatus(hours: SiteConfig["hours"], now: Date = new Da
     };
   }
 
+  if (weekdayRaw === "sun") {
+    return {
+      isOpen: false,
+      label: "Sunday: Emergency Calls Only",
+      shortLabel: "Sunday: Emergency only",
+      is24x7: false,
+    };
+  }
+
   // Find next open day
   const startIdx = DAY_ORDER.indexOf(weekdayRaw);
   for (let offset = 1; offset <= 7; offset++) {
@@ -180,7 +189,9 @@ export function formatHoursSummary(hours: SiteConfig["hours"]): string {
       return `${daySpan} ${formatCompactTime(openStr)}–${formatCompactTime(closeStr)}`;
     });
 
-  if (hours.emergencyAfterHours) {
+  if (hours.schedule.sun === null) {
+    parts.push("Sun: Emergency Calls Only");
+  } else if (hours.emergencyAfterHours) {
     parts.push("Emergency calls after hours");
   }
 

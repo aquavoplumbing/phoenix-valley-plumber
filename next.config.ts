@@ -22,13 +22,16 @@ const connectSrc = [
   "https://*.google-analytics.com",
   "https://*.analytics.google.com",
   "https://www.googletagmanager.com",
+  "https://*.tile.openstreetmap.org",
+  "https://tile.openstreetmap.org",
+  "https://*.openstreetmap.org",
 ].join(" ");
 
 const cspDirectives = [
   "default-src 'self'",
   `script-src ${scriptSrc}`,
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com",
+  "img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com https://*.tile.openstreetmap.org https://tile.openstreetmap.org https://*.openstreetmap.org",
   "font-src 'self'",
   `connect-src ${connectSrc}`,
   "object-src 'none'",

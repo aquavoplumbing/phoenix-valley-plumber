@@ -1,7 +1,8 @@
 .footer {
-  background-color: var(--navy-900);
+  background: linear-gradient(180deg, #07192c 0%, #051322 100%);
   color: rgba(255, 255, 255, 0.88);
-  padding-block: 56px 36px;
+  padding-block: 48px 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .callBanner {
@@ -9,12 +10,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 20px;
-  padding: 28px;
+  gap: 16px;
+  padding: 24px 28px;
   border-radius: var(--radius-panel);
-  background-color: var(--navy-700);
-  border: 1px solid var(--border-light);
-  margin-bottom: 48px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.03) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  margin-bottom: 40px;
 }
 
 @media (min-width: 768px) {
@@ -26,53 +27,47 @@
 
 .bannerTitle {
   font-family: var(--font-display);
-  font-size: 1.375rem;
+  font-size: 1.3125rem;
   font-weight: 700;
   color: var(--white);
-  margin-bottom: 4px;
+  margin: 0 0 4px 0;
 }
 
 .bannerSub {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.82);
   font-size: 0.9375rem;
+  margin: 0;
 }
 
+/* Main 4-Column Footer Grid */
 .grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 32px 24px;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 600px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .brandCol {
-    grid-column: 1 / -1;
+    grid-template-columns: 1.3fr 1fr 1.15fr 1fr;
+    gap: 36px;
   }
 }
 
-@media (min-width: 1120px) {
-  .grid {
-    grid-template-columns: 1.45fr 1fr 0.95fr 1.15fr 0.95fr;
-  }
-
-  .brandCol {
-    grid-column: auto;
-  }
+.col {
+  display: flex;
+  flex-direction: column;
 }
 
 .brandCol {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
 }
 
 .logoLink {
@@ -84,7 +79,7 @@
 
 .footerLogo {
   display: block;
-  width: 190px;
+  width: 185px;
   height: auto;
   aspect-ratio: 793 / 324;
   max-width: 100%;
@@ -93,27 +88,39 @@
 
 @media (min-width: 640px) {
   .footerLogo {
-    width: 220px;
+    width: 205px;
   }
 }
 
-.brandName {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.125rem;
-  color: var(--white);
+.brandBio {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.76);
+  margin: 0;
 }
 
 .nap {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
+  line-height: 1.45;
 }
 
-.legalName {
-  font-weight: 600;
-  color: var(--white);
+.nap p {
+  margin: 0;
+}
+
+.napRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.napIcon {
+  color: #8cd9fc;
+  flex-shrink: 0;
+  margin-top: 2px;
 }
 
 .inlinePhone {
@@ -128,38 +135,38 @@
 }
 
 .hoursLine {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.82);
 }
 
 .rocRow {
   display: inline-flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
   margin-top: 4px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--white);
+  font-size: 0.8125rem;
   font-weight: 600;
-}
-
-.verifyLink {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  color: #8cd9fc;
-  font-weight: 600;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.verifyLink:hover {
-  color: var(--white);
+  align-self: flex-start;
 }
 
 .colTitle {
+  font-family: var(--font-display);
   font-size: 0.9375rem;
   font-weight: 700;
   color: var(--white);
-  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 14px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.colTitleSub {
+  margin-top: 22px;
 }
 
 .linkList {
@@ -171,33 +178,61 @@
   gap: 8px;
 }
 
-.footerLink,
-.footerLinkStrong {
-  color: rgba(255, 255, 255, 0.84);
+/* Compact 2-column city grid */
+.citiesGrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 12px;
+}
+
+.footerLink {
+  color: rgba(255, 255, 255, 0.82);
   font-size: 0.875rem;
   text-decoration: none;
-  line-height: 1.45;
+  line-height: 1.4;
+  transition: color 150ms ease;
 }
 
-.footerLinkStrong {
+.footerLink:hover {
   color: #8cd9fc;
-  font-weight: 600;
-}
-
-.footerLink:hover,
-.footerLinkStrong:hover {
-  color: var(--white);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
+.highlightItem {
+  margin-top: 10px;
+  padding-top: 6px;
+}
+
+.footerLinkStrong {
+  color: #8cd9fc;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 150ms ease, transform 150ms ease;
+}
+
+.footerLinkStrong:hover {
+  color: var(--white);
+  transform: translateX(2px);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Integrated Google Map Section */
 .mapSection {
-  margin-top: 36px;
-  margin-bottom: 24px;
+  margin-top: 32px;
+  margin-bottom: 20px;
   border-radius: 12px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .mapHeader {
@@ -205,15 +240,15 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  padding: 12px 18px;
-  background: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  gap: 10px;
+  padding: 10px 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
 }
 
 .mapTitle {
   font-family: var(--font-display);
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   font-weight: 700;
   color: #FFFFFF;
   margin: 0;
@@ -221,13 +256,34 @@
 
 .mapSub {
   font-size: 0.8125rem;
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(255, 255, 255, 0.68);
+  margin-left: 8px;
+}
+
+@media (max-width: 640px) {
+  .mapSub {
+    display: block;
+    margin-left: 0;
+    margin-top: 2px;
+  }
+}
+
+.mapBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #8cd9fc;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: rgba(140, 217, 252, 0.08);
 }
 
 .mapFrameWrapper {
   width: 100%;
-  height: 280px;
-  background: #0B2A4A;
+  height: 220px;
+  background: #061626;
 }
 
 .mapFrameWrapper iframe {
@@ -236,170 +292,64 @@
   display: block;
 }
 
-.directorySection {
-  margin-top: 44px;
-  padding-top: 32px;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-}
-
-.directoryHeader {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 20px;
-}
-
-.directoryTitle {
-  font-size: 0.875rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: rgba(255, 255, 255, 0.72);
-}
-
-.directoryViewAll {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #8cd9fc;
-  text-decoration: none;
-}
-
-.directoryViewAll:hover {
-  color: var(--white);
-  text-decoration: underline;
-}
-
-.directoryGrid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 24px 20px;
-}
-
-@media (min-width: 560px) {
-  .directoryGrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 900px) {
-  .directoryGrid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (min-width: 1120px) {
-  .directoryGrid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
-.directoryGroup {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.directoryHubLink {
-  font-family: var(--font-display);
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: var(--white);
-  text-decoration: none;
-}
-
-.directoryHubLink:hover {
-  color: #8cd9fc;
-  text-decoration: underline;
-}
-
-.directoryList {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.directoryItemLink {
-  color: rgba(255, 255, 255, 0.76);
-  font-size: 0.8125rem;
-  line-height: 1.4;
-  text-decoration: none;
-}
-
-.directoryItemLink:hover {
-  color: var(--white);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.cityServicesStrip {
-  margin-top: 28px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.cityServicesLabel {
-  font-family: var(--font-display);
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: rgba(255, 255, 255, 0.72);
-}
-
-.cityServicesLinks {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 18px;
-}
-
+/* Disclaimer Box */
 .disclaimerBox {
-  margin-top: 28px;
-  padding: 14px 18px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  font-size: 0.8125rem;
-  line-height: 1.55;
-  color: rgba(255, 255, 255, 0.78);
+  margin-top: 20px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.78125rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.disclaimerBox p {
+  margin: 0;
 }
 
 .disclaimerBox strong {
-  color: var(--white);
+  color: rgba(255, 255, 255, 0.9);
 }
 
+/* Bottom Bar */
 .bottom {
-  margin-top: 32px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-  font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.78);
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.7);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+}
+
+.bottom p {
+  margin: 0;
 }
 
 .bottomLinks {
   display: flex;
   align-items: center;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.sep {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .bottomLink {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.78);
   text-decoration: none;
+  font-size: 0.8125rem;
+  transition: color 150ms ease;
 }
 
 .bottomLink:hover {
-  color: var(--white);
+  color: #8cd9fc;
   text-decoration: underline;
+  text-underline-offset: 3px;
 }

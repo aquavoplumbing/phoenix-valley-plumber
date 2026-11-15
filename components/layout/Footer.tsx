@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { SiteConfig } from "@/lib/config";
 import { formatHoursSummary } from "@/lib/hours";
 import type { CityItem, NavData } from "@/lib/routes";
-import { ShieldIcon } from "@/components/icons/Icons";
+import { ShieldIcon, MapPinIcon } from "@/components/icons/Icons";
 import { CallButton } from "@/components/ui/CallButton";
 import { PhoneLink } from "@/components/ui/PhoneLink";
 import styles from "./Footer.module.css";
@@ -21,6 +21,7 @@ export function Footer({
   const year = new Date().getFullYear();
 
   const visibleCompanyLinks = nav.companyLinks.filter((item) => {
+    if (item.href === "/contact/") return false; // Contact is placed in bottom legal bar & brand NAP
     if (
       item.href === "/financing/" &&
       (!site.claims.financing || !site.financing || !site.financing.lenderName || !site.financing.applyUrl)
@@ -32,19 +33,28 @@ export function Footer({
     return true;
   });
 
-  const visibleCoreServices = nav.coreServiceLinks.filter((item) => {
-    if (item.href === "/commercial-plumbing/" && !site.claims.commercial) return false;
-    return true;
-  });
+  const featuredServices = [
+    { label: "Emergency Plumber", href: "/emergency-plumber/" },
+    { label: "Water Heater Repair & Install", href: "/water-heater/" },
+    { label: "Drain Cleaning & Jetting", href: "/drain-cleaning/" },
+    { label: "Sewer Line Repair & Trenchless", href: "/sewer-line/" },
+    { label: "Leak Detection & Slab Leaks", href: "/leak-detection-repair/" },
+    { label: "Water Softeners & Filtration", href: "/water-treatment/" },
+    { label: "Residential Plumbing", href: "/residential-plumbing/" },
+    ...(site.claims.commercial ? [{ label: "Commercial Plumbing", href: "/commercial-plumbing/" }] : []),
+  ];
+
+  const displayedCities = cities.slice(0, 12);
 
   return (
     <footer className={styles.footer}>
       <div className="container">
+        {/* Urgent Call Banner */}
         <div className={styles.callBanner}>
           <div>
             <p className={styles.bannerTitle}>Need a licensed Phoenix plumber?</p>
             <p className={styles.bannerSub}>
-              {hoursSummary || "Call during business hours to speak with our dispatch team."}
+              {hoursSummary || "Call during business hours to speak directly with our dispatch team."}
             </p>
           </div>
           <CallButton
@@ -55,7 +65,9 @@ export function Footer({
           />
         </div>
 
+        {/* Streamlined Main 4-Column Footer Grid */}
         <div className={styles.grid}>
+          {/* Col 1: Brand & Contact Dispatch */}
           <div className={styles.brandCol}>
             <Link href="/" className={styles.logoLink} aria-label={`${site.brand} homepage`}>
               <Image
@@ -67,15 +79,23 @@ export function Footer({
               />
             </Link>
 
-            <div className={styles.nap}>
+            <p className={styles.brandBio}>
+              Licensed, bonded, and insured plumbing solutions for homes and businesses across Maricopa County.
+            </p>
 
+            <div className={styles.nap}>
               {site.address.public && site.address.street ? (
-                <p>
-                  {site.address.street}, {site.address.city}, {site.address.state}{" "}
-                  {site.address.zip}
+                <p className={styles.napRow}>
+                  <MapPinIcon size={15} className={styles.napIcon} />
+                  <span>
+                    {site.address.street}, {site.address.city}, {site.address.state} {site.address.zip}
+                  </span>
                 </p>
               ) : (
-                <p>Serving Phoenix and the surrounding Valley</p>
+                <p className={styles.napRow}>
+                  <MapPinIcon size={15} className={styles.napIcon} />
+                  <span>Serving Phoenix and all surrounding Valley communities</span>
+                </p>
               )}
 
               <p>
@@ -101,49 +121,39 @@ export function Footer({
                 </p>
               ) : null}
 
-              {site.phone.spanishDisplay && site.phone.spanishE164 ? (
-                <p>
-                  En Español:{" "}
-                  <PhoneLink
-                    display={site.phone.spanishDisplay}
-                    e164={site.phone.spanishE164}
-                    location="footer-spanish"
-                    className={styles.inlinePhone}
-                  />
-                </p>
-              ) : null}
-
               {hoursSummary ? <p className={styles.hoursLine}>Hours: {hoursSummary}</p> : null}
 
-              <p className={styles.rocRow}>
-                <ShieldIcon size={16} />
-                <span>ROC #{site.licensee.rocNumber}</span>
-              </p>
+              <div className={styles.rocRow}>
+                <ShieldIcon size={15} />
+                <span>ROC #{site.licensee.rocNumber} · Licensed Contractor</span>
+              </div>
             </div>
           </div>
 
-          <div>
+          {/* Col 2: Plumbing Services (Curated & Link to Hub) */}
+          <div className={styles.col}>
             <h3 className={styles.colTitle}>Plumbing Services</h3>
             <ul className={styles.linkList}>
-              {visibleCoreServices.map((item) => (
+              {featuredServices.map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className={styles.footerLink}>
                     {item.label}
                   </Link>
                 </li>
               ))}
+              <li className={styles.highlightItem}>
+                <Link href="/services/" className={styles.footerLinkStrong}>
+                  View All Services (40+) →
+                </Link>
+              </li>
             </ul>
           </div>
 
-          <div>
-            <h3 className={styles.colTitle}>Service Areas</h3>
-            <ul className={styles.linkList}>
-              <li>
-                <Link href="/locations/" className={styles.footerLinkStrong}>
-                  All Valley Locations
-                </Link>
-              </li>
-              {cities.map((city) => (
+          {/* Col 3: Valley Service Areas (Compact 2-Column Grid) */}
+          <div className={styles.col}>
+            <h3 className={styles.colTitle}>Valley Service Areas</h3>
+            <ul className={styles.citiesGrid}>
+              {displayedCities.map((city) => (
                 <li key={city.slug}>
                   <Link
                     href={city.slug === "phoenix-az" ? "/" : `/locations/${city.slug}/`}
@@ -155,62 +165,68 @@ export function Footer({
                 </li>
               ))}
             </ul>
+            <div className={styles.highlightItem}>
+              <Link href="/locations/" className={styles.footerLinkStrong}>
+                All Valley Locations →
+              </Link>
+            </div>
           </div>
 
-          <div>
+          {/* Col 4: Cost Guides & Company Information */}
+          <div className={styles.col}>
             <h3 className={styles.colTitle}>Cost Guides</h3>
             <ul className={styles.linkList}>
-              <li>
-                <Link href="/cost-guides/" className={styles.footerLinkStrong}>
-                  All Plumbing Cost Guides
-                </Link>
-              </li>
-              {nav.costGuides.map((item) => (
+              {nav.costGuides.slice(0, 4).map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className={styles.footerLink}>
                     {item.label}
                   </Link>
                 </li>
               ))}
+              <li className={styles.highlightItem}>
+                <Link href="/cost-guides/" className={styles.footerLinkStrong}>
+                  All Cost Guides →
+                </Link>
+              </li>
             </ul>
-          </div>
 
-          <div>
-            <h3 className={styles.colTitle}>Company &amp; Legal</h3>
+            <h3 className={`${styles.colTitle} ${styles.colTitleSub}`}>Company &amp; Resources</h3>
             <ul className={styles.linkList}>
               {visibleCompanyLinks.map((item) => (
                 <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    className={styles.footerLink}
-                    data-track-contact={item.href === "/contact/" ? "footer" : undefined}
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-              {nav.legalLinks.map((item) => (
-                <li key={item.href}>
                   <Link href={item.href} className={styles.footerLink}>
                     {item.label}
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link href="/sitemap/" className={styles.footerLink}>
+                  HTML Sitemap
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
 
-        {/* Google Maps Service Area Embed */}
+        {/* Integrated Valley Service Area Map Card */}
         <div className={styles.mapSection}>
           <div className={styles.mapHeader}>
-            <h3 className={styles.mapTitle}>Phoenix &amp; Valley Service Area</h3>
-            <span className={styles.mapSub}>Central Valley Dispatch · Coverage Across Maricopa County</span>
+            <div>
+              <h3 className={styles.mapTitle}>Phoenix &amp; Valley Dispatch Area</h3>
+              <span className={styles.mapSub}>
+                Central Valley Dispatch · Fast Response Across Phoenix, Scottsdale, Mesa &amp; Surrounding Cities
+              </span>
+            </div>
+            <span className={styles.mapBadge}>
+              <ShieldIcon size={14} />
+              <span>ROC #{site.licensee.rocNumber}</span>
+            </span>
           </div>
           <div className={styles.mapFrameWrapper}>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425348.16396026436!2d-112.45445083782347!3d33.60446040098893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12ed50a179cb%3A0x8c69c7f8354a1bac!2sPhoenix%2C%20AZ%2C%20USA!5e0!3m2!1sen!2s!4v1794745624428!5m2!1sen!2s"
               width="100%"
-              height="280"
+              height="220"
               style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"
@@ -220,60 +236,17 @@ export function Footer({
           </div>
         </div>
 
-        <nav className={styles.directorySection} aria-label="Complete plumbing service directory">
-          <div className={styles.directoryHeader}>
-            <h3 className={styles.directoryTitle}>Complete Plumbing Service Directory</h3>
-            <Link href="/services/" className={styles.directoryViewAll}>
-              View services hub →
-            </Link>
-          </div>
-
-          <div className={styles.directoryGrid}>
-            {nav.serviceHubs.map((hub) => (
-              <div key={hub.id} className={styles.directoryGroup}>
-                <Link href={hub.hubHref} className={styles.directoryHubLink}>
-                  {hub.label}
-                </Link>
-                <ul className={styles.directoryList}>
-                  {hub.items.map((item) => (
-                    <li key={item.href}>
-                      <Link href={item.href} className={styles.directoryItemLink}>
-                        {item.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-
-          <div className={styles.cityServicesStrip}>
-            <span className={styles.cityServicesLabel}>Popular Valley Plumbing Services:</span>
-            <div className={styles.cityServicesLinks}>
-              {nav.topCityServiceSlugs.map((srv) => (
-                <Link
-                  key={srv.slug}
-                  href={`/${srv.slug}/`}
-                  className={styles.directoryItemLink}
-                >
-                  {srv.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </nav>
-
+        {/* Advertising & Referral Disclosure */}
         <div className={styles.disclaimerBox} role="note" aria-label="Advertising and referral disclosure">
           <p>
-            <strong>Advertising &amp; Referral Disclosure:</strong> {site.brand} ({site.domain}) is a
-            free advertising and referral service that connects callers with independent, licensed
-            local plumbing contractors. We are not a plumbing service provider ourselves and do not
-            directly perform plumbing repairs, installations, or inspections. All work is performed
-            by independent service providers; verify licensing, insurance, and written estimates
-            directly with the dispatched contractor before authorizing work.
+            <strong>Advertising &amp; Referral Disclosure:</strong> {site.brand} ({site.domain}) connects callers
+            with independent, licensed local plumbing contractors. We do not directly perform plumbing repairs,
+            installations, or inspections. All work is performed by independent service providers; verify licensing,
+            insurance, and written estimates directly with the dispatched contractor before authorizing work.
           </p>
         </div>
 
+        {/* Bottom Legal Bar (No Duplication) */}
         <div className={styles.bottom}>
           <p>
             © {year} {site.brand} ({site.licensee.legalName}). All rights reserved.
@@ -282,13 +255,17 @@ export function Footer({
             <Link href="/privacy-policy/" className={styles.bottomLink}>
               Privacy Policy
             </Link>
-            <span aria-hidden="true">·</span>
+            <span aria-hidden="true" className={styles.sep}>·</span>
             <Link href="/terms/" className={styles.bottomLink}>
               Terms of Service
             </Link>
-            <span aria-hidden="true">·</span>
+            <span aria-hidden="true" className={styles.sep}>·</span>
+            <Link href="/accessibility/" className={styles.bottomLink}>
+              Accessibility
+            </Link>
+            <span aria-hidden="true" className={styles.sep}>·</span>
             <Link href="/contact/" className={styles.bottomLink} data-track-contact="footer-bottom">
-              Contact
+              Contact Us
             </Link>
           </div>
         </div>

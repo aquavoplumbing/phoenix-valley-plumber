@@ -110,6 +110,9 @@
   font-weight: 600;
   color: var(--water-700);
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
 }
 
 .microCall {
@@ -118,8 +121,8 @@
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  min-height: 36px;
-  padding: 4px 10px;
+  min-height: 44px;
+  padding: 6px 12px;
   border-radius: 8px;
   font-weight: 600;
   font-size: 0.78125rem;

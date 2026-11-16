@@ -1,6 +1,6 @@
 # City Data Gaps Report
 
-Generated: 2026-11-15T12:08:03.166Z
+Generated: 2026-11-16T17:53:15.748Z
 This report documents the evidence categories present and missing for all cities in `data/cities/`.
 
 | City | Tier | Status | Present Categories | Missing Categories | Reasons / Sources Needed |

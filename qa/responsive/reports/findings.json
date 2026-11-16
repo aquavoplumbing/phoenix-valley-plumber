@@ -1,0 +1,506 @@
+[
+  {
+    "id": "RS-2.1.4.1",
+    "category": "Tap Targets",
+    "page": "/blog/why-does-my-toilet-keep-running/",
+    "viewport": "phone-very-small (320x568)",
+    "severity": "Medium",
+    "description": "Found 2 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"Explore our Toilets servi\": 205x23px"
+  },
+  {
+    "id": "RS-2.1.4.2",
+    "category": "Tap Targets",
+    "page": "/blog/trenchless-vs-traditional-sewer-repair/",
+    "viewport": "phone-very-small (320x568)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px"
+  },
+  {
+    "id": "RS-2.1.4.3",
+    "category": "Tap Targets",
+    "page": "/cost-guides/",
+    "viewport": "phone-very-small (320x568)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.4",
+    "category": "Tap Targets",
+    "page": "/faq/",
+    "viewport": "phone-very-small (320x568)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.5",
+    "category": "Tap Targets",
+    "page": "/privacy-policy/",
+    "viewport": "phone-very-small (320x568)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Home\": 40x23px"
+  },
+  {
+    "id": "RS-2.1.4.6",
+    "category": "Tap Targets",
+    "page": "/404-not-found-check/",
+    "viewport": "phone-very-small (320x568)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.7",
+    "category": "Tap Targets",
+    "page": "/blog/why-does-my-toilet-keep-running/",
+    "viewport": "phone-small-360 (360x640)",
+    "severity": "Medium",
+    "description": "Found 3 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"Explore our Toilets servi\": 205x23px; <a> \"(602) 835-0102\": 107x17px"
+  },
+  {
+    "id": "RS-2.1.4.8",
+    "category": "Tap Targets",
+    "page": "/cost-guides/water-heater-replacement-cost/",
+    "viewport": "phone-small-360 (360x640)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 107x17px"
+  },
+  {
+    "id": "RS-2.1.4.9",
+    "category": "Tap Targets",
+    "page": "/blog/trenchless-vs-traditional-sewer-repair/",
+    "viewport": "phone-small-360 (360x640)",
+    "severity": "Medium",
+    "description": "Found 2 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"(602) 835-0102\": 107x17px"
+  },
+  {
+    "id": "RS-2.1.4.10",
+    "category": "Tap Targets",
+    "page": "/cost-guides/slab-leak-repair-cost/",
+    "viewport": "phone-small-360 (360x640)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 107x17px"
+  },
+  {
+    "id": "RS-2.1.4.11",
+    "category": "Tap Targets",
+    "page": "/cost-guides/",
+    "viewport": "phone-small-360 (360x640)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.12",
+    "category": "Tap Targets",
+    "page": "/faq/",
+    "viewport": "phone-small-360 (360x640)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.13",
+    "category": "Tap Targets",
+    "page": "/privacy-policy/",
+    "viewport": "phone-small-360 (360x640)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Home\": 40x23px"
+  },
+  {
+    "id": "RS-2.1.4.14",
+    "category": "Tap Targets",
+    "page": "/404-not-found-check/",
+    "viewport": "phone-small-360 (360x640)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.15",
+    "category": "Tap Targets",
+    "page": "/",
+    "viewport": "phone-small-375 (375x667)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"How to find your main shu\": 283x25px"
+  },
+  {
+    "id": "RS-2.1.4.16",
+    "category": "Tap Targets",
+    "page": "/blog/why-does-my-toilet-keep-running/",
+    "viewport": "phone-small-375 (375x667)",
+    "severity": "Medium",
+    "description": "Found 3 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"Explore our Toilets servi\": 205x23px; <a> \"(602) 835-0102\": 107x17px"
+  },
+  {
+    "id": "RS-2.1.4.17",
+    "category": "Tap Targets",
+    "page": "/cost-guides/water-heater-replacement-cost/",
+    "viewport": "phone-small-375 (375x667)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 107x17px"
+  },
+  {
+    "id": "RS-2.1.4.18",
+    "category": "Tap Targets",
+    "page": "/blog/trenchless-vs-traditional-sewer-repair/",
+    "viewport": "phone-small-375 (375x667)",
+    "severity": "Medium",
+    "description": "Found 2 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"(602) 835-0102\": 107x17px"
+  },
+  {
+    "id": "RS-2.1.4.19",
+    "category": "Tap Targets",
+    "page": "/cost-guides/slab-leak-repair-cost/",
+    "viewport": "phone-small-375 (375x667)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 107x17px"
+  },
+  {
+    "id": "RS-2.1.4.20",
+    "category": "Tap Targets",
+    "page": "/cost-guides/",
+    "viewport": "phone-small-375 (375x667)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.21",
+    "category": "Tap Targets",
+    "page": "/faq/",
+    "viewport": "phone-small-375 (375x667)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.22",
+    "category": "Tap Targets",
+    "page": "/privacy-policy/",
+    "viewport": "phone-small-375 (375x667)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Home\": 40x23px"
+  },
+  {
+    "id": "RS-2.1.4.23",
+    "category": "Tap Targets",
+    "page": "/404-not-found-check/",
+    "viewport": "phone-small-375 (375x667)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.24",
+    "category": "Tap Targets",
+    "page": "/",
+    "viewport": "phone-standard-390 (390x844)",
+    "severity": "Medium",
+    "description": "Found 2 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"How to find your main shu\": 283x25px; <a> \"Emergency Plumber Phoenix\": 255x22px"
+  },
+  {
+    "id": "RS-2.1.4.25",
+    "category": "Tap Targets",
+    "page": "/blog/why-does-my-toilet-keep-running/",
+    "viewport": "phone-standard-390 (390x844)",
+    "severity": "Medium",
+    "description": "Found 4 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"Explore our Toilets servi\": 205x23px; <a> \"(602) 835-0102\": 107x17px; <a> \"\": 300x29px"
+  },
+  {
+    "id": "RS-2.1.4.26",
+    "category": "Tap Targets",
+    "page": "/cost-guides/water-heater-replacement-cost/",
+    "viewport": "phone-standard-390 (390x844)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 107x17px; <a> \"\": 284x28px; <a> \"\": 284x28px; <a> \"\": 300x29px; <a> \"\": 284x28px"
+  },
+  {
+    "id": "RS-2.1.4.27",
+    "category": "Tap Targets",
+    "page": "/blog/trenchless-vs-traditional-sewer-repair/",
+    "viewport": "phone-standard-390 (390x844)",
+    "severity": "Medium",
+    "description": "Found 4 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"(602) 835-0102\": 107x17px; <a> \"\": 284x28px; <a> \"\": 284x28px"
+  },
+  {
+    "id": "RS-2.1.4.28",
+    "category": "Tap Targets",
+    "page": "/cost-guides/slab-leak-repair-cost/",
+    "viewport": "phone-standard-390 (390x844)",
+    "severity": "Medium",
+    "description": "Found 3 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Explore our Slab Leak Rep\": 273x23px; <a> \"(602) 835-0102\": 107x17px; <a> \"\": 300x29px"
+  },
+  {
+    "id": "RS-2.1.4.29",
+    "category": "Tap Targets",
+    "page": "/cost-guides/",
+    "viewport": "phone-standard-390 (390x844)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.30",
+    "category": "Tap Targets",
+    "page": "/faq/",
+    "viewport": "phone-standard-390 (390x844)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.31",
+    "category": "Tap Targets",
+    "page": "/privacy-policy/",
+    "viewport": "phone-standard-390 (390x844)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Home\": 40x23px"
+  },
+  {
+    "id": "RS-2.1.4.32",
+    "category": "Tap Targets",
+    "page": "/404-not-found-check/",
+    "viewport": "phone-standard-390 (390x844)",
+    "severity": "Medium",
+    "description": "Found 3 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px; <a> \"(602) 835-0102\": 107x17px; <a> \"service@phoenixvalleyplum\": 247x17px"
+  },
+  {
+    "id": "RS-2.1.4.33",
+    "category": "Tap Targets",
+    "page": "/",
+    "viewport": "phone-standard-412 (412x915)",
+    "severity": "Medium",
+    "description": "Found 3 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"How to find your main shu\": 288x25px; <a> \"Emergency Plumber Phoenix\": 254x22px; <a> \"Water Heater Repair\": 179x22px"
+  },
+  {
+    "id": "RS-2.1.4.34",
+    "category": "Tap Targets",
+    "page": "/blog/why-does-my-toilet-keep-running/",
+    "viewport": "phone-standard-412 (412x915)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"Explore our Toilets servi\": 205x23px; <a> \"(602) 835-0102\": 107x17px; <a> \"\": 322x29px; <a> \"\": 306x28px"
+  },
+  {
+    "id": "RS-2.1.4.35",
+    "category": "Tap Targets",
+    "page": "/cost-guides/water-heater-replacement-cost/",
+    "viewport": "phone-standard-412 (412x915)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 107x17px; <a> \"\": 306x28px; <a> \"\": 306x28px; <a> \"\": 306x28px; <a> \"\": 322x29px"
+  },
+  {
+    "id": "RS-2.1.4.36",
+    "category": "Tap Targets",
+    "page": "/blog/trenchless-vs-traditional-sewer-repair/",
+    "viewport": "phone-standard-412 (412x915)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"(602) 835-0102\": 107x17px; <a> \"\": 322x29px; <a> \"\": 306x28px; <a> \"\": 306x28px"
+  },
+  {
+    "id": "RS-2.1.4.37",
+    "category": "Tap Targets",
+    "page": "/cost-guides/slab-leak-repair-cost/",
+    "viewport": "phone-standard-412 (412x915)",
+    "severity": "Medium",
+    "description": "Found 4 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Explore our Slab Leak Rep\": 273x23px; <a> \"(602) 835-0102\": 107x17px; <a> \"\": 322x29px; <a> \"\": 322x29px"
+  },
+  {
+    "id": "RS-2.1.4.38",
+    "category": "Tap Targets",
+    "page": "/cost-guides/",
+    "viewport": "phone-standard-412 (412x915)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.39",
+    "category": "Tap Targets",
+    "page": "/faq/",
+    "viewport": "phone-standard-412 (412x915)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.40",
+    "category": "Tap Targets",
+    "page": "/privacy-policy/",
+    "viewport": "phone-standard-412 (412x915)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Home\": 40x23px"
+  },
+  {
+    "id": "RS-2.1.4.41",
+    "category": "Tap Targets",
+    "page": "/404-not-found-check/",
+    "viewport": "phone-standard-412 (412x915)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px; <a> \"(602) 835-0102\": 107x17px; <a> \"service@phoenixvalleyplum\": 247x17px; <a> \"Emergency Plumber\": 133x17px; <a> \"Water Heater Repair & Ins\": 189x17px"
+  },
+  {
+    "id": "RS-2.1.4.42",
+    "category": "Tap Targets",
+    "page": "/",
+    "viewport": "phone-large-430 (430x932)",
+    "severity": "Medium",
+    "description": "Found 3 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"How to find your main shu\": 283x25px; <a> \"Emergency Plumber Phoenix\": 255x22px; <a> \"Water Heater Repair\": 180x22px"
+  },
+  {
+    "id": "RS-2.1.4.43",
+    "category": "Tap Targets",
+    "page": "/blog/why-does-my-toilet-keep-running/",
+    "viewport": "phone-large-430 (430x932)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"Explore our Toilets servi\": 205x23px; <a> \"(602) 835-0102\": 107x17px; <a> \"\": 340x29px; <a> \"\": 324x28px"
+  },
+  {
+    "id": "RS-2.1.4.44",
+    "category": "Tap Targets",
+    "page": "/cost-guides/water-heater-replacement-cost/",
+    "viewport": "phone-large-430 (430x932)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 107x17px; <a> \"\": 324x28px; <a> \"\": 324x28px; <a> \"\": 324x28px; <a> \"\": 340x29px"
+  },
+  {
+    "id": "RS-2.1.4.45",
+    "category": "Tap Targets",
+    "page": "/blog/trenchless-vs-traditional-sewer-repair/",
+    "viewport": "phone-large-430 (430x932)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px; <a> \"(602) 835-0102\": 107x17px; <a> \"\": 340x29px; <a> \"\": 324x28px; <a> \"\": 324x28px"
+  },
+  {
+    "id": "RS-2.1.4.46",
+    "category": "Tap Targets",
+    "page": "/cost-guides/slab-leak-repair-cost/",
+    "viewport": "phone-large-430 (430x932)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Explore our Slab Leak Rep\": 273x23px; <a> \"(602) 835-0102\": 107x17px; <a> \"\": 340x29px; <a> \"\": 340x29px; <a> \"\": 340x29px"
+  },
+  {
+    "id": "RS-2.1.4.47",
+    "category": "Tap Targets",
+    "page": "/cost-guides/",
+    "viewport": "phone-large-430 (430x932)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.48",
+    "category": "Tap Targets",
+    "page": "/faq/",
+    "viewport": "phone-large-430 (430x932)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.49",
+    "category": "Tap Targets",
+    "page": "/privacy-policy/",
+    "viewport": "phone-large-430 (430x932)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Home\": 40x23px"
+  },
+  {
+    "id": "RS-2.1.4.50",
+    "category": "Tap Targets",
+    "page": "/404-not-found-check/",
+    "viewport": "phone-large-430 (430x932)",
+    "severity": "Medium",
+    "description": "Found 5 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px; <a> \"(602) 835-0102\": 107x17px; <a> \"service@phoenixvalleyplum\": 247x17px; <a> \"Emergency Plumber\": 133x17px; <a> \"Water Heater Repair & Ins\": 189x17px"
+  },
+  {
+    "id": "RS-2.1.4.51",
+    "category": "Tap Targets",
+    "page": "/blog/why-does-my-toilet-keep-running/",
+    "viewport": "foldable-folded-280 (280x653)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px"
+  },
+  {
+    "id": "RS-2.1.4.52",
+    "category": "Tap Targets",
+    "page": "/blog/trenchless-vs-traditional-sewer-repair/",
+    "viewport": "foldable-folded-280 (280x653)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Blog\": 38x44px"
+  },
+  {
+    "id": "RS-2.1.4.53",
+    "category": "Tap Targets",
+    "page": "/cost-guides/",
+    "viewport": "foldable-folded-280 (280x653)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.54",
+    "category": "Tap Targets",
+    "page": "/faq/",
+    "viewport": "foldable-folded-280 (280x653)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  },
+  {
+    "id": "RS-2.1.4.55",
+    "category": "Tap Targets",
+    "page": "/privacy-policy/",
+    "viewport": "foldable-folded-280 (280x653)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"Home\": 40x23px"
+  },
+  {
+    "id": "RS-2.1.4.56",
+    "category": "Tap Targets",
+    "page": "/404-not-found-check/",
+    "viewport": "foldable-folded-280 (280x653)",
+    "severity": "Medium",
+    "description": "Found 1 interactive element(s) under minimum touch target size (40px)",
+    "details": "<a> \"(602) 835-0102\": 126x28px"
+  }
+]

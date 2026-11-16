@@ -1,6 +1,6 @@
 # Content Lint Report
 
-Generated: 2026-11-15T12:08:03.163Z
+Generated: 2026-11-16T17:53:15.746Z
 Total checks: 1003
 Service pages: 69 (69 published, 0 draft)
 City pages: 12 (12 published, 0 draft)

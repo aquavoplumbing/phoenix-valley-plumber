@@ -12,7 +12,8 @@
 .categoryChip {
   display: inline-flex;
   align-items: center;
-  padding: 4px 12px;
+  min-height: 40px;
+  padding: 6px 14px;
   background-color: var(--water-100);
   color: var(--water-700);
   font-family: var(--font-display);

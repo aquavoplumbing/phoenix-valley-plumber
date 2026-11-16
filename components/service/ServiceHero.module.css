@@ -178,6 +178,10 @@
 }
 
 .contactLink {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-block: 4px;
   color: #bae6fd;
   font-size: 0.9375rem;
   font-weight: 500;

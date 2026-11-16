@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "lint:content": "tsx scripts/lint-content.ts",
     "typecheck": "tsc --noEmit",
-    "check": "tsx scripts/check-config.ts"
+    "check": "tsx scripts/check-config.ts",
+    "qa:responsive": "tsx qa/responsive/scripts/run-responsive-qa.ts"
   },
   "keywords": [],
   "author": "",

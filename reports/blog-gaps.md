@@ -1,6 +1,6 @@
 # Blog and Cost Guide Gaps Report
 
-Generated: 2026-11-15T12:08:03.166Z
+Generated: 2026-11-16T17:53:15.748Z
 This report documents current drafts, safety gates, missing reviewers, and expansion roadmap items for `phoenixvalleyplumber.com`.
 
 ## 1. High-Safety Gated Draft Posts

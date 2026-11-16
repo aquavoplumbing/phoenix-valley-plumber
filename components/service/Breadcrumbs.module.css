@@ -26,6 +26,11 @@
   color: #7dd3fc;
   text-decoration: none;
   font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 6px 4px;
+  margin-block: -6px;
 }
 
 .link:hover {

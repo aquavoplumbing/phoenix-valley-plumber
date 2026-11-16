@@ -73,6 +73,10 @@
   font-size: 0.9375rem;
   color: var(--water-700);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-block: 4px;
 }
 
 .learnLink:hover {
@@ -85,6 +89,10 @@
   color: var(--navy-900);
   text-decoration: underline;
   text-underline-offset: 3px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-block: 4px;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -73,6 +73,8 @@
   text-underline-offset: 3px;
   display: inline-flex;
   align-items: center;
+  min-height: 44px;
+  padding-block: 4px;
   gap: 4px;
 }
 
@@ -85,6 +87,8 @@
   font-weight: 600;
   display: inline-flex;
   align-items: center;
+  min-height: 44px;
+  padding-block: 4px;
   gap: 4px;
 }
 

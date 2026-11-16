@@ -129,6 +129,10 @@
   color: var(--color-water-dark);
   text-decoration: underline;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-block: 4px;
 }
 
 .quickLink:hover {

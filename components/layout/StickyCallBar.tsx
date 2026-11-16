@@ -27,7 +27,12 @@ export function StickyCallBar({
   const cleanE164 = e164.replace(/[^\d+]/g, "") || "+16028350102";
 
   return (
-    <div className={styles.bar} role="region" aria-label="Quick call bar">
+    <div
+      className={styles.bar}
+      role="region"
+      aria-label="Quick call bar"
+      data-sticky-call-bar=""
+    >
       <a
         href={`tel:${cleanE164}`}
         data-phone=""

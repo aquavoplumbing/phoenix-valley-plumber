@@ -48,6 +48,10 @@
   font-weight: 500;
   text-decoration: underline;
   text-underline-offset: 3px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-block: 4px;
 }
 
 .contactLink:hover {

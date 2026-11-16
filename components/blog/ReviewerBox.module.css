@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
+  min-width: 0;
 }
 
 .badge {
@@ -34,6 +35,8 @@
   font-size: 1rem;
   color: var(--navy-900);
   margin: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .scope {
